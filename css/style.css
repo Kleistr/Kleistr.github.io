@@ -444,12 +444,12 @@ html {
 
 ::-moz-selection {
     color: #fff;
-    background-color: #f79292;
+    background-color: #66CCFF;
 }
 
 ::selection {
     color: #fff;
-    background-color: #f79292;
+    background-color: #66CCFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -528,7 +528,7 @@ textarea {
 }
 
 a {
-    color: #F03838;
+    color: #66CCFF;
     text-decoration: none;
 }
 
@@ -984,7 +984,7 @@ a {
 }
 
 .article-title a:hover span {
-    box-shadow: inset 0 -2px 0 rgba(240, 56, 56, 0.4);
+    box-shadow: inset 0 -2px 0 rgba(95, 193, 240, 0.74);
 }
 
 .article-title a span {
@@ -1010,6 +1010,7 @@ a {
 
 .article-top-meta a {
     color: #9e9e9e;
+    font-style:normal;
 }
 
 .article-top-meta a:hover {
