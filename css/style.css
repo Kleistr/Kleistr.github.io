@@ -991,7 +991,7 @@ a {
     padding-bottom: 3px;
     -webkit-transition: 150ms;
     transition: 150ms;
-    box-shadow: inset 0 -2px 0 rgba(240, 56, 56, 0);
+    box-shadow: inset 0 -2px 0 rgba(95, 193, 240, 0.74);
 }
 
 .article-top-meta {
