@@ -941,14 +941,14 @@ a {
 }
 
 .archive-title a:hover span {
-    box-shadow: inset 0 -2px 0 rgba(240, 56, 56, 0.4);
+    box-shadow: inset 0 -2px 0 rgba(95, 193, 240, 0.74);
 }
 
 .archive-title a span {
     padding-bottom: 3px;
     -webkit-transition: 150ms;
     transition: 150ms;
-    box-shadow: inset 0 -2px 0 rgba(240, 56, 56, 0);
+    box-shadow: inset 0 -2px 0 rgba(95, 193, 240, 0);
 }
 .article {
     position: relative;
@@ -1022,7 +1022,7 @@ a {
 }
 
 .article-top-meta .post-edit-link:hover {
-    color: #e41111;
+    color: #66CCFF;
 }
 
 .article-top-meta time {
@@ -1190,7 +1190,7 @@ a {
 }
 
 .tags-list a:hover {
-    color: #e41111;
+    color: #66CCFF;
 }
 .icon-meta {
     display: -webkit-box;
