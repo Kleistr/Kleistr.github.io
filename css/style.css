@@ -645,6 +645,9 @@ body {
     overflow-x: hidden;
 }
 
+.strong, .emphasis {
+    color: #000000;
+}
 @media (min-width: 768px) {
     .article {
         padding: 8rem 0;
@@ -745,7 +748,7 @@ figure.highlight .line {
 pre,
 .strong,
 .emphasis {
-  color: #a8a8a2;
+  color: #121211;
 }
 .bullet,
 .quote,
