@@ -660,7 +660,7 @@ body {
     }
 }
 .entry .gist {
-  background: #2d2d2d;
+  background: #f7f7f7;
   border: 1px solid #fff;
   margin: 15px 0px;
   padding: 7px 15px;
@@ -684,7 +684,7 @@ body {
   font-family: font-mono;
 }
 .entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background: #f7f7f7;
   color: #999;
   margin-top: 5px;
   padding: 0;
@@ -700,7 +700,7 @@ body {
   text-decoration: underline;
 }
 figure.highlight {
-  background: #2d2d2d;
+  background: #f7f7f7;
   border: 1px solid color-border;
   margin-top: 15px;
   padding: 7px 15px;
