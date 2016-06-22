@@ -542,6 +542,10 @@ strong {
     font-weight: bold;
 }
 
+code, kbd, pre, samp {
+    font-family: "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace;
+}
+
 code {
     padding: 2px 4px;
     margin-left: 2px;
@@ -634,7 +638,7 @@ body #page {
 
 
 body {
-    font-family: "Open Sans", "Lato", "Helvetica Neue", "Arial", serif;
+    font-family: "PingFang SC", "Microsoft YaHei","Open Sans", "Lato", "Helvetica Neue", "Arial", serif;
     font-size: 1.6rem;
     color: #424242;
     line-height: 1.8;
