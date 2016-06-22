@@ -428,7 +428,6 @@ th {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     outline: none;
-    font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif, "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace;
 }
 
 *:before, *:after {
@@ -526,6 +525,7 @@ textarea {
 }
 
 a {
+    font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif, "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace;
     color: #66CCFF;
     text-decoration: none;
 }
@@ -644,6 +644,9 @@ body {
     overflow-x: hidden;
 }
 
+figure.highlight {
+    font-family: "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace;
+}
 .strong, .emphasis {
     color: #000000;
 }
