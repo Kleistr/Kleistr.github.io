@@ -648,6 +648,10 @@ body {
 .strong, .emphasis {
     color: #000000;
 }
+
+.string, .type, .built_in, .builtin-name, .selector-id, .selector-attr, .selector-pseudo, .addition, .variable, .template-variable {
+    color: #2565e6;
+}
 @media (min-width: 768px) {
     .article {
         padding: 8rem 0;
