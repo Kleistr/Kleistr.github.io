@@ -428,9 +428,7 @@ th {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     outline: none;
-    font-family: "Segoe UI", "Lucida Grande", Helvetica,
-    "Microsoft YaHei", FreeSans, Arimo, "Droid Sans",
-    "wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+    font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif, "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace;
 }
 
 *:before, *:after {
@@ -557,6 +555,7 @@ pre {
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 3px;
+    font-family: "Input Mono", "PT Mono", Consolas, Monaco, Menlo, monospace;
 }
 
 ins, mark {
