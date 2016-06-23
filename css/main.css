@@ -808,6 +808,9 @@ pre .javascript .function {
   background: #ccc;
   border-top-color: #ccc;
 }
+body {
+  font: 14px/1.6 Monda, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
 @media (max-width: 767px) {
   .pagination {
     border-top: none;
@@ -1549,7 +1552,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0da809;
+  background: #0559df;
 }
 .links-of-blogroll {
   font-size: 13px;
