@@ -831,6 +831,25 @@ body {
 .comments {
   margin: 60px 20px 0;
 }
+span.ds-icon.ds-icon-settings {
+  display: none;
+}
+span.ds-sync {
+  display: none;
+}
+.theme-next #ds-thread #ds-reset .ds-post-button {
+  border-radius: 0px;
+  top: 4px;
+  right: 5px;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #999;
+  background-image: linear-gradient(#fbfbfc, #fbfdff);
+  color: #60676d;
+}
+#ds-thread #ds-reset .ds-post-button {
+  font-weight: normal;
+}
 .tag-cloud {
   text-align: center;
 }
@@ -1552,7 +1571,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffbf34;
+  background: #4a118f;
 }
 .links-of-blogroll {
   font-size: 13px;
