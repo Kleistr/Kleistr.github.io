@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'PingFang SC', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'PingFang SC Light', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -1571,7 +1571,7 @@ span.ds-sync {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6942;
+  background: #ffafd5;
 }
 .links-of-blogroll {
   font-size: 13px;
