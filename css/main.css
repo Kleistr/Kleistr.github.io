@@ -932,7 +932,7 @@ span.ds-sync {
   line-height: 36px;
   font-size: 24px;
   font-weight: normal;
-  font-family: 'Lobster Two', 'sans-serif', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'sans-serif', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1059,6 +1059,7 @@ span.ds-sync {
 }
 @media (max-width: 767px) {
   .posts-expand {
+    font-weight: 300 !important;
     margin: 0 20px;
   }
   .post-body pre,
@@ -1073,6 +1074,7 @@ span.ds-sync {
 @media (min-width: 992px) {
   .posts-expand .post-body {
     text-align: justify;
+    font-weight: 300 !important;
   }
 }
 .posts-expand .post-body h2,
@@ -1343,14 +1345,19 @@ span.ds-sync {
 }
 .posts-expand .post-tags a {
   padding: 1px 5px;
-  background: #090909;
+  background: #ebecee !important;
   border-bottom: none;
-  border-radius: 6px;
-  color: #fff;
+  border-radius: 2px;
+  color: #414141;
   display: inline-block;
   margin-right: 10px;
   font-size: 13px;
-  transition: background 0.5s ease 0.1s;
+}
+.posts-expand .post-tags a:hover {
+  background-color: #414141 !important;
+  color: #fff !important;
+  transition: background-color 0.3s ease 0.3s !important;
+  transition: color 0.1s !important;
 }
 .post-nav {
   overflow: hidden;
@@ -1577,7 +1584,7 @@ span.ds-sync {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d68cd9;
+  background: #ff7eff;
 }
 .links-of-blogroll {
   font-size: 13px;
