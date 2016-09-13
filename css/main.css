@@ -1342,9 +1342,15 @@ span.ds-sync {
   text-align: center;
 }
 .posts-expand .post-tags a {
+  padding: 1px 5px;
+  background: #090909;
+  border-bottom: none;
+  border-radius: 6px;
+  color: #fff;
   display: inline-block;
   margin-right: 10px;
   font-size: 13px;
+  transition: background 0.5s ease 0.1s;
 }
 .post-nav {
   overflow: hidden;
@@ -1571,7 +1577,7 @@ span.ds-sync {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #99aca6;
+  background: #d68cd9;
 }
 .links-of-blogroll {
   font-size: 13px;
