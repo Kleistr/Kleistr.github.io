@@ -307,13 +307,17 @@ hr {
   background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
 blockquote {
-  padding: 0 15px;
-  color: #666;
-  border-left: 4px solid #ddd;
+  color: #434343;
+  border-left: 4px solid #484848;
+  background: #f8f8f8;
 }
 blockquote cite::before {
   content: "-";
   padding: 0 5px;
+}
+blockquote p {
+  margin: 0 0 25px 14px;
+  padding: 10px 0 10px 0;
 }
 dt {
   font-weight: 700;
@@ -1584,7 +1588,7 @@ span.ds-sync {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8c3e0a;
+  background: #e53804;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2460,4 +2464,12 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+code {
+  padding: 3px 6px;
+  word-break: break-all;
+  color: #070707;
+  background: #e5e5e5;
+  border-radius: 3px;
+  font-size: 13px;
 }
