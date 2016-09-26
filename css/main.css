@@ -1002,6 +1002,7 @@ span.ds-sync {
 @media screen and (max-width: 767px) {
   .menu .menu-item {
     margin-top: 10px;
+    display: inline-block !important;
   }
 }
 .menu .menu-item a {
@@ -1588,7 +1589,7 @@ span.ds-sync {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2d0db8;
+  background: #18ffbd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2296,7 +2297,8 @@ hr {
   }
 }
 .menu .menu-item a:hover {
-  background: #e1e1e1;
+  background: #414141;
+  color: #fff;
 }
 .menu a::before {
   display: none;
