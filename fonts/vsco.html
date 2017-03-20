@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WaterFall</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script src="http://cdn.bootcss.com/flat-ui/2.3.0/js/vendor/jquery.min.js"></script>
+<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://jq22.qiniudn.com/masonry-docs.min.js"></script>
+<link href="" rel="stylesheet">
+<script language="javascript">
+$(function() {
+    var $container = $('#masonry');
+    $container.imagesLoaded(function() {
+        $container.masonry({
+                itemSelector: '.box',
+                gutter: 50,
+                isAnimated: false,
+            });
+     });
+});
+
+$(function() {
+    var urls = new Array("http://7xw7ho.com1.z0.glb.clouddn.com/2017-03-20-IMG_1984_%E6%9C%80%E6%B8%85%E6%99%B0_1.png","http://7xw7ho.com1.z0.glb.clouddn.com/2017-03-20-y74zvfz5msu-tim-marshall%E5%89%AF%E6%9C%AC.jpg","http://7xw7ho.com1.z0.glb.clouddn.com/2017-03-08-7.jpg","http://7xw7ho.com1.z0.glb.clouddn.com/2017-02-27-04101_minimalmountains_2560x1600.jpg");
+    for (var i=1;i<3;i++) {
+        $("#masonry").append('<div class="box"><img src="' + urls[i] + '" alt=""></div>');
+    }
+});
+
+</script>
+
+<style>
+/*body {
+    background: url(http://pic.qiantucdn.com/58pic/18/01/69/33W58PICr7P_1024.png);
+    background-size: 70%;
+}*/
+body {
+    background: url(http://pic.qiantucdn.com/58pic/15/95/05/12F58PICRcA_1024.jpg);
+    background-size: 5px;
+}
+
+.container-fluid {
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+}
+.box {
+    margin-bottom: 60px;
+    font-size:0;
+    float: left;
+    width: 28%;
+    min-width: 300px;
+}
+
+.box img {
+    font-size:0;
+    /*border-radius: 6px;*/
+    max-width: 100%;
+    z-index: 1;
+    transition: opacity .25s ease-in-out, background .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+}
+.box::after {
+    content:"";
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    bottom: -25px;
+    left: -15px;
+    z-index: -1;
+    border: solid #fff;
+    border-width: 15px 15px 25px 15px;
+    box-shadow: 3px 5px 10px #d9d9d9;
+}
+
+.box img:hover {
+    cursor:pointer;
+    opacity: 0.9;
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+</style>
+</head>
+<body>
+<div id="WaterFall">
+    <div id="masonry" class="container-fluid">
+        <div class="box"><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-03-20-IMG_1984_%E6%9C%80%E6%B8%85%E6%99%B0_1.png" alt="猫咪"></div>
+
+    </div>
+</div>
+</body>
+</html>
