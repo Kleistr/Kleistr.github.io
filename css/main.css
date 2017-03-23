@@ -88,7 +88,6 @@ figure {
   margin: 1em 40px;
 }
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
@@ -147,9 +146,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box; /* 2 */
+  -webkit-appearance: textfield; /* 1 */ /* 2 */
   box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-cancel-button,
@@ -178,6 +175,10 @@ table {
 td,
 th {
   padding: 0;
+}
+::-moz-selection {
+  background: #262a30;
+  color: #fff;
 }
 ::selection {
   background: #262a30;
@@ -304,6 +305,7 @@ hr {
   height: 3px;
   border: none;
   background-color: #ddd;
+  background-image: -webkit-repeating-linear-gradient(135deg, #fff, #fff 4px, transparent 4px, transparent 8px);
   background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
 blockquote {
@@ -735,10 +737,14 @@ pre .javascript .function {
   border: 2px solid #222;
   text-decoration: none;
   border-radius: 0;
+  -webkit-transition-property: background-color;
   transition-property: background-color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 .btn:hover,
 .post-more-link .btn:hover {
@@ -787,10 +793,14 @@ pre .javascript .function {
 .pagination .page-number {
   border-bottom: 0;
   border-top: 1px solid #eee;
+  -webkit-transition-property: border-color;
   transition-property: border-color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 .pagination .prev:hover,
 .pagination .next:hover,
@@ -848,6 +858,7 @@ span.ds-sync {
   width: 90px;
   height: 30px;
   border: 1px solid #999;
+  background-image: -webkit-linear-gradient(#fbfbfc, #fbfdff);
   background-image: linear-gradient(#fbfbfc, #fbfdff);
   color: #60676d;
 }
@@ -876,10 +887,14 @@ span.ds-sync {
   cursor: pointer;
   text-align: center;
   -webkit-transform: translateZ(0);
+  -webkit-transition-property: bottom;
   transition-property: bottom;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 @media (max-width: 767px) {
   .back-to-top {
@@ -1011,10 +1026,14 @@ span.ds-sync {
   text-transform: capitalize;
   line-height: inherit;
   border-bottom: 1px solid transparent;
+  -webkit-transition-property: border-color;
   transition-property: border-color;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 .menu .menu-item a:hover {
   border-bottom-color: #222;
@@ -1052,11 +1071,7 @@ span.ds-sync {
 .post-sticky-flag {
   display: inline-block;
   font-size: 16px;
-  -ms-transform: rotate(30deg);
   -webkit-transform: rotate(30deg);
-  -moz-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
 .posts-expand {
@@ -1185,9 +1200,13 @@ span.ds-sync {
 }
 .posts-collapse .post-header {
   position: relative;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-property: border;
   transition-property: border;
   border-bottom: 1px dashed #ccc;
 }
@@ -1202,9 +1221,13 @@ span.ds-sync {
   background: #bbb;
   border-radius: 50%;
   border: 1px solid #fff;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-property: background;
   transition-property: background;
 }
 .posts-collapse .post-header:hover {
@@ -1271,20 +1294,17 @@ span.ds-sync {
   background-color: #000;
   visibility: hidden;
   -webkit-transform: scaleX(0);
-  -moz-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  -o-transform: scaleX(0);
   transform: scaleX(0);
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 .posts-expand .post-title-link:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
-  -moz-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  -o-transform: scaleX(1);
   transform: scaleX(1);
 }
 .posts-expand .post-title-link .fa {
@@ -1361,7 +1381,9 @@ span.ds-sync {
 .posts-expand .post-tags a:hover {
   background-color: #414141 !important;
   color: #fff !important;
+  -webkit-transition: background-color 0.3s ease 0.3s !important;
   transition: background-color 0.3s ease 0.3s !important;
+  -webkit-transition: color 0.1s !important;
   transition: color 0.1s !important;
 }
 .post-nav {
@@ -1589,7 +1611,7 @@ span.ds-sync {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b3750e;
+  background: #ffc9c4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1660,9 +1682,13 @@ span.ds-sync {
   padding-left: 0;
 }
 .post-toc ol a {
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-property: all;
   transition-property: all;
   color: #999;
   border-bottom-color: #555;
@@ -1783,6 +1809,7 @@ span.ds-sync {
   height: 30px;
   border: 1px solid #c5ced7;
   border-radius: 3px;
+  background-image: -webkit-linear-gradient(#fbfbfc, #f5f7f9);
   background-image: linear-gradient(#fbfbfc, #f5f7f9);
   color: #60676d;
 }
@@ -2289,6 +2316,7 @@ hr {
   background: none;
   border: none;
   border-radius: 2px;
+  -webkit-transition-property: background;
   transition-property: background;
 }
 @media (max-width: 767px) {
@@ -2388,6 +2416,7 @@ hr {
   background: none;
   border: none;
   border-bottom: 2px solid #666;
+  -webkit-transition-property: border;
   transition-property: border;
 }
 @media (max-width: 767px) {
