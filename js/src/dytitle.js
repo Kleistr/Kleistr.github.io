@@ -8,7 +8,7 @@ document.addEventListener('visibilitychange', function () {
     }
     else {
         $('[rel="icon"]').attr('href', "/favicon.ico");
-        document.title = ' (≥∇≤) 么么哒 ' + OriginTitile;
+        document.title = ' (≥∇≤) 你找到我啦 ' + OriginTitile;
         titleTime = setTimeout(function () {
             document.title = OriginTitile;
         }, 2000);
