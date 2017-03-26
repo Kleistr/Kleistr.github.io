@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Kleist</title>
+  <title>Kleist&#39;Blog</title>
   <subtitle>心之所向，身之所往！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -91,7 +91,7 @@
     <link href="http://zhangxiaotao.info/2017/03/17/%E9%A3%8E%E4%B8%80%E6%A0%B7%E7%9A%84%E5%8B%87%E5%A3%AB/"/>
     <id>http://zhangxiaotao.info/2017/03/17/风一样的勇士/</id>
     <published>2017-03-17T05:09:28.000Z</published>
-    <updated>2017-03-17T06:20:54.000Z</updated>
+    <updated>2017-03-26T07:43:57.000Z</updated>
     
     <content type="html"><![CDATA[<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=9158799&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
 
@@ -102,8 +102,7 @@
 <p>在初三那年，由于家里的某些事，是地下城和地下城的小伙伴们陪我走过了这艰难的时刻，当时认识了青岛的大哥哥，豆子。</p>
 <p>张闫博宇，是他告诉我游戏可以用来发泄情绪，人该快乐的活着。</p>
 <p>恩，从初中到现在大三，玩的时间最长的游戏就是地下城了，在这个情怀被说烂了的时代，这确实是一种情怀，八年。</p>
-<hr>
-<p>松花酿酒，春水煎茶</p>
+<blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
 ]]></content>
     
     <summary type="html">
