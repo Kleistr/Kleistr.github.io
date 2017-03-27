@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d96ab9;
+  background: #01b0f9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2924,4 +2924,31 @@ p.site-description.motion-element {
 .blockquote-center {
   background: rgba(0,0,0,0) !important;
   border: 0 !important;
+}
+#yun-tie-sdk-wrap .tie-panel-bar .tie-empty-tip a,
+#yun-tie-sdk-wrap .tie-title-bar .tie-title {
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
+  border: 0 !important;
+}
+#yun-tie-sdk-wrap .input-box {
+  border: solid 1px rgba(153,153,153,0.6) !important;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-sync {
+  display: none !important;
+}
+#yun-tie-sdk-wrap .tie-tab-bar ul {
+  font-weight: normal !important;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row {
+  background-color: #f5f6f7 !important;
+}
+#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs span,
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn {
+  color: #378fff !important;
 }
