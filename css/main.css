@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5ebe8f;
+  background: #88a7f1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2935,7 +2935,8 @@ p.site-description.motion-element {
 #yun-tie-sdk-wrap .single-tie .tie-cnt,
 #yun-tie-sdk-wrap .single-tie .tool-bar.z-newly .pub-txt-ok,
 .nickname,
-#yun-tie-sdk-wrap .single-tie>.tie-bdy>.bdy-inner>.tie-author {
+#yun-tie-sdk-wrap .single-tie>.tie-bdy>.bdy-inner>.tie-author,
+#yun-tie-sdk-wrap .no-more {
   font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
 }
 #yun-tie-sdk-wrap .input-box {
