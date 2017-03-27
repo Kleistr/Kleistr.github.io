@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #085706;
+  background: #8a4eda;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2926,7 +2926,8 @@ p.site-description.motion-element {
   border: 0 !important;
 }
 #yun-tie-sdk-wrap .tie-panel-bar .tie-empty-tip a,
-#yun-tie-sdk-wrap .tie-title-bar .tie-title {
+#yun-tie-sdk-wrap .tie-title-bar .tie-title,
+#yun-tie-sdk-wrap .input-box .input-tips {
   font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
   border: 0 !important;
 }
