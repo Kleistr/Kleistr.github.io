@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #eea1cf;
+  background: #f51754;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2916,4 +2916,12 @@ div.copyright {
 p.site-description.motion-element {
   font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
   font-weight: 300;
+}
+.post-body blockquote {
+  background: rgba(34,51,51,0.07);
+  border-left: 5px solid #000;
+}
+.blockquote-center {
+  background: rgba(0,0,0,0) !important;
+  border: 0 !important;
 }
