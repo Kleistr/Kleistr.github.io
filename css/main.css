@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #01b0f9;
+  background: #933312;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2931,8 +2931,8 @@ p.site-description.motion-element {
   border: 0 !important;
 }
 #yun-tie-sdk-wrap .input-box {
-  border: solid 1px rgba(153,153,153,0.6) !important;
-  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
+  border: dashed 1px rgba(153,153,153,0.6) !important;
+  border-radius: 0px !important;
 }
 #yun-tie-sdk-wrap .input-box .tie-submit-row .tie-sync {
   display: none !important;
@@ -2948,7 +2948,14 @@ p.site-description.motion-element {
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
 }
-#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs span,
-#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn {
+#yun-tie-sdk-wrap .tie-tab-bar li.z-fcs span {
   color: #378fff !important;
+  font-weight: normal !important;
+}
+#yun-tie-sdk-wrap .input-box .tie-submit-row .tie-submit-btn {
+  background-color: #378fff !important;
+}
+#yun-tie-sdk-wrap .tie-title-bar .tie-title {
+  color: rgba(77,77,77,0.8) !important;
+  font-weight: normal !important;
 }
