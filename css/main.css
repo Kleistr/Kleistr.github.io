@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d12593;
+  background: #243bff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3020,7 +3020,7 @@ p.site-description.motion-element {
   border-bottom-color: rgba(0,0,0,0) !important;
 }
 .night_small_menu {
-  background: #222;
+  background: rgba(255,255,255,0) !important;
   color: rgba(255,255,255,0.65);
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -3035,4 +3035,29 @@ p.site-description.motion-element {
   color: #bcbcbc !important;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
+}
+.night_small_number_current {
+  background: #979797 !important;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.night_small_number:hover {
+  border-top: 1px solid #fff !important;
+  color: #fff !important;
+  background: #979797 !important;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.night_small_beian {
+  color: #979797 !important;
+  border-bottom: 1px solid #999 !important;
+}
+.night_small_beian:hover {
+  color: #fff !important;
+  border-bottom: 1px solid #fff !important;
+}
+.night_small_author_item:hover {
+  background: #9d9d9d !important;
+  -webkit-transition: 0.2s ease !important;
+  transition: 0.2s ease !important;
 }
