@@ -1,6 +1,5 @@
 $("#nightmodel").click(function(){
     if ($("#nightmodel").is(".night")){
-        alert("该功能还在调试阶段，每次刷新页面都会重置模式");
         $("#nightmodel").removeClass("night");
         $(".fa-lightbulb-o").addClass("fa-moon-o fa-fw");
         $(".fa-fw").removeClass("fa-lightbulb-o");
@@ -23,7 +22,6 @@ $("#nightmodel").click(function(){
         $(".links-of-author-item a").removeClass("night_small_author_item");
     }
     else {
-        alert("该功能还在调试阶段，每次刷新页面都会重置模式");
         $("#nightmodel").addClass("night");
         $(".fa-moon-o").addClass("fa-lightbulb-o fa-fw");
         $(".fa-fw").removeClass("fa-moon-o");
