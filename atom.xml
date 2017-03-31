@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangxiaotao.info/"/>
-  <updated>2017-03-28T14:24:23.000Z</updated>
+  <updated>2017-03-31T07:56:00.000Z</updated>
   <id>http://zhangxiaotao.info/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>夜间模式折腾小记</title>
+    <link href="http://zhangxiaotao.info/2017/03/31/%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F%E6%8A%98%E8%85%BE%E5%B0%8F%E8%AE%B0/"/>
+    <id>http://zhangxiaotao.info/2017/03/31/夜间模式折腾小记/</id>
+    <published>2017-03-31T07:42:52.000Z</published>
+    <updated>2017-03-31T07:56:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>刚刚折腾了一下博客的样式，就想能不能做一个夜间模式，然后晚上也能看，虽然根本没人关注这个，就连我自己也只是偶尔看一下。</p>
+<p>没想从网上找现成的，寻思造个轮子，于是就开始了折腾。</p>
+<hr>
+<ol>
+<li><p>首先想到的是 js 修改样式，可惜太过繁琐，放弃。</p>
+</li>
+<li><p>其次想到的是 js 修改 classname ，可行，两小时不到撸完代码。测试，完美。不过，第二天发现有部分构件的样式在夜间模式显得有些突兀，改。测试，上线，完美。然后 <em> ？？？</em> 一个不好的预感就这样出现。握草，点击接不就重新加载了么！然后，没有然后了……</p>
+</li>
+<li><p>最后直接替换样式文件不就得了？或者加个顶层遮罩？然而一切都没想想得简单，替换样式文件？刷新还是会重新加载，加遮罩？然而遮罩的 Z-index 在页面之上，会使得按钮链接都无法工作。。。</p>
+</li>
+<li><p>放弃。</p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;刚刚折腾了一下博客的样式，就想能不能做一个夜间模式，然后晚上也能看，虽然根本没人关注这个，就连我自己也只是偶尔看一下。&lt;/p&gt;
+&lt;p&gt;没想从网上找现成的，寻思造个轮子，于是就开始了折腾。&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;首先想到的是 js 修改样式，可惜太过繁琐，
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://zhangxiaotao.info/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>读「世界的凛冬」—— 破碎的圆满</title>
@@ -798,41 +835,6 @@
     
     
       <category term="技术" scheme="http://zhangxiaotao.info/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>报告，这里有个大坑</title>
-    <link href="http://zhangxiaotao.info/2016/09/19/%E6%8A%A5%E5%91%8A%EF%BC%8C%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AA%E5%A4%A7%E5%9D%91/"/>
-    <id>http://zhangxiaotao.info/2016/09/19/报告，这里有个大坑/</id>
-    <published>2016-09-19T07:22:52.000Z</published>
-    <updated>2016-09-19T07:54:45.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>有一道数学题：假设<code>x * y = 3721</code>，其中x、y均为整数，问 <code>x + y</code> 的最大值是多少。</p>
-</blockquote>
-<p>这也太小儿科了吧，以我理科生的名义，分分钟搞定不是？</p>
-<p>然后。。。然后。。。</p>
-<p>得出<code>x = y = 61</code>时<code>x + y</code>有最大值。。。此时 <code>x + y = 122</code></p>
-<p><strong>So easy</strong></p>
-<p>可是！可是！</p>
-<p>怎么想都不对 好吗？ <code>x = 1</code> ,<code>y = 3721</code> 的时候都有 <code>x + y = 3722 &gt;&gt; 122</code>啊！！！</p>
-<p>原来已知<code>x * y = z</code>的式子，求<code>x + y</code> 的最大值就是 <code>z + 1</code></p>
-<hr>
-<p>松花酿酒，春水煎茶。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;有一道数学题：假设&lt;code&gt;x * y = 3721&lt;/code&gt;，其中x、y均为整数，问 &lt;code&gt;x + y&lt;/code&gt; 的最大值是多少。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这也太小儿科了吧，以我理科生的名义，分分钟搞定不是？&lt;/
-    
-    </summary>
-    
-    
-      <category term="文" scheme="http://zhangxiaotao.info/tags/%E6%96%87/"/>
     
   </entry>
   
