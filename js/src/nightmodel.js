@@ -12,8 +12,8 @@ $("#nightmodel").click(function(){
 
 function dayModeState() {
     var night=localStorage.getItem('night');
-    console.log(night);
-    if(night=="true") {
+    console.log("night_mode:" + night);
+    if(night==="true") {
         // document.getElementById('switch_mode').classList.remove("noghtmodel");
         document.getElementById('nightmodel').innerHTML='<i id = "moon" class="fa fa-moon-o fa-fw"></i>'
     }
