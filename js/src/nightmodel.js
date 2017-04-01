@@ -14,12 +14,12 @@ function dayModeState() {
     var night=localStorage.getItem('night');
     console.log("night_mode:" + night);
     if(night==="true") {
-        // document.getElementById('switch_mode').classList.remove("noghtmodel");
+        document.getElementById('switch_mode').classList.remove("noghtmodel");
         document.getElementById('nightmodel').innerHTML='<i id = "moon" class="fa fa-moon-o fa-fw"></i>'
     }
 
    else {
-        // document.getElementById('switch_mode').classList.add("nightmodel");
+        document.getElementById('switch_mode').classList.add("nightmodel");
         document.getElementById('nightmodel').innerHTML='<i id = "moon" class="fa fa-lightbulb-o fa-fw"></i>'
     }
 }
