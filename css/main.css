@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa17c;
+  background: #3e33a7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3062,12 +3062,23 @@ p.site-description.motion-element {
   -webkit-transition: 0.2s ease !important;
   transition: 0.2s ease !important;
 }
+.posts-collapse::after {
+  content: " ";
+  position: absolute;
+  top: 20px;
+  left: 0;
+  margin-left: -2px;
+  width: 4px;
+  height: 100%;
+  background: #4c4c4c;
+  z-index: -1;
+}
 .nightmodel {
 /*display: none;*/
   pointer-events: none;
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 999;
   background: rgba(0,0,0,0.4);
 }
