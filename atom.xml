@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangxiaotao.info/"/>
-  <updated>2017-03-31T09:44:19.000Z</updated>
+  <updated>2017-04-02T11:57:05.000Z</updated>
   <id>http://zhangxiaotao.info/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://zhangxiaotao.info/2017/03/31/%E5%A4%9C%E9%97%B4%E6%A8%A1%E5%BC%8F%E6%8A%98%E8%85%BE%E5%B0%8F%E8%AE%B0/"/>
     <id>http://zhangxiaotao.info/2017/03/31/夜间模式折腾小记/</id>
     <published>2017-03-31T07:42:52.000Z</published>
-    <updated>2017-03-31T09:44:19.000Z</updated>
+    <updated>2017-04-02T11:57:05.000Z</updated>
     
     <content type="html"><![CDATA[<p>刚刚折腾了一下博客的样式，就想能不能做一个夜间模式，然后晚上也能看，虽然根本没人关注这个，就连我自己也只是偶尔看一下。</p>
 <p>没想从网上找现成的，寻思造个轮子，于是就开始了折腾。</p>
@@ -30,11 +30,15 @@
 </li>
 <li><p>其次想到的是 js 修改 classname ，可行，两小时不到撸完代码。测试，完美。不过，第二天发现有部分构件的样式在夜间模式显得有些突兀，改。测试，上线，完美。然后 <em> ？？？</em> 一个不好的预感就这样出现。握草，点击接不就重新加载了么！然后，没有然后了……</p>
 </li>
-<li><p>最后直接替换样式文件不就得了？或者加个顶层遮罩？然而一切都没想想得简单，替换样式文件？刷新还是会重新加载，加遮罩？好吧，就是有点难看。</p>
+<li><p>最后直接替换样式文件不就得了？或者加个顶层遮罩？然而一切都没想想得简单，替换样式文件？刷新还是会重新加载，加遮罩？也太简陋了吧，而且页还是会重新加载啊。</p>
 </li>
-<li><p>放弃。</p>
+<li><p>想了一下可以选择使用 <code>localstorage</code>  记录模式状态，然后在页面 load 完成之前进行模式的切换不就好了。代码如下:</p>
 </li>
 </ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">;</span><br><span class="line">$(<span class="string">"#nightmodel"</span>).click(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">document</span>.getElementById(<span class="string">'switch_mode'</span>).classList.toggle(<span class="string">"nightmodel"</span>);</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">document</span>.getElementById(<span class="string">'switch_mode'</span>).classList.contains(<span class="string">"nightmodel"</span>)) &#123;</span><br><span class="line">        localStorage.setItem(<span class="string">"night"</span>,<span class="literal">true</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">        localStorage.setItem(<span class="string">"night"</span>,<span class="literal">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    dayModeState();</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">dayModeState</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> night=localStorage.getItem(<span class="string">'night'</span>);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"night_mode:"</span> + night);</span><br><span class="line">    <span class="keyword">if</span>(night===<span class="string">"true"</span>) &#123;</span><br><span class="line">        switchmode_moon ();</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'nightmodel'</span>).innerHTML=<span class="string">'&lt;i id = "moon" class="fa fa-lightbulb-o fa-fw"&gt;&lt;/i&gt;'</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">else</span> &#123;</span><br><span class="line">        switchmode_sun ();</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'nightmodel'</span>).innerHTML=<span class="string">'&lt;i id = "moon" class="fa fa-moon-o fa-fw"&gt;&lt;/i&gt;'</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">window</span>.onload = dayModeState();</span><br></pre></td></tr></table></figure>
+<hr>
+<p>夜间模式的折腾也就到此为止了，效果还算可以，就是有一部分的样式并没有完成适配，不过要准备考研的考研狗也没什么时间折腾了。</p>
+<blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
 ]]></content>
     
     <summary type="html">
@@ -57,14 +61,14 @@
     <link href="http://zhangxiaotao.info/2017/03/26/%E8%AF%BB%E3%80%8C%E4%B8%96%E7%95%8C%E7%9A%84%E5%87%9B%E5%86%AC%E3%80%8D%E2%80%94%E2%80%94%20%E7%A0%B4%E7%A2%8E%E7%9A%84%E5%9C%86%E6%BB%A1/"/>
     <id>http://zhangxiaotao.info/2017/03/26/读「世界的凛冬」—— 破碎的圆满/</id>
     <published>2017-03-26T08:55:29.000Z</published>
-    <updated>2017-03-28T14:24:23.000Z</updated>
+    <updated>2017-04-02T11:57:03.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="我亲眼目睹，每一个迈向死亡的生命都在热烈生长。"><a href="#我亲眼目睹，每一个迈向死亡的生命都在热烈生长。" class="headerlink" title="我亲眼目睹，每一个迈向死亡的生命都在热烈生长。"></a>我亲眼目睹，每一个迈向死亡的生命都在热烈生长。</h4><p>从「巨人的陨落」看完对沃尔特的同情与祝愿，到「世界的凛冬」开篇对沃尔特结局的不良预感，最后“亲眼”目睹沃尔特在新世纪的黎明前死于门前。</p>
 <p>沃尔特的命运似乎在德意志挑起二战就已经决定了，不仅仅源于那个英国的女权主义妻子，也不仅仅是沃尔特对于纳粹的不满，个中原因，不便说起。</p>
-<p>前一刻刚刚读完的我，倒不想快点读完了，最后几十页读了近半小时时光。太过沉重，又充满希望。</p>
+<p>前一刻刚刚读完的我，倒不想快点读完了，最后几十页读了近半小时时光。太过沉重，却又充满希望。</p>
 <p>威廉•伏龙芝的遭遇也早就在作为科学家出现在核武器研究项目中注定了，我个人猜测，就算苏联研制出核弹跟威廉一点关系都没有，威廉的结果也只可能是软禁在一栋别墅，或国内。为苏联提供情报制作核弹来平衡美国的军事力量，也不失一种权衡之后的策略。</p>
-<p>一定程度上崇拜希特勒的我，对于纳粹的一些行径确实大跌眼镜，最为深刻的便是对劳埃德同伴用的「恶狗刑法」，简直，简直。</p>
-<p>但是，那些死于苏联 Red 军或受到其侮辱侵犯的德国群众着实让人同情，当时甚至想去胖揍苏联 Red 军，难道战胜国就可以这样放肆？战败国没有人权？人权可能说重了些，但起码他们也是人，不是牲畜，更不是妓女。卡拉，从苏联 Red 军裆下换下10几岁的丽贝卡，自己忍受着身体的凌辱和精神的蹂躏。战争结束后可能她还会想起那个地狱般的下午，可她不会哭了，至少我认为不会了。便任尔东西南北风吧。</p>
+<p>一定程度上崇拜希特勒的我，对于纳粹的一些行径着实大跌眼镜，最为深刻的便是对劳埃德同伴用的「恶狗刑法」，简直，简直。</p>
+<p>但是，那些死于苏联 Red 军或受到其侮辱侵犯的德国群众着实让人同情，当时甚至想去胖揍苏联 Red 军，难道战胜国就可以这样放肆？战败国没有人权？人权这个词汇可能说重了些，但起码他们也是人，不是牲畜，更不是妓女。卡拉，从苏联 Red 军裆下换下10几岁的丽贝卡，自己忍受着身体的凌辱和精神的蹂躏。战争结束后可能她还会想起那个地狱般的下午，可她不会哭了，至少我认为不会了。便任尔东西南北风吧。</p>
 <h4 id="罪恶不只是被百般辱骂的纳粹"><a href="#罪恶不只是被百般辱骂的纳粹" class="headerlink" title="罪恶不只是被百般辱骂的纳粹"></a>罪恶不只是被百般辱骂的纳粹</h4><p>难道你以为二战中的罪恶只能有纳粹去承担么？</p>
 <p>美国也是看热闹不嫌事大的心机婊，英国也当过表面不杀民众暗地战机轰炸平民区的小人，日本也做了向珍珠港平民穷追不舍轰炸的暴徒，苏联更是攻入德国烧杀抢掠无恶不作的极端流氓。</p>
 <p>我们对于苏联简直就是小孩对大人那般崇拜，而且也并未被告知过苏联在德国的恶行，这难道仅仅是一个学生老师的关系？不敢想像当苏联听到 <i class="fa fa-eye"></i>&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: 1;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='background: #233;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('是否听真话?')){
@@ -74,7 +78,7 @@
     $('#lie').text('&nbsp;“伟大的马克思主义是建立和平时代的指导思想。”&nbsp;');
     };">“伟大的马克思主义是建立和平时代的指导思想。”</a> 究竟是何感想。可能我这人太过 pessimistic 吧，苏联在德国的种种行为都让英美他们叹服，马歇尔计划的目标也不仅仅是援助战后德国，主要还是应对苏联这个流氓吧，毕竟苏联连占领区全区停电，封路都做得出来。</p>
 <blockquote>
-<p>“这是真的。如果说我在西班牙学到了什么，那就是我们必须像打击法西斯主义者那样毫不留情地抗击共产党人。共产党人和法西斯分子是一样的恶魔！”<br>艾瑟尔露出苦笑：“记住就好了。”劳埃德意识到艾瑟尔早就指出过这一点。 </p>
+<p>“这是真的。如果说我在西班牙学到了什么，那就是我们必须像打击法西斯主义者那样毫不留情地抗击共产党人。共产党人和法西斯分子是一样的恶魔！”<br>艾瑟尔露出苦笑：“记住就好了。”劳埃德意识到艾瑟尔早就指出过这一点。</p>
 </blockquote>
 <h4 id="战争夹缝中的爱情"><a href="#战争夹缝中的爱情" class="headerlink" title="战争夹缝中的爱情"></a>战争夹缝中的爱情</h4><p>「巨人的陨落」中，沃尔特和茉黛的爱情故事我可是印象深刻，而艾瑟尔的遭遇却有是那样让人从心疼到欣慰。</p>
 <p>「世界的凛冬」看起来像小刘备，但战乱年代的那些场景却像不可省略的点缀一样，否则，真的只剩下战争了。</p>

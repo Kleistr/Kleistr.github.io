@@ -109,7 +109,7 @@
 首先想到的是 js 修改样式，可惜太过繁琐，放弃。
 
 其次想到的是 js 修改 classname ，可行，两小时不到撸完代码。测试，完美。不过，第二天发现有部分构件的样式在夜间模式显得有些突兀，改。测试，上线，完美。然后">
-<meta property="og:updated_time" content="2017-03-31T09:44:19.000Z">
+<meta property="og:updated_time" content="2017-04-02T11:57:05.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="夜间模式折腾小记">
 <meta name="twitter:description" content="刚刚折腾了一下博客的样式，就想能不能做一个夜间模式，然后晚上也能看，虽然根本没人关注这个，就连我自己也只是偶尔看一下。
@@ -418,11 +418,15 @@
 </li>
 <li><p>其次想到的是 js 修改 classname ，可行，两小时不到撸完代码。测试，完美。不过，第二天发现有部分构件的样式在夜间模式显得有些突兀，改。测试，上线，完美。然后 <em> ？？？</em> 一个不好的预感就这样出现。握草，点击接不就重新加载了么！然后，没有然后了……</p>
 </li>
-<li><p>最后直接替换样式文件不就得了？或者加个顶层遮罩？然而一切都没想想得简单，替换样式文件？刷新还是会重新加载，加遮罩？好吧，就是有点难看。</p>
+<li><p>最后直接替换样式文件不就得了？或者加个顶层遮罩？然而一切都没想想得简单，替换样式文件？刷新还是会重新加载，加遮罩？也太简陋了吧，而且页还是会重新加载啊。</p>
 </li>
-<li><p>放弃。</p>
+<li><p>想了一下可以选择使用 <code>localstorage</code>  记录模式状态，然后在页面 load 完成之前进行模式的切换不就好了。代码如下:</p>
 </li>
 </ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">;</span><br><span class="line">$(<span class="string">"#nightmodel"</span>).click(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">document</span>.getElementById(<span class="string">'switch_mode'</span>).classList.toggle(<span class="string">"nightmodel"</span>);</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">document</span>.getElementById(<span class="string">'switch_mode'</span>).classList.contains(<span class="string">"nightmodel"</span>)) &#123;</span><br><span class="line">        localStorage.setItem(<span class="string">"night"</span>,<span class="literal">true</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">        localStorage.setItem(<span class="string">"night"</span>,<span class="literal">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    dayModeState();</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">dayModeState</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> night=localStorage.getItem(<span class="string">'night'</span>);</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"night_mode:"</span> + night);</span><br><span class="line">    <span class="keyword">if</span>(night===<span class="string">"true"</span>) &#123;</span><br><span class="line">        switchmode_moon ();</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'nightmodel'</span>).innerHTML=<span class="string">'&lt;i id = "moon" class="fa fa-lightbulb-o fa-fw"&gt;&lt;/i&gt;'</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">else</span> &#123;</span><br><span class="line">        switchmode_sun ();</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">'nightmodel'</span>).innerHTML=<span class="string">'&lt;i id = "moon" class="fa fa-moon-o fa-fw"&gt;&lt;/i&gt;'</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">window</span>.onload = dayModeState();</span><br></pre></td></tr></table></figure>
+<hr>
+<p>夜间模式的折腾也就到此为止了，效果还算可以，就是有一部分的样式并没有完成适配，不过要准备考研的考研狗也没什么时间折腾了。</p>
+<blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
 
       
     </div>
