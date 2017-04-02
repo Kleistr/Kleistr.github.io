@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3e33a7;
+  background: #fbf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3074,7 +3074,7 @@ p.site-description.motion-element {
   z-index: -1;
 }
 .nightmodel {
-/*display: none;*/
+  display: none;
   pointer-events: none;
   position: fixed;
   width: 100%;
