@@ -10,7 +10,6 @@ $("#nightmodel").click(function(){
     dayModeState();
 });
 
-
 function dayModeState() {
     var night=localStorage.getItem('night');
     console.log("night_mode:" + night);

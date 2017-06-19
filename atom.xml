@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhangxiaotao.info/"/>
-  <updated>2017-04-02T11:57:05.000Z</updated>
+  <updated>2017-06-19T04:23:06.000Z</updated>
   <id>http://zhangxiaotao.info/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>问题之书</title>
+    <link href="http://zhangxiaotao.info/2017/06/19/%E9%97%AE%E9%A2%98%E4%B9%8B%E4%B9%A6/"/>
+    <id>http://zhangxiaotao.info/2017/06/19/问题之书/</id>
+    <published>2017-06-19T04:13:11.000Z</published>
+    <updated>2017-06-19T04:23:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>001</em></p>
+<blockquote>
+<p>科技已经成为我们生活中的重要组成部分。如果让你选择，你愿意放弃使用所有机动车辆、通讯设备和电脑，还是愿意失去一只手？</p>
+</blockquote>
+<p>第一次认真回答这种问题，我想，站在我的角度我会选择放弃使用那些科技产品。答案虽然有了，但是想到了在放弃这些科技产品之后的生活就像古代一样，还算理想。重点在于目前所学会的好多知识暂时会失去用途，思想方法虽然会保留，但是某些知识的实际用途却没有用武之地了。着实惋惜。相比失去一只手，我宁愿选择古代生活，看看书、种种田不好么？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;001&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;科技已经成为我们生活中的重要组成部分。如果让你选择，你愿意放弃使用所有机动车辆、通讯设备和电脑，还是愿意失去一只手？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一次认真回答这种问题，我想，站在我的角度我会选
+    
+    </summary>
+    
+    
+      <category term="读书" scheme="http://zhangxiaotao.info/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>夜间模式折腾小记</title>
@@ -778,67 +807,6 @@
     
     
       <category term="随想" scheme="http://zhangxiaotao.info/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>某运营商校园网络下使用wifi的方法</title>
-    <link href="http://zhangxiaotao.info/2016/09/19/%E6%9F%90%E8%BF%90%E8%90%A5%E5%95%86%E6%A0%A1%E5%9B%AD%E7%BD%91%E7%BB%9C%E4%B8%8B%E4%BD%BF%E7%94%A8wifi%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>http://zhangxiaotao.info/2016/09/19/某运营商校园网络下使用wifi的方法/</id>
-    <published>2016-09-19T12:41:48.000Z</published>
-    <updated>2016-09-20T02:39:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>小伙伴询问过某家运营商的校园网如何使用wifi，想必是从系统级别对网卡进行了惨无人道的阉割吧。</p>
-<p>好了，想要在这个运营商的黑手之下使用wifi呢，也不是没有办法，下面就说一下怎么畅快的使用无线网络。</p>
-<blockquote>
-<p><strong>需要准备的：一台电脑（废话）、一个USB无线网卡（比如某60随身WiFi）、一款虚拟机软件（推荐vmware）</strong></p>
-</blockquote>
-<p>好了，废话不多说。开始。</p>
-<ol>
-<li><p>打开电脑，保证能够正常上网</p>
-</li>
-<li><p>下载虚拟机软件，如果信任的话，可以选择下面的下载链接。<a href="https://download3.vmware.com/software/wkst/file/VMware-workstation-full-12.5.0-4352439.exe" target="_blank" rel="external">点击下载</a>  破解序列号:<code>5A02H-AU243-TZJ49-GTC7K-3C61N</code></p>
-</li>
-<li><p>安装虚拟机。</p>
-<ol>
-<li><p>下载完虚拟机软件后双击<code>VMware-workstation-full-12.5.0-4352439.exe</code> 按正常软件的安装方法安装即可。</p>
-</li>
-<li><p>或者看下面的安装教程：<a href="http://www.xitongcheng.com/jiaocheng/xtazjc_article_14446.html" target="_blank" rel="external"><strong>教程</strong></a></p>
-</li>
-</ol>
-</li>
-<li><p>安装完虚拟机之后需要打开虚拟机安装虚拟系统。下载一个win7以上版本的系统镜像，我这里放出一个win10的下载链接。<a href="ed2k://|file|cn_windows_10_multiple_editions_version_1511_updated_feb_2016_x64_dvd_8380088.iso|4622118912|3824041FCDFCA670F4BCDAD827C4B63C|/" target="_blank" rel="external">下载win10</a> 请使用迅雷等下载软件下载。</p>
-</li>
-<li><p>安装虚拟系统。安装教程在这里-&gt;<a href="http://jingyan.baidu.com/article/72ee561abe9530e16038df45.html" target="_blank" rel="external"><strong>教程</strong></a></p>
-</li>
-<li><p>好了，现在虚拟系统安装完了，打开虚拟机确认一下虚拟机是不是能够正常上网。</p>
-</li>
-<li><p>如果虚拟机可以正常上网那么下一步就是在虚拟机安装随身wifi的驱动程序。如果是某60随身Wi-Fi和某米随身Wi-Fi，可以直接去百度这两个随身Wi-Fi的驱动安装。很简单的。如果虚拟机没法上网，那很遗憾，需要从设置修改虚拟机的网络连接方式，妹子的话，可能比较麻烦。。。</p>
-</li>
-<li><p>如果虚拟机可以上网，随身Wi-Fi的驱动也已经安装完了，恭喜。把USB的随身Wi-Fi插上吧。</p>
-</li>
-<li><p>可能会提示是要插入虚拟机还是插入物理机。如果是提示了就选择虚拟机，如果没有提示也不要灰心，点虚拟机上面的<code>虚拟机</code>-<code>可移动设备</code>-<code>选择刚插入的USB设备</code>，可能叫某某wifi或者某某网卡之类的。</p>
-</li>
-<li><p>此时运行虚拟机里的随身Wi-Fi驱动程序，就能愉快的玩耍了。</p>
-</li>
-</ol>
-<hr>
-<p><strong>如果这些没能解决问题，可以邮件我：lingyu2586@gmail.com </strong></p>
-<hr>
-<p>松花酿酒，春水煎茶。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;小伙伴询问过某家运营商的校园网如何使用wifi，想必是从系统级别对网卡进行了惨无人道的阉割吧。&lt;/p&gt;
-&lt;p&gt;好了，想要在这个运营商的黑手之下使用wifi呢，也不是没有办法，下面就说一下怎么畅快的使用无线网络。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;需要准
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="http://zhangxiaotao.info/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
