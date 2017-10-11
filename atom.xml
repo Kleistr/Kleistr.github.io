@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-10-11T02:32:38.057Z</updated>
+  <updated>2017-10-11T00:24:49.929Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -14,28 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>SSR_QRCode</title>
-    <link href="http://kleist.top/2017/10/11/SSR-QRCode/"/>
-    <id>http://kleist.top/2017/10/11/SSR-QRCode/</id>
-    <published>2017-10-11T02:32:14.000Z</published>
-    <updated>2017-10-11T02:32:38.057Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-11-Screenshot_2017-10-11%2010.31.05_7RJT4q.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-11-Screenshot_2017-10-11%2010.31.05_7RJT4q.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
   
   <entry>
     <title>回程小记</title>
@@ -709,6 +687,53 @@
     
     
       <category term="总结" scheme="http://kleist.top/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>反思</title>
+    <link href="http://kleist.top/2016/12/28/%E5%8F%8D%E6%80%9D/"/>
+    <id>http://kleist.top/2016/12/28/反思/</id>
+    <published>2016-12-28T03:54:59.000Z</published>
+    <updated>2016-12-28T03:55:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在的我，</p>
+<p>可能还不够成熟吧。</p>
+<p>听说足够成熟的人不会去怨恨，</p>
+<p>而我，</p>
+<p>却不够。</p>
+<p>我啊，</p>
+<p>发现，</p>
+<p>漆黑一片的深夜一个人喝水，</p>
+<p>也能喝出酒的感觉。</p>
+<p>会想一些有的没的，</p>
+<p>会脑补一些想做但不敢的事，</p>
+<p>至少我是这样，</p>
+<p>床上。点烟。床被。起火。死人。</p>
+<p>我发火，原因没有原。</p>
+<p>咳嗽，</p>
+<p>不知道传说中肺都要咳出来什么感觉，</p>
+<p>只知道肚子的肌肉很酸痛，</p>
+<p>可能腹肌在嘶吼吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在的我，&lt;/p&gt;
+&lt;p&gt;可能还不够成熟吧。&lt;/p&gt;
+&lt;p&gt;听说足够成熟的人不会去怨恨，&lt;/p&gt;
+&lt;p&gt;而我，&lt;/p&gt;
+&lt;p&gt;却不够。&lt;/p&gt;
+&lt;p&gt;我啊，&lt;/p&gt;
+&lt;p&gt;发现，&lt;/p&gt;
+&lt;p&gt;漆黑一片的深夜一个人喝水，&lt;/p&gt;
+&lt;p&gt;也能喝出酒的感觉。&lt;/p&gt;
+&lt;p&gt;会想
+    
+    </summary>
+    
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
