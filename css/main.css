@@ -186,7 +186,7 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
   color: #555;
@@ -217,7 +217,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -1012,7 +1012,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'Papyrus', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Papyrus', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1105,7 +1105,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1371,7 +1371,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c74bdb;
+  background: #bac3c3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2910,7 +2910,7 @@ div.copyright {
   font-weight: 300;
 }
 .site-author-name {
-  font-weight: 400;
+  font-weight: 100;
   font-size: 20px;
 }
 p.site-description.motion-element {
@@ -3093,4 +3093,14 @@ p.site-description.motion-element {
 }
 .posts-expand .post-body img {
   border: 0px !important;
+}
+div.post-body {
+  font-weight: 300 !important;
+  font-size: 15px;
+}
+span.post-time,
+nav.site-state.motion-element,
+span.site-state-item-count,
+div.links-of-author.motion-element {
+  font-weight: 200 !important;
 }
