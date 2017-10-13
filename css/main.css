@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff86;
+  background: #6c47f7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3004,7 +3004,7 @@ p.site-description.motion-element {
   transition: all 1s ease;
 }
 .night_small_meta {
-  background: #121212 !important;
+  background: #0d0d0d !important;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
