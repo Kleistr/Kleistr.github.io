@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c7225d;
+  background: #b5edff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3097,6 +3097,33 @@ div.header-inner {
   border-radius: 5px;
   line-height: 2.5;
   margin: 0 4px 8px 4px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
   border: 0px solid #555;
+}
+.back-to-top {
+  color: #555;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+  -webkit-transform: translateZ(0);
+  -webkit-transition-property: bottom;
+  transition-property: bottom;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: -100px;
+  right: 30px;
+  z-index: 1050;
+  padding: 0 6px;
+  width: initial;
+  background: #fff;
+  font-size: 13px;
+  border-radius: 3px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.157), 0 3px 10px rgba(0,0,0,0.227) !important;
+  opacity: 0.8;
 }
