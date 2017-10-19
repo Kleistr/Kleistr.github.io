@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-10-19T12:31:52.110Z</updated>
+  <updated>2017-10-19T14:08:34.657Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kleist.top/2017/10/17/Three-World.html"/>
     <id>http://kleist.top/2017/10/17/Three-World.html</id>
     <published>2017-10-17T11:31:40.000Z</published>
-    <updated>2017-10-19T12:31:52.110Z</updated>
+    <updated>2017-10-19T14:08:34.657Z</updated>
     
     <content type="html"><![CDATA[<p>关于这个世界，我想可以分为三种：</p>
 <ul>
@@ -53,6 +53,8 @@
     
     </summary>
     
+    
+      <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
       <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
@@ -526,7 +528,7 @@
     <link href="http://kleist.top/2017/03/23/%E4%B9%A6%E6%91%98.html"/>
     <id>http://kleist.top/2017/03/23/书摘.html</id>
     <published>2017-03-23T08:06:23.000Z</published>
-    <updated>2017-10-19T14:00:45.254Z</updated>
+    <updated>2017-10-19T14:29:44.677Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><p>“我对人的恐惧与先前相比，倒是有过之而无不及，它在我的内心深处剧烈地扭动着，而我的演技却是在日渐长进。”</p>
@@ -658,6 +660,8 @@
     
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
     
+      <category term="书摘" scheme="http://kleist.top/tags/%E4%B9%A6%E6%91%98/"/>
+    
   </entry>
   
   <entry>
@@ -665,7 +669,7 @@
     <link href="http://kleist.top/2017/03/17/%E9%A3%8E%E4%B8%80%E6%A0%B7%E7%9A%84%E5%8B%87%E5%A3%AB.html"/>
     <id>http://kleist.top/2017/03/17/风一样的勇士.html</id>
     <published>2017-03-17T05:09:28.000Z</published>
-    <updated>2017-03-26T07:43:57.000Z</updated>
+    <updated>2017-10-19T14:04:56.923Z</updated>
     
     <content type="html"><![CDATA[<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=9158799&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">
 
@@ -686,7 +690,7 @@
     </summary>
     
     
-      <category term="感想" scheme="http://kleist.top/tags/%E6%84%9F%E6%83%B3/"/>
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -695,7 +699,7 @@
     <link href="http://kleist.top/2017/02/28/%E4%BA%95%E5%BA%95%E4%B9%8B%E8%9B%99.html"/>
     <id>http://kleist.top/2017/02/28/井底之蛙.html</id>
     <published>2017-02-28T12:40:16.000Z</published>
-    <updated>2017-02-28T12:55:26.000Z</updated>
+    <updated>2017-10-19T14:04:50.312Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>局域网里生活的人，写文章谈论开放互联网，岂不是跟太监装性学大师一样，这，总是不得要领的吧。</p>
@@ -720,7 +724,7 @@
     </summary>
     
     
-      <category term="感想" scheme="http://kleist.top/tags/%E6%84%9F%E6%83%B3/"/>
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
