@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #751d40;
+  background: #ffffde;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2895,10 +2895,12 @@ code {
   border: 1px solid #555;
 }
 div.content-wrap {
+  background: #fefefe !important;
   box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 div.sidebar-inner,
 div.header-inner {
+  background: #fefefe !important;
   box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 span.site-pv,
