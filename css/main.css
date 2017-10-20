@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9988f7;
+  background: #ff2df5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2913,6 +2913,7 @@ div.copyright {
 }
 .site-author-name {
   font-weight: 100;
+  font-family: "PingFangSC-Ultralight" !important;
   font-size: 20px;
 }
 p.site-description.motion-element {
