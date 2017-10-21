@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff2df5;
+  background: #53ff99;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3093,7 +3093,7 @@ div.header-inner {
 }
 .post-button .btn {
   color: #000;
-  font-size: 16px;
+/*font-size: 16px;*/
   background: #fff;
   border-radius: 5px;
   line-height: 2.5;
