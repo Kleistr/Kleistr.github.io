@@ -912,7 +912,7 @@
       <content type="html"><![CDATA[<div align="center">Books</div>
 
 <hr>
-<ul>
+<ol>
 <li>《人间失格》</li>
 <li>《我不是潘金莲》</li>
 <li>《无声告白》</li>
@@ -930,7 +930,7 @@
 <li>《香蕉的低语》</li>
 <li>《万叶集》</li>
 <li>《高堡奇人》<code>没来得及看</code></li>
-</ul>
+</ol>
 <ul>
 <li><code>目标2016读20本书，目标还没达到。</code></li>
 </ul>
@@ -972,6 +972,8 @@
         <tags>
             
             <tag> 日常 </tag>
+            
+            <tag> 粮食 </tag>
             
         </tags>
         
