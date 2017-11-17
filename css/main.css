@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #63bdeb;
+  background: #fcf9e4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3135,11 +3135,12 @@ div.header-inner {
   opacity: 0.8;
 }
 div.tag-cloud-tags a {
+  font-family: "InputMono-ExtraLight", 'Bookerly-Regular', 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
   padding: 5px 20px 5px 20px !important;
   background: rgba(253,253,253,0.3) !important;
   border-radius: 3px !important;
   border: none !important;
-  box-shadow: 1px 2px 10px rgba(34,34,34,0.33) !important;
+  box-shadow: 1px 2px 3px rgba(34,34,34,0.33) !important;
 }
 .post-body,
 a.post-title-link {
