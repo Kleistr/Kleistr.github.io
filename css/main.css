@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3c57ff;
+  background: #9cffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3156,7 +3156,7 @@ a.post-title-link {
 }
 hr {
   margin: 40px 0;
-  height: 2px !important ss;
+  height: 2px !important;
   border: none;
   background-color: #ddd;
   background-image: -webkit-repeating-linear-gradient(135deg, #fff, #fff 4px, transparent 4px, transparent 8px);
