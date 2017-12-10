@@ -189,9 +189,9 @@
     
       <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -245,7 +245,7 @@
     <link href="http://kleist.top/2017/10/17/2017-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2017/10/17/2017-的粮食.html</id>
     <published>2017-10-17T05:10:00.000Z</published>
-    <updated>2017-12-10T15:38:34.338Z</updated>
+    <updated>2017-12-10T15:45:45.330Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> 《高堡奇人》</li>
@@ -276,7 +276,7 @@
 <div align="center"><i class="fa fa-book"></i> 目标 2017 读 20 本书，目标还没达到。 [19/20]</div>
 
 <hr>
-<h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-youtube-play"></i> Movies</div></h2><ol>
+<h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> 《钢琴家》 —- 剧情 | 传记 | 历史</li>
 <li><i class="fa fa-check-square-o"></i> 《第九道门》 —- 剧情 | 奇幻 | 恐怖 | 邪教</li>
 <li><i class="fa fa-check-square-o"></i> 《朗读者》 —- 剧情 | 爱情</li>
@@ -303,6 +303,9 @@
 <p>怪不得海子到死都把《孤筏重洋》留在身边。</p>
 </blockquote>
 </li>
+<li><p><i class="fa fa-square-o"></i> 《烟花》</p>
+</li>
+<li><i class="fa fa-square-o"></i> 《奇迹男孩》</li>
 </ol>
 <hr>
 ]]></content>
