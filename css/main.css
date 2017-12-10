@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c938f6;
+  background: #3c57ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3153,4 +3153,12 @@ a.post-title-link {
 }
 .post-meta {
   font-family: "InputMono-ExtraLight" !important;
+}
+hr {
+  margin: 40px 0;
+  height: 2px !important ss;
+  border: none;
+  background-color: #ddd;
+  background-image: -webkit-repeating-linear-gradient(135deg, #fff, #fff 4px, transparent 4px, transparent 8px);
+  background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
