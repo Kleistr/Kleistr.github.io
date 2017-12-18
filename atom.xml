@@ -188,9 +188,9 @@
     
       <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
-      <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
       <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+      <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
@@ -241,7 +241,7 @@
     <link href="http://kleist.top/2017/10/17/2017-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2017/10/17/2017-的粮食.html</id>
     <published>2017-10-17T05:10:00.000Z</published>
-    <updated>2017-12-18T05:52:39.025Z</updated>
+    <updated>2017-12-18T06:23:13.073Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> 《高堡奇人》</li>
@@ -312,7 +312,7 @@
 
 <hr>
 <blockquote>
-<p>之所以在 <code>movies</code> 添加了 <i class="fa fa-heart"></i> 的图标，主要原因还是看的电影有点杂，不像书似的经过了较为严格的挑选，所以看的书都是我自己会喜欢的，愿意看的，而电影则有一部分是早就在 Todolist 中列出来的，另一部分是偶尔拿来打发时间的（emmm… 偶尔晚上会失眠 ╮(╯_╰)╭）</p>
+<p>之所以在 <code>Movies</code> 添加了 <i class="fa fa-heart"></i> 的图标，主要原因还是看的电影有点杂，不像书似的经过了较为严格的挑选，所以看的书都是我自己会喜欢的，愿意看的，而电影则有一部分是早就在 Todolist 中列出来的，另一部分是偶尔拿来打发时间的（emmm… 偶尔晚上会失眠 ╮(╯_╰)╭）</p>
 </blockquote>
 ]]></content>
     
