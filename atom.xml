@@ -188,9 +188,9 @@
     
       <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -241,7 +241,7 @@
     <link href="http://kleist.top/2017/10/17/2017-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2017/10/17/2017-的粮食.html</id>
     <published>2017-10-17T05:10:00.000Z</published>
-    <updated>2017-12-16T07:18:33.193Z</updated>
+    <updated>2017-12-18T05:32:30.546Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> 《高堡奇人》</li>
@@ -304,6 +304,7 @@
 <li><i class="fa fa-square-o"></i> 《奇迹男孩》</li>
 <li><i class="fa fa-check-square-o"></i> 《军中乐园》 —- 歷史 | 剧情 | 爱情</li>
 <li><i class="fa fa-check-square-o"></i> 《天才枪手》 —- 犯罪 | 剧情 | 悬疑</li>
+<li><i class="fa fa-check-square-o"></i> 《凉宫春日的消失》 —- 动画 | 喜剧 | 科幻 | 神作</li>
 </ol>
 <hr>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=436514221&auto=0&height=66"></iframe>
