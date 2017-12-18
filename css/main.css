@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #deffff;
+  background: #a45d2d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2877,11 +2877,11 @@ img:hover {
 }
 code {
   font-family: "InputMono-ExtraLight", "Menlo";
-  padding: 3px 6px;
+  padding: 3px 7px;
   word-break: break-all;
-  color: #070707;
-  background: #e5e5e5;
-  border-radius: 3px;
+  color: #000;
+  background: #c6c6c6;
+  border-radius: 2px;
   font-size: 13px;
 }
 .footer-inner,
@@ -3140,11 +3140,18 @@ div.header-inner {
 }
 div.tag-cloud-tags a {
   font-family: "InputMono-ExtraLight", 'Bookerly-Regular', 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
-  padding: 5px 20px 5px 20px !important;
-  background: rgba(253,253,253,0.3) !important;
+  font-size: 16px !important;
+  padding: 2px 20px 2px 20px !important;
+/* background: rgba(215, 215, 215, 0.32) !important; */
   border-radius: 3px !important;
-  border: none !important;
-  box-shadow: 1px 2px 3px rgba(34,34,34,0.33) !important;
+  border: 1px rgba(0,0,0,0.52) solid !important;
+/* box-shadow: 1px 1px 0px rgba(34, 34, 34, 0.33) !important; */
+}
+div.tag-cloud-tags a:hover {
+  color: #ddd !important;
+  background: rgba(0,0,0,0.65) !important;
+  -webkit-transition: 0.5s background;
+  transition: 0.5s background;
 }
 .post-body,
 a.post-title-link {
