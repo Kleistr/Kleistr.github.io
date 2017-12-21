@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-12-21T13:18:12.334Z</updated>
+  <updated>2017-12-21T14:41:40.588Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -14,6 +14,142 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typical Raindrop Sizes</title>
+    <link href="http://kleist.top/2017/12/21/%E5%86%B7%E7%9F%A5%E8%AF%86.html"/>
+    <id>http://kleist.top/2017/12/21/冷知识.html</id>
+    <published>2017-12-21T14:23:44.000Z</published>
+    <updated>2017-12-21T14:41:40.588Z</updated>
+    
+    <content type="html"><![CDATA[<table>
+<caption><b>Typical Raindrop Sizes</b></caption>
+<tbody>
+
+<tr align="CENTER" valign="CENTER">
+<th></th>
+<th align="CENTER" colspan="2">Drop Size</th>
+<th align="CENTER" colspan="2">Terminal Velocity</th>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<th align="CENTER">Rain Type</th>
+<th>mm</th>
+<th>in</th>
+<th> m/sec</th>
+<th> miles/hr</th>
+</tr>
+
+
+<tr align="CENTER" valign="CENTER">
+<th colspan="5">Light Stratiform Rain (.04'' per hour)</th>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<td>Small Drop</td>
+<td>.5</td>
+<td>.02</td>
+<td>2.06</td>
+<td>4.6</td>
+</tr>
+
+
+<tr align="CENTER" valign="CENTER">
+<td>Large Drop</td>
+<td>2.0</td>
+<td>.08</td>
+<td>6.49</td>
+<td>14.4</td>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<th colspan="5" align="center">Moderate Stratiform Rain (.25'' per hour)</th>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<td>Small Drop</td>
+<td>1.0</td>
+<td>.04</td>
+<td>4.03</td>
+<td>8.9</td>
+</tr>
+
+
+<tr align="CENTER" valign="CENTER">
+<td>Large Drop</td>
+<td>2.6</td>
+<td>.10</td>
+<td>7.57</td>
+<td>16.1</td>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<th colspan="5">Heavy Thundershower (1.0'' per hour)</th>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<td>Small Drop</td>
+<td>1.2</td>
+<td>.05</td>
+<td>4.64</td>
+<td>10.3</td>
+</tr>
+
+
+<tr align="CENTER" valign="CENTER">
+<td>Large Drop</td>
+<td>4.0</td>
+<td>.16</td>
+<td>8.83</td>
+<td>19.6</td>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<td>Largest Possible Drop</td>
+<td>5.0</td>
+<td>.20</td>
+<td>9.09</td>
+<td>20.2</td>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<td>Hailstone</td>
+<td> 10 </td>
+<td>0.4</td>
+<td>10.0</td>
+<td>22.2</td>
+</tr>
+
+<tr align="CENTER" valign="CENTER">
+<td>Hailstone</td>
+<td> 40 </td>
+<td>1.6</td>
+<td>20.0</td>
+<td>44.4</td>
+</tr>
+
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;table&gt;
+&lt;caption&gt;&lt;b&gt;Typical Raindrop Sizes&lt;/b&gt;&lt;/caption&gt;
+&lt;tbody&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&quot;CENTER&quot; colspan=&quot;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="冷知识" scheme="http://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>近期碎碎念</title>
@@ -755,48 +891,6 @@
     
     
       <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>读「世界的凛冬」—— 破碎的圆满</title>
-    <link href="http://kleist.top/2017/03/26/%E8%AF%BB%E3%80%8C%E4%B8%96%E7%95%8C%E7%9A%84%E5%87%9B%E5%86%AC%E3%80%8D%E2%80%94%E2%80%94%20%E7%A0%B4%E7%A2%8E%E7%9A%84%E5%9C%86%E6%BB%A1.html"/>
-    <id>http://kleist.top/2017/03/26/读「世界的凛冬」—— 破碎的圆满.html</id>
-    <published>2017-03-26T08:55:29.000Z</published>
-    <updated>2017-04-02T11:57:03.000Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="我亲眼目睹，每一个迈向死亡的生命都在热烈生长。"><a href="#我亲眼目睹，每一个迈向死亡的生命都在热烈生长。" class="headerlink" title="我亲眼目睹，每一个迈向死亡的生命都在热烈生长。"></a>我亲眼目睹，每一个迈向死亡的生命都在热烈生长。</h4><p>从「巨人的陨落」看完对沃尔特的同情与祝愿，到「世界的凛冬」开篇对沃尔特结局的不良预感，最后“亲眼”目睹沃尔特在新世纪的黎明前死于门前。</p>
-<p>沃尔特的命运似乎在德意志挑起二战就已经决定了，不仅仅源于那个英国的女权主义妻子，也不仅仅是沃尔特对于纳粹的不满，个中原因，不便说起。</p>
-<p>前一刻刚刚读完的我，倒不想快点读完了，最后几十页读了近半小时时光。太过沉重，却又充满希望。</p>
-<p>威廉•伏龙芝的遭遇也早就在作为科学家出现在核武器研究项目中注定了，我个人猜测，就算苏联研制出核弹跟威廉一点关系都没有，威廉的结果也只可能是软禁在一栋别墅，或国内。为苏联提供情报制作核弹来平衡美国的军事力量，也不失一种权衡之后的策略。</p>
-<p>一定程度上崇拜希特勒的我，对于纳粹的一些行径着实大跌眼镜，最为深刻的便是对劳埃德同伴用的「恶狗刑法」，简直，简直。</p>
-<p>但是，那些死于苏联 Red 军或受到其侮辱侵犯的德国群众着实让人同情，当时甚至想去胖揍苏联 Red 军，难道战胜国就可以这样放肆？战败国没有人权？人权这个词汇可能说重了些，但起码他们也是人，不是牲畜，更不是妓女。卡拉，从苏联 Red 军裆下换下10几岁的丽贝卡，自己忍受着身体的凌辱和精神的蹂躏。战争结束后可能她还会想起那个地狱般的下午，可她不会哭了，至少我认为不会了。便任尔东西南北风吧。</p>
-<h4 id="罪恶不只是被百般辱骂的纳粹"><a href="#罪恶不只是被百般辱骂的纳粹" class="headerlink" title="罪恶不只是被百般辱骂的纳粹"></a>罪恶不只是被百般辱骂的纳粹</h4><p>难道你以为二战中的罪恶只能有纳粹去承担么？</p>
-<p>美国也是看热闹不嫌事大的心机婊，英国也当过表面不杀民众暗地战机轰炸平民区的小人，日本也做了向珍珠港平民穷追不舍轰炸的暴徒，苏联更是攻入德国烧杀抢掠无恶不作的极端流氓。</p>
-<p>我们对于苏联简直就是小孩对大人那般崇拜，而且也并未被告知过苏联在德国的恶行，这难道仅仅是一个学生老师的关系？不敢想像当苏联听到 <i class="fa fa-eye"></i>&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: 1;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='background: #233;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('是否听真话?')){
-       $('#lie').text('&nbsp;“我们人多，他们有核弹又能怎样，炸死我一千万，甚至一亿，我还有十几亿老百姓。”&nbsp;');
-   }
-   else {
-    $('#lie').text('&nbsp;“伟大的马克思主义是建立和平时代的指导思想。”&nbsp;');
-    };">“伟大的马克思主义是建立和平时代的指导思想。”</a> 究竟是何感想。可能我这人太过 pessimistic 吧，苏联在德国的种种行为都让英美他们叹服，马歇尔计划的目标也不仅仅是援助战后德国，主要还是应对苏联这个流氓吧，毕竟苏联连占领区全区停电，封路都做得出来。</p>
-<blockquote>
-<p>“这是真的。如果说我在西班牙学到了什么，那就是我们必须像打击法西斯主义者那样毫不留情地抗击共产党人。共产党人和法西斯分子是一样的恶魔！”<br>艾瑟尔露出苦笑：“记住就好了。”劳埃德意识到艾瑟尔早就指出过这一点。</p>
-</blockquote>
-<h4 id="战争夹缝中的爱情"><a href="#战争夹缝中的爱情" class="headerlink" title="战争夹缝中的爱情"></a>战争夹缝中的爱情</h4><p>「巨人的陨落」中，沃尔特和茉黛的爱情故事我可是印象深刻，而艾瑟尔的遭遇却有是那样让人从心疼到欣慰。</p>
-<p>「世界的凛冬」看起来像小刘备，但战乱年代的那些场景却像不可省略的点缀一样，否则，真的只剩下战争了。</p>
-<p>不太看好的列夫•别斯科夫，甚至在有了私生子之后还去找好莱坞女星厮混；格雷格里•别斯科夫在「巨人的陨落」中就放下包袱娶了被列夫搞大肚子的卡捷琳娜并且深爱着对方直到最后；列夫的私生子与父亲送给自己的“礼物”产生了爱情，尽管对方是个想上位的黑人演员，但自从爱上别斯科夫之后就放弃了演员一行；苏联 Red 军轮奸后的卡拉被接受进而结婚；还有伍迪•杜瓦与乔安妮、男同查克•杜瓦……</p>
-<p>最是深情起波澜。劳埃德一直都是喜欢黛西的，哪怕黛西由于家庭原因和自己的虚荣辗转当了博依•菲茨赫伯特子爵夫人。在西班牙，在苏联，在阿伯罗温，在黛西流产最需要的那个夜，在黛西爱上劳埃德之后，在博依知道他俩的私情时，在战场上劳埃德救了博依的瞬间……”你可以娶那个婊子了。”，博依死前留下的最后一句话。</p>
-<blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;我亲眼目睹，每一个迈向死亡的生命都在热烈生长。&quot;&gt;&lt;a href=&quot;#我亲眼目睹，每一个迈向死亡的生命都在热烈生长。&quot; class=&quot;headerlink&quot; title=&quot;我亲眼目睹，每一个迈向死亡的生命都在热烈生长。&quot;&gt;&lt;/a&gt;我亲眼目睹，每一个迈向死亡的生命都
-    
-    </summary>
-    
-    
-      <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
