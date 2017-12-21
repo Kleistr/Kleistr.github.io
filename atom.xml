@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-12-21T14:41:40.588Z</updated>
+  <updated>2017-12-21T15:19:43.209Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://kleist.top/2017/12/21/%E5%86%B7%E7%9F%A5%E8%AF%86.html"/>
     <id>http://kleist.top/2017/12/21/冷知识.html</id>
     <published>2017-12-21T14:23:44.000Z</published>
-    <updated>2017-12-21T14:41:40.588Z</updated>
+    <updated>2017-12-21T15:19:43.209Z</updated>
     
-    <content type="html"><![CDATA[<table>
+    <content type="html"><![CDATA[<table style="font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;">
 <caption><b>Typical Raindrop Sizes</b></caption>
 <tbody>
 
@@ -130,22 +130,123 @@
 
 </tbody>
 </table>
+
+<a id="more"></a>
 ]]></content>
     
     <summary type="html">
     
-      &lt;table&gt;
+      &lt;table style=&quot;font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;
 &lt;caption&gt;&lt;b&gt;Typical Raindrop Sizes&lt;/b&gt;&lt;/caption&gt;
 &lt;tbody&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th align=&quot;CENTER&quot; colspan=&quot;
+&lt;th align=&quot;CENTER&quot; colspan=&quot;2&quot;&gt;Drop Size&lt;/th&gt;
+&lt;th align=&quot;CENTER&quot; colspan=&quot;2&quot;&gt;Terminal Velocity&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;th align=&quot;CENTER&quot; &gt;Rain Type&lt;/th&gt;
+&lt;th&gt;mm&lt;/th&gt;
+&lt;th&gt;in&lt;/th&gt;
+&lt;th&gt; m/sec&lt;/th&gt;
+&lt;th&gt; miles/hr&lt;/th&gt;
+&lt;/tr&gt;
+
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;th colspan=&quot;5&quot; &gt;Light Stratiform Rain (.04&#39;&#39; per hour)&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Small Drop&lt;/td&gt;
+&lt;td&gt;.5&lt;/td&gt;
+&lt;td&gt;.02&lt;/td&gt;
+&lt;td&gt;2.06&lt;/td&gt;
+&lt;td&gt;4.6&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Large Drop&lt;/td&gt;
+&lt;td&gt;2.0&lt;/td&gt;
+&lt;td&gt;.08&lt;/td&gt;
+&lt;td&gt;6.49&lt;/td&gt;
+&lt;td&gt;14.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;th  colspan=&quot;5&quot; align=&quot;center&quot; &gt;Moderate Stratiform Rain (.25&#39;&#39; per hour)&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Small Drop&lt;/td&gt;
+&lt;td&gt;1.0&lt;/td&gt;
+&lt;td&gt;.04&lt;/td&gt;
+&lt;td&gt;4.03&lt;/td&gt;
+&lt;td&gt;8.9&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Large Drop&lt;/td&gt;
+&lt;td&gt;2.6&lt;/td&gt;
+&lt;td&gt;.10&lt;/td&gt;
+&lt;td&gt;7.57&lt;/td&gt;
+&lt;td&gt;16.1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;th  colspan=&quot;5&quot;&gt;Heavy Thundershower (1.0&#39;&#39; per hour)&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Small Drop&lt;/td&gt;
+&lt;td&gt;1.2&lt;/td&gt;
+&lt;td&gt;.05&lt;/td&gt;
+&lt;td&gt;4.64&lt;/td&gt;
+&lt;td&gt;10.3&lt;/td&gt;
+&lt;/tr&gt;
+
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Large Drop&lt;/td&gt;
+&lt;td&gt;4.0&lt;/td&gt;
+&lt;td&gt;.16&lt;/td&gt;
+&lt;td&gt;8.83&lt;/td&gt;
+&lt;td&gt;19.6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Largest Possible Drop&lt;/td&gt;
+&lt;td&gt;5.0&lt;/td&gt;
+&lt;td&gt;.20&lt;/td&gt;
+&lt;td&gt;9.09&lt;/td&gt;
+&lt;td&gt;20.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Hailstone&lt;/td&gt;
+&lt;td&gt; 10 &lt;/td&gt;
+&lt;td&gt;0.4&lt;/td&gt;
+&lt;td&gt;10.0&lt;/td&gt;
+&lt;td&gt;22.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
+&lt;td&gt;Hailstone&lt;/td&gt;
+&lt;td&gt; 40 &lt;/td&gt;
+&lt;td&gt;1.6&lt;/td&gt;
+&lt;td&gt;20.0&lt;/td&gt;
+&lt;td&gt;44.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/tbody&gt;
+&lt;/table&gt;
     
     </summary>
     
-    
-      <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
       <category term="冷知识" scheme="http://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
     
@@ -361,9 +462,9 @@
     
       <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
