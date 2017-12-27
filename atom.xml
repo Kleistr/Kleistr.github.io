@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-12-27T15:57:38.661Z</updated>
+  <updated>2017-12-27T23:08:42.292Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,9 +20,11 @@
     <link href="http://kleist.top/2017/12/27/monero-coin-test.html"/>
     <id>http://kleist.top/2017/12/27/monero-coin-test.html</id>
     <published>2017-12-27T14:57:47.000Z</published>
-    <updated>2017-12-27T15:57:38.661Z</updated>
+    <updated>2017-12-27T23:08:42.292Z</updated>
     
     <content type="html"><![CDATA[<h3 id="这只是一个-monero-coin-矿工的测试页面"><a href="#这只是一个-monero-coin-矿工的测试页面" class="headerlink" title="这只是一个 monero coin 矿工的测试页面"></a>这只是一个 monero coin 矿工的测试页面</h3><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png" alt=""></p>
+<iframe id="widget-ticker-preview" src="//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny" style="border:none; height:125px; width: 275px;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+
 <a id="more"></a>
 <p><script src="https://authedmine.com/lib/simple-ui.min.js" async></script></p>
 <div class="coinhive-miner" style="width: 256px; height: 310px" data-key="1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k">
@@ -33,6 +35,7 @@
     <summary type="html">
     
       &lt;h3 id=&quot;这只是一个-monero-coin-矿工的测试页面&quot;&gt;&lt;a href=&quot;#这只是一个-monero-coin-矿工的测试页面&quot; class=&quot;headerlink&quot; title=&quot;这只是一个 monero coin 矿工的测试页面&quot;&gt;&lt;/a&gt;这只是一个 monero coin 矿工的测试页面&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;iframe id=&quot;widget-ticker-preview&quot; src=&quot;//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny&quot; style=&quot;border:none; height:125px; width: 275px;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
     
     </summary>
     
