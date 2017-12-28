@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-12-28T16:22:59.296Z</updated>
+  <updated>2017-12-28T16:25:11.731Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -16,15 +16,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2017-年终总结</title>
+    <title>2017 年终总结</title>
     <link href="http://kleist.top/2017/12/29/2017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93.html"/>
     <id>http://kleist.top/2017/12/29/2017-年终总结.html</id>
     <published>2017-12-28T16:22:02.000Z</published>
-    <updated>2017-12-28T16:22:59.296Z</updated>
+    <updated>2017-12-28T16:25:11.731Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png" alt=""></p>
 <hr>
-<h3 id="这一年"><a href="#这一年" class="headerlink" title="这一年"></a>这一年</h3><p>这一年，</p>
+<h2 id="这一年"><a href="#这一年" class="headerlink" title="这一年"></a>这一年</h2><p>这一年，</p>
 <p>是充实单调的一年，是蓬头垢面的一年，是曲折前进的一年；</p>
 <p>是走的匆忙忽略路边风景，是想得太多忘记当下事物；</p>
 <p>是看到人外有人，是看到木秀于林，是感知三色冷暖，是叹人勿心有反；</p>
@@ -33,13 +33,13 @@
 <p>得闻太上老君道，又闻打坐运气法；</p>
 <p>得知保罗·科埃略，又知才女林奕含，还知三反乌托邦。</p>
 <a id="more"></a>
-<h3 id="成就"><a href="#成就" class="headerlink" title="成就"></a>成就</h3><ol>
+<h2 id="成就"><a href="#成就" class="headerlink" title="成就"></a>成就</h2><ol>
 <li>达成了20本书的目标</li>
 <li>很少玩游戏</li>
 <li>经历了一场惨烈的招聘攻坚战，拿到中铁 offer</li>
 <li>结束考研</li>
 </ol>
-<h3 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h3><ol>
+<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><ol>
 <li>虽说结束了考研，但结果非常不理想，没能按照健康作息坚持到最后</li>
 <li>招聘的惨状让我意识到就算自己足够优秀，却有一个卑微的出身，是行不通的</li>
 <li>做人太规矩了<blockquote>
@@ -49,7 +49,7 @@
 <li>Python 一年都没看，去年目标没完成</li>
 <li>不以物喜，不以己悲。说起来太容易，奈何身处社会，抛不掉「色」，又怎能成「空」啊</li>
 </ol>
-<h3 id="Todolist"><a href="#Todolist" class="headerlink" title="Todolist"></a>Todolist</h3><ol>
+<h2 id="Todolist"><a href="#Todolist" class="headerlink" title="Todolist"></a>Todolist</h2><ol>
 <li>读20本书</li>
 <li>学习《道德经》</li>
 <li>摄影前期、后期</li>
@@ -64,7 +64,7 @@
     
       &lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&quot;这一年&quot;&gt;&lt;a href=&quot;#这一年&quot; class=&quot;headerlink&quot; title=&quot;这一年&quot;&gt;&lt;/a&gt;这一年&lt;/h3&gt;&lt;p&gt;这一年，&lt;/p&gt;
+&lt;h2 id=&quot;这一年&quot;&gt;&lt;a href=&quot;#这一年&quot; class=&quot;headerlink&quot; title=&quot;这一年&quot;&gt;&lt;/a&gt;这一年&lt;/h2&gt;&lt;p&gt;这一年，&lt;/p&gt;
 &lt;p&gt;是充实单调的一年，是蓬头垢面的一年，是曲折前进的一年；&lt;/p&gt;
 &lt;p&gt;是走的匆忙忽略路边风景，是想得太多忘记当下事物；&lt;/p&gt;
 &lt;p&gt;是看到人外有人，是看到木秀于林，是感知三色冷暖，是叹人勿心有反；&lt;/p&gt;
