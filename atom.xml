@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2017-12-31T16:27:56.552Z</updated>
+  <updated>2017-12-31T16:29:44.453Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -16,17 +16,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>&lt;/2017&gt;&lt;2018&gt;</title>
+    <title>「&lt;/2017&gt;&lt;2018&gt;」</title>
     <link href="http://kleist.top/2018/01/01/2018.html"/>
     <id>http://kleist.top/2018/01/01/2018.html</id>
     <published>2017-12-31T16:26:34.000Z</published>
-    <updated>2017-12-31T16:27:56.552Z</updated>
+    <updated>2017-12-31T16:29:44.453Z</updated>
     
-    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a><2018></2018></h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="lt-2017-gt-lt-2018-gt"><a href="#lt-2017-gt-lt-2018-gt" class="headerlink" title="&lt;/2017&gt;&lt;2018&gt;"></a><code>&lt;/2017&gt;&lt;2018&gt;</code></h1>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;2018&gt;&lt;/2018&gt;&lt;/h1&gt;
+      &lt;h1 id=&quot;lt-2017-gt-lt-2018-gt&quot;&gt;&lt;a href=&quot;#lt-2017-gt-lt-2018-gt&quot; class=&quot;headerlink&quot; title=&quot;&amp;lt;/2017&amp;gt;&amp;lt;2018&amp;gt;&quot;&gt;&lt;/a&gt;&lt;code&gt;&amp;lt;/2017&amp;gt;
     
     </summary>
     
