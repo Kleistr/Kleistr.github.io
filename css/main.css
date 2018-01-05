@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #abe5ff;
+  background: #45d198;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2876,7 +2876,7 @@ img:hover {
   }
 }
 body {
-  cursor: url("http://7xw7ho.com1.z0.glb.clouddn.com/cursor.cur"), default !important;
+  cursor: url("http://7xw7ho.com1.z0.glb.clouddn.com/cursor.cur"), default;
 }
 code {
   font-family: "InputMono-ExtraLight", "Menlo";
