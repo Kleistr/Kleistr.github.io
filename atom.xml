@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-01-04T10:36:00.095Z</updated>
+  <updated>2018-01-05T08:10:34.693Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Google scholar 的访问问题</title>
+    <link href="http://kleist.top/2018/01/05/Google-scholar-%E7%9A%84%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98.html"/>
+    <id>http://kleist.top/2018/01/05/Google-scholar-的访问问题.html</id>
+    <published>2018-01-05T07:52:26.000Z</published>
+    <updated>2018-01-05T08:10:34.693Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天本打算对于前几天看到的一个有趣现象（cat &amp; square）进行深入了解，结果对于某度能找到的信息无非就是哪里的网友听说了这个现象，然后对自己家的猫进行了实验，发现确实如此 blah,blah,blah……</p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/11iss.jpg" alt=""></p>
+<p>然而囿于现在环境，<s> 垃圾 </s>学校并没有知网合作，索性直接奔古哥,结果也是一堆各地网友做实验，YouTube实验视频……去古哥学术，这才发现原来采取了措施古哥可以，但学术进不去……</p>
+<p>emmmm……</p>
+<p>We’re sorry…</p>
+<p>… but your computer or network may be sending automated queries. To protect our users, we can’t process your request right now.</p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2j4u0.png" alt=""></p>
+<p>既然问题来自于代理，换代理又不现实，只能去 <a href="https://g.zmirrordemo.com/" target="_blank" rel="external">学术镜像</a> 了，提交验证的时候，我写的是 <code>github</code> 这年头……<br>维罗妮卡在精神病院的对话可真是经典</p>
+<blockquote>
+<p>你没法通过循规蹈矩学到你需要学会的东西。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天本打算对于前几天看到的一个有趣现象（cat &amp;amp; square）进行深入了解，结果对于某度能找到的信息无非就是哪里的网友听说了这个现象，然后对自己家的猫进行了实验，发现确实如此 blah,blah,blah……&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7x
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Minecraft 打造 S.H.I.E.L.D 空天母舰</title>
@@ -1036,40 +1068,6 @@
 &lt;h2 id=&quot;酗咖啡的乐园&quot;&gt;&lt;a href=&quot;#酗咖啡的乐园&quot; class=&quot;headerlink&quot; title=&quot;酗咖啡的乐园&quot;&gt;&lt;/a&gt;酗咖啡的乐园&lt;/h2&gt;&lt;p&gt;前天开始一天要喝掉至少三杯咖啡，&lt;/p&gt;
 &lt;p&gt;「乐园」&lt;/p&gt;
 &lt;p&gt;一杯用来清醒昨夜的“熟睡”
-    
-    </summary>
-    
-    
-      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>工地挖掘稽.jpg</title>
-    <link href="http://kleist.top/2017/09/17/%E5%B7%A5%E5%9C%B0%E6%8C%96%E6%8E%98%E7%A8%BD-jpg.html"/>
-    <id>http://kleist.top/2017/09/17/工地挖掘稽-jpg.html</id>
-    <published>2017-09-17T12:14:47.000Z</published>
-    <updated>2017-09-17T12:18:26.010Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="工程技术员的总结"><a href="#工程技术员的总结" class="headerlink" title="工程技术员的总结"></a>工程技术员的总结</h2><ul>
-<li>编得了方案，下的好交底。</li>
-<li>管得住现场，做得好资料。</li>
-<li>买得对材料，记得清流程。</li>
-<li>耐得住寂寞，经得起考验。</li>
-<li>扛得住压力，受得了批评。</li>
-<li>敢爬支架抄标高，能下池底看渗漏。</li>
-<li>钻进管道查防腐，力小不惧拧阀门。</li>
-<li>风里来，雨里去，</li>
-<li>测量仪器肩上扛，工程质量心中藏。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;工程技术员的总结&quot;&gt;&lt;a href=&quot;#工程技术员的总结&quot; class=&quot;headerlink&quot; title=&quot;工程技术员的总结&quot;&gt;&lt;/a&gt;工程技术员的总结&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;编得了方案，下的好交底。&lt;/li&gt;
-&lt;li&gt;管得住现场，做得好资料。&lt;/li&gt;
-
     
     </summary>
     
