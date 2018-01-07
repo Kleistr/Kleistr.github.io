@@ -102,74 +102,12 @@
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-01-07T05:57:58.444Z</updated>
+    <updated>2018-01-07T11:56:55.864Z</updated>
     
-    <content type="html"><![CDATA[<script src="http://echarts.baidu.com/dist/echarts.min.js"></script>
-
-<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
+    <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><p><i class="fa fa-square-o"></i> 《哲学史讲演录 - 黑格尔》</p>
 <a id="more"></a>
-<p><div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [1/30] </div><br><div id="mainchart" style="max-width: 600px;height:100px;"></div></p>
-<script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('mainchart'));
-
-        // 指定图表的配置项和数据
-        var option = {
-
-            xAxis: {
-                data: [],
-                type:'value',
-                show:false,
-                 axisTick: {
-                        show: false
-                    }
-            },
-            yAxis: {
-                type: 'category',
-                show:false,
-                 axisTick: {
-                        show: false
-                    }
-            },
-            series: [{
-                type: 'bar',
-
-                data:[3],
-                color: ['#333', '#ddd'],
-                stack: 'income',
-
-                    label: {
-                        normal: {
-                            show: true,
-                            position: 'inside',
-                            formatter: function(obj) {
-                                return obj.value + '%';
-                            }
-                        }
-                    }
-            },{
-                type:'bar',
-
-                data:[97],
-                stack: 'income',
-                color: ['#ddd', '#ccc'],
-
-                    label: {
-                        normal: {
-                            show: true,
-                            position: 'inside',
-                            formatter: function(obj) {
-                                return obj.value + '%';
-                            }
-                        }
-                    }
-            }]
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-    </script>
+<div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [1/30] </div>
 
 </li>
 </ol>
@@ -185,9 +123,7 @@
     
     <summary type="html">
     
-      &lt;script src=&#39;http://echarts.baidu.com/dist/echarts.min.js&#39;&gt;&lt;/script&gt;
-
-&lt;h2 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot; Books&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot; style=&quot;font-size: 25px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;&lt;/h2&gt;&lt;ol&gt;
+      &lt;h2 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot; Books&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot; style=&quot;font-size: 25px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;i class=&quot;fa fa-square-o&quot;&gt;&lt;/i&gt; 《哲学史讲演录 - 黑格尔》&lt;/p&gt;
     
     </summary>
@@ -879,7 +815,7 @@
     <link href="http://kleist.top/2017/10/17/2017-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2017/10/17/2017-的粮食.html</id>
     <published>2017-10-17T05:10:00.000Z</published>
-    <updated>2017-12-30T12:14:03.787Z</updated>
+    <updated>2018-01-07T11:54:39.361Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> 《高堡奇人》</li>
@@ -928,6 +864,7 @@
 <li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Our Little Sister》 —- 家庭 | 剧情</li>
 <li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《偷书贼》 —- 战争 | 剧情</li>
 <li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《天浴》 —- 剧情</li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《顽主》 —- 剧情 | 喜剧</li>
 <li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《地下》 —- 喜剧 | 战争 | 剧情</li>
 <li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《阳光灿烂的日子》 —- 剧情 | 爱情</li>
 <li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《苦戀》 —- 剧情</li>
