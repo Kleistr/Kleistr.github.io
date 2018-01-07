@@ -102,14 +102,14 @@
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-01-07T05:18:55.081Z</updated>
+    <updated>2018-01-07T05:57:58.444Z</updated>
     
     <content type="html"><![CDATA[<script src="http://echarts.baidu.com/dist/echarts.min.js"></script>
 
 <h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><p><i class="fa fa-square-o"></i> 《哲学史讲演录 - 黑格尔》</p>
 <a id="more"></a>
-<p><div align="center"><i class="fa fa-book"></i> 目标 2018 读 20 本书，目标进度 [1/20] </div><br><div id="mainchart" style="max-width: 600px;height:100px;"></div></p>
+<p><div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [1/30] </div><br><div id="mainchart" style="max-width: 600px;height:100px;"></div></p>
 <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('mainchart'));
@@ -135,7 +135,7 @@
             series: [{
                 type: 'bar',
 
-                data:[5],
+                data:[3],
                 color: ['#333', '#ddd'],
                 stack: 'income',
 
@@ -151,7 +151,7 @@
             },{
                 type:'bar',
 
-                data:[95],
+                data:[97],
                 stack: 'income',
                 color: ['#ddd', '#ccc'],
 
@@ -204,7 +204,7 @@
     <link href="http://kleist.top/2017/12/29/2017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93.html"/>
     <id>http://kleist.top/2017/12/29/2017-年终总结.html</id>
     <published>2017-12-28T16:22:02.000Z</published>
-    <updated>2017-12-28T16:25:11.731Z</updated>
+    <updated>2018-01-07T05:57:18.278Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png" alt=""></p>
 <hr>
@@ -234,12 +234,11 @@
 <li>不以物喜，不以己悲。说起来太容易，奈何身处社会，抛不掉「色」，又怎能成「空」啊</li>
 </ol>
 <h2 id="Todolist"><a href="#Todolist" class="headerlink" title="Todolist"></a>Todolist</h2><ol>
-<li>读20本书</li>
+<li>读30本书（nonfiction &amp; novel）</li>
 <li>学习《道德经》</li>
 <li>摄影前期、后期</li>
 <li>好好完成毕设</li>
 <li>找份离家近的工作</li>
-<li>确定要不要二战</li>
 </ol>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=428350485&auto=0&height=66"></iframe>
 ]]></content>
