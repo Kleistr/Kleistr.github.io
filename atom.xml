@@ -102,13 +102,74 @@
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-01-02T12:57:10.192Z</updated>
+    <updated>2018-01-07T05:18:55.081Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
+    <content type="html"><![CDATA[<script src="http://echarts.baidu.com/dist/echarts.min.js"></script>
+
+<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><p><i class="fa fa-square-o"></i> 《哲学史讲演录 - 黑格尔》</p>
 <a id="more"></a>
-<div align="center"><i class="fa fa-book"></i> 目标 2018 读 20 本书，目标进度 [1/20] </div>
+<p><div align="center"><i class="fa fa-book"></i> 目标 2018 读 20 本书，目标进度 [1/20] </div><br><div id="mainchart" style="max-width: 600px;height:100px;"></div></p>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('mainchart'));
 
+        // 指定图表的配置项和数据
+        var option = {
+
+            xAxis: {
+                data: [],
+                type:'value',
+                show:false,
+                 axisTick: {
+                        show: false
+                    }
+            },
+            yAxis: {
+                type: 'category',
+                show:false,
+                 axisTick: {
+                        show: false
+                    }
+            },
+            series: [{
+                type: 'bar',
+
+                data:[5],
+                color: ['#333', '#ddd'],
+                stack: 'income',
+
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'inside',
+                            formatter: function(obj) {
+                                return obj.value + '%';
+                            }
+                        }
+                    }
+            },{
+                type:'bar',
+
+                data:[95],
+                stack: 'income',
+                color: ['#ddd', '#ccc'],
+
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'inside',
+                            formatter: function(obj) {
+                                return obj.value + '%';
+                            }
+                        }
+                    }
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
 
 </li>
 </ol>
@@ -124,7 +185,9 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot; Books&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot; style=&quot;font-size: 25px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;&lt;/h2&gt;&lt;ol&gt;
+      &lt;script src=&#39;http://echarts.baidu.com/dist/echarts.min.js&#39;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot; Books&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot; style=&quot;font-size: 25px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;i class=&quot;fa fa-square-o&quot;&gt;&lt;/i&gt; 《哲学史讲演录 - 黑格尔》&lt;/p&gt;
     
     </summary>
