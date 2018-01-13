@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3eff75;
+  background: #122b50;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3201,4 +3201,10 @@ table > tbody > tr:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   cursor: pointer;
+}
+#audioplayer {
+  margin: 0 auto;
+  height: 30px;
+  width: 500px;
+  background-size: cover;
 }
