@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0095;
+  background: #47832e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3165,7 +3165,7 @@ a.post-title-link {
   font-family: "InputMono-ExtraLight" !important;
 }
 .posts-expand .post-body img {
-  border-radius: 5px;
+  border-radius: 7px;
 }
 hr {
   margin: 40px 0;
