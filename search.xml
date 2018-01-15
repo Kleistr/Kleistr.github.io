@@ -182,7 +182,10 @@
 <li>找份离家近的工作</li>
 </ol>
 <h2 id="书类消费"><a href="#书类消费" class="headerlink" title="书类消费"></a>书类消费</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/np9lj.png" alt=""></p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=428350485&auto=0&height=66"></iframe>
+<div id="audioplayer">
+    <audio src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    </audio>
+</div>
 ]]></content>
       
         
