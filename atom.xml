@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-01-16T01:44:54.863Z</updated>
+  <updated>2018-01-17T09:29:25.648Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kleist.top/2018/01/10/Rick-and-Morty.html"/>
     <id>http://kleist.top/2018/01/10/Rick-and-Morty.html</id>
     <published>2018-01-10T07:27:35.000Z</published>
-    <updated>2018-01-16T01:44:54.863Z</updated>
+    <updated>2018-01-17T09:29:25.648Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/f110h.jpeg" alt=""></p>
 <p>此前一直有想看的想法，也知道这是个第一季9.6分，二三季9.8分的神剧，但诟病于社交媒体中见到的血腥重口画风。好在在这个坐没地方坐，放电脑的桌子都没有的冬季，躺在床上看着黑格尔的「哲学史讲演录」，看着「了不起的麦瑟尔夫人」，才想起还有这么一部神剧没看。</p>
@@ -48,9 +48,36 @@
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/al59k.png" alt=""></p>
 <hr>
 <p>我想我可能会把这部动漫看好多遍，就像我会去看很多遍《道德经》一样，目前我感觉连它内涵的三分之一都没看到，不得不说这跟《无耻之徒》都是我看的较为经典和能给生活以指导并且非常值得推荐给别人的好作品。庆幸 2018 年初就有这些收获，希望这一年能遇到更多更好的作品。</p>
-<p><div id="audioplayer"><br>    <audio src="http://7xw7ho.com1.z0.glb.clouddn.com/1-11%20For%20the%20Damaged%20Coda.mp3" controls="controls" preload="preload" style="width:480px;" id="bgAudio">Your browser does not support the audio element.<br>    </audio><br></div></p>
+<div id="audioplayer">
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/1-11%20For%20the%20Damaged%20Coda.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    </audio>
+</div>
+
+
+<hr>
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script>
-    document.getElementById("bgAudio").volume = 0.5;
+
+    $("#PlayPause").click(function() {
+        var audio = $("#audio")[0];
+        document.getElementById("audio").volume = 0.5;
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            audio.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            audio.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
+
 </script>
 ]]></content>
     
@@ -153,7 +180,7 @@
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-01-13T06:31:25.048Z</updated>
+    <updated>2018-01-17T09:21:41.521Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><p><i class="fa fa-square-o"></i> 《哲学史讲演录 - 黑格尔》</p>
@@ -170,11 +197,33 @@
 </ol>
 <hr>
 <div id="audioplayer">
-    <audio src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
     </audio>
 </div>
 
 <hr>
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $("#PlayPause").click(function() {
+        var audio = $("#audio")[0];
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            audio.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            audio.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
+
+</script>
 ]]></content>
     
     <summary type="html">
@@ -196,7 +245,7 @@
     <link href="http://kleist.top/2017/12/29/2017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93.html"/>
     <id>http://kleist.top/2017/12/29/2017-年终总结.html</id>
     <published>2017-12-28T16:22:02.000Z</published>
-    <updated>2018-01-16T01:44:01.992Z</updated>
+    <updated>2018-01-17T09:30:15.385Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png" alt=""></p>
 <hr>
@@ -236,9 +285,33 @@
 <li>找份离家近的工作</li>
 </ul>
 <h2 id="书类消费"><a href="#书类消费" class="headerlink" title="书类消费"></a>书类消费</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/np9lj.png" alt=""></p>
-<p><div id="audioplayer"><br>    <audio src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:480px;" id="bgAudio">Your browser does not support the audio element.<br>    </audio><br></div></p>
+<div id="audioplayer">
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    </audio>
+</div>
+
+<hr>
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script>
-    document.getElementById("bgAudio").volume = 0.5;
+    $("#PlayPause").click(function() {
+        var audio = $("#audio")[0];
+        document.getElementById("audio").volume = 0.5;
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            audio.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            audio.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
 </script>
 ]]></content>
     

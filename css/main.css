@@ -1760,7 +1760,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #136fff;
+  background: #7f6ab4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3207,4 +3207,23 @@ table > tbody > tr:hover {
   height: 30px;
   width: 500px;
   background-size: cover;
+}
+#PlayPause {
+  background: rgba(255,255,255,0.24);
+  border-radius: 5px;
+  color: #aaa;
+  line-height: 2.5;
+  cursor: pointer;
+  box-shadow: 0 3px 2px rgba(0,0,0,0.157), 0 3px 5px rgba(0,0,0,0.227) !important;
+  padding: 0 0.45em;
+  position: fixed;
+  right: 2em;
+  top: 5em;
+  z-index: 999;
+}
+#PlayPause:hover {
+  background: #222 !important;
+  color: #fdfdfd !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
