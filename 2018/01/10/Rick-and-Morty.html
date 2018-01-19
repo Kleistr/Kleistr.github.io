@@ -140,7 +140,7 @@
 <meta property="og:image" content="http://7xw7ho.com1.z0.glb.clouddn.com/rsx6s.png">
 <meta property="og:image" content="http://7xw7ho.com1.z0.glb.clouddn.com/s80mq.png">
 <meta property="og:image" content="http://7xw7ho.com1.z0.glb.clouddn.com/al59k.png">
-<meta property="og:updated_time" content="2018-01-17T09:29:25.648Z">
+<meta property="og:updated_time" content="2018-01-19T16:26:30.165Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rick and Morty">
 <meta name="twitter:description" content="此前一直有想看的想法，也知道这是个第一季9.6分，二三季9.8分的神剧，但诟病于社交媒体中见到的血腥重口画风。好在在这个坐没地方坐，放电脑的桌子都没有的冬季，躺在床上看着黑格尔的「哲学史讲演录」，看着「了不起的麦瑟尔夫人」，才想起还有这么一部神剧没看。">
@@ -372,8 +372,8 @@
               
                 <span class="post-meta-item-text">最后发布于</span>
               
-              <time title="最后发布于" itemprop="dateModified" datetime="2018-01-17T17:29:25+08:00">
-                2018-01-17
+              <time title="最后发布于" itemprop="dateModified" datetime="2018-01-20T00:26:30+08:00">
+                2018-01-20
               </time>
             
           </span>
@@ -442,22 +442,22 @@
 <hr>
 <p>我想我可能会把这部动漫看好多遍，就像我会去看很多遍《道德经》一样，目前我感觉连它内涵的三分之一都没看到，不得不说这跟《无耻之徒》都是我看的较为经典和能给生活以指导并且非常值得推荐给别人的好作品。庆幸 2018 年初就有这些收获，希望这一年能遇到更多更好的作品。</p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/1-11%20For%20the%20Damaged%20Coda.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/1-11%20For%20the%20Damaged%20Coda.mp3" controls="controls" autoplay="autoplay" preload="preload" style="width:480px;">Your browser does not support the audio element.
     </audio>
 </div>
 
 
 <hr>
-<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
-    <i class="fa fa-play fa-fw"></i>
+<div id="PlayPause" class="play" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-pause fa-fw"></i>
 </div>
 
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script>
+document.getElementById("audio").volume = 0.5;
 
     $("#PlayPause").click(function() {
         var audio = $("#audio")[0];
-        document.getElementById("audio").volume = 0.5;
         if (document.getElementById('PlayPause').classList.contains("pause")) {
             audio.play();
             $("#PlayPause").removeClass("pause");
