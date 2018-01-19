@@ -4,6 +4,57 @@
   
     
     <entry>
+      <title><![CDATA[kleist 的由来]]></title>
+      <url>http://kleist.top/2018/01/19/kleist-%E7%9A%84%E7%94%B1%E6%9D%A5.html</url>
+      <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/7vrm5.jpeg" alt=""></p>
+<p>说来也巧，kleist 是来自于我较为喜欢的一部动漫中的任务，「Angel Beats!」中的小黑客 kleist。</p>
+<a id="more"></a>
+<p>出现在第3话4 min 04 s.果然是黑客可能会出现的时间，404……</p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/ae6oh.jpg" alt=""></p>
+<p>要说为什么会选择这个角色，很大程度上因为高中时期第一次看第一次听到这个名字就很喜欢，其次是这个人物在对天使的战争中起到了很重要的作用，要不是那天黑进天使的电脑，也不会发现天使的瞬移也好，手刀也好的技能都是设定好的，关于「敌人」知己知彼嘛。</p>
+<p>最后还是对于 CS 的念想，大学没能选择喜欢的专业，这次考研又 90% 失败告终，与 CS 注定无缘吗难道？不会的，总有一天我会在 CS 上取得学位的。</p>
+<hr>
+<p>之前好多好朋友问我名字的由来，我解释是出自「Angel Beats!」的，然而并不是所有人都喜欢动漫，并不是所有人都看过，就连大「月月鸟」都不记得「AB」里面有这么一个角色……</p>
+<div id="audioplayer">
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/My%20Soul,Your%20Beats%21%20-%20Lia.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    </audio>
+</div>
+
+<hr>
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $("#PlayPause").click(function() {
+        var audio = $("#audio")[0];
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            audio.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            audio.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
+
+</script>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Rick and Morty]]></title>
       <url>http://kleist.top/2018/01/10/Rick-and-Morty.html</url>
       <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/f110h.jpeg" alt=""></p>
