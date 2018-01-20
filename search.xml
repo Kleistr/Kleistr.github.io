@@ -5,9 +5,9 @@
     
     <entry>
       <title><![CDATA[kleist 的由来]]></title>
-      <url>http://kleist.top/2018/01/19/kleist-%E7%9A%84%E7%94%B1%E6%9D%A5.html</url>
+      <url>http://kleist.top/2018/01/20/kleist-%E7%9A%84%E7%94%B1%E6%9D%A5.html</url>
       <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/7vrm5.jpeg" alt=""></p>
-<p>说来也巧，kleist 是来自于我较为喜欢的一部动漫中的任务，「Angel Beats!」中的小黑客 kleist。</p>
+<p>说来也巧，kleist 是来自于我较为喜欢的一部动漫中的人物，「Angel Beats!」中的小黑客 kleist。</p>
 <a id="more"></a>
 <p>出现在第3话4 min 04 s.果然是黑客可能会出现的时间，404……</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/ae6oh.jpg" alt=""></p>
@@ -16,17 +16,19 @@
 <hr>
 <p>之前好多好朋友问我名字的由来，我解释是出自「Angel Beats!」的，然而并不是所有人都喜欢动漫，并不是所有人都看过，就连大「月月鸟」都不记得「AB」里面有这么一个角色……</p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/My%20Soul,Your%20Beats%21%20-%20Lia.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/My%20Soul,Your%20Beats%21%20-%20Lia.mp3" autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
     </audio>
 </div>
 
 <hr>
-<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
-    <i class="fa fa-play fa-fw"></i>
+<div id="PlayPause" class="play" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-pause fa-fw"></i>
 </div>
 
 <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script>
+    document.getElementById("audio").volume = 0.5;
+
     $("#PlayPause").click(function() {
         var audio = $("#audio")[0];
         if (document.getElementById('PlayPause').classList.contains("pause")) {
