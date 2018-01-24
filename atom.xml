@@ -240,7 +240,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-01-19T16:31:05.605Z</updated>
+    <updated>2018-01-24T16:40:51.612Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><p><i class="fa fa-square-o"></i> 《哲学史讲演录 - 黑格尔》</p>
@@ -251,9 +251,13 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
-<li><i class="fa fa-check-square-o"></i>   <i class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- 剧情 | 喜剧</li>
-<li><i class="fa fa-check-square-o"></i>   <i class="fa fa-heart"></i>  《Rick and Morty》 —- 科幻 | 动画 | 冒险</li>
-<li><i class="fa fa-check-square-o"></i>   <i class="fa fa-heart-o"></i>  《True Detective》 —- 剧情 | 犯罪 | 悬疑</li>
+<li><i class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- 剧情 | 喜剧</li>
+<li><i class="fa fa-heart"></i>  《Rick and Morty》 —- 科幻 | 动画 | 冒险</li>
+<li><i class="fa fa-heart-o"></i>  《True Detective》 —- 剧情 | 犯罪 | 悬疑</li>
+<li><i class="fa fa-heart-o"></i>  《记忆大师》 —- 剧情 | 犯罪 | 悬疑</li>
+<li><i class="fa fa-heart-o"></i>  《我的少女时代》 —- 喜剧 | 爱情</li>
+<li><i class="fa fa-heart-o"></i>  《喜欢你》 —- 喜剧 | 爱情</li>
+<li><i class="fa fa-square-o"></i>   <i class="fa fa-heart-o"></i>  《S.H.I.E.L.D》 —- 剧情 | 动作 | 科幻</li>
 </ol>
 <hr>
 <div id="audioplayer">

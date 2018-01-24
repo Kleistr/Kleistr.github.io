@@ -206,9 +206,13 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
-<li><i class="fa fa-check-square-o"></i>   <i class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- 剧情 | 喜剧</li>
-<li><i class="fa fa-check-square-o"></i>   <i class="fa fa-heart"></i>  《Rick and Morty》 —- 科幻 | 动画 | 冒险</li>
-<li><i class="fa fa-check-square-o"></i>   <i class="fa fa-heart-o"></i>  《True Detective》 —- 剧情 | 犯罪 | 悬疑</li>
+<li><i class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- 剧情 | 喜剧</li>
+<li><i class="fa fa-heart"></i>  《Rick and Morty》 —- 科幻 | 动画 | 冒险</li>
+<li><i class="fa fa-heart-o"></i>  《True Detective》 —- 剧情 | 犯罪 | 悬疑</li>
+<li><i class="fa fa-heart-o"></i>  《记忆大师》 —- 剧情 | 犯罪 | 悬疑</li>
+<li><i class="fa fa-heart-o"></i>  《我的少女时代》 —- 喜剧 | 爱情</li>
+<li><i class="fa fa-heart-o"></i>  《喜欢你》 —- 喜剧 | 爱情</li>
+<li><i class="fa fa-square-o"></i>   <i class="fa fa-heart-o"></i>  《S.H.I.E.L.D》 —- 剧情 | 动作 | 科幻</li>
 </ol>
 <hr>
 <div id="audioplayer">
