@@ -1023,7 +1023,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2017/10/17/2017-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2017/10/17/2017-的粮食.html</id>
     <published>2017-10-17T05:10:00.000Z</published>
-    <updated>2018-01-07T11:59:53.373Z</updated>
+    <updated>2018-01-27T15:12:19.646Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> 《高堡奇人》</li>
@@ -1057,52 +1057,53 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴家》 —- 剧情 | 传记 | 历史</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《第九道门》 —- 剧情 | 奇幻 | 恐怖 | 邪教</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《康熙微服私访记》 —- 剧情 | 历史 | 古装</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《朗读者》 —- 剧情 | 爱情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Flying Colors》 —- 剧情 | 励志 | 家庭</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《洛丽塔》 —- 剧情 | 爱情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《走向共和》 —- 剧情 | 历史</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《爱丽丝梦游仙境》 —- 剧情 | 奇幻 | 冒险</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《War for the Planet of the Apes》 —- 剧情 | 动作 | 科幻</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴教师》 —- 剧情 | 音乐</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《惊狂记》 —- 犯罪 | 悬疑 | 惊悚</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《The Celestine Prophecy》 —- 冒险 | 剧情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Our Little Sister》 —- 家庭 | 剧情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《偷书贼》 —- 战争 | 剧情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《天浴》 —- 剧情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《顽主》 —- 剧情 | 喜剧</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《地下》 —- 喜剧 | 战争 | 剧情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《阳光灿烂的日子》 —- 剧情 | 爱情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《苦戀》 —- 剧情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《发条橙》 —- 剧情 | 犯罪 | 人性</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《2001太空漫游》 —- 科幻 | 惊悚 | 冒险</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《鬼子来了》 —- 剧情 | 战争</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《樓下的房客》 —- 剧情 | 悬疑 | 惊悚</li>
-<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《孤筏重洋》 —- 歷史 | 冒險</p>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴家》 —- <code>剧情</code>  <code>传记</code>  <code>历史</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《第九道门》 —- <code>剧情</code>  <code>奇幻</code>  <code>恐怖</code>  <code>邪教</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《康熙微服私访记》 —- <code>剧情</code>  <code>历史</code>  <code>古装</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《朗读者》 —- <code>剧情</code>  <code>爱情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Flying Colors》 —- <code>剧情</code>  <code>励志</code>  <code>家庭</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《洛丽塔》 —- <code>剧情</code>  <code>爱情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《走向共和》 —- <code>剧情</code>  <code>历史</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《爱丽丝梦游仙境》 —- <code>剧情</code>  <code>奇幻</code>  <code>冒险</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《War for the Planet of the Apes》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴教师》 —- <code>剧情</code>  <code>音乐</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《惊狂记》 —- <code>犯罪</code>  <code>悬疑</code>  <code>惊悚</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《The Celestine Prophecy》 —- <code>冒险</code>  <code>剧情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Our Little Sister》 —- <code>家庭</code>  <code>剧情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《偷书贼》 —- <code>战争</code>  <code>剧情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《天浴》 —- <code>剧情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《顽主》 —- <code>剧情</code>  <code>喜剧</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《地下》 —- <code>喜剧</code>  <code>战争</code>  <code>剧情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《阳光灿烂的日子》 —- <code>剧情</code>  <code>爱情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《苦戀》 —- <code>剧情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《发条橙》 —- <code>剧情</code>  <code>犯罪</code>  <code>人性</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《未麻的部屋》 —- <code>动画</code>  <code>奇幻</code>  <code>惊悚</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《2001太空漫游》 —- <code>科幻</code>  <code>惊悚</code>  <code>冒险</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《鬼子来了》 —- <code>剧情</code>  <code>战争</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《樓下的房客》 —- <code>剧情</code>  <code>悬疑</code>  <code>惊悚</code></li>
+<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《孤筏重洋》 —- <code>歷史</code>  <code>冒險</code></p>
 <blockquote>
 <p>怪不得海子到死都把《孤筏重洋》留在身边。</p>
 </blockquote>
 </li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《美人鱼》 —- 喜剧 | 爱情 | 科幻</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《英伦对决》 —- 动作 | 犯罪</li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《美人鱼》 —- <code>喜剧</code>  <code>爱情</code>  <code>科幻</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《英伦对决》 —- <code>动作</code>  <code>犯罪</code></li>
 <li><i class="fa fa-square-o"></i>  <i class="fa fa-heart-o"></i>  《烟花》</li>
 <li><i class="fa fa-square-o"></i>  <i class="fa fa-heart-o"></i>  《奇迹男孩》</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《军中乐园》 —- 歷史 | 剧情 | 爱情</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《天才枪手》 —- 犯罪 | 剧情 | 悬疑</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《凉宫春日的消失》 —- 动画 | 喜剧 | 科幻 | 神作</li>
-<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《极盗者》 —- 运动 | 动作 | 犯罪</p>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《军中乐园》 —- <code>歷史</code>  <code>剧情</code>  <code>爱情</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《天才枪手》 —- <code>犯罪</code>  <code>剧情</code>  <code>悬疑</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《凉宫春日的消失》 —- <code>动画</code>  <code>喜剧</code>  <code>科幻</code>  <code>神作</code></li>
+<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《极盗者》 —- <code>运动</code>  <code>动作</code>  <code>犯罪</code></p>
 <blockquote>
 <p>向为本片所呈现的视觉盛宴付出生命的极限运动者致敬。</p>
 </blockquote>
 </li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《名侦探柯南：唐红的恋歌》 —- 悬疑 | 动画</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《小丑回魂》 —- 剧情 | 恐怖 | 儿童</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《十二生肖》 —- 喜剧 | 动作</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《杀破狼》 —- 剧情 | 动作 | 警匪</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《济公（游本昌老师版）》 —- 喜剧 | 古装</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《悠久之翼》 —- 剧情 | 动画 | 爱情</li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《名侦探柯南：唐红的恋歌》 —- <code>悬疑</code>  <code>动画</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《小丑回魂》 —- <code>剧情</code>  <code>恐怖</code>  <code>儿童</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《十二生肖》 —- <code>喜剧</code>  <code>动作</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《杀破狼》 —- <code>剧情</code>  <code>动作</code>  <code>警匪</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《济公（游本昌老师版）》 —- <code>喜剧</code>  <code>古装</code></li>
+<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《悠久之翼》 —- <code>剧情</code>  <code>动画</code>  <code>爱情</code></li>
 </ol>
 <hr>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=428350485&auto=1&height=66"></iframe>
