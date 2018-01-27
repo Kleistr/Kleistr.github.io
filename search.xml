@@ -216,6 +216,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code> <code>猫科动物</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code> <code>Magic</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《逃出绝命镇》 —- <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
