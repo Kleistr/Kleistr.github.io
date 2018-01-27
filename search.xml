@@ -215,7 +215,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></li>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
