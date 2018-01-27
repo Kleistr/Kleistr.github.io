@@ -198,24 +198,24 @@ document.getElementById("audio").volume = 0.5;
       <title><![CDATA[2018 的粮食]]></title>
       <url>http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html</url>
       <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
-<li><p><i class="fa fa-square-o"></i> 《哲学史讲演录 - 黑格尔》</p>
+<li><i class="fa fa-square-o"></i> <i class="bigstar bigstar45"></i> 《哲学史讲演录 - 黑格尔》</li>
+</ol>
 <a id="more"></a>
 <div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [1/30] </div>
 
-</li>
-</ol>
 <hr>
 <h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
-<li><i style="color:#FF6666;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></li>
-<li><i style="color:red;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
-<li><i class="fa fa-heart-o"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><i style="color:#FF9966;" class="fa fa-heart"></i>  《记忆大师》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><i class="fa fa-heart-o"></i>  《我的少女时代》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i class="fa fa-heart-o"></i>  《喜欢你》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i style="color:#ff0066;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
-<li><i class="fa fa-heart-o"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i style="color:#FF9966;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code></li>
-<li><i style="color:#ff0066;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></li>
+<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —- <code>喜剧</code>  <code>爱情</code></li>
+<li><i style="color:#FFCCCC;" class="fa fa-heart"></i>  《喜欢你》 —- <code>喜剧</code>  <code>爱情</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
@@ -1221,6 +1221,8 @@ document.getElementById("audio").volume = 0.5;
 </li>
 <li><p>我装作早熟，人人就都说我早熟。我装成懒汉，人人就说我是懒汉。我假装不会写小说，人们就说我不会写小说。我伪装成骗子，人们就说我是个骗子。我摆阔，人们就说我是个有钱人。我表现得很冷淡，人人说我是个冷漠的家伙。然而，当我真的痛苦万分、发出呻吟时，人人却说我是佯装痛苦，无病呻吟。—— 太宰治「斜阳」</p>
 </li>
+<li><p>In the morning, when the sun rises…Sometimes it’s hard to believe there ever was a night. —— 「煤气灯下」</p>
+</li>
 </ul>
 <h4 id="「房思琪的初恋乐园」"><a href="#「房思琪的初恋乐园」" class="headerlink" title="「房思琪的初恋乐园」"></a>「房思琪的初恋乐园」</h4><ul>
 <li><p>世界上愈是黑白分明的事情愈是要出錯的。</p>
@@ -1381,7 +1383,7 @@ document.getElementById("audio").volume = 0.5;
 </li>
 </ul>
 <h4 id="「寂静的春天」"><a href="#「寂静的春天」" class="headerlink" title="「寂静的春天」"></a>「寂静的春天」</h4><ul>
-<li><p>人类甚至不认识自己创造的恶魔。”</p>
+<li><p>人类甚至不认识自己创造的恶魔。</p>
 </li>
 <li><p>一切都仅仅是为了对付野草和昆虫。地球表面覆盖了一层毒药，谁会相信这不会对生物产生危害。这些物质不应被叫作“杀虫剂”，而应是“杀生剂”。</p>
 </li>

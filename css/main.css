@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd0ff;
+  background: #dbffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3236,4 +3236,61 @@ table > tbody > tr:hover {
 }
 ul.post-copyright {
   font-family: "Bookerly-Regular" !important;
+}
+.bigstar50 {
+  background-position: 0 0px !important;
+}
+.bigstar45 {
+  background-position: 0 -15px !important;
+}
+.bigstar40 {
+  background-position: 0 -30px !important;
+}
+.bigstar35 {
+  background-position: 0 -45px !important;
+}
+.bigstar30 {
+  background-position: 0 -60px !important;
+}
+.bigstar25 {
+  background-position: 0 -75px !important;
+}
+.bigstar20 {
+  background-position: 0 -90px !important;
+}
+.bigstar15 {
+  background-position: 0 -105px !important;
+}
+.bigstar10 {
+  background-position: 0 -120px !important;
+}
+.bigstar05 {
+  background-position: 0 -135px !important;
+}
+.bigstar00 {
+  background-position: 0 -150px !important;
+}
+.bigstar50,
+.bigstar45,
+.bigstar40,
+.bigstar35,
+.bigstar30,
+.bigstar25,
+.bigstar20,
+.bigstar15,
+.bigstar10,
+.bigstar05,
+.bigstar00 {
+  display: inline;
+  float: right;
+  zoom: 1.1;
+  background: url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") no-repeat;
+  background: -webkit-image-set(url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 1x, url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 2x) no-repeat;
+  background: -moz-image-set(url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 1x, url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 2x) no-repeat;
+  background: -o-image-set(url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 1x, url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 2x) no-repeat;
+  background: -ms-image-set(url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 1x, url("https://img3.doubanio.com/f/shire/ee7f53d76c3f8ed4991bdbafdb9b2c90c0aedfef/pics/rating_icons/ic_rating_m@2x.png") 2x) no-repeat;
+  width: 75px !important;
+  height: 15px !important;
+  margin: 6px 6px 0 6px;
+  overflow: hidden;
 }
