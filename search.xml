@@ -214,8 +214,8 @@ document.getElementById("audio").volume = 0.5;
 <li><i class="fa fa-heart-o"></i>  《喜欢你》 —- <code>喜剧</code>  <code>爱情</code></li>
 <li><i style="color:#ff0066;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
 <li><i class="fa fa-heart-o"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i style="color:#FF9966;" class="fa fa-heart-o"></i>  《Big Cats》 —- <code>纪录片</code></li>
-<li><i style="color:#FF9966;" class="fa fa-heart-o"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code></li>
+<li><i style="color:#FF9966;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code></li>
+<li><i style="color:#FF6666;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
