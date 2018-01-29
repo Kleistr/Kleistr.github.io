@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dbffff;
+  background: #ffaf3e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3212,7 +3212,7 @@ table > tbody > tr:hover {
 #audioplayer {
   margin: 0 auto;
   height: 30px;
-  width: 500px;
+  width: 300px;
   background-size: cover;
 }
 #PlayPause {
