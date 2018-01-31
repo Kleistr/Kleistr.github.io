@@ -220,7 +220,7 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:20em;">Your browser does not support the audio element.
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
