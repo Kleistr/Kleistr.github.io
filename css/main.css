@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #a31fbf;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3079,7 +3079,7 @@ p.site-description.motion-element {
 }
 div.post-body {
   color: #000;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-size: 15px;
 }
 div.links-of-author.motion-element,
