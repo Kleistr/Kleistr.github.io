@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6bf974;
+  background: #ff331d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3293,4 +3293,7 @@ ul.post-copyright {
   height: 15px !important;
   margin: 6px 6px 0 6px;
   overflow: hidden;
+}
+.post-title {
+  font-family: 'Bookerly', 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
