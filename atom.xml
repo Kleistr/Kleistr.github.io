@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Kleist&#39;Blog</title>
   <subtitle>道可道，非常道。</subtitle>
-  <link href="/kleist/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
   <updated>2018-01-20T06:51:02.150Z</updated>
