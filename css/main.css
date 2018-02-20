@@ -1012,7 +1012,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'Papyrus', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'PingFang SC', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #71baff;
+  background: #2bff91;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2924,11 +2924,11 @@ span.site-pv {
 }
 .site-title {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 200;
 }
 .site-author-name {
-  font-weight: 100;
-  font-family: 'Bookerly-Regular', "PingFangSC-Ultralight" !important;
+  font-weight: 200;
+  font-family: "PingFangSC-Ultralight" !important;
   font-size: 20px;
 }
 p.site-description.motion-element {
@@ -3076,6 +3076,7 @@ p.site-description.motion-element {
 }
 .posts-expand .post-body img {
   border: 0 !important;
+  margin-bottom: 20px;
 }
 div.post-body {
   color: #000;
