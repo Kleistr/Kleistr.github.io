@@ -252,7 +252,10 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《太空救援》 —- <code>剧情</code> <code>动作</code> <code>冒险</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《罪恶之家》 —- <code>悬疑</code> <code>剧情</code></li>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —- <code>剧情</code></li>
-<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —- <code>剧情</code></li>
+<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —- <code>剧情</code><blockquote>
+<p><a href="https://kleist.top/2018/02/18/天真无邪的「邪」.html">《狩猎》观感</a></p>
+</blockquote>
+</li>
 </ol>
 <hr>
 <div id="audioplayer">
