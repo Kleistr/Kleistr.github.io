@@ -1031,15 +1031,16 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2017/10/17/Three-World.html"/>
     <id>http://kleist.top/2017/10/17/Three-World.html</id>
     <published>2017-10-17T11:31:40.000Z</published>
-    <updated>2018-02-21T15:25:11.473Z</updated>
+    <updated>2018-02-21T15:28:59.495Z</updated>
     
     <content type="html"><![CDATA[<p>关于这个世界，我想可以分为三种：</p>
 <ul>
 <li>现实生活的世界</li>
 <li>媒体营造的世界</li>
-<li>自己内心的世界<a id="more"></a>
-关于第一层倒是没什么可以说的了，伟大的马克思恩格斯已经说明了这个世界的物质性。</li>
+<li>自己内心的世界</li>
 </ul>
+<a id="more"></a>
+<p>关于第一层倒是没什么可以说的了，伟大的马克思恩格斯已经说明了这个世界的物质性。</p>
 <p>第二个 「 <strong>媒体营造的世界</strong> 」，这个就有些许的意思了，其中深意值得玩味。在当下这个人们口中信息爆炸的时代，不管是人们饭后闲谈也好，睡前翻看的微博也好，还是手机每天被轰炸的各种推送也好，这都是信息，都是来自一种名叫「 <strong>媒体</strong> 」的东西，我们对于外界的感知一方面来自于自己亲身感受到的，一方面来自于媒体的宣传「新闻节目、新闻 APP、社交圈、新型自媒体、甚至他人口中……」这都算是媒体带给人们对于世界的认知。</p>
 <p>可曾想过，这个众多媒体共同营造的世界跟现实世界到底有多大出入？先不论一些不良媒体的虚假新闻导致的错误认知，先想想那些对的信息，那些真实发生的新闻目前大多来讲是报喜不报忧的。可这样一来，即使媒体们所言皆实，听众观众对于世界的认知便由于获取信息的局限性产生了生活在一个美好世界的这种错觉。我们不能去批判媒体，因为这是他们这个职业的特性（博人眼球势必导致一定程度上的“误导”），还由于人这种生物本身就是喜欢报喜不报忧的，就像出门在外不想跟家里说发生在自己身上的不愉快一样，再者，要是电视新闻和各种新闻软件一天天都是负面新闻，那这种“坏的错觉”给人的影响更大，甚至可能引发一些抗议和暴动。</p>
 <p>目前想要在信息洪流中获得真实世界的认知难免是需要一些代价的（如：花时间学习看清新闻事件背后的本质），也难免在真正看清本质之后被人说是“疯子”，就像「维罗妮卡决定去死」里疯人院中的疯子一样：一部分是逃避现实进的疯人院，一部分是真正的看清现实之后却被当作疯子对待。这本没什么的，可如果真的如书中例子讲述的那个<i class="fa fa-eye"></i>&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: 1;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='font-weight: normal;background: #233;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='font-weight: normal;background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('願聞其詳?')){
@@ -1059,7 +1060,8 @@ document.getElementById("audio").volume = 0.5;
 &lt;ul&gt;
 &lt;li&gt;现实生活的世界&lt;/li&gt;
 &lt;li&gt;媒体营造的世界&lt;/li&gt;
-&lt;li&gt;自己内心的世界
+&lt;li&gt;自己内心的世界&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
