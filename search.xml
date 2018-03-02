@@ -258,6 +258,8 @@ document.getElementById("audio").volume = 0.5;
 <p><a href="https://kleist.top/2018/02/18/天真无邪的「邪」.html">《狩猎》观感</a></p>
 </blockquote>
 </li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></p>
+</li>
 </ol>
 <hr>
 <div id="audioplayer">
