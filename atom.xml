@@ -274,7 +274,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-03-07T04:50:23.770Z</updated>
+    <updated>2018-03-07T06:37:42.246Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-square-o"></i> <i class="bigstar bigstar45"></i> 《哲学史讲演录》</li>
@@ -312,8 +312,7 @@ document.getElementById("audio").volume = 0.5;
 <p><a href="https://kleist.top/2018/02/18/天真无邪的「邪」.html">《狩猎》观感</a></p>
 </blockquote>
 </li>
-<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></p>
-</li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —- <code>剧情</code> <code>历史</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —- <code>动作</code> <code>剧情</code> <code>历史</code></li>
 </ol>
