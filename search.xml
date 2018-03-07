@@ -261,6 +261,7 @@ document.getElementById("audio").volume = 0.5;
 <li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></p>
 </li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —- <code>剧情</code> <code>历史</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —- <code>动作</code> <code>剧情</code> <code>历史</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
