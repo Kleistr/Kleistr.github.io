@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-03-14T13:54:55.032Z</updated>
+  <updated>2018-03-16T09:52:12.225Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -16,11 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>1987 When the Day Comes</title>
+    <link href="http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html"/>
+    <id>http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html</id>
+    <published>2018-03-16T09:42:44.000Z</published>
+    <updated>2018-03-16T09:52:12.225Z</updated>
+    
+    <content type="html"><![CDATA[<p>There’s nothing.</p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nl9am.png" alt=""></p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/j19jh.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;There’s nothing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/nl9am.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clo
+    
+    </summary>
+    
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>《易经》笔记</title>
     <link href="http://kleist.top/2018/03/13/%E3%80%8A%E6%98%93%E7%BB%8F%E3%80%8B%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/03/13/《易经》笔记.html</id>
     <published>2018-03-13T04:17:29.000Z</published>
-    <updated>2018-03-14T13:54:55.032Z</updated>
+    <updated>2018-03-16T09:47:50.620Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/b01nw.png" alt=""></p>
 <p>仅仅了解了一点点《易经》的知识就已经感受到其智慧的无穷。</p>
@@ -303,7 +328,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-03-14T13:29:30.859Z</updated>
+    <updated>2018-03-16T09:52:16.681Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-square-o"></i> <i class="bigstar bigstar45"></i> 《哲学史讲演录》</li>
@@ -349,7 +374,8 @@ document.getElementById("audio").volume = 0.5;
 <p>韩国电影真的不容小觑。</p>
 </blockquote>
 </li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《斯大林之死》 —- <code>喜剧</code> <code>传记</code> <code>历史</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《斯大林之死》 —- <code>喜剧</code> <code>传记</code> <code>历史</code></li>
+<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —- <code>剧情</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
@@ -881,9 +907,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
-    
       <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
@@ -1058,9 +1084,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
-    
       <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+      <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
     
@@ -1106,142 +1132,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
-    
       <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
-  </entry>
-  
-  <entry>
-    <title>2017 的粮食</title>
-    <link href="http://kleist.top/2017/10/17/2017-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
-    <id>http://kleist.top/2017/10/17/2017-的粮食.html</id>
-    <published>2017-10-17T05:10:00.000Z</published>
-    <updated>2018-03-13T04:24:31.875Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
-<li><i class="fa fa-check-square-o"></i> 《高堡奇人》</li>
-<li><i class="fa fa-check-square-o"></i> 《上帝掷骰子吗?》</li>
-<li><i class="fa fa-check-square-o"></i> 《三日间的幸福》</li>
-<li><i class="fa fa-check-square-o"></i> 《诗经》</li>
-<li><i class="fa fa-check-square-o"></i> 《量子宇宙》</li>
-<li><i class="fa fa-check-square-o"></i> 《丝绸之路》</li>
-<li><i class="fa fa-check-square-o"></i> 《房思琪的初恋乐园》</li>
-<li><i class="fa fa-check-square-o"></i> 《What if 那些古怪又让人忧心的问题》</li>
-<li><i class="fa fa-check-square-o"></i> 《独居的一年》</li>
-<li><i class="fa fa-check-square-o"></i> 《失乐园》</li>
-<li><i class="fa fa-check-square-o"></i> 《Harry Potter and the Chamber of Secrets》</li>
-<li><i class="fa fa-check-square-o"></i> 《老子》</li>
-<li><i class="fa fa-check-square-o"></i> 《〈老子〉他说》</li>
-<li><i class="fa fa-check-square-o"></i> 《维罗妮卡决定去死》</li>
-<li><i class="fa fa-check-square-o"></i> 《牧羊少年奇幻之旅》</li>
-<li><i class="fa fa-check-square-o"></i> 《安琪拉的灰烬》</li>
-<li><i class="fa fa-check-square-o"></i> 《子不语》</li>
-<li><p><i class="fa fa-square-o"></i> 《寂静的春天》</p>
-<blockquote>
-<p>目前我读过的书中只有两本没读完，并不是不尊重书和作者，只是我觉得我还没有能够理解《要塞》意义的经验，另一本就是《寂静的春天》了，越看越心塞，越看越害怕，不，是越看越恐惧！不不不！更是一种能在这种环境中幸免于难的侥幸</p>
-</blockquote>
-</li>
-<li><i class="fa fa-check-square-o"></i> 《我们》（反乌托邦三部曲）</li>
-<li><i class="fa fa-check-square-o"></i> 《1984》（反乌托邦三部曲）<a id="more"></a>
-<div align="center"><i class="fa fa-book"></i> 目标 2017 读 20 本书，目标达成。 [20/20] </div>
-
-
-</li>
-</ol>
-<hr>
-<h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴家》 —- <code>剧情</code>  <code>传记</code>  <code>历史</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《第九道门》 —- <code>剧情</code>  <code>奇幻</code>  <code>恐怖</code>  <code>邪教</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《康熙微服私访记》 —- <code>剧情</code>  <code>历史</code>  <code>古装</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《朗读者》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Flying Colors》 —- <code>剧情</code>  <code>励志</code>  <code>家庭</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《洛丽塔》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《走向共和》 —- <code>剧情</code>  <code>历史</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《爱丽丝梦游仙境》 —- <code>剧情</code>  <code>奇幻</code>  <code>冒险</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《War for the Planet of the Apes》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴教师》 —- <code>剧情</code>  <code>音乐</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《惊狂记》 —- <code>犯罪</code>  <code>悬疑</code>  <code>惊悚</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《The Celestine Prophecy》 —- <code>冒险</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Our Little Sister》 —- <code>家庭</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《偷书贼》 —- <code>战争</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《天浴》 —- <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《顽主》 —- <code>剧情</code>  <code>喜剧</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《地下》 —- <code>喜剧</code>  <code>战争</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《阳光灿烂的日子》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《苦戀》 —- <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《发条橙》 —- <code>剧情</code>  <code>犯罪</code>  <code>人性</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《未麻的部屋》 —- <code>动画</code>  <code>奇幻</code>  <code>惊悚</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《2001太空漫游》 —- <code>科幻</code>  <code>惊悚</code>  <code>冒险</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《鬼子来了》 —- <code>剧情</code>  <code>战争</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《樓下的房客》 —- <code>剧情</code>  <code>悬疑</code>  <code>惊悚</code></li>
-<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《孤筏重洋》 —- <code>歷史</code>  <code>冒險</code></p>
-<blockquote>
-<p>怪不得海子到死都把《孤筏重洋》留在身边。</p>
-</blockquote>
-</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《美人鱼》 —- <code>喜剧</code>  <code>爱情</code>  <code>科幻</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《英伦对决》 —- <code>动作</code>  <code>犯罪</code></li>
-<li><i class="fa fa-square-o"></i>  <i class="fa fa-heart-o"></i>  《烟花》</li>
-<li><i class="fa fa-square-o"></i>  <i class="fa fa-heart-o"></i>  《奇迹男孩》</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《军中乐园》 —- <code>歷史</code>  <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《天才枪手》 —- <code>犯罪</code>  <code>剧情</code>  <code>悬疑</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《凉宫春日的消失》 —- <code>动画</code>  <code>喜剧</code>  <code>科幻</code>  <code>神作</code></li>
-<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《极盗者》 —- <code>运动</code>  <code>动作</code>  <code>犯罪</code></p>
-<blockquote>
-<p>向为本片所呈现的视觉盛宴付出生命的极限运动者致敬。</p>
-</blockquote>
-</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《名侦探柯南：唐红的恋歌》 —- <code>悬疑</code>  <code>动画</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《小丑回魂》 —- <code>剧情</code>  <code>恐怖</code>  <code>儿童</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《十二生肖》 —- <code>喜剧</code>  <code>动作</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《杀破狼》 —- <code>剧情</code>  <code>动作</code>  <code>警匪</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《济公（游本昌老师版）》 —- <code>喜剧</code>  <code>古装</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《悠久之翼》 —- <code>剧情</code>  <code>动画</code>  <code>爱情</code></li>
-</ol>
-<hr>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.163.com/outchain/player?type=2&id=428350485&auto=1&height=66"></iframe>
-
-<hr>
-<blockquote>
-<p>之所以在 <i class="fa fa-tag"></i> <code>Movies</code> 添加了 <i class="fa fa-heart"></i> 的图标，主要原因还是看的电影有点杂，不像书似的经过了自己较为严格的挑选，所以看的书都是我自己会喜欢的，愿意看的，而电影则只有一部分是早就在 Todolist 中列出来想要看的，另一部分是偶尔拿来打发时间的（emmm… 偶尔晚上会失眠 ╮(╯_╰)╭）<br>    BTW，《The Ocean》这首歌我真的很喜欢，但是由于版权原因只能放出 Remix 版的……个人感觉这版本跟原版真的没得比</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot; Books&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot; style=&quot;font-size: 25px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《高堡奇人》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《上帝掷骰子吗?》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《三日间的幸福》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《诗经》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《量子宇宙》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《丝绸之路》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《房思琪的初恋乐园》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《What if 那些古怪又让人忧心的问题》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《独居的一年》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《失乐园》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《Harry Potter and the Chamber of Secrets》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《老子》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《〈老子〉他说》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《维罗妮卡决定去死》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《牧羊少年奇幻之旅》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《安琪拉的灰烬》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《子不语》&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;i class=&quot;fa fa-square-o&quot;&gt;&lt;/i&gt; 《寂静的春天》&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;目前我读过的书中只有两本没读完，并不是不尊重书和作者，只是我觉得我还没有能够理解《要塞》意义的经验，另一本就是《寂静的春天》了，越看越心塞，越看越害怕，不，是越看越恐惧！不不不！更是一种能在这种环境中幸免于难的侥幸&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《我们》（反乌托邦三部曲）&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《1984》（反乌托邦三部曲）
-    
-    </summary>
-    
-    
-      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-      <category term="粮食" scheme="http://kleist.top/tags/%E7%B2%AE%E9%A3%9F/"/>
+      <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
   </entry>
   
