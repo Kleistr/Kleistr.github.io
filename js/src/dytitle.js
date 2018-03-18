@@ -29,7 +29,7 @@ var x = e.pageX,
             "top": y - 20,
             "left": x,
             "position": "absolute",
-            "font-weight": "normal",
+            "font-weight": "bold",
             "font-family": "PingFangSC-Ultralight",
             "color": "#25bafc",
             // "text-shadow": "1px 1px 5px rgba(37, 186, 252, 0.5)"
