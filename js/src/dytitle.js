@@ -25,14 +25,14 @@ var $i = $("<span/>").text(a[a_idx]);
 var x = e.pageX,
         y = e.pageY;
         $i.css({
-            "z-index": 999999,
+            "z-index": 9999,
             "top": y - 20,
             "left": x,
             "position": "absolute",
-            "font-weight": "bold",
+            "font-weight": "normal",
             "font-family": "PingFangSC-Ultralight",
             "color": "#25bafc",
-            "text-shadow": "1px 1px 5px rgba(37, 186, 252, 0.5)"
+            // "text-shadow": "1px 1px 5px rgba(37, 186, 252, 0.5)"
         });
         $("body").append($i);
         $i.animate({
