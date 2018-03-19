@@ -316,7 +316,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —- <code>剧情</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —- <code>剧情</code> <code>犯罪</code> <code>悬疑</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —- <code>剧情</code> <code>历史</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《八旗子弟》 —- <code>剧情</code> <code>历史</code> <code>古装</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —- <code>剧情</code> <code>历史</code> <code>古装</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
