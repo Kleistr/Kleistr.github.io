@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-03-19T04:13:09.892Z</updated>
+  <updated>2018-03-21T00:58:51.473Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>1987 When the Day Comes</title>
+    <title>1987:When the Day Comes</title>
     <link href="http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html"/>
     <id>http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html</id>
     <published>2018-03-16T09:42:44.000Z</published>
-    <updated>2018-03-19T04:13:09.892Z</updated>
+    <updated>2018-03-21T00:58:51.473Z</updated>
     
     <content type="html"><![CDATA[<p>There’s nothing. </p>
 <a id="more"></a>
@@ -334,7 +334,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-03-19T14:41:40.191Z</updated>
+    <updated>2018-03-21T00:56:55.732Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《哲学史讲演录》</li>
@@ -385,6 +385,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —- <code>剧情</code> <code>犯罪</code> <code>悬疑</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —- <code>剧情</code> <code>历史</code></li>
 <li><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —- <code>剧情</code> <code>历史</code> <code>古装</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《天赋异秉》 —- <code>动作</code> <code>科幻</code> <code>奇幻</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
