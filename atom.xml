@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-04-01T13:04:44.702Z</updated>
+  <updated>2018-04-02T06:07:55.399Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://kleist.top/2018/04/01/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%92%8C%E5%84%92%E7%95%A5%E5%8E%86.html"/>
     <id>http://kleist.top/2018/04/01/愚人节和儒略历.html</id>
     <published>2018-04-01T13:02:02.000Z</published>
-    <updated>2018-04-01T13:04:44.702Z</updated>
+    <updated>2018-04-02T06:07:55.399Z</updated>
     
     <content type="html"><![CDATA[<p>今天是四月一日「愚人节」，还好没被整蛊（emmmm……边缘人怎么会被整呢）</p>
 <p>从昨天开始发觉自己感冒，无精打采也无心毕设，听着几首轻音乐了解了一下「愚人节」，原来被大多数认可的来源是历法导致的。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png" alt=""></p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png-75percent" alt=""></p>
 <p>当A使用一个历法在过新年庆祝的时候，使用另一种历法的B就嘲笑A safufu(傻乎乎)的……这一天恰巧是B所用历法的四月一日。</p>
 <a id="more"></a>
 <p>以下转载自<a href="https://sam9117.blogspot.com/2016/01/blog-post.html" target="_blank" rel="external">Sam Tsai</a><br>頒行格里曆的1582 年十月：消失的十天<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/cqctc.jpg" alt=""></p>
@@ -76,7 +76,7 @@
     
       &lt;p&gt;今天是四月一日「愚人节」，还好没被整蛊（emmmm……边缘人怎么会被整呢）&lt;/p&gt;
 &lt;p&gt;从昨天开始发觉自己感冒，无精打采也无心毕设，听着几首轻音乐了解了一下「愚人节」，原来被大多数认可的来源是历法导致的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png-75percent&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;当A使用一个历法在过新年庆祝的时候，使用另一种历法的B就嘲笑A safufu(傻乎乎)的……这一天恰巧是B所用历法的四月一日。&lt;/p&gt;
     
     </summary>
@@ -994,9 +994,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -1171,9 +1171,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
     
