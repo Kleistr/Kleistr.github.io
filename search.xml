@@ -384,7 +384,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《末代皇帝》 —- <code>剧情</code> <code>历史</code> <code>传记</code></li>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —- <code>剧情</code> <code>悬疑</code> <code>惊悚</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —- <code>剧情</code> <code>喜剧</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
