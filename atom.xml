@@ -994,9 +994,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
-    
       <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
@@ -1171,9 +1171,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
-    
       <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+      <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
     
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
     
