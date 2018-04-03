@@ -405,7 +405,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-04-03T12:58:16.652Z</updated>
+    <updated>2018-04-03T14:50:13.039Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《哲学史讲演录》</li>
@@ -421,9 +421,9 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><p><i style="color:#EEE5ED;" class="fa fa-heart"></i>  《国产恐怖片》 —- <code>恐怖</code>  <code>走进科学</code></p>
+<li><p><i style="color:#EEE5ED;" class="fa fa-heart"></i>  《部分国产恐怖片》 —- <code>恐怖</code>  <code>走进科学</code></p>
 <blockquote>
-<p>欢迎收看本期走进科学，笔仙、碟仙、恐怖理发店等恐怖电影背后的秘密。<br>—— 心理变态、心理受刺激、个人利益至上</p>
+<p>欢迎收看本期走进科学，笔仙、碟仙、恐怖理发店等恐怖电影背后的秘密。<br>—— 心理变态、心理受刺激、个人利益至上<br>自从看了《中邪》，彻底改变了对国产恐怖片未来的看法</p>
 </blockquote>
 </li>
 <li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —- <code>喜剧</code>  <code>爱情</code></li>
@@ -996,9 +996,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   
@@ -1173,9 +1173,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
       <category term="文" scheme="http://kleist.top/tags/%E6%96%87/"/>
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
       <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
     
