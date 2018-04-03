@@ -746,9 +746,9 @@ document.getElementById("audio").volume = 0.5;
         
         <tags>
             
-            <tag> 日常 </tag>
-            
             <tag> 随想 </tag>
+            
+            <tag> 日常 </tag>
             
         </tags>
         
