@@ -447,7 +447,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
     <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-04-11T06:10:04.148Z</updated>
+    <updated>2018-04-11T13:34:49.459Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《哲学史讲演录》</li>
@@ -505,15 +505,17 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —- <code>剧情</code> <code>悬疑</code> <code>惊悚</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —- <code>剧情</code> <code>喜剧</code></li>
 <li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —- <code>动作</code> <code>奇幻</code> <code>冒险</code></li>
 <li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《10 × 10》 —- <code>惊悚</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —- <code>惊悚</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —- <code>剧情</code> <code>动作</code></li>
 <li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —- <code>科幻</code> <code>动作</code> <code>冒险</code></li>
 <li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《Lady Bird》 —- <code>剧情</code> <code>家庭</code></p>
 <blockquote>
-<p>把大家的青春日记拍成电影的导演</p>
+<p>把大家的凄凄切切凄凄切切青春日记拍成电影的导演</p>
 </blockquote>
 </li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
