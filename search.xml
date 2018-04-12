@@ -432,6 +432,7 @@ document.getElementById("audio").volume = 0.5;
 </blockquote>
 </li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
+<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《厉害了，我的国》 —- <code>剧情</code> <code>传记</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
