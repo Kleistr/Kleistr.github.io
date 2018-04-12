@@ -428,7 +428,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —- <code>科幻</code> <code>动作</code> <code>冒险</code></li>
 <li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《Lady Bird》 —- <code>剧情</code> <code>家庭</code></p>
 <blockquote>
-<p>把大家的凄凄切切凄凄切切青春日记拍成电影的导演</p>
+<p>把大家真真切切的青春日记拍成电影的导演</p>
 </blockquote>
 </li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
