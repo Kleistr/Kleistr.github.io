@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f03b2e;
+  background: #865277;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3166,7 +3166,7 @@ div.tag-cloud-tags a:hover {
 }
 .post-body,
 a.post-title-link {
-  font-family: "FFTisaOT", 'Bookerly-Regular', 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
+  font-family: 'Bookerly-Regular', 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
   color: #000;
 }
 .post-meta {
@@ -3236,7 +3236,7 @@ table > tbody > tr:hover {
   transition: all 0.5s ease;
 }
 ul.post-copyright {
-  font-family: "FFTisaOT", "Bookerly-Regular" !important;
+  font-family: "Bookerly-Regular" !important;
 }
 .bigstar50 {
   background-position: 0 0px !important;
@@ -3296,5 +3296,5 @@ ul.post-copyright {
   overflow: hidden;
 }
 .post-title {
-  font-family: "FFTisaOT", 'Bookerly', 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Bookerly', 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
