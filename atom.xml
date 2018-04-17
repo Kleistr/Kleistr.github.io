@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-04-16T06:20:22.731Z</updated>
+  <updated>2018-04-17T03:35:05.201Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,17 +20,19 @@
     <link href="http://kleist.top/2018/04/16/%E7%A6%8F%E5%85%AE%EF%BC%8C%E7%A6%8D%E4%B9%8B%E6%89%80%E4%BC%8F.html"/>
     <id>http://kleist.top/2018/04/16/福兮，禍之所伏.html</id>
     <published>2018-04-16T06:03:34.000Z</published>
-    <updated>2018-04-16T06:20:22.731Z</updated>
+    <updated>2018-04-17T03:35:05.201Z</updated>
     
     <content type="html"><![CDATA[<p>昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， <code>data</code>  一栏的时间会完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 <strong> 七牛 </strong> 的链接同样包含数字：<code>http://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊＊</code>  </p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lwqqo.png" alt=""></p>
+<a id="more"></a>
 <p>当然是很「脑阔痛」，但又何尝不是一件好事呢？三年来的博文从头整理一遍，也算是个回顾，总归还是能学到些什么的。不敢说现在的我有多好，但比起去年前年的我，我有所成长，这就够了，还要期待些什么呢？期待自己做到儒家的「齐家、治国、平天下」和「生，亦我所欲也；义，亦我所欲也。二者不可得兼，舍生而取义者也」？</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/c8y8l.png" alt="image-20180416141434131"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， &lt;code&gt;data&lt;/code&gt;  一栏的时间会完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 &lt;strong
+      &lt;p&gt;昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， &lt;code&gt;data&lt;/code&gt;  一栏的时间会完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 &lt;strong&gt; 七牛 &lt;/strong&gt; 的链接同样包含数字：&lt;code&gt;http://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊＊&lt;/code&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/lwqqo.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
