@@ -6,10 +6,10 @@
     <entry>
       <title><![CDATA[福兮，禍之所伏]]></title>
       <url>http://kleist.top/2018/04/16/%E7%A6%8F%E5%85%AE%EF%BC%8C%E7%A6%8D%E4%B9%8B%E6%89%80%E4%BC%8F.html</url>
-      <content type="html"><![CDATA[<p>昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， <code>data</code>  一栏的时间会完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 <strong> 七牛 </strong> 的链接同样包含数字：<code>http://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊＊</code>  </p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lwqqo.png" alt=""></p>
+      <content type="html"><![CDATA[<p>昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， <code>data</code>  一栏的时间会完全乱掉，就像当年<a href="https://zh.wikipedia.org/zh-hans/2000年问题" target="_blank" rel="external">「千年虫危机」</a>一样博客时间轴完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 <strong> 七牛 </strong> 的链接同样包含数字：<code>https://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊</code>  </p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/uj9vb.png" alt="lwqqo"></p>
 <a id="more"></a>
-<p>当然是很「脑阔痛」，但又何尝不是一件好事呢？三年来的博文从头整理一遍，也算是个回顾，总归还是能学到些什么的。不敢说现在的我有多好，但比起去年前年的我，我有所成长，这就够了，还要期待些什么呢？期待自己做到儒家的「齐家、治国、平天下」和「生，亦我所欲也；义，亦我所欲也。二者不可得兼，舍生而取义者也」？</p>
+<p>当然是很「脑阔痛」，但又何尝不是一件好事呢？三年来的博文从头整理一遍，也算是个回顾，总归还是能学到些什么的。不敢说现在的我有多好，但比起去年前年的我，我有所成长，这就够了，还要期待些什么呢？期待自己做到儒家的「齐家、治国、平天下」和「生，亦我所欲也；义，亦我所欲也。二者不可得兼，舍生而取义者也」？还是要让自己做到儒家「不信春風喚不回」的勉力不懈麼？</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/c8y8l.png" alt="image-20180416141434131"></p>
 ]]></content>
       
@@ -407,7 +407,9 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[2018 的粮食]]></title>
       <url>http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html</url>
-      <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 5px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
+      <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
+
+<ol>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《哲学史讲演录》</li>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《源氏物语》</li>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar35"></i> 《漫画人体——一看就懂的人体结构书》</li>
@@ -417,7 +419,9 @@ document.getElementById("audio").volume = 0.5;
 <div align="center"><i class="fa fa-book"></i> 目标 08 读至少 30 本书，目标进度 [4/30] </div>
 
 <hr>
-<h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 5px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
+<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div>
+
+<ol>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></li>
 <li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
@@ -478,6 +482,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —- <code>剧情</code> <code>传记</code> <code>历史</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
 <li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —- <code>庄子</code> <code>国学</code> <code>道家</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —- <code>茶道</code>  <code>纪录片</code> </li>
 </ol>
 <hr>
 <div id="audioplayer">
