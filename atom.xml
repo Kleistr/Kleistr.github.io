@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-04-06T08:24:46.676Z</updated>
+  <updated>2018-04-16T06:20:22.731Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -16,11 +16,66 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>福兮，禍之所伏</title>
+    <link href="http://kleist.top/2018/04/16/%E7%A6%8F%E5%85%AE%EF%BC%8C%E7%A6%8D%E4%B9%8B%E6%89%80%E4%BC%8F.html"/>
+    <id>http://kleist.top/2018/04/16/福兮，禍之所伏.html</id>
+    <published>2018-04-16T06:03:34.000Z</published>
+    <updated>2018-04-16T06:20:22.731Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， <code>data</code>  一栏的时间会完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 <strong> 七牛 </strong> 的链接同样包含数字：<code>http://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊＊</code>  </p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lwqqo.png" alt=""></p>
+<p>当然是很「脑阔痛」，但又何尝不是一件好事呢？三年来的博文从头整理一遍，也算是个回顾，总归还是能学到些什么的。不敢说现在的我有多好，但比起去年前年的我，我有所成长，这就够了，还要期待些什么呢？期待自己做到儒家的「齐家、治国、平天下」和「生，亦我所欲也；义，亦我所欲也。二者不可得兼，舍生而取义者也」？</p>
+<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/c8y8l.png" alt="image-20180416141434131"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， &lt;code&gt;data&lt;/code&gt;  一栏的时间会完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 &lt;strong
+    
+    </summary>
+    
+    
+      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+      <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书摘 -《逍遙遊》莊子</title>
+    <link href="http://kleist.top/2018/04/15/%E4%B9%A6%E6%91%98-%E3%80%8A%E9%80%8D%E9%81%99%E9%81%8A%E3%80%8B%E8%8E%8A%E5%AD%90.html"/>
+    <id>http://kleist.top/2018/04/15/书摘-《逍遙遊》莊子.html</id>
+    <published>2018-04-15T07:11:17.000Z</published>
+    <updated>2018-04-15T12:45:08.132Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="《逍遥游》庄子"><a href="#《逍遥游》庄子" class="headerlink" title="《逍遥游》庄子"></a><a href="https://zh.wikisource.org/zh-hans/莊子/逍遙遊" target="_blank" rel="external">《逍遥游》庄子</a></h3><p>　　北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。</p>
+<p>　　《齐谐》者，志怪者也。《谐》之言曰：“鹏之徙于南冥也，水击三千里，抟(搏)扶摇而上者九万里，去以六月息者也。”野马也，尘埃也，生物之以息相吹也。天之苍苍，其正色邪？其远而无所至极邪？其视下也，亦若是则已矣。</p>
+<p>　　且夫水之积也不厚，则其负大舟也无力。覆杯水于坳堂之上，则芥为之舟；置杯焉则胶，水浅而舟大也。风之积也不厚，则其负大翼也无力。故九万里，则风斯在下矣，而后乃今培风；背负青天而莫之夭阏者，而后乃今将图南。<br><a id="more"></a><br>　　蜩与鸴鸠笑之曰：“我决起而飞，枪榆枋而止，时则不至而控于地而已矣，奚以之九万里而南为？”适莽苍者，三餐而反，腹犹果然；适百里者，宿舂粮；适千里者，三月聚粮。之二虫又何知！</p>
+<p>　　小知不及大知，小年不及大年。奚以知其然也？朝菌不知晦朔，蟪蛄不知春秋，此小年也。楚之南有冥灵者，以五百岁为春，五百岁为秋；上古有大椿者，以八千岁为春，八千岁为秋，此大年也。而彭祖乃今以久特闻，众人匹之，不亦悲乎！</p>
+<p>　　汤之问棘也是已。汤之问棘曰：“上下四方有极乎？”棘曰：“无极之外，复无极也。穷发之北有冥海者，天池也。有鱼焉，其广数千里，未有知其修者，其名为鲲。有鸟焉，其名为鹏，背若太山，翼若垂天之云，抟扶摇羊角而上者九万里，绝云气，负青天，然后图南，且适南冥也。斥鴳笑之曰：‘彼且奚适也？我腾跃而上，不过数仞而下，翱翔蓬蒿之间，此亦飞之至也，而彼且奚适也？’”此小大之辩也。</p>
+<p>　　故夫知效一官，行比一乡，德合一君，而征一国者，其自视也亦若此矣。而宋荣子犹然笑之。且举世而誉之而不加劝，举世而非之而不加沮，定乎内外之分，辩乎荣辱之境，斯已矣。彼其于世未数数然也。虽然，犹有未树也。夫列子御风而行，泠然善也，旬有五日而后反。彼于致福者，未数数然也。此虽免乎行，犹有所待者也。若夫乘天地之正，而御六气之辩，以游无穷者，彼且恶乎待哉！故曰，至人无己，神人无功，圣人无名。</p>
+<blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;《逍遥游》庄子&quot;&gt;&lt;a href=&quot;#《逍遥游》庄子&quot; class=&quot;headerlink&quot; title=&quot;《逍遥游》庄子&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://zh.wikisource.org/zh-hans/莊子/逍遙遊&quot;&gt;《逍遥游》庄子&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;　　北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。&lt;/p&gt;
+&lt;p&gt;　　《齐谐》者，志怪者也。《谐》之言曰：“鹏之徙于南冥也，水击三千里，抟(搏)扶摇而上者九万里，去以六月息者也。”野马也，尘埃也，生物之以息相吹也。天之苍苍，其正色邪？其远而无所至极邪？其视下也，亦若是则已矣。&lt;/p&gt;
+&lt;p&gt;　　且夫水之积也不厚，则其负大舟也无力。覆杯水于坳堂之上，则芥为之舟；置杯焉则胶，水浅而舟大也。风之积也不厚，则其负大翼也无力。故九万里，则风斯在下矣，而后乃今培风；背负青天而莫之夭阏者，而后乃今将图南。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="读书" scheme="http://kleist.top/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>泡饭与文化——从《源氏物语》学知识</title>
     <link href="http://kleist.top/2018/04/05/%E6%B3%A1%E9%A5%AD%E4%B8%8E%E6%96%87%E5%8C%96%E2%80%94%E2%80%94%E4%BB%8E%E3%80%8A%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AF%AD%E3%80%8B%E5%AD%A6%E7%9F%A5%E8%AF%86.html"/>
     <id>http://kleist.top/2018/04/05/泡饭与文化——从《源氏物语》学知识.html</id>
-    <published>2018-04-05T14:23:21.000Z</published>
-    <updated>2018-04-06T08:24:46.676Z</updated>
+    <published>2018-04-05T14:23:00.000Z</published>
+    <updated>2018-04-15T07:29:35.182Z</updated>
     
     <content type="html"><![CDATA[<p>起初看《源氏物语》中源氏拿「开水泡饭」招待客人，觉得似乎可能是年代关系（穷 qióng），后来细想觉得不对劲，毕竟平安时代的日本也算得上是昌盛时期，怎么也不可能出现用「开水泡饭」招待客人的骚操作啊。</p>
 <a id="more"></a>
@@ -54,15 +109,15 @@
     <title>愚人节和儒略历</title>
     <link href="http://kleist.top/2018/04/01/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%92%8C%E5%84%92%E7%95%A5%E5%8E%86.html"/>
     <id>http://kleist.top/2018/04/01/愚人节和儒略历.html</id>
-    <published>2018-04-01T13:02:02.000Z</published>
-    <updated>2018-04-03T06:27:12.317Z</updated>
+    <published>2018-04-01T13:02:00.000Z</published>
+    <updated>2018-04-15T07:34:56.750Z</updated>
     
     <content type="html"><![CDATA[<p>今天是四月一日「愚人节」，还好没被整蛊（emmmm……边缘人怎么会被整呢）</p>
 <p>从昨天开始发觉自己感冒，无精打采也无心毕设，听着几首轻音乐了解了一下「愚人节」，原来被大多数认可的来源是历法导致的。</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png-75percent" alt=""></p>
 <p>当A使用一个历法在过新年庆祝的时候，使用另一种历法的B就嘲笑A safufu(傻乎乎)的……这一天恰巧是B所用历法的四月一日。</p>
 <a id="more"></a>
-<p>以下转载自<a href="https://sam9117.blogspot.com/2016/01/blog-post.html" target="_blank" rel="external">Sam Tsai</a><br>頒行格里曆的1582 年十月：消失的十天<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/cqctc.jpg" alt=""></p>
+<p>以下转载自<a href="http://7xw7ho.com1.z0.glb.clouddn.com/cqctc.jpg" target="_blank" rel="external">Sam Tsai</a><br>頒行格里曆的1582 年十月：消失的十天<br><img src="" alt=""></p>
 <p>日不落國的 1752 年九月：消失的十一天<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nangu.jpg" alt=""></p>
 <p>有趣的翻译：<a href="https://zh.wikipedia.org/wiki/儒略曆" target="_blank" rel="external">「Julian calendar」</a>被译作「儒略曆」！</p>
 <p>好奇之餘，上網搜尋了一下，意外地收货了新知识： </p>
@@ -76,10 +131,10 @@
 <p>儒略（拉丁文：Gens Iulia 或 Iulii），一譯「尤利烏斯」，是古羅馬的一个貴族氏族，現今也被用作該氏族成員「儒略・凱撒」（或：尤利烏斯・凱撒）的代名詞。這個氏族成員在羅馬共和國早期享有尊貴地位，第一位成為羅馬執政官的是公元前489年的Gaius Julius Iulus，但最為人熟知的是儒略·凱撒。</p>
 <p>應該注意的是，大陸現在通常將此人譯作「尤利烏斯·凱撒」，但在天文學上仍沿用「儒略曆」一詞，而不是「尤利烏斯曆」。</p>
 <hr>
-<p>儒略曆（Julian calendar），是格里曆（Gregorian calendar）的前身，由羅馬共和國獨裁官儒略・凱撒（Julius Caesar，後稱「凱撒大帝」）採納埃及亞歷山大的希臘數學家兼天文學家索西琴尼（Sosigenes of Alexandria）計算的曆法，在公元前45年1月1日起執行，取代舊羅馬曆曆法的一種曆法。一年設12個月，大小月交替，四年一閏，平年365日，閏年於二月底增加一閏日，年平均長度為 365.25 日。</p>
+<p>儒略曆（Julian calendar），是格里曆（Gregorian calendar）的前身，由羅馬共和國獨裁官儒略・凱撒（Julius Caesar，後稱「凱撒大帝」）採納埃及亞歷山大的希臘數學家兼天文學家索西琴尼（Sosigenes of Alexandria）計算的曆法，在公元前45年1月1日起執行，取代舊羅馬曆曆法的一種曆法。一年設個12月，大小月交替，四年一閏，平年365日，閏年於二月底增加一閏日，年平均長度為 365.25 日。</p>
 <p>由於累積誤差隨著時間越來越大，1582年後被教皇格里高利十三世改善，變為格里曆，即沿用至今的公曆。現今儒略曆只有阿索斯神權共和國和一些北非的柏柏爾人使用。</p>
 <hr>
-<p>The Julian calendar, introduced by Julius Caesar in 46 BC (708 AUC), was a reform of the Roman calendar. It took effect in 45 BC (709 AUC), shortly after the Roman conquest of Egypt. It was the predominant calendar in the Roman world, most of Europe, and in European settlements in the Americas and elsewhere, until it was refined and gradually replaced by the Gregorian calendar, promulgated in 1582 by Pope Gregory XIII. </p>
+<p>The Julian calendar, introduced by Julius Caesar in 46 BC (708 AUC), was a reform of the Roman calendar. It took effect in 45 BC (709 AUC), shortly after the Roman conquest of Egypt. It was the predominant calendar in the Roman world, most of Europe, and in European settlements in the Americas and elsewhere, until it was refined and gradually replaced by the Gregorian calendar, promulgated in 1582 by Pope Gregory XIII.</p>
 <p>The Julian calendar gains against the mean tropical year at the rate of one day in 128 years. For the Gregorian the figure is one day in 3,226 years. The difference in the average length of the year between Julian (365.25 days) and Gregorian (365.2425 days) is 0.002%.</p>
 <hr>
 <p>The Gregorian calendar, also called the Western calendar and the Christian calendar, is internationally the most widely used civil calendar. It is named for Pope Gregory XIII, who introduced it in 1582.</p>
@@ -87,7 +142,7 @@
 <hr>
 <p>現行公曆（拉丁語：Calendarium Gregorianum，又稱格里曆，又譯國瑞曆、額我略曆、格列高利曆、格里高利曆），是由義大利醫生兼哲學家阿洛伊修斯·里利烏斯（Aloysius Lilius (c. 1510 – 1576), 改革儒略曆制定的曆法，由教皇格列高利十三世（Pope Gregory XIII）在 1582 年頒行。</p>
 <p>公曆是陽曆的一種，於1912年開始在中國正式採用，取代傳統使用的中國曆法農曆，而中國傳統曆法是一種陰陽曆，因而公曆在中文中又稱陽曆、西曆、新曆。</p>
-<p>格里曆與儒略曆一樣，格里曆也是每四年在2月底置一閏日，但格里曆特別規定，除非能被400整除，所有的世紀年（能被100整除）都不設閏日；如此，每四百年，格里曆僅有97個閏年，比儒略曆減少 3 個閏年。 </p>
+<p>格里曆與儒略曆一樣，格里曆也是每四年在2月底置一閏日，但格里曆特別規定，除非能被400整除，所有的世紀年（能被100整除）都不設閏日；如此，每四百年，格里曆僅有97個閏年，比儒略曆減少 3 個閏年。</p>
 <p>格里曆的曆年平均長度為 365.2425 日，接近平均回歸年的 365.242199074 日，即約每3300年誤差一日，也更接近春分點回歸年的 365.24237 日，即約每 8000 年誤差一日；而儒略曆的曆年為365.25 日，約每128年就誤差一日。</p>
 <p>到 1582 年時，儒略曆的春分日（3月21日）與地球公轉到春分點的實際時間已相差10天。因此，格里曆開始實行時，將儒略曆1582年10月4日星期四的次日，為格里曆 1582年10月15日星期五，即有10天被刪除，但原星期的週期保持不變。</p>
 <p>格里曆的紀年沿用儒略曆，自傳統的耶穌誕生年開始，稱為「公元」，亦稱「西元」。</p>
@@ -126,7 +181,7 @@
     <link href="http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html"/>
     <id>http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html</id>
     <published>2018-03-16T09:42:44.000Z</published>
-    <updated>2018-04-03T15:33:40.391Z</updated>
+    <updated>2018-04-15T07:40:00.559Z</updated>
     
     <content type="html"><![CDATA[<p style="
 cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">There’s nothing. </p>
@@ -163,8 +218,8 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <title>《易经》笔记</title>
     <link href="http://kleist.top/2018/03/13/%E3%80%8A%E6%98%93%E7%BB%8F%E3%80%8B%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/03/13/《易经》笔记.html</id>
-    <published>2018-03-13T04:17:29.000Z</published>
-    <updated>2018-03-19T05:59:41.252Z</updated>
+    <published>2018-03-13T04:17:29.817Z</published>
+    <updated>2018-04-15T07:42:02.523Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/b01nw.png" alt=""></p>
 <p>仅仅了解了一点点《易经》的知识就已经感受到其智慧的无穷。</p>
@@ -192,8 +247,8 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <title>天真无邪的「邪」—— 观《狩猎》小感</title>
     <link href="http://kleist.top/2018/02/18/%E5%A4%A9%E7%9C%9F%E6%97%A0%E9%82%AA%E7%9A%84%E3%80%8C%E9%82%AA%E3%80%8D.html"/>
     <id>http://kleist.top/2018/02/18/天真无邪的「邪」.html</id>
-    <published>2018-02-18T11:04:12.000Z</published>
-    <updated>2018-02-21T07:19:48.862Z</updated>
+    <published>2018-02-18T11:04:00.000Z</published>
+    <updated>2018-04-15T07:43:32.877Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>天下皆知美之为美，斯恶矣。皆知善之为善，斯不善矣。</p>
@@ -224,10 +279,10 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
   
   <entry>
     <title>kleist 的由来</title>
-    <link href="http://kleist.top/2018/01/20/kleist-%E7%9A%84%E7%94%B1%E6%9D%A5.html"/>
-    <id>http://kleist.top/2018/01/20/kleist-的由来.html</id>
-    <published>2018-01-20T05:59:47.000Z</published>
-    <updated>2018-01-20T06:51:02.150Z</updated>
+    <link href="http://kleist.top/2018/01/19/kleist-%E7%9A%84%E7%94%B1%E6%9D%A5.html"/>
+    <id>http://kleist.top/2018/01/19/kleist-的由来.html</id>
+    <published>2018-01-19T03:27:00.000Z</published>
+    <updated>2018-04-15T07:45:29.465Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/7vrm5.jpeg" alt=""></p>
 <p>说来也巧，kleist 是来自于我较为喜欢的一部动漫中的人物，「Angel Beats!」中的小黑客 kleist。</p>
@@ -239,7 +294,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
 <hr>
 <p>之前好多好朋友问我名字的由来，我解释是出自「Angel Beats!」的，然而并不是所有人都喜欢动漫，并不是所有人都看过，就连大「月月鸟」都不记得「AB」里面有这么一个角色……</p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/My%20Soul,Your%20Beats%21%20-%20Lia.mp3" autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/My%0Soul,Your%0Beats%%0-%0Lia.mp3" autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -248,7 +303,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <i class="fa fa-pause fa-fw"></i>
 </div>
 
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3../jquery.min.js"></script>
 <script>
     document.getElementById("audio").volume = 0.5;
 
@@ -287,7 +342,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <link href="http://kleist.top/2018/01/10/Rick-and-Morty.html"/>
     <id>http://kleist.top/2018/01/10/Rick-and-Morty.html</id>
     <published>2018-01-10T07:27:35.000Z</published>
-    <updated>2018-02-20T11:02:08.611Z</updated>
+    <updated>2018-04-15T12:09:51.599Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/f110h.jpeg" alt=""></p>
 <p>此前一直有想看的想法，也知道这是个第一季9.6分，二三季9.8分的神剧，但诟病于社交媒体中见到的血腥重口画风。好在在这个坐没地方坐，放电脑的桌子都没有的冬季，躺在床上看着黑格尔的「哲学史讲演录」，看着「了不起的麦瑟尔夫人」，才想起还有这么一部神剧没看。</p>
@@ -295,7 +350,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
 <h3 id="脑洞"><a href="#脑洞" class="headerlink" title="脑洞"></a>脑洞</h3><p>小时候的很多构想本身很难实现，结果在这部动漫里实现了，Rick 这个疯狂的科学家，比起小叮当更招我喜欢，小叮当不过是有未来科技产品，Rick 则用自己超常智慧去实现这些构想。就像 Portal （前段时间和月月鸟一起通关了 Portal，简直神作），可以自由穿梭任意世界线；制造一个 miniword 来给飞船供电；停止时间打扫房子，不小心造成时间紊乱，来到一个到处漂浮着 <a href="https://zh.wikipedia.org/wiki/薛定谔猫" target="_blank" rel="external">薛定谔的猫</a> 的虚空；在闪电芯玩一个叫「Roy」的虚拟现实游戏（确定这不是 S.H.I.E.L.D 里的 Framework？）；发现了全都同化同步的叫「Unity」的 Rick 的 Ex……</p>
 <h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>单单只是这么多奇葩的脑洞还不足以吸引我，留意一下就会发现他们简单的对话中实际上蕴含很多思考的，稍微举几个例子：</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/kxkld.png" alt=""></p>
-<p>当然，对于这个话题不能发表过多言论，能说的是最后这句话给了我一定的思考，Morty 说的没错，这是奴隶制，因为对于 slavery 的定义百科上是与之相似的，但 Rick 说的也没错，这就叫 society，对于一个观点要选「对、错」很容易，但要从两个对的中作出选择就很难了。「Ooh-LA-LA,someone’s gonna get laid in college.」就是我认为的点睛之笔了，这句话是 Rick 对 Morty 说的，也说明了他认为 Morty 说的是学校教的，是大众认可的，是受青睐的观点，但这句话的语气又表明 Rick 对这种观点是略带嘲讽的，是不屑的，他是看得更透彻的。Rick 看到了现在社会某些不可言说的实质，而且每个时代都会出现这样一个「神」…… 当然这些人都给当时的百姓带来了或多或少的精神财富或物质财富，显然希特勒在注入民族主义的精神「财富」的同时，也对战时第三帝国的青年劳力进行了一定的「剥削」，或许这个例子不是那么恰当，因为我认为较为合适的例子是《1984》中的 BIG BROTHER。</p>
+<p>当然，对于这个话题不能发表过多言论，能说的是最后这句话给了我一定的思考，Morty 说的没错，这是奴隶制，因为对于 slavery 的定义百科上是与之相似的，但 Rick 说的也没错，这就叫 society，对于一个观点要选「对、错」很容易，但要从两个对的中作出选择就很难了。「Ooh-LA-LA,someone’s gonna get laid in college.」就是我认为的点睛之笔了，这句话是 Rick 对 Morty 说的，也说明了他认为 Morty 说的是学校教的，是大众认可的，是受青睐的观点，但这句话的语气又表明 Rick 对这种观点是略带嘲讽的，是不屑的，他是看得更透彻的。Rick 看到了现在社会某些不可言说的实质，而且每个时代都会出现这样一个「神」…… 当然这些人都给当时的百姓带来了或多或少的精神财富或物质财富，显然希特勒在注入民族主义的精神「财富」的同时，也对战时第三帝国的青年劳力进行了一定的「剥削」，或许这个例子不是那么恰当，因为我认为较为合适的例子是《984》中的 BIG BROTHER。</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/n6lk7.png" alt=""></p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/0yeh2.png" alt=""></p>
 <p>这段话在爱情观方面倒不太容易获得赞同，但是整部漫看下来也能够理解「升华自我，专注科学」的重要性，生活中也理当如此不是么，在生活中遇到挫折后，哭哭啼啼？牢骚满腹？怨天尤人？看看书，升华一下自己不好么？这几年心情不好我就会看书，小说啊，科普啊，社科啊……都可以，心情都会变好。身边的故事一点点在变，看的书和影视作品虽然有时候不记得了，但它们其实已经内化为自己的思想，在生活中潜移默化影响自己。</p>
@@ -314,7 +369,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s80mq.png" alt=""></p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/al59k.png" alt=""></p>
 <hr>
-<p>我想我可能会把这部动漫看好多遍，就像我会去看很多遍《道德经》一样，目前我感觉连它内涵的三分之一都没看到，不得不说这跟《无耻之徒》都是我看的较为经典和能给生活以指导并且非常值得推荐给别人的好作品。庆幸 2018 年初就有这些收获，希望这一年能遇到更多更好的作品。</p>
+<p>我想我可能会把这部动漫看好多遍，就像我会去看很多遍《道德经》一样，目前我感觉连它内涵的三分之一都没看到，不得不说这跟《无耻之徒》都是我看的较为经典和能给生活以指导并且非常值得推荐给别人的好作品。庆幸 08 年初就有这些收获，希望这一年能遇到更多更好的作品。</p>
 <div id="audioplayer">
     <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/1-11%20For%20the%20Damaged%20Coda.mp3" controls="controls" autoplay="autoplay" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
@@ -326,7 +381,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <i class="fa fa-pause fa-fw"></i>
 </div>
 
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script>
 document.getElementById("audio").volume = 0.5;
 
@@ -364,8 +419,8 @@ document.getElementById("audio").volume = 0.5;
     <title>Google scholar 的访问问题 &amp; 猫对于地上圆圈的情有独钟到底是为什么</title>
     <link href="http://kleist.top/2018/01/05/Google-scholar-%E7%9A%84%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98.html"/>
     <id>http://kleist.top/2018/01/05/Google-scholar-的访问问题.html</id>
-    <published>2018-01-05T07:52:26.000Z</published>
-    <updated>2018-01-05T09:09:45.207Z</updated>
+    <published>2018-01-05T07:15:26.000Z</published>
+    <updated>2018-04-15T08:23:32.353Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Google-scholar-的访问问题"><a href="#Google-scholar-的访问问题" class="headerlink" title="Google scholar 的访问问题"></a>Google scholar 的访问问题</h4><p>今天本打算对于前几天看到的一个有趣现象（cat &amp; square）进行深入了解，结果对于某度能找到的信息无非就是哪里的网友听说了这个现象，然后对自己家的猫进行了实验，发现确实如此 blah,blah,blah……</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/11iss.jpg" alt=""><br><a id="more"></a><br>然而囿于现在环境，<s> 垃圾 </s>学校并没有知网合作，索性直接奔古哥,结果也是一堆各地网友做实验，YouTube实验视频……去古哥学术，这才发现原来采取了措施古哥可以，但学术进不去……</p>
@@ -407,8 +462,8 @@ document.getElementById("audio").volume = 0.5;
     <title>Minecraft 打造 S.H.I.E.L.D 空天母舰</title>
     <link href="http://kleist.top/2018/01/04/Minecraft-%E6%89%93%E9%80%A0-S-H-I-E-L-D-%E7%A9%BA%E5%A4%A9%E6%AF%8D%E8%88%B0.html"/>
     <id>http://kleist.top/2018/01/04/Minecraft-打造-S-H-I-E-L-D-空天母舰.html</id>
-    <published>2018-01-04T07:06:10.000Z</published>
-    <updated>2018-01-06T06:27:59.109Z</updated>
+    <published>2018-01-04T07:06:05.000Z</published>
+    <updated>2018-04-15T08:24:53.084Z</updated>
     
     <content type="html"><![CDATA[<p>先来一张初步完成图</p>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/4fn5y.png" alt=""></p>
@@ -444,22 +499,22 @@ document.getElementById("audio").volume = 0.5;
   
   <entry>
     <title>2018 的粮食</title>
-    <link href="http://kleist.top/2018/01/02/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
-    <id>http://kleist.top/2018/01/02/2018-的粮食.html</id>
-    <published>2018-01-02T04:34:02.000Z</published>
-    <updated>2018-04-15T06:52:56.197Z</updated>
+    <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
+    <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
+    <published>2017-12-31T22:34:00.000Z</published>
+    <updated>2018-04-15T08:27:41.416Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
+    <content type="html"><![CDATA[<h2 id="Books"><a href="#Books" class="headerlink" title=" Books"></a><div align="center" style="font-size: 5px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div></h2><ol>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《哲学史讲演录》</li>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《源氏物语》</li>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar35"></i> 《漫画人体——一看就懂的人体结构书》</li>
 <li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《庄子》</li>
 </ol>
 <a id="more"></a>
-<div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [4/30] </div>
+<div align="center"><i class="fa fa-book"></i> 目标 08 读至少 30 本书，目标进度 [4/30] </div>
 
 <hr>
-<h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
+<h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 5px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></li>
 <li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
@@ -484,7 +539,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —- <code>剧情</code></li>
 <li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —- <code>剧情</code></p>
 <blockquote>
-<p><a href="https://kleist.top/2018/02/18/天真无邪的「邪」.html">《狩猎》观感</a></p>
+<p><a href="https://kleist.top/08/0/8/天真无邪的「邪」.html">《狩猎》观感</a></p>
 </blockquote>
 </li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></li>
@@ -506,7 +561,7 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —- <code>剧情</code> <code>喜剧</code></li>
 <li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
 <li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —- <code>动作</code> <code>奇幻</code> <code>冒险</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《10 × 10》 —- <code>惊悚</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《0 × 0》 —- <code>惊悚</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —- <code>惊悚</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —- <code>剧情</code> <code>动作</code></li>
 <li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —- <code>科幻</code> <code>动作</code> <code>冒险</code></li>
@@ -523,7 +578,7 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:5em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -532,7 +587,7 @@ document.getElementById("audio").volume = 0.5;
     <i class="fa fa-play fa-fw"></i>
 </div>
 
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script>
     document.getElementById("audio").volume = 0.5;
 
@@ -556,7 +611,7 @@ document.getElementById("audio").volume = 0.5;
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot; Books&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot; style=&quot;font-size: 25px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;&lt;/h2&gt;&lt;ol&gt;
+      &lt;h2 id=&quot;Books&quot;&gt;&lt;a href=&quot;#Books&quot; class=&quot;headerlink&quot; title=&quot; Books&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot; style=&quot;font-size: 5px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar40&quot;&gt;&lt;/i&gt; 《哲学史讲演录》&lt;/li&gt;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar45&quot;&gt;&lt;/i&gt; 《源氏物语》&lt;/li&gt;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar35&quot;&gt;&lt;/i&gt; 《漫画人体——一看就懂的人体结构书》&lt;/li&gt;
@@ -576,8 +631,8 @@ document.getElementById("audio").volume = 0.5;
     <title>2017 年终总结</title>
     <link href="http://kleist.top/2017/12/29/2017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93.html"/>
     <id>http://kleist.top/2017/12/29/2017-年终总结.html</id>
-    <published>2017-12-28T16:22:02.000Z</published>
-    <updated>2018-01-17T09:30:15.385Z</updated>
+    <published>2017-12-28T16:00:00.000Z</published>
+    <updated>2018-04-15T08:28:35.530Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png" alt=""></p>
 <hr>
@@ -592,15 +647,13 @@ document.getElementById("audio").volume = 0.5;
 <p>又知才女林奕含，</p>
 <p>还知三反乌托邦。</p>
 <a id="more"></a>
-<h2 id="成就"><a href="#成就" class="headerlink" title="成就"></a>成就</h2><ol>
-<li>达成了20本书的目标</li>
-<li>很少玩游戏</li>
+<h2 id="成就"><a href="#成就" class="headerlink" title="成就"></a>成就</h2><p>. 达成了0本书的目标<br>. 很少玩游戏</p>
+<ol>
 <li>经历了一场惨烈的招聘攻坚战，拿到中铁 offer</li>
 <li>结束考研</li>
 </ol>
-<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><ol>
-<li>虽说结束了考研，但结果非常不理想，没能按照健康作息坚持到最后</li>
-<li>招聘的惨状让我意识到就算优秀，却有一个卑微的出身，是行不通的</li>
+<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>. 虽说结束了考研，但结果非常不理想，没能按照健康作息坚持到最后<br>. 招聘的惨状让我意识到就算优秀，却有一个卑微的出身，是行不通的</p>
+<ol>
 <li>做人太规矩了<blockquote>
 <p>  你没法通过循规蹈矩学到你需要学会的东西。    ——  《独居的一年》</p>
 </blockquote>
@@ -618,7 +671,7 @@ document.getElementById("audio").volume = 0.5;
 </ul>
 <h2 id="书类消费"><a href="#书类消费" class="headerlink" title="书类消费"></a>书类消费</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/np9lj.png" alt=""></p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    <audio id="audio" src="http://7xw7ho.com.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -627,7 +680,7 @@ document.getElementById("audio").volume = 0.5;
     <i class="fa fa-play fa-fw"></i>
 </div>
 
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3../jquery.min.js"></script>
 <script>
     $("#PlayPause").click(function() {
         var audio = $("#audio")[0];
@@ -673,15 +726,15 @@ document.getElementById("audio").volume = 0.5;
     <title>Monero Coin Test</title>
     <link href="http://kleist.top/2017/12/27/monero-coin-test.html"/>
     <id>http://kleist.top/2017/12/27/monero-coin-test.html</id>
-    <published>2017-12-27T14:57:47.000Z</published>
-    <updated>2017-12-27T23:08:42.292Z</updated>
+    <published>2017-12-27T00:57:47.000Z</published>
+    <updated>2018-04-15T08:30:24.806Z</updated>
     
     <content type="html"><![CDATA[<h3 id="这只是一个-monero-coin-矿工的测试页面"><a href="#这只是一个-monero-coin-矿工的测试页面" class="headerlink" title="这只是一个 monero coin 矿工的测试页面"></a>这只是一个 monero coin 矿工的测试页面</h3><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png" alt=""></p>
-<iframe id="widget-ticker-preview" src="//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny" style="border:none; height:125px; width: 275px;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+<iframe id="widget-ticker-preview" src="//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny" style="border:none; height:5px; width: 75px;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 
 <a id="more"></a>
 <p><script src="https://authedmine.com/lib/simple-ui.min.js" async></script></p>
-<div class="coinhive-miner" style="width: 256px; height: 310px" data-key="1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k">
+<div class="coinhive-miner" style="width: 56px; height: 30px" data-key="1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k">
     <em>Loading...</em>
 </div>
 ]]></content>
@@ -689,7 +742,7 @@ document.getElementById("audio").volume = 0.5;
     <summary type="html">
     
       &lt;h3 id=&quot;这只是一个-monero-coin-矿工的测试页面&quot;&gt;&lt;a href=&quot;#这只是一个-monero-coin-矿工的测试页面&quot; class=&quot;headerlink&quot; title=&quot;这只是一个 monero coin 矿工的测试页面&quot;&gt;&lt;/a&gt;这只是一个 monero coin 矿工的测试页面&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;iframe id=&quot;widget-ticker-preview&quot; src=&quot;//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny&quot; style=&quot;border:none; height:125px; width: 275px;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;iframe id=&quot;widget-ticker-preview&quot; src=&quot;//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny&quot; style=&quot;border:none; height:5px; width: 75px;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
     
     </summary>
     
@@ -703,29 +756,27 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2017/12/25/%E8%80%83%E7%A0%94.html"/>
     <id>http://kleist.top/2017/12/25/考研.html</id>
     <published>2017-12-25T07:36:40.000Z</published>
-    <updated>2017-12-26T17:23:20.772Z</updated>
+    <updated>2018-04-15T08:31:57.337Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/bq3hq.png" alt=""></p>
 <p>昨天下午结束了2018考研，结果就不多说了，图片已经说明了一切。</p>
 <p>一年多的考研战线，说实话，有点长。就我观察而言，前期和后期大家的复习效率和激情，比起中期那段时间有点低。我算是在后期开始就没投入多少精力，在石家庄的求职经历让我对于那份得来不易的offer有点在意，这可能也是我后期对于考研一事最终结果的伏笔，我很幼稚，真的很幼稚的像孩子一样去治气，明知道是不应该的，可从那开始也确实没能说服我自己继续将考研走下去。</p>
-<p>我是个 18 考研的失败者，本不应该对于「泄题」一事发表看法，因为不会做是我的问题，并不是某个老师「泄题」导致我不会做，但此人「泄题」一事确实也会影响到将来的国家线，不晓得「某人」看到考场外或骂骂咧咧或哭哭啼啼的考生时，可曾想过 <code>A + 1</code> 和 <code>B - 1</code> 的差距并不是<strong> 1 </strong> 。关于「泄题」一事的真假性，新闻都说了是假的，<s> 我相信新闻不会骗人 </s> ,明白人自然会明白，当然有人说“巧合”、“老师厉害，摸透了出题规律”……你要说政治押题我信，数学题型我也会信，但作为一个经历了本次考研的我来讲「数据都一样」是什么概念自然不需要没有参加考研就来发表观点的人教。</p>
+<p>我是个 8 考研的失败者，本不应该对于「泄题」一事发表看法，因为不会做是我的问题，并不是某个老师「泄题」导致我不会做，但此人「泄题」一事确实也会影响到将来的国家线，不晓得「某人」看到考场外或骂骂咧咧或哭哭啼啼的考生时，可曾想过 <code>A +</code> 和 <code>B -</code> 的差距并不是<strong>  </strong> 。关于「泄题」一事的真假性，新闻都说了是假的，<s> 我相信新闻不会骗人 </s> ,明白人自然会明白，当然有人说“巧合”、“老师厉害，摸透了出题规律”……你要说政治押题我信，数学题型我也会信，但作为一个经历了本次考研的我来讲「数据都一样」是什么概念自然不需要没有参加考研就来发表观点的人教。</p>
 <p>恩，关于教育部大大给的回应，表示强烈支持，毕竟标点都不一样，哪来的泄题。</p>
 <a id="more"></a>
 <p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nvepp.JPG" alt=""></p>
 <hr>
 <p>以下纯属个人脑补，没有真实凭证。</p>
 <blockquote>
-<p>在「某人」所谓的押题课上流出来的截图和视频可以看出，实际上题目与我当天考研出奇的一致，当然这只是「巧合」，毕竟「瞎猫也有碰上死耗子的时候」，我怎么就不能去相信这世界存在这么一只「瞎猫」和一只死耗子呢？能。这一群数学拿到130+的「学霸」们进入了各大院校的研究生院，成长为我国新生代科研势力，他们怀着感恩的心在不久的将来创办了一大批考研辅导机构和直播平台，一个被端没关系，千千万万个押题直播站起来，他们心中，始终都记得寒风呼啸、阴云密布的那一天，尽管外面阴沉到快要下雨，考场里唉声叹气，可他们因为「某人」的馈赠，满面红光，似有圣灵附体，逻辑缜密，思维跳跃，很快就答完了。他们，是知恩图报的好青年，不畏艰险，勇往直前，铤而走险，奋不顾身地帮助了一批又一批考研同学。这样一批优秀的青年，我们不应该因为有他们的存在感到骄傲么？我们不应该为这批青年的缔造者「某人」鼓掌么？</p>
+<p>在「某人」所谓的押题课上流出来的截图和视频可以看出，实际上题目与我当天考研出奇的一致，当然这只是「巧合」，毕竟「瞎猫也有碰上死耗子的时候」，我怎么就不能去相信这世界存在这么一只「瞎猫」和一只死耗子呢？能。这一群数学拿到30+的「学霸」们进入了各大院校的研究生院，成长为我国新生代科研势力，他们怀着感恩的心在不久的将来创办了一大批考研辅导机构和直播平台，一个被端没关系，千千万万个押题直播站起来，他们心中，始终都记得寒风呼啸、阴云密布的那一天，尽管外面阴沉到快要下雨，考场里唉声叹气，可他们因为「某人」的馈赠，满面红光，似有圣灵附体，逻辑缜密，思维跳跃，很快就答完了。他们，是知恩图报的好青年，不畏艰险，勇往直前，铤而走险，奋不顾身地帮助了一批又一批考研同学。这样一批优秀的青年，我们不应该因为有他们的存在感到骄傲么？我们不应该为这批青年的缔造者「某人」鼓掌么？</p>
 </blockquote>
 <p><strong>脑补结束</strong></p>
 <hr>
 <p><strong>有人说</strong></p>
 <blockquote>
+<p>. 还不是因为你不是事件的受益者才站出来说「泄题」的么？如果你早就知道他的押题这么准，你也早就买了吧。</p>
+<p>. 每年都有这么一批人说泄题，还不都是为了自己没考好捏造的假新闻</p>
 <ol>
-<li><p>还不是因为你不是事件的受益者才站出来说「泄题」的么？如果你早就知道他的押题这么准，你也早就买了吧。</p>
-</li>
-<li><p>每年都有这么一批人说泄题，还不都是为了自己没考好捏造的假新闻</p>
-</li>
 <li><p>没看新闻么？教育部都说了没有泄露，带什么节奏</p>
 </li>
 <li><p>非既得利益者的酸评？</p>
@@ -746,7 +797,7 @@ document.getElementById("audio").volume = 0.5;
       &lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/bq3hq.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;昨天下午结束了2018考研，结果就不多说了，图片已经说明了一切。&lt;/p&gt;
 &lt;p&gt;一年多的考研战线，说实话，有点长。就我观察而言，前期和后期大家的复习效率和激情，比起中期那段时间有点低。我算是在后期开始就没投入多少精力，在石家庄的求职经历让我对于那份得来不易的offer有点在意，这可能也是我后期对于考研一事最终结果的伏笔，我很幼稚，真的很幼稚的像孩子一样去治气，明知道是不应该的，可从那开始也确实没能说服我自己继续将考研走下去。&lt;/p&gt;
-&lt;p&gt;我是个 18 考研的失败者，本不应该对于「泄题」一事发表看法，因为不会做是我的问题，并不是某个老师「泄题」导致我不会做，但此人「泄题」一事确实也会影响到将来的国家线，不晓得「某人」看到考场外或骂骂咧咧或哭哭啼啼的考生时，可曾想过 &lt;code&gt;A + 1&lt;/code&gt; 和 &lt;code&gt;B - 1&lt;/code&gt; 的差距并不是&lt;strong&gt; 1 &lt;/strong&gt; 。关于「泄题」一事的真假性，新闻都说了是假的，&lt;s&gt; 我相信新闻不会骗人 &lt;/s&gt; ,明白人自然会明白，当然有人说“巧合”、“老师厉害，摸透了出题规律”……你要说政治押题我信，数学题型我也会信，但作为一个经历了本次考研的我来讲「数据都一样」是什么概念自然不需要没有参加考研就来发表观点的人教。&lt;/p&gt;
+&lt;p&gt;我是个 8 考研的失败者，本不应该对于「泄题」一事发表看法，因为不会做是我的问题，并不是某个老师「泄题」导致我不会做，但此人「泄题」一事确实也会影响到将来的国家线，不晓得「某人」看到考场外或骂骂咧咧或哭哭啼啼的考生时，可曾想过 &lt;code&gt;A +&lt;/code&gt; 和 &lt;code&gt;B -&lt;/code&gt; 的差距并不是&lt;strong&gt;  &lt;/strong&gt; 。关于「泄题」一事的真假性，新闻都说了是假的，&lt;s&gt; 我相信新闻不会骗人 &lt;/s&gt; ,明白人自然会明白，当然有人说“巧合”、“老师厉害，摸透了出题规律”……你要说政治押题我信，数学题型我也会信，但作为一个经历了本次考研的我来讲「数据都一样」是什么概念自然不需要没有参加考研就来发表观点的人教。&lt;/p&gt;
 &lt;p&gt;恩，关于教育部大大给的回应，表示强烈支持，毕竟标点都不一样，哪来的泄题。&lt;/p&gt;
     
     </summary>
@@ -760,8 +811,8 @@ document.getElementById("audio").volume = 0.5;
     <title>某快捷酒店路由管理系统</title>
     <link href="http://kleist.top/2017/12/23/%E6%9F%90%E5%BF%AB%E6%8D%B7%E9%85%92%E5%BA%97%E8%B7%AF%E7%94%B1%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.html"/>
     <id>http://kleist.top/2017/12/23/某快捷酒店路由管理系统.html</id>
-    <published>2017-12-23T14:19:40.000Z</published>
-    <updated>2017-12-24T04:57:25.026Z</updated>
+    <published>2017-12-23T00:09:40.000Z</published>
+    <updated>2018-04-15T08:33:06.627Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lc32t.png" alt=""></p>
 <a id="more"></a>
@@ -789,9 +840,11 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2017/12/21/%E5%86%B7%E7%9F%A5%E8%AF%86.html"/>
     <id>http://kleist.top/2017/12/21/冷知识.html</id>
     <published>2017-12-21T14:23:44.000Z</published>
-    <updated>2017-12-22T02:10:58.052Z</updated>
+    <updated>2018-04-15T12:11:32.864Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Typical-Raindrop-Sizes"><a href="#Typical-Raindrop-Sizes" class="headerlink" title="Typical Raindrop Sizes"></a>Typical Raindrop Sizes</h3><table style="font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;">
+
+
 
 <tbody>
 
@@ -908,6 +961,8 @@ document.getElementById("audio").volume = 0.5;
     
       &lt;h3 id=&quot;Typical-Raindrop-Sizes&quot;&gt;&lt;a href=&quot;#Typical-Raindrop-Sizes&quot; class=&quot;headerlink&quot; title=&quot;Typical Raindrop Sizes&quot;&gt;&lt;/a&gt;Typical Raindrop Sizes&lt;/h3&gt;&lt;table style=&quot;font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;
 
+
+
 &lt;tbody&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
@@ -917,7 +972,7 @@ document.getElementById("audio").volume = 0.5;
 &lt;/tr&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th align=&quot;CENTER&quot; &gt;Rain Type&lt;/th&gt;
+&lt;th align=&quot;CENTER&quot;&gt;Rain Type&lt;/th&gt;
 &lt;th&gt;mm&lt;/th&gt;
 &lt;th&gt;in&lt;/th&gt;
 &lt;th&gt; m/sec&lt;/th&gt;
@@ -926,7 +981,7 @@ document.getElementById("audio").volume = 0.5;
 
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th colspan=&quot;5&quot; &gt;Light Stratiform Rain (.04&#39;&#39; per hour)&lt;/th&gt;
+&lt;th colspan=&quot;5&quot;&gt;Light Stratiform Rain (.04&#39;&#39; per hour)&lt;/th&gt;
 &lt;/tr&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
@@ -947,7 +1002,7 @@ document.getElementById("audio").volume = 0.5;
 &lt;/tr&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th  colspan=&quot;5&quot; align=&quot;center&quot; &gt;Moderate Stratiform Rain (.25&#39;&#39; per hour)&lt;/th&gt;
+&lt;th colspan=&quot;5&quot; align=&quot;center&quot;&gt;Moderate Stratiform Rain (.25&#39;&#39; per hour)&lt;/th&gt;
 &lt;/tr&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
@@ -968,7 +1023,7 @@ document.getElementById("audio").volume = 0.5;
 &lt;/tr&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th  colspan=&quot;5&quot;&gt;Heavy Thundershower (1.0&#39;&#39; per hour)&lt;/th&gt;
+&lt;th colspan=&quot;5&quot;&gt;Heavy Thundershower (1.0&#39;&#39; per hour)&lt;/th&gt;
 &lt;/tr&gt;
 
 &lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
@@ -1026,8 +1081,8 @@ document.getElementById("audio").volume = 0.5;
     <title>近期碎碎念</title>
     <link href="http://kleist.top/2017/12/21/%E8%BF%91%E6%9C%9F%E7%A2%8E%E7%A2%8E%E5%BF%B5.html"/>
     <id>http://kleist.top/2017/12/21/近期碎碎念.html</id>
-    <published>2017-12-21T12:09:21.000Z</published>
-    <updated>2017-12-21T13:18:12.334Z</updated>
+    <published>2017-12-21T02:09:23.000Z</published>
+    <updated>2018-04-15T08:38:08.372Z</updated>
     
     <content type="html"><![CDATA[<h2 id="可怕的实用主义"><a href="#可怕的实用主义" class="headerlink" title="可怕的实用主义"></a>可怕的实用主义</h2><p>读课外书没用，看动漫电影电视剧没用，但是看到别人孩子懂得「知识」多就对自己孩子流露出不满意；</p>
 <p>信仰宗教没用，看到别人时刻遵循教义并且在信仰的力量帮助下完善自己开始吐槽孩子没有信仰；</p>
@@ -1036,7 +1091,7 @@ document.getElementById("audio").volume = 0.5;
 <p>有人说生活需要一些仪式感来增加乐趣，很多人听到之后第一句就问「有啥用？」，这个问题可以先不回答，在现代这个快节奏的生活中，早起晚睡一天劳累，拿什么拯救情绪呢？刷手机？看综艺？这些事情难道不也是大家口中的「没用的事情」么？</p>
 <p>我知道收获了的不过是少数人，很多看了很多书的人也不一定能表现的多么博学，很多有宗教信仰的人可能也会触犯禁忌，很多学了画画的人也只是当作业余爱好，哪怕画的不好，很多玩游戏很厉害的人也只是当作减压工具……<br><a id="more"></a></p>
 <hr>
-<h2 id="可怕的千手像"><a href="#可怕的千手像" class="headerlink" title="可怕的千手像"></a>可怕的千手像</h2><p>在奥威尔的《1984》中写到一种现象，人都必须按照相同的步伐做事，听起来就像在一个身躯上长着不同的脑袋一样，人虽然各不相同，却做着步调一致的行为。这固然是可怕的，可我也在想：</p>
+<h2 id="可怕的千手像"><a href="#可怕的千手像" class="headerlink" title="可怕的千手像"></a>可怕的千手像</h2><p>在奥威尔的《984》中写到一种现象，人都必须按照相同的步伐做事，听起来就像在一个身躯上长着不同的脑袋一样，人虽然各不相同，却做着步调一致的行为。这固然是可怕的，可我也在想：</p>
 <p>当所有的人都在变成同一个脑袋，同一个思想，只剩下四肢上的不同时，</p>
 <p><strong> 是不是更可怕。</strong></p>
 ]]></content>
@@ -1063,8 +1118,8 @@ document.getElementById("audio").volume = 0.5;
     <title>红黄蓝和三六九</title>
     <link href="http://kleist.top/2017/11/27/%E7%BA%A2%E9%BB%84%E8%93%9D%E5%92%8C%E4%B8%89%E5%85%AD%E4%B9%9D.html"/>
     <id>http://kleist.top/2017/11/27/红黄蓝和三六九.html</id>
-    <published>2017-11-27T05:11:29.000Z</published>
-    <updated>2017-12-21T13:38:18.027Z</updated>
+    <published>2017-11-27T05:45:19.000Z</published>
+    <updated>2018-04-15T08:40:02.824Z</updated>
     
     <content type="html"><![CDATA[<p>关于驱逐 DD 人口的消息，打开评论就是类似「我们先让一部分人先富起来，再把穷的赶出去，实现共同富裕 (●–●)」</p>
 <blockquote>
@@ -1097,18 +1152,14 @@ document.getElementById("audio").volume = 0.5;
     <title>网络诈骗</title>
     <link href="http://kleist.top/2017/11/18/%E7%BD%91%E7%BB%9C%E8%AF%88%E9%AA%97.html"/>
     <id>http://kleist.top/2017/11/18/网络诈骗.html</id>
-    <published>2017-11-18T13:36:53.000Z</published>
-    <updated>2017-11-18T13:51:18.262Z</updated>
+    <published>2017-11-18T14:36:53.000Z</published>
+    <updated>2018-04-15T08:40:41.676Z</updated>
     
     <content type="html"><![CDATA[<p>起初对于网络诈骗的理解也就停留在能逗逗骗子玩和在新闻中听到比较的严重事件，可今天我却切切实实的感觉到了网络诈骗的存在。</p>
 <p>我的 EX 被盗号了（所以一定要做好密保 &amp; 不连接不认识的 WiFi 热点），洋给我打电话确认，结果我才看到骗子的消息，我一看就知道是骗子，因为不可能叫我「狗腿子」的，通常都是「小狗腿」，不说笑的，只言片语就能分辨是不是骗子只是因为比较熟悉而已，可怕的是骗子会联系所有能联系的人……包括四五年都没有交集的老同学……结果可能之前对 EX 的印象比较好，导致选择了信任，被骗了 2000+ 。</p>
 <p>首先我的看法是：</p>
-<ol>
-<li><p>两个都被盗号了，都是骗子自导自演的一出戏，等真的转账还钱才真是受骗</p>
-</li>
-<li><p>老同学真的相信了，也确实被骗子骗走了 2000+</p>
-</li>
-</ol>
+<p>. 两个都被盗号了，都是骗子自导自演的一出戏，等真的转账还钱才真是受骗</p>
+<p>. 老同学真的相信了，也确实被骗子骗走了 2000+</p>
 <p>不管其他同学有没有被骗到，关于网络诈骗实际上已经有相关的法律，也在去年完成了第一起由网络诈骗造成的刑事案件。相信我大天朝对于网络的监管会日趋强大，希望报警能有效果吧，否则骗子和受害者之间的被盗号的人应当处于什么角色呢？A 是盗号者 &amp; 骗子 | B 是被盗号者 | C 是被骗走钱的  那 C 是应该向 B 要钱呢，还是跟 B 同时作为受害者去报警向 A 要钱呢？</p>
 ]]></content>
     
@@ -1121,75 +1172,6 @@ document.getElementById("audio").volume = 0.5;
     
     
       <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>致哀《暴走大事件》</title>
-    <link href="http://kleist.top/2017/11/16/%E5%90%8A%E5%94%81.html"/>
-    <id>http://kleist.top/2017/11/16/吊唁.html</id>
-    <published>2017-11-16T06:51:16.000Z</published>
-    <updated>2017-12-15T06:11:50.443Z</updated>
-    
-    <content type="html"><![CDATA[<p>风声、雨声、读书声、不许出声！</p>
-<p>家事、国事、天下事、一删了事。<br><a id="more"></a><br>愿《暴走大事件》重回大家的视野。</p>
-<p>现在也才真正明白了「荆轲刺秦王」不只是「两条毛腿肩上扛」的说笑，还有 <strong>壮士一去不返</strong> 的勇气，以前总觉得《暴走》敢说是因为有一个强大的后台，现在真的希望它有一个<strong>强大的后台</strong>！</p>
-<blockquote>
-<p>一束光照进铁塔，塔内的肮脏龌龊尽显，光便有了罪。</p>
-</blockquote>
-<p>「上帝说要有光」可在此之前上帝却因为「虚妄分别之心」将撒旦贬成「恶」，自己是「善」，不过是一厢情愿和仗着自己的力量罢了，倘若撒旦战胜了呢？那撒旦是不是会被奉为「善意的化身」呢？谁又能说不会呢？</p>
-<p>撇开「豫章书院」一事不说(亏他还是在「豫章故郡」还有着临江渚的滕王高阁)，可如今父母对孩子的影响之深远不得不反思吧，就拿前些日子我被要求不许去天津公司上班，哪怕是央企，哪怕五险二金，哪怕天津发展很快，哪怕我想去……奈何那是父母，奈何处处听闻的「养儿防老」，奈何「父母在，不远游，游必有方」的断章取义，奈何……无可奈何。很多人会说「傻啊，别听他们的啊，当初报专业不就因为这个毁了么」，是啊，这不就是王尼玛说的「反抗」么？却很大程度上因为「反抗」二字导致了《暴走》被全网下架整改。</p>
-<p>再说一下「豫章书院」，父母说了话，孩子听了就是「乖」，不听，反抗，就是「坏」，屡次不听管不了的就送「豫章书院」……电击？戒尺？棍棒？这是书院还是监狱？孩子不听需要送到这种地方，那凭什么判断家长说的就是对的？「父母之爱子，则为其计深远」——《触龙说赵太后》，或许我见识短浅并没有从父母的阻挠中看出一丝深远之计，那请问，做子女的需要听话，不听话说教、打、送书院，父母错了呢？不，父母没有错，父母怎能有错呢？我错了，我说的话都是胡说而已，哈哈哈，emmmm… 可能刚才不是我，对，一定不是我，是另一个他写下的这段文字，恩，没错。</p>
-<p>做个乖孩子。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;风声、雨声、读书声、不许出声！&lt;/p&gt;
-&lt;p&gt;家事、国事、天下事、一删了事。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「水知道一切」的言论</title>
-    <link href="http://kleist.top/2017/10/27/%E3%80%8C%E6%B0%B4%E7%9F%A5%E9%81%93%E4%B8%80%E5%88%87%E3%80%8D%E7%9A%84%E8%A8%80%E8%AE%BA.html"/>
-    <id>http://kleist.top/2017/10/27/「水知道一切」的言论.html</id>
-    <published>2017-10-27T09:00:04.000Z</published>
-    <updated>2017-12-15T06:10:33.602Z</updated>
-    
-    <content type="html"><![CDATA[<p>首先看一下 <a href="https://zh.wikipedia.org/wiki/江本勝" target="_blank" rel="external">江本胜</a>，下面是维基百科的截图 <img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-27-%E6%B1%9F%E6%9C%AC%E8%83%9C_%E7%AE%80%E4%BB%8B-1.png" alt="江本胜简介"></p>
-<p>其关于「水能根据外界信息辨别美丑善恶，从而影响水分子结晶」的说法着实让小学时期的我产生了一种「造物之伟大」的神圣感，听几次也罢，但是某小学老师在班会说过几次之后随之而来的是各科老师在闲谈课后都喜欢拿来说事。被举此例教育做人要心存善念，与人为善，由于那时消息闭塞再到高中时期学业繁重，直到大学四年级常常看到家人在朋友圈微信群转发的各种伪科学才想去扼制所谓的「科学」证实……的言论，也是这时候关于「水知道一切」的详细信息我才认真看过。<br><a id="more"></a><br>在「古哥哥」和「维基娘」的引导下我觉得事件影响实在太大，虽然我所了解的示例局限在我生活的小镇。那么多的中小学教育工作者对于这一言论的真实性大概是深信不疑的，不然也不会在小学五年级老师带领下去做这个最终结果并不乐观的实验，现在想来多半也是带着玩心去组织的吧。</p>
-<p>可是事情就这样结束了么？一个后来证实自己说的并不是科学的。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-27-%E6%B1%9F%E6%9C%AC%E8%83%9C_%E6%89%B9%E5%88%A4-2.png" alt="批判与反对意见"></p>
-<p>可为什么一个日本的作家、学者说的话这么的让我周围从事教育行业的知识份子深信不疑？</p>
-<ul>
-<li>是因为人家出书了？在那个年代？</li>
-<li>是因为人家是外国的？</li>
-<li>是因为人家是一名学者？</li>
-<li>还是因为这个言论在当时具有一定吸引力？</li>
-</ul>
-<p>不管原因是什么，我都感到一丝恐惧，就像看到 BBC 某一期关于非洲某部落评选部落勇士的手段是去野外狮子嘴里抢食物的记录一样，都知道狮子的战斗实力很强，却不知道它看到几个人过来会逃走。这是先入为主的结果，看到学者作家的言论同样会在心中先产生一定的信任，再去接受那个言论，当然如今「水知道一切」的说法并没有通过<a href="https://zh.wikipedia.org/wiki/可证伪性" target="_blank" rel="external">「Popper的否证论」</a>，但谁能说以后不会有科学去证实此事呢？这是后话了，现在重点回到「在不了解事实的情况下拿来用或者表示信任」会产生什么后果。</p>
-<p>我想到的唯一重要的就是当我老师拿这个例子教育我们的时候，还顺便告诉我们这是国外某科学家实验证明了的，我会选择相信老师，因为我就是这样被教育的，就连「阿基米德排水法测皇冠体积」的事我直到大学接触更多书籍前都深信不疑。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-27-%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7_%E6%B5%8B%E7%9A%87%E5%86%A0%E7%9C%9F%E5%81%87-2.png" alt=""></p>
-<p>可现实是那一点点的体积排除了水表面张力带来的误差之后，实际根本测不出来。</p>
-<p>我还是多看点书吧，不知道现在还在对什么事实不正确却依然认为正确的事情深信不疑着。</p>
-<p>可怕。可怕。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;首先看一下 &lt;a href=&quot;https://zh.wikipedia.org/wiki/江本勝&quot;&gt;江本胜&lt;/a&gt;，下面是维基百科的截图 &lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-27-%E6%B1%9F%E6%9C%AC%E8%83%9C_%E7%AE%80%E4%BB%8B-1.png&quot; alt=&quot;江本胜简介&quot;&gt;&lt;/p&gt;
-&lt;p&gt;其关于「水能根据外界信息辨别美丑善恶，从而影响水分子结晶」的说法着实让小学时期的我产生了一种「造物之伟大」的神圣感，听几次也罢，但是某小学老师在班会说过几次之后随之而来的是各科老师在闲谈课后都喜欢拿来说事。被举此例教育做人要心存善念，与人为善，由于那时消息闭塞再到高中时期学业繁重，直到大学四年级常常看到家人在朋友圈微信群转发的各种伪科学才想去扼制所谓的「科学」证实……的言论，也是这时候关于「水知道一切」的详细信息我才认真看过。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   

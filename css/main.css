@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #20cba1;
+  background: #9dff78;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2964,14 +2964,14 @@ p.site-description.motion-element {
 .night_model:hover {
   background: #222 !important;
   color: #fdfdfd !important;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+/*  -webkit-transition: all 0.5s ease;
+  transition: all 0.2s ease;*/
 }
 .night_big_body {
   background: #3a3a3a !important;
   color: #adadad !important;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all 1s ease;
+  transition: all .2s ease;*/
 }
 .sidebar {
   background: rgba(0,0,0,0) !important;
@@ -2979,8 +2979,8 @@ p.site-description.motion-element {
 .night_big_block {
   background: #222 !important;
   color: #adadad !important;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
   box-shadow: 0 3px 10px rgba(0,0,0,0.157), 0 3px 10px rgba(0,0,0,0.227) !important;
 /*transition: all .35s !important;*/
   border-bottom-right-radius: 5px 5px !important;
@@ -2988,20 +2988,20 @@ p.site-description.motion-element {
 }
 .night_small_meta {
   background: #0d0d0d !important;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
 }
 .night_small_line {
   color: #adadad !important;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
 }
 .night_small_btn {
   background: rgba(100,100,100,0.3) !important;
   color: #dbdbdb !important;
   border: 1px solid #555;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
 }
 .night_small_menu_active {
   background: #979797 !important;
@@ -3011,31 +3011,31 @@ p.site-description.motion-element {
 .night_small_menu {
   background: rgba(255,255,255,0) !important;
   color: rgba(255,255,255,0.65);
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
 }
 .night_small_menu:hover {
   background: #979797 !important;
   border-bottom-color: rgba(0,0,0,0) !important;
-  -webkit-transition: background 0s ease;
-  transition: background 0s ease;
+/*  -webkit-transition: background 0s ease;
+  transition: background 0s ease;*/
 }
 .night_small_authorname {
   color: #bcbcbc !important;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
 }
 .night_small_number_current {
   background: #979797 !important;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
 }
 .night_small_number:hover {
   border-top: 1px solid #fff !important;
   color: #fff !important;
   background: #979797 !important;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+/*  -webkit-transition: all .2s ease;
+  transition: all .2s ease;*/
 }
 .night_small_beian {
   color: #979797 !important;
@@ -3047,8 +3047,8 @@ p.site-description.motion-element {
 }
 .night_small_author_item:hover {
   background: #9d9d9d !important;
-  -webkit-transition: 0.2s ease !important;
-  transition: 0.2s ease !important;
+/*  -webkit-transition: 0.2s ease !important;
+  transition: 0.2s ease !important;*/
 }
 .posts-collapse::after {
   content: " ";
@@ -3092,8 +3092,8 @@ span.site-state-item-count {
 }
 div.sidebar-inner {
 /*box-shadow: 0 3px 10px rgba(0, 0, 0, .156863), 0 3px 10px rgba(0, 0, 0, .227451) !important;*/
-  -webkit-transition: all 0.35s !important;
-  transition: all 0.35s !important;
+/*  -webkit-transition: all 0.35s !important;
+  transition: all 0.35s !important;*/
   border-radius: 3px !important;
 }
 div.content-wrap {
@@ -3103,8 +3103,8 @@ div.content-wrap {
 }
 div.header-inner {
 /*box-shadow: 0 3px 10px rgba(0, 0, 0, .156863), 0 3px 10px rgba(0, 0, 0, .227451) !important;*/
-  -webkit-transition: all 0.35s !important;
-  transition: all 0.35s !important;
+/*  -webkit-transition: all 0.35s !important;
+  transition: all 0.35s !important;*/
   border-bottom-right-radius: 3px 3px !important;
   border-bottom-left-radius: 3px 3px !important;
 }
@@ -3187,16 +3187,13 @@ hr {
   border-radius: 0 !important;
   box-shadow: 0 !important;
 }
-table {
-  border: 1px solid #000 !important;
-}
 caption {
   text-align: center !important;
   font-size: 20px !important;
 }
 td,
 th {
-  text-align: center !important;
+/*text-align: center !important;*/
   border-bottom: 1px solid #000;
   border-right: 1px solid #000;
 }
