@@ -484,6 +484,11 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
 <li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —- <code>庄子</code> <code>国学</code> <code>道家</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —- <code>茶道</code>  <code>纪录片</code> </li>
+<li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —- <code>剧情</code> <code>科幻</code> </p>
+<blockquote>
+<p>说实话， 这部电影值得思考的地方有很多，抛开每个人的共同点（自我毁灭 or 渴望重生），开放式结局之后我最想问的就是「你还是你吗？」</p>
+</blockquote>
+</li>
 </ol>
 <hr>
 <div id="audioplayer">
