@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'FFTisaOT';
-    src: url('fonts/FFTisaOT.eot');
-    src: url('fonts/FFTisaOT.eot') format('embedded-opentype'),
-         url('fonts/FFTisaOT.woff2') format('woff2'),
-         url('fonts/FFTisaOT.woff') format('woff'),
-         url('fonts/FFTisaOT.ttf') format('truetype'),
-         url('fonts/FFTisaOT.svg#FFTisaOT') format('svg');
-}
