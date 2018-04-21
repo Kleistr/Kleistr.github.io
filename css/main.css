@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #34ffd6;
+  background: #12ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3231,9 +3231,6 @@ table > tbody > tr:hover {
   color: #fdfdfd !important;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
-ul.post-copyright {
-  font-family: "Bookerly-Regular" !important;
 }
 .bigstar50 {
   background-position: 0 0px !important;
