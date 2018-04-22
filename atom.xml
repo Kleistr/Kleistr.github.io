@@ -504,7 +504,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
     <published>2017-12-31T22:34:00.000Z</published>
-    <updated>2018-04-20T07:01:14.859Z</updated>
+    <updated>2018-04-22T08:44:22.229Z</updated>
     
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
 
@@ -587,6 +587,8 @@ document.getElementById("audio").volume = 0.5;
 <blockquote>
 <p>说实话， 这部电影值得思考的地方有很多，抛开每个人的共同点（自我毁灭 or 渴望重生），开放式结局之后我最想问的就是「你还是你吗？」</p>
 </blockquote>
+</li>
+<li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —- <code>剧情</code> </p>
 </li>
 </ol>
 <hr>
