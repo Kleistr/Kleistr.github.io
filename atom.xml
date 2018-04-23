@@ -504,7 +504,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
     <published>2017-12-31T22:34:00.000Z</published>
-    <updated>2018-04-22T08:44:22.229Z</updated>
+    <updated>2018-04-23T03:15:38.584Z</updated>
     
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
 
@@ -522,73 +522,116 @@ document.getElementById("audio").volume = 0.5;
 <div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div>
 
 <ol>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></li>
-<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></p>
+</li>
+<li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></p>
+</li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></p>
+</li>
 <li><p><i style="color:#EEE5ED;" class="fa fa-heart"></i>  《部分国产恐怖片》 —- <code>恐怖</code>  <code>走进科学</code></p>
 <blockquote>
 <p>欢迎收看本期走进科学，笔仙、碟仙、恐怖理发店等恐怖电影背后的秘密。<br>—— 心理变态、心理受刺激、个人利益至上<br>自从看了《中邪》，彻底改变了对国产恐怖片未来的看法</p>
 </blockquote>
 </li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i style="color:#FFCCCC;" class="fa fa-heart"></i>  《喜欢你》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code> <code>猫科动物</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code> <code>Magic</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《逃出绝命镇》 —- <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《火海凌云》 —- <code>剧情</code> <code>动作</code> <code>灾难</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《伏地魔：传人的起源》 —- <code>剧情</code> <code>Magic</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《太空救援》 —- <code>剧情</code> <code>动作</code> <code>冒险</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《罪恶之家》 —- <code>悬疑</code> <code>剧情</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —- <code>剧情</code></li>
+<li><p><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —- <code>喜剧</code>  <code>爱情</code></p>
+</li>
+<li><p><i style="color:#FFCCCC;" class="fa fa-heart"></i>  《喜欢你》 —- <code>喜剧</code>  <code>爱情</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></p>
+</li>
+<li><p><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></p>
+</li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code> <code>猫科动物</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code> <code>Magic</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></p>
+</li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《逃出绝命镇》 —- <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></p>
+</li>
+<li><p><i style="color:#FFCC66;" class="fa fa-heart"></i>  《火海凌云》 —- <code>剧情</code> <code>动作</code> <code>灾难</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《伏地魔：传人的起源》 —- <code>剧情</code> <code>Magic</code></p>
+</li>
+<li><p><i style="color:#FFCC66;" class="fa fa-heart"></i>  《太空救援》 —- <code>剧情</code> <code>动作</code> <code>冒险</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《罪恶之家》 —- <code>悬疑</code> <code>剧情</code></p>
+</li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —- <code>剧情</code></p>
+</li>
 <li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —- <code>剧情</code></p>
 <blockquote>
 <p><a href="https://kleist.top/08/0/8/天真无邪的「邪」.html">《狩猎》观感</a></p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —- <code>剧情</code> <code>历史</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —- <code>动作</code> <code>剧情</code> <code>历史</code></li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —- <code>剧情</code> <code>历史</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —- <code>动作</code> <code>剧情</code> <code>历史</code></p>
+</li>
 <li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《Steel Rain》 —- <code>动作</code> <code>剧情</code> <code>历史</code></p>
 <blockquote>
 <p>韩国电影真的不容小觑。</p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《斯大林之死》 —- <code>喜剧</code> <code>传记</code> <code>历史</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —- <code>剧情</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —- <code>剧情</code> <code>犯罪</code> <code>悬疑</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —- <code>剧情</code> <code>历史</code></li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —- <code>剧情</code> <code>历史</code> <code>古装</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《天赋异秉》 —- <code>动作</code> <code>科幻</code> <code>奇幻</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《末代皇帝》 —- <code>剧情</code> <code>历史</code> <code>传记</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —- <code>剧情</code> <code>悬疑</code> <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —- <code>剧情</code> <code>喜剧</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —- <code>动作</code> <code>奇幻</code> <code>冒险</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《0 × 0》 —- <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —- <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —- <code>剧情</code> <code>动作</code></li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —- <code>科幻</code> <code>动作</code> <code>冒险</code></li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《斯大林之死》 —- <code>喜剧</code> <code>传记</code> <code>历史</code></p>
+</li>
+<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —- <code>剧情</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —- <code>剧情</code> <code>犯罪</code> <code>悬疑</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —- <code>剧情</code> <code>历史</code></p>
+</li>
+<li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —- <code>剧情</code> <code>历史</code> <code>古装</code></p>
+</li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《天赋异秉》 —- <code>动作</code> <code>科幻</code> <code>奇幻</code></p>
+</li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《末代皇帝》 —- <code>剧情</code> <code>历史</code> <code>传记</code></p>
+</li>
+<li><p><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —- <code>剧情</code> <code>悬疑</code> <code>惊悚</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —- <code>剧情</code> <code>喜剧</code></p>
+</li>
+<li><p><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></p>
+</li>
+<li><p><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —- <code>动作</code> <code>奇幻</code> <code>冒险</code></p>
+</li>
+<li><p><i style="color:#FFcc66;" class="fa fa-heart"></i>  《0 × 0》 —- <code>惊悚</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —- <code>惊悚</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —- <code>剧情</code> <code>动作</code></p>
+</li>
+<li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —- <code>科幻</code> <code>动作</code> <code>冒险</code></p>
+</li>
 <li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《Lady Bird》 —- <code>剧情</code> <code>家庭</code></p>
 <blockquote>
 <p>把大家真真切切的青春日记拍成电影的导演</p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
-<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《厉害了，我的国》 —- <code>剧情</code> <code>传记</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —- <code>剧情</code> <code>传记</code> <code>历史</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —- <code>庄子</code> <code>国学</code> <code>道家</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —- <code>茶道</code>  <code>纪录片</code> </li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></p>
+</li>
+<li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《厉害了，我的国》 —- <code>剧情</code> <code>传记</code></p>
+</li>
+<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —- <code>剧情</code> <code>传记</code> <code>历史</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></p>
+</li>
+<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —- <code>庄子</code> <code>国学</code> <code>道家</code></p>
+</li>
+<li><p><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —- <code>茶道</code>  <code>纪录片</code> </p>
+</li>
 <li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —- <code>剧情</code> <code>科幻</code> </p>
 <blockquote>
 <p>说实话， 这部电影值得思考的地方有很多，抛开每个人的共同点（自我毁灭 or 渴望重生），开放式结局之后我最想问的就是「你还是你吗？」</p>
 </blockquote>
 </li>
 <li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —- <code>剧情</code> </p>
+</li>
+<li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《唐人街探案2》 —- <code>喜剧</code> <code>动作</code> <code>犯罪</code> </p>
 </li>
 </ol>
 <hr>
