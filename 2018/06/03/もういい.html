@@ -129,7 +129,7 @@
 <meta property="og:url" content="http://kleist.top/2018/06/03/もういい.html">
 <meta property="og:site_name" content="Kleist'Blog">
 <meta property="og:description" content="もういい。">
-<meta property="og:updated_time" content="2018-06-03T02:36:35.531Z">
+<meta property="og:updated_time" content="2018-06-08T15:26:26.059Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="もういい">
 <meta name="twitter:description" content="もういい。">
@@ -393,7 +393,38 @@
       
         <p>もういい。</p>
 <a id="more"></a>
+<div id="audioplayer">
+    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/%E6%88%91%E6%9B%BE%E7%BB%8F%E4%B9%9F%E6%83%B3%E8%BF%87%E4%B8%80%E4%BA%86%E7%99%BE%E4%BA%86%281%29.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    </audio>
+</div>
+
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    document.getElementById("audio").volume = 0.5;
+
+    $("#PlayPause").click(function() {
+        var audio = $("#audio")[0];
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            audio.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            audio.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
+
+</script>
+
 <blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
+
       
     </div>
 
