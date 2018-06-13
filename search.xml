@@ -4,6 +4,34 @@
   
     
     <entry>
+      <title><![CDATA[Pareto distribution]]></title>
+      <url>http://kleist.top/2018/06/11/Pareto-distribution.html</url>
+      <content type="html"><![CDATA[<p>帕累托分布是以意大利经济学家维弗雷多·帕雷托命名的。 是从大量真实世界的现象中发现的幂定律分布。这个分布在经济学以外，也被称为布拉德福分布。<br>在帕累托分布中，如果$X$是一个随机变量， 则$X$的概率分布如下面的公式所示：</p>
+<script type="math/tex; mode=display">\begin{aligned} P(X>x)=(\frac{x}{x_{min}})^{-k} \end{aligned}</script><p>其中$X$是任何一个大于 $x_{min}$ 的数，$x_{min}$ 是$X$最小的可能值（正数）， $k$ 是为正的参数。帕累托分布曲线族是由两个数量参数化的： $x_{min}$ 和 $k$ 。分布密度则为:</p>
+<script type="math/tex; mode=display">p(x)=\left\{\begin{aligned} 0, && \text{if } x<x_{min}, \\ \frac{k \cdot x_{min}^k}{x^{k+1}}, && \text{if }x > x_{min}.\end{aligned} \right.</script><p>帕累托分布属于连续概率分布。 “齐夫定律”, 也称为“zeta 分布”, 也可以被认为是在离散概率分布中的帕累托分布。 一个遵守帕累托分布的随机变量的期望值为  $\frac{x_{min} \cdot k}{k-1}​$(如果$k\leqq 1​$ 期望值为无穷大)且随机变量的标准差为$\frac{x_{min}}{k-1} \sqrt{\frac{k}{k-2}}​$ （如果$k\leqq 1​$ ，标准差不存在）。</p>
+<p>被认为大致是帕累托分布的例子有：</p>
+<ul>
+<li>财富在个人之间的分布</li>
+<li>人类居住区的大小</li>
+<li>对维基百科条目的访问</li>
+<li>对微博的访问</li>
+<li>接近<a href="https://zh.wikipedia.org/wiki/%E7%BB%9D%E5%AF%B9%E9%9B%B6%E5%BA%A6" target="_blank" rel="external">绝对零度</a>时，<a href="https://zh.wikipedia.org/wiki/%E7%8E%BB%E8%89%B2%E2%80%93%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%87%9D%E8%81%9A" target="_blank" rel="external">玻色–爱因斯坦凝聚</a>的团簇</li>
+<li>在互联网流量中文件尺寸的分布</li>
+<li>油田的石油储备数量</li>
+<li>龙卷风带来的灾难的数量</li>
+</ul>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 冷知识 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[もういい]]></title>
       <url>http://kleist.top/2018/06/03/%E3%82%82%E3%81%86%E3%81%84%E3%81%84.html</url>
       <content type="html"><![CDATA[<p>もういい。</p>
@@ -431,9 +459,9 @@ document.getElementById("audio").volume = 0.5;
         
         <tags>
             
-            <tag> 技术 </tag>
-            
             <tag> 冷知识 </tag>
+            
+            <tag> 技术 </tag>
             
         </tags>
         
@@ -476,13 +504,13 @@ document.getElementById("audio").volume = 0.5;
       <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
 
 <ol>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《哲学史讲演录》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《源氏物语》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar35"></i> 《漫画人体——一看就懂的人体结构书》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《庄子》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《续子不语》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《道德情操论》</li>
-<li><i class="fa fa-square-o"></i> <i class="bigstar bigstar45"></i> 《百年孤独》</li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《哲学史讲演录》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《源氏物语》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar35"></i> 《漫画人体——一看就懂的人体结构书》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《庄子》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《续子不语》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《道德情操论》</i></li>
+<li><i class="fa fa-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《百年孤独》</i></li>
 </ol>
 <a id="more"></a>
 <div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [6/30] </div>
@@ -491,89 +519,89 @@ document.getElementById("audio").volume = 0.5;
 <div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div>
 
 <ol>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></li>
-<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><p><i style="color:#EEE5ED;" class="fa fa-heart"></i>  《部分国产恐怖片》 —- <code>恐怖</code>  <code>走进科学</code></p>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —— <code>剧情</code>  <code>喜剧</code></li>
+<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —— <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —— <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —— <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
+<li><p><i style="color:#EEE5ED;" class="fa fa-heart"></i>  《部分国产恐怖片》 —— <code>恐怖</code>  <code>走进科学</code></p>
 <blockquote>
 <p>欢迎收看本期走进科学，笔仙、碟仙、恐怖理发店等恐怖电影背后的秘密。<br>—— 心理变态、心理受刺激、个人利益至上<br>自从看了《中邪》，彻底改变了对国产恐怖片未来的看法</p>
 </blockquote>
 </li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i style="color:#FFCCCC;" class="fa fa-heart"></i>  《喜欢你》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code> <code>猫科动物</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code> <code>Magic</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《逃出绝命镇》 —- <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《火海凌云》 —- <code>剧情</code> <code>动作</code> <code>灾难</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《伏地魔：传人的起源》 —- <code>剧情</code> <code>Magic</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《太空救援》 —- <code>剧情</code> <code>动作</code> <code>冒险</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《罪恶之家》 —- <code>悬疑</code> <code>剧情</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —- <code>剧情</code></li>
-<li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —- <code>剧情</code></p>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —— <code>喜剧</code>  <code>爱情</code></li>
+<li><i style="color:#FFCCCC;" class="fa fa-heart"></i>  《喜欢你》 —— <code>喜剧</code>  <code>爱情</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —— <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —— <code>剧情</code>  <code>爱情</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —— <code>纪录片</code> <code>猫科动物</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —— <code>纪录片</code> <code>Magic</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —— <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《逃出绝命镇》 —— <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《火海凌云》 —— <code>剧情</code> <code>动作</code> <code>灾难</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《伏地魔：传人的起源》 —— <code>剧情</code> <code>Magic</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《太空救援》 —— <code>剧情</code> <code>动作</code> <code>冒险</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《罪恶之家》 —— <code>悬疑</code> <code>剧情</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —— <code>剧情</code></li>
+<li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —— <code>剧情</code></p>
 <blockquote>
 <p><a href="https://kleist.top/08/0/8/天真无邪的「邪」.html">《狩猎》观感</a></p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —- <code>剧情</code> <code>历史</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —- <code>动作</code> <code>剧情</code> <code>历史</code></li>
-<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《Steel Rain》 —- <code>动作</code> <code>剧情</code> <code>历史</code></p>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —— <code>剧情</code> <code>历史</code> <code>战争</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —— <code>剧情</code> <code>历史</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —— <code>动作</code> <code>剧情</code> <code>历史</code></li>
+<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《Steel Rain》 —— <code>动作</code> <code>剧情</code> <code>历史</code></p>
 <blockquote>
 <p>韩国电影真的不容小觑。</p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《斯大林之死》 —- <code>喜剧</code> <code>传记</code> <code>历史</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —- <code>剧情</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —- <code>剧情</code> <code>犯罪</code> <code>悬疑</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —- <code>剧情</code> <code>历史</code></li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —- <code>剧情</code> <code>历史</code> <code>古装</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《天赋异秉》 —- <code>动作</code> <code>科幻</code> <code>奇幻</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《末代皇帝》 —- <code>剧情</code> <code>历史</code> <code>传记</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —- <code>剧情</code> <code>悬疑</code> <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —- <code>剧情</code> <code>喜剧</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —- <code>动作</code> <code>奇幻</code> <code>冒险</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《0 × 0》 —- <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —- <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —- <code>剧情</code> <code>动作</code></li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —- <code>科幻</code> <code>动作</code> <code>冒险</code></li>
-<li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《Lady Bird》 —- <code>剧情</code> <code>家庭</code></p>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《斯大林之死》 —— <code>喜剧</code> <code>传记</code> <code>历史</code></li>
+<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —— <code>剧情</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —— <code>剧情</code> <code>犯罪</code> <code>悬疑</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —— <code>剧情</code> <code>历史</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —— <code>剧情</code> <code>历史</code> <code>古装</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《天赋异秉》 —— <code>动作</code> <code>科幻</code> <code>奇幻</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《末代皇帝》 —— <code>剧情</code> <code>历史</code> <code>传记</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —— <code>剧情</code> <code>悬疑</code> <code>惊悚</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —— <code>剧情</code> <code>喜剧</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —— <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —— <code>动作</code> <code>奇幻</code> <code>冒险</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《0 × 0》 —— <code>惊悚</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —— <code>惊悚</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —— <code>剧情</code> <code>动作</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —— <code>科幻</code> <code>动作</code> <code>冒险</code></li>
+<li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《Lady Bird》 —— <code>剧情</code> <code>家庭</code></p>
 <blockquote>
 <p>把大家真真切切的青春日记拍成电影的导演</p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
-<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《厉害了，我的国》 —- <code>剧情</code> <code>传记</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —- <code>剧情</code> <code>传记</code> <code>历史</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —- <code>庄子</code> <code>国学</code> <code>道家</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —- <code>茶道</code>  <code>纪录片</code> </li>
-<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —- <code>剧情</code> <code>科幻</code> <blockquote>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —— <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
+<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《厉害了，我的国》 —— <code>剧情</code> <code>传记</code></li>
+<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —— <code>剧情</code> <code>传记</code> <code>历史</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —— <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
+<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —— <code>庄子</code> <code>国学</code> <code>道家</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —— <code>茶道</code>  <code>纪录片</code> </li>
+<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —— <code>剧情</code> <code>科幻</code> <blockquote>
 <p>说实话， 这部电影值得思考的地方有很多，抛开每个人的共同点（自我毁灭 or 渴望重生），开放式结局之后我最想问的就是「你还是你吗？」</p>
 </blockquote>
 </li>
-<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —- <code>剧情</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《唐人街探案2》 —- <code>喜剧</code> <code>动作</code> <code>犯罪</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《无人机战场》 —-  <code>动作</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《祥云寺》 —-  <code>恐怖</code> <code>惊悚</code></li>
-<li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《烟花》 —-  <code>剧情</code> <code>动画</code></p>
+<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —— <code>剧情</code> </li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《唐人街探案2》 —— <code>喜剧</code> <code>动作</code> <code>犯罪</code> </li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《无人机战场》 ——  <code>动作</code> </li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《祥云寺》 ——  <code>恐怖</code> <code>惊悚</code></li>
+<li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《烟花》 ——  <code>剧情</code> <code>动画</code></p>
 <blockquote>
 <p>《烟花》比起《你的名字。》那轻松欢快的调性显得有些清秀平淡，对，很多人愿意把《烟花》和《君名》做比较，甚至把当初看《君名》的心情转移到《烟花》作为第二部《君名》去看，那必然会产生落差。就我而言，《烟花》更像是针对真正有过青春的人做的，如果青春时代没有经历过那么喜欢一个人，没有经历过有爱说不出口的憋屈，没有经历过一段痛苦，那可能是很难产生共鸣的，当然，我更觉得，没有在青春时代经历过这些的实在是太遗憾了。一次次的为你逆转时光，最后也只能在越来越理想的剧情里面得到一句我喜欢你，改变了什么？没有，转校的继续转校，暗恋的继续暗恋，该错过的终究会错过。</p>
 <p>再说点题外话，《烟花》的豆瓣只有5分左右，为什么呢？在下的拙见：因为《君名》太火了，导致国内院线宣传强行把《烟花》宣传成了《君名》续作，当你期待一个节奏欢快，泪点满满的剧时突然看到的是一部平平淡淡，并无泪点的作品，再就是观众的期待太高了，而且新房和新海诚本来就是不同风格的导演，如果《烟花》看不懂的人，恐怕也不容易理解新房的《魔法少女小圆》吧……</p>
 </blockquote>
 </li>
-<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《家族狩猎》 —-  <code>剧情</code> <code>悬疑</code> <code>家庭</code></p>
+<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《家族狩猎》 ——  <code>剧情</code> <code>悬疑</code> <code>家庭</code></p>
 <blockquote>
 <p>「每个人的命运，对于这纷繁的世界来说，只是平淡无奇的清晨光景。」黑暗、悲观、负能量、<strong>真实</strong> ，或许黑暗系真的是我的菜吧。联系到Neko推荐的《好想殺死父母》，其实很多时候我们都会产生这种想法，这并不可耻，也不应当将其作为背后议论某人的谈资。生活中很多的家庭问题大家都选择逃避，不愿面对，父母犯错儿女敢怒不敢言，说了便大逆不道，不说则等待爆发。</p>
 <p>我是肤浅了，全程都在猜测凶手到底是谁，可凶手真的只是某个人么？</p>
 </blockquote>
 </li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《请回答1988》 —-  <code>剧情</code> <code>喜剧</code> <code>爱情</code> <code>家庭</code></li>
-<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《逃避可耻却有用》 —-  <code>剧情</code> <code>爱情</code> <code>家庭</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《请回答1988》 ——  <code>剧情</code> <code>喜剧</code> <code>爱情</code> <code>家庭</code></li>
+<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《逃避可耻却有用》 ——  <code>剧情</code> <code>爱情</code> <code>家庭</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
@@ -934,9 +962,9 @@ document.getElementById("audio").volume = 0.5;
         
         <tags>
             
-            <tag> 随想 </tag>
-            
             <tag> 日常 </tag>
+            
+            <tag> 随想 </tag>
             
         </tags>
         
@@ -945,7 +973,7 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[红黄蓝和三六九]]></title>
       <url>http://kleist.top/2017/11/27/%E7%BA%A2%E9%BB%84%E8%93%9D%E5%92%8C%E4%B8%89%E5%85%AD%E4%B9%9D.html</url>
-      <content type="html"><![CDATA[<p>关于驱逐 DD 人口的消息，打开评论就是类似「我们先让一部分人先富起来，再把穷的赶出去，实现共同富裕 (●–●)」</p>
+      <content type="html"><![CDATA[<p>关于驱逐 DD 人口的消息，打开评论就是类似「我们先让一部分人先富起来，再把穷的赶出去，实现共同富裕 (●—●)」</p>
 <blockquote>
 <p>突然想到小时候听过的一个可怕的事情：这几天放学抓紧回家，别在外面呆着！最近大城市都在抓流浪汉，放卡车里运到咱农村来，你记住别和同学到处瞎逛啊！</p>
 </blockquote>
@@ -1093,12 +1121,12 @@ document.getElementById("audio").volume = 0.5;
 <p>关于第一层倒是没什么可以说的了，伟大的马克思恩格斯已经说明了这个世界的物质性。</p>
 <p>第二个 「 <strong>媒体营造的世界</strong> 」，这个就有些许的意思了，其中深意值得玩味。在当下这个人们口中信息爆炸的时代，不管是人们饭后闲谈也好，睡前翻看的微博也好，还是手机每天被轰炸的各种推送也好，这都是信息，都是来自一种名叫「 <strong>媒体</strong> 」的东西，我们对于外界的感知一方面来自于自己亲身感受到的，一方面来自于媒体的宣传「新闻节目、新闻 APP、社交圈、新型自媒体、甚至他人口中……」这都算是媒体带给人们对于世界的认知。</p>
 <p>可曾想过，这个众多媒体共同营造的世界跟现实世界到底有多大出入？先不论一些不良媒体的虚假新闻导致的错误认知，先想想那些对的信息，那些真实发生的新闻目前大多来讲是报喜不报忧的。可这样一来，即使媒体们所言皆实，听众观众对于世界的认知便由于获取信息的局限性产生了生活在一个美好世界的这种错觉。我们不能去批判媒体，因为这是他们这个职业的特性（博人眼球势必导致一定程度上的“误导”），还由于人这种生物本身就是喜欢报喜不报忧的，就像出门在外不想跟家里说发生在自己身上的不愉快一样，再者，要是电视新闻和各种新闻软件一天天都是负面新闻，那这种“坏的错觉”给人的影响更大，甚至可能引发一些抗议和暴动。</p>
-<p>目前想要在信息洪流中获得真实世界的认知难免是需要一些代价的（如：花时间学习看清新闻事件背后的本质），也难免在真正看清本质之后被人说是“疯子”，就像「维罗妮卡决定去死」里疯人院中的疯子一样：一部分是逃避现实进的疯人院，一部分是真正的看清现实之后却被当作疯子对待。这本没什么的，可如果真的如书中例子讲述的那个<i class="fa fa-eye"></i>&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: ;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='font-weight: normal;background: #33;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='font-weight: normal;background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('願聞其詳?')){
+<p>目前想要在信息洪流中获得真实世界的认知难免是需要一些代价的（如：花时间学习看清新闻事件背后的本质），也难免在真正看清本质之后被人说是“疯子”，就像「维罗妮卡决定去死」里疯人院中的疯子一样：一部分是逃避现实进的疯人院，一部分是真正的看清现实之后却被当作疯子对待。这本没什么的，可如果真的如书中例子讲述的那个<i class="fa fa-eye">&lt;/i&gt;&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: ;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='font-weight: normal;background: #33;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='font-weight: normal;background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('願聞其詳?')){
            $('#lie').text('&nbsp;從前，有壹個法力無邊的巫師，想摧毀壹個王國，就在井裏下了魔藥。那井是王國所有居民的水源。誰要是喝了這水，就會變成瘋子。”“第二天壹早上，喝過這井裏的水，所有的居民都變成了瘋子，唯獨國王沒有，因為另有壹口井專供他和王室飲用。他憂心忡忡，想控制居民的行為，因此下達了壹系列公共安全與衛生方面的指令。不過，警察和檢察官也飲了魔水，覺得國王的命令荒謬不堪，掘洞無論如何也不照此辦理。”“全國的居民都得知了指令的內容，他們堅信國王瘋了，才寫下這些無聊的文字。他們狂呼大喊地來到城堡，要求國王退位。”“國王絕望了，準備放棄王位，但王後阻止了他。她說：我們現在就去那口井，去喝那兒的水，這樣我們就和他們壹樣了。”“國王和王後去了，飲下了魔水，馬上開始胡說八道。這時，他的臣民後悔了：既然國王如此睿智，為什麽不讓他繼續治理國家呢？”“國家壹派祥和，盡管國民的言行與鄰國大不壹樣。而國王壹直統治著這個國家，直到生命的最後壹刻。 ———— 「維羅妮卡決定去死」&nbsp;');
        }
        else {
         $('#lie').text('&nbsp;疯子王国&nbsp;');
-        };">疯子王国</a>一样就毁了，多可怕，不是么？</p>
+        };">疯子王国</a>一样就毁了，多可怕，不是么？</i></p>
 <p>从昨天晚上我就一直在思考一个问题 <strong>「这个世界真实的样子到底是怎样的？」</strong> 所谓物质的世界，难道不是先定义了「物质」这种存在再去定义世界的么？这跟写科幻小说（ 比如《三体-死神永生》的前提就是人类科技水平到达可以折叠空间降低光速了么 ）那我对于世界的感知，不是一种名为「感觉」的东西么？马克思先生说「感觉 ➛ 知觉 ➛ 意识」，那「知觉 ➛ 意识」这个阶段目前还没有明确的物质信息吧，触觉 ➛ 神经电信号 ➛ 释放化学物质（如：多巴胺）⇏ 意识，这就中断了呀。就像某动漫的剧情前提一样，人类掌握了「化学物质 ➛ 意识」中间的信息传递，从而可以让人类体验几乎所有已知的感觉并且可以任意改变人的意识，多可怕……要是用在……上，是吧。You Know That.</p>
 <hr>
 <h3 id="2018-02-18-更新"><a href="#2018-02-18-更新" class="headerlink" title="2018.02.18  更新"></a>2018.02.18  更新</h3><p>过年这几天常常听到各家各户都在吐槽 XXX 家看不起 XXXX 家，搞得就像是人必须活在周围其他人的看法当中，虽然人类具有一定的社会属性，人类也确实容易在意周围人的看法，但要说「不以物喜，不以己悲」，那是圣人。那岂不是我之前想到的 Three Worlds 理论需要变成 Four Worlds 理论？ 因为除了「现实生活的世界、媒体营造的世界、自己内心的世界」还多加了一个「别人眼中你的世界」，《狩猎》中卢卡斯自己的精神世界是非常单纯善良的，但是他还活在社区居民眼里的世界，就算是「真作假时假亦真、善之为善，斯恶矣」的典型吧。</p>
@@ -1150,60 +1178,60 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <h2 id="Movies"><a href="#Movies" class="headerlink" title=" Movies"></a><div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div></h2><ol>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴家》 —- <code>剧情</code>  <code>传记</code>  <code>历史</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《第九道门》 —- <code>剧情</code>  <code>奇幻</code>  <code>恐怖</code>  <code>邪教</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《康熙微服私访记》 —- <code>剧情</code>  <code>历史</code>  <code>古装</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《朗读者》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Flying Colors》 —- <code>剧情</code>  <code>励志</code>  <code>家庭</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《洛丽塔》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《走向共和》 —- <code>剧情</code>  <code>历史</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《爱丽丝梦游仙境》 —- <code>剧情</code>  <code>奇幻</code>  <code>冒险</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《War for the Planet of the Apes》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《钢琴教师》 —- <code>剧情</code>  <code>音乐</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《惊狂记》 —- <code>犯罪</code>  <code>悬疑</code>  <code>惊悚</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《The Celestine Prophecy》 —- <code>冒险</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《Our Little Sister》 —- <code>家庭</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《偷书贼》 —- <code>战争</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《天浴》 —- <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《顽主》 —- <code>剧情</code>  <code>喜剧</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《地下》 —- <code>喜剧</code>  <code>战争</code>  <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《阳光灿烂的日子》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《苦戀》 —- <code>剧情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《发条橙》 —- <code>剧情</code>  <code>犯罪</code>  <code>人性</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《未麻的部屋》 —- <code>动画</code>  <code>奇幻</code>  <code>惊悚</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《00太空漫游》 —- <code>科幻</code>  <code>惊悚</code>  <code>冒险</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《鬼子来了》 —- <code>剧情</code>  <code>战争</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《樓下的房客》 —- <code>剧情</code>  <code>悬疑</code>  <code>惊悚</code></li>
-<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《孤筏重洋》 —- <code>歷史</code>  <code>冒險</code></p>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《钢琴家》 —— <code>剧情</code>  <code>传记</code>  <code>历史</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《第九道门》 —— <code>剧情</code>  <code>奇幻</code>  <code>恐怖</code>  <code>邪教</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《康熙微服私访记》 —— <code>剧情</code>  <code>历史</code>  <code>古装</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《朗读者》 —— <code>剧情</code>  <code>爱情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《Flying Colors》 —— <code>剧情</code>  <code>励志</code>  <code>家庭</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《洛丽塔》 —— <code>剧情</code>  <code>爱情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《走向共和》 —— <code>剧情</code>  <code>历史</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《爱丽丝梦游仙境》 —— <code>剧情</code>  <code>奇幻</code>  <code>冒险</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《War for the Planet of the Apes》 —— <code>剧情</code>  <code>动作</code>  <code>科幻</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《钢琴教师》 —— <code>剧情</code>  <code>音乐</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《惊狂记》 —— <code>犯罪</code>  <code>悬疑</code>  <code>惊悚</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《The Celestine Prophecy》 —— <code>冒险</code>  <code>剧情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《Our Little Sister》 —— <code>家庭</code>  <code>剧情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《偷书贼》 —— <code>战争</code>  <code>剧情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《天浴》 —— <code>剧情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《顽主》 —— <code>剧情</code>  <code>喜剧</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《地下》 —— <code>喜剧</code>  <code>战争</code>  <code>剧情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《阳光灿烂的日子》 —— <code>剧情</code>  <code>爱情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《苦戀》 —— <code>剧情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《发条橙》 —— <code>剧情</code>  <code>犯罪</code>  <code>人性</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《未麻的部屋》 —— <code>动画</code>  <code>奇幻</code>  <code>惊悚</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《00太空漫游》 —— <code>科幻</code>  <code>惊悚</code>  <code>冒险</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《鬼子来了》 —— <code>剧情</code>  <code>战争</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《樓下的房客》 —— <code>剧情</code>  <code>悬疑</code>  <code>惊悚</code></i></li>
+<li><p><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《孤筏重洋》 —— <code>歷史</code>  <code>冒險</code></i></p>
 <blockquote>
 <p>怪不得海子到死都把《孤筏重洋》留在身边。</p>
 </blockquote>
 </li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《美人鱼》 —- <code>喜剧</code>  <code>爱情</code>  <code>科幻</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《英伦对决》 —- <code>动作</code>  <code>犯罪</code></li>
-<li><i class="fa fa-square-o"></i>  <i class="fa fa-heart-o"></i>  《烟花》</li>
-<li><i class="fa fa-square-o"></i>  <i class="fa fa-heart-o"></i>  《奇迹男孩》</li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《军中乐园》 —- <code>歷史</code>  <code>剧情</code>  <code>爱情</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《天才枪手》 —- <code>犯罪</code>  <code>剧情</code>  <code>悬疑</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《凉宫春日的消失》 —- <code>动画</code>  <code>喜剧</code>  <code>科幻</code>  <code>神作</code></li>
-<li><p><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《极盗者》 —- <code>运动</code>  <code>动作</code>  <code>犯罪</code></p>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《美人鱼》 —— <code>喜剧</code>  <code>爱情</code>  <code>科幻</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《英伦对决》 —— <code>动作</code>  <code>犯罪</code></i></li>
+<li><i class="fa fa-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《烟花》</i></li>
+<li><i class="fa fa-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《奇迹男孩》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《军中乐园》 —— <code>歷史</code>  <code>剧情</code>  <code>爱情</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《天才枪手》 —— <code>犯罪</code>  <code>剧情</code>  <code>悬疑</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《凉宫春日的消失》 —— <code>动画</code>  <code>喜剧</code>  <code>科幻</code>  <code>神作</code></i></li>
+<li><p><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《极盗者》 —— <code>运动</code>  <code>动作</code>  <code>犯罪</code></i></p>
 <blockquote>
 <p>向为本片所呈现的视觉盛宴付出生命的极限运动者致敬。</p>
 </blockquote>
 </li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《名侦探柯南：唐红的恋歌》 —- <code>悬疑</code>  <code>动画</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《小丑回魂》 —- <code>剧情</code>  <code>恐怖</code>  <code>儿童</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《十二生肖》 —- <code>喜剧</code>  <code>动作</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart-o"></i>  《杀破狼》 —- <code>剧情</code>  <code>动作</code>  <code>警匪</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《济公（游本昌老师版）》 —- <code>喜剧</code>  <code>古装</code></li>
-<li><i class="fa fa-check-square-o"></i>  <i class="fa fa-heart"></i>  《悠久之翼》 —- <code>剧情</code>  <code>动画</code>  <code>爱情</code></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《名侦探柯南：唐红的恋歌》 —— <code>悬疑</code>  <code>动画</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《小丑回魂》 —— <code>剧情</code>  <code>恐怖</code>  <code>儿童</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《十二生肖》 —— <code>喜剧</code>  <code>动作</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart-o"></i>  《杀破狼》 —— <code>剧情</code>  <code>动作</code>  <code>警匪</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《济公（游本昌老师版）》 —— <code>喜剧</code>  <code>古装</code></i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt;  <i class="fa fa-heart"></i>  《悠久之翼》 —— <code>剧情</code>  <code>动画</code>  <code>爱情</code></i></li>
 </ol>
 <hr>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.163.com/outchain/player?type=2&amp;id=428350485&amp;auto=1&amp;height=66"></iframe>
 
 <hr>
 <blockquote>
-<p>之所以在 <i class="fa fa-tag"></i> <code>Movies</code> 添加了 <i class="fa fa-heart"></i> 的图标，主要原因还是看的电影有点杂，不像书似的经过了自己较为严格的挑选，所以看的书都是我自己会喜欢的，愿意看的，而电影则只有一部分是早就在 Todolist 中列出来想要看的，另一部分是偶尔拿来打发时间的（emmm… 偶尔晚上会失眠 ╮(╯_╰)╭）<br>    BTW，《The Ocean》这首歌我真的很喜欢，但是由于版权原因只能放出 Remix 版的……个人感觉这版本跟原版真的没得比</p>
+<p>之所以在 <i class="fa fa-tag">&lt;/i&gt; <code>Movies</code> 添加了 <i class="fa fa-heart"></i> 的图标，主要原因还是看的电影有点杂，不像书似的经过了自己较为严格的挑选，所以看的书都是我自己会喜欢的，愿意看的，而电影则只有一部分是早就在 Todolist 中列出来想要看的，另一部分是偶尔拿来打发时间的（emmm… 偶尔晚上会失眠 ╮(╯_╰)╭）<br>    BTW，《The Ocean》这首歌我真的很喜欢，但是由于版权原因只能放出 Remix 版的……个人感觉这版本跟原版真的没得比</i></p>
 </blockquote>
 ]]></content>
       
@@ -1247,12 +1275,12 @@ document.getElementById("audio").volume = 0.5;
 <p>以为就这样了？才四天的不间断碰壁就崩溃了？不，在第四天有幸得到了中铁十四局的面试机会，我们欢呼啊，仿佛奔走在沙漠中即将脱水死亡之时看到了一片绿洲啊，对的，我们有希望了，谁说我们学校不好来着，人家央企都给我们面试机会了。终于进入面试了，先让我们五个人挨个自我介绍一下，到我的时候校名说的是哈理工荣成校区，结果本来有说有笑的面试官一下子懵了……不管我怎么解释说当年一批分数线多少，我高考多少分，我们就是校区，是二批本科，我还有二本证明啊喂……都是徒劳，是啊，这几天所见所闻不也都证明了这些企业都不了解甚至没听过这个学校么？哪怕中铁十四过几天会去哈尔滨总校开招聘会……</p>
 <p>怪我，当初选择学校的不慎重，选择学校的标准太过奇葩，单纯想去海边而已，根本没有考虑到所谓学院会被当作专科，不，那时候根本不知道这里叫做<strong>「荣成学院」</strong> ，能查到的关于这所学校的信息不管是贴吧还是录取通知书都是「荣成<span style="font-weight: 500!important;font-size:0px !important;"> 校区</span>」，<span style="font-weight: 500!important;font-size:0px !important;">不是 </span>学院，这「学院」二字是来到学校以后才看到的，说来也怪，<span style="font-weight: 500!important;font-size:0px !important;"> 到处 </span>都变成了「<span style="font-weight: 500!important;font-size:0px !important;"> 学院 </span>」，而不是之前看到的好听一点的<strong>「校区」</strong>。<span style="font-weight: 500!important;font-size:0px !important;"> 社会，社会，RBQ，RBQ ……</span></p>
 <p>晚上听当天最后一场宣讲会的时候肚子接到电话说投给中铁六局的简历得到了面试机会，第二天一早就准备去面试，面试过程还算顺利，但也在短短几分钟内问了不下三次「你们学校到底是不是二本？」……虽然中铁六营业额排名第三梯队，但总归是央企，最后总算签了。</p>
-<p><i class="fa fa-eye"></i>&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: ;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='font-weight: 50;background: #33;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='font-weight: 50;background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('是否听真话?')){
+<p><i class="fa fa-eye">&lt;/i&gt;&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: ;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='font-weight: 50;background: #33;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='font-weight: 50;background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('是否听真话?')){
        $('#lie').text('&nbsp;在这里说出这些话会损害到某些人的利益，我也有可能因此得到所谓的“制裁”，但我的良心让我不得不提醒高三的学弟学妹们，一路走来能奋斗到高三不容易，不要因为一时的冲动和盲目致使以后的道路变得崎岖。我个人很狭隘，没有所谓远大的理想，我就是农村来的，考大学就是为了找个好工作多赚点钱娶妻生子，没有所谓为了给国家科研出力，为了让自己思想得到升华「要是因为让自己思想得到升华来到大学，我还不如早点接触《道德经》来的实在」，没有，就是单纯的不能再单纯的为了以后的生活，生已经生在了世上，无法改变，活不容易，但也得活下去不是么……&nbsp;');
    }
    else {
-    $('#lie').text('&nbsp;这里可能并没有你想听的话<(￣︶￣)↗。&nbsp;');
-    };">这里可能并没有你想听的话&lt;(￣︶￣)↗</a> </p>
+    $('#lie').text('&nbsp;这里可能并没有你想听的话&lt;(￣︶￣)↗。&nbsp;');
+    };">这里可能并没有你想听的话<(￣︶￣)↗< a=""> </(￣︶￣)↗<></a></i></p>
 ]]></content>
       
         
@@ -1454,12 +1482,12 @@ document.getElementById("audio").volume = 0.5;
 <p>但是，那些死于苏联 Red 军或受到其侮辱侵犯的德国群众着实让人同情，当时甚至想去胖揍苏联 Red 军，难道战胜国就可以这样放肆？战败国没有人权？人权这个词汇可能说重了些，但起码他们也是人，不是牲畜，更不是妓女。卡拉，从苏联 Red 军裆下换下0几岁的丽贝卡，自己忍受着身体的凌辱和精神的蹂躏。战争结束后可能她还会想起那个地狱般的下午，可她不会哭了，至少我认为不会了。便任尔东西南北风吧。</p>
 <h4 id="罪恶不只是被百般辱骂的纳粹"><a href="#罪恶不只是被百般辱骂的纳粹" class="headerlink" title="罪恶不只是被百般辱骂的纳粹"></a>罪恶不只是被百般辱骂的纳粹</h4><p>难道你以为二战中的罪恶只能有纳粹去承担么？</p>
 <p>美国也是看热闹不嫌事大的心机婊，英国也当过表面不杀民众暗地战机轰炸平民区的小人，日本也做了向珍珠港平民穷追不舍轰炸的暴徒，苏联更是攻入德国烧杀抢掠无恶不作的极端流氓。</p>
-<p>我们对于苏联简直就是小孩对大人那般崇拜，而且也并未被告知过苏联在德国的恶行，这难道仅仅是一个学生老师的关系？不敢想像当苏联听到 <i class="fa fa-eye"></i>&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: ;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='background: #233;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('是否听真话?')){
+<p>我们对于苏联简直就是小孩对大人那般崇拜，而且也并未被告知过苏联在德国的恶行，这难道仅仅是一个学生老师的关系？不敢想像当苏联听到 <i class="fa fa-eye">&lt;/i&gt;&nbsp;&nbsp;<i class="fa fa-hand-o-right"></i> <a id="lie" style="opacity: ;border-bottom: 0;cursor: pointer;" onmouseover="this.style.cssText='background: #233;color: #FFF;cursor: pointer;'" onmouseout="this.style.cssText='background: rgba(0,0,0,0);color: #555;border-bottom: 0;cursor: pointer;'" onclick="if(confirm('是否听真话?')){
        $('#lie').text('&nbsp;“我们人多，他们有核弹又能怎样，炸死我一千万，甚至一亿，我还有十几亿老百姓。”&nbsp;');
    }
    else {
     $('#lie').text('&nbsp;“伟大的马克思主义是建立和平时代的指导思想。”&nbsp;');
-    };">“伟大的马克思主义是建立和平时代的指导思想。”</a> 究竟是何感想。可能我这人太过 pessimistic 吧，苏联在德国的种种行为都让英美他们叹服，马歇尔计划的目标也不仅仅是援助战后德国，主要还是应对苏联这个流氓吧，毕竟苏联连占领区全区停电，封路都做得出来。</p>
+    };">“伟大的马克思主义是建立和平时代的指导思想。”</a> 究竟是何感想。可能我这人太过 pessimistic 吧，苏联在德国的种种行为都让英美他们叹服，马歇尔计划的目标也不仅仅是援助战后德国，主要还是应对苏联这个流氓吧，毕竟苏联连占领区全区停电，封路都做得出来。</i></p>
 <blockquote>
 <p>“这是真的。如果说我在西班牙学到了什么，那就是我们必须像打击法西斯主义者那样毫不留情地抗击共产党人。共产党人和法西斯分子是一样的恶魔！”<br>艾瑟尔露出苦笑：“记住就好了。”劳埃德意识到艾瑟尔早就指出过这一点。</p>
 </blockquote>
@@ -1586,7 +1614,7 @@ document.getElementById("audio").volume = 0.5;
 </li>
 <li><p>忠厚培元气，诗书发异香</p>
 </li>
-<li><p>〖傾聽二十歲的雨薇，追憶二十歲的自己〗<br>那時，我站在橋的這邊流淚，他在橋的那頭冷眼瞪著。有一次，我聽錯約會時間遲到了，他非常生氣，用手搥打台北火車站的牆壁。曾經我總會想：為什麼哭泣的時候，他不是疼惜我？不是上前擁抱我？為什麼我聽錯了時間，他不願相信或是無法體諒我？如果他真的愛我，為什麼會這樣對我？<br>熟悉《莊子》之後，才知道那樣大器的、有包容力的、溫暖的愛，其實是一種能力，那也是需要學習的。如果那年，我們都好好讀莊子，故事的發展與其間的心情，想大不同。<br>可我來不及說予當年不耐的、憤怒的你或者流淚的自己了。卻歡喜能把份至為珍貴的禮物，送給三十歲的、二十歲的、十幾歲的孩子，還有未來這些心愛的，孩子的孩子。<br>「From <a href="https://www.facebook.com/profile.php?id=100001442071146" target="_blank" rel="external">蔡璧名教授菲斯布克</a>」</p>
+<li><p>〖傾聽二十歲的雨薇，追憶二十歲的自己〗<br>  那時，我站在橋的這邊流淚，他在橋的那頭冷眼瞪著。有一次，我聽錯約會時間遲到了，他非常生氣，用手搥打台北火車站的牆壁。曾經我總會想：為什麼哭泣的時候，他不是疼惜我？不是上前擁抱我？為什麼我聽錯了時間，他不願相信或是無法體諒我？如果他真的愛我，為什麼會這樣對我？<br>  熟悉《莊子》之後，才知道那樣大器的、有包容力的、溫暖的愛，其實是一種能力，那也是需要學習的。如果那年，我們都好好讀莊子，故事的發展與其間的心情，想大不同。<br>  可我來不及說予當年不耐的、憤怒的你或者流淚的自己了。卻歡喜能把份至為珍貴的禮物，送給三十歲的、二十歲的、十幾歲的孩子，還有未來這些心愛的，孩子的孩子。<br>  「From <a href="https://www.facebook.com/profile.php?id=100001442071146" target="_blank" rel="external">蔡璧名教授菲斯布克</a>」</p>
 </li>
 <li><p>贞女失节不如老妓从良</p>
 <blockquote>
@@ -1600,19 +1628,19 @@ document.getElementById("audio").volume = 0.5;
 <li><p><strong> 一生僅二萬餘日也 </strong> </p>
 </li>
 <li><p>《定风波·莫听穿林打叶声》——蘇軾</p>
-<p>三月七日，沙湖道中遇雨。雨具先去，同行皆狼狽，余獨不覺，已而遂晴，故作此詞。</p>
-<p>莫聽穿林打葉聲，何妨吟嘯且徐行。竹杖芒鞋輕勝馬，誰怕？一蓑煙雨任平生。</p>
-<p>料峭春風吹酒醒，微冷，山頭斜照卻相迎。回首向來蕭瑟處，歸去，也無風雨也無晴。</p>
+<p>  三月七日，沙湖道中遇雨。雨具先去，同行皆狼狽，余獨不覺，已而遂晴，故作此詞。</p>
+<p>  莫聽穿林打葉聲，何妨吟嘯且徐行。竹杖芒鞋輕勝馬，誰怕？一蓑煙雨任平生。</p>
+<p>  料峭春風吹酒醒，微冷，山頭斜照卻相迎。回首向來蕭瑟處，歸去，也無風雨也無晴。</p>
 </li>
 <li><p>《隱幾》——白居易</p>
-<p>身适忘四支，心适忘是非。既适又忘适，不知吾是谁。 </p>
-<p>百体如槁木，兀然无所知。方寸如死灰，寂然无所思。 </p>
-<p>今日复明日，身心忽两遗。行年三十九，岁暮日斜时。 </p>
-<p>四十心不动，吾今其庶几。</p>
+<p>  身适忘四支，心适忘是非。既适又忘适，不知吾是谁。 </p>
+<p>  百体如槁木，兀然无所知。方寸如死灰，寂然无所思。 </p>
+<p>  今日复明日，身心忽两遗。行年三十九，岁暮日斜时。 </p>
+<p>  四十心不动，吾今其庶几。</p>
 </li>
 <li><p>《讀莊子》——白居易</p>
-<p>去國辭家謫異方，中心自怪少憂傷。</p>
-<p>為尋莊子知歸處，<strong> 認得無何是本鄉 </strong>。</p>
+<p>  去國辭家謫異方，中心自怪少憂傷。</p>
+<p>  為尋莊子知歸處，<strong> 認得無何是本鄉 </strong>。</p>
 <blockquote>
 <p>　　惠子谓庄子曰：“吾有大树，人谓之樗。其大本拥肿而不中绳墨，其小枝卷曲而不中规矩，立之涂，匠者不顾。今子之言，大而无用，众所同去也。”</p>
 <p>　　庄子曰：“子独不见狸狌乎？卑身而伏，以候敖者；东西跳梁，不辟高下；中于机辟，死于罔罟。今夫斄牛，其大若垂天之云。此能为大矣，而不能执鼠。今子有大树，患其无用，何不树之于无何有之乡，广莫之野，彷徨乎无为其侧，逍遥乎寝卧其下。不夭斤斧，物无害者，无所可用，安所困苦哉！”</p>
@@ -1623,7 +1651,7 @@ document.getElementById("audio").volume = 0.5;
 <li><p>予悪乎知悪死之非，弱喪而不知歸者邪？予悪乎知夫死者不悔其始之蕲生乎？</p>
 </li>
 <li><p>新出现的陌生光芒和黑暗一样令人恐惧</p>
-<p>Strange new light can be just as frightening as the dark. —— 《西部世界II》</p>
+<p>  Strange new light can be just as frightening as the dark. —— 《西部世界II》</p>
 </li>
 <li><p>清晨，黄昏，天空和飞鸟；代码，诗歌，活着和爱你。</p>
 </li>
@@ -2066,7 +2094,7 @@ document.getElementById("audio").volume = 0.5;
 <li>《小王子》</li>
 <li>《天空之眼》</li>
 <li>《时间规划局》</li>
-<li>《天启–二战》<code>纪录片</code></li>
+<li>《天启—二战》<code>纪录片</code></li>
 <li>《神奇动物在哪里》</li>
 <li>《你的名字。》</li>
 <li>《意外的幸运签》</li>
@@ -2245,8 +2273,8 @@ document.getElementById("audio").volume = 0.5;
 <p>. 下载虚拟机软件，如果信任的话，可以选择下面的下载链接。<a href="https://download3.vmware.com/software/wkst/file/VMware-workstation-full-12.5.0-4352439.exe" target="_blank" rel="external">点击下载</a>  破解序列号:<code>5A02H-AU243-TZJ49-GTC7K-3C61N</code></p>
 <ol>
 <li><p>安装虚拟机。</p>
-<p>. 下载完虚拟机软件后双击<code>VMware-workstation-full-12.5.0-4352439.exe</code> 按正常软件的安装方法安装即可。</p>
-<p>. 或者看下面的安装教程：<a href="http://www.xitongcheng.com/jiaocheng/xtazjc_article_14446.html" target="_blank" rel="external"><strong>教程</strong></a></p>
+<p> . 下载完虚拟机软件后双击<code>VMware-workstation-full-12.5.0-4352439.exe</code> 按正常软件的安装方法安装即可。</p>
+<p> . 或者看下面的安装教程：<a href="http://www.xitongcheng.com/jiaocheng/xtazjc_article_14446.html" target="_blank" rel="external"><strong>教程</strong></a></p>
 </li>
 <li><p>安装完虚拟机之后需要打开虚拟机安装虚拟系统。下载一个win7以上版本的系统镜像，我这里放出一个win0的下载链接。<a href="ed2k://%20|%20file%20|%20cn_windows_10_multiple_editions_version_1511_updated_feb_2016_x64_dvd_8380088.iso%20|%204622118912%20|%203824041FCDFCA670F4BCDAD827C4B63C%20|%20/" target="_blank" rel="external">下载win10</a> 请使用迅雷等下载软件下载。</p>
 </li>
@@ -2554,7 +2582,7 @@ document.getElementById("audio").volume = 0.5;
 <p>所以想到了版本控制。</p>
 <p>可由于某些原因（怕队友嫌麻烦），只能按老套路去画。</p>
 <p>还有，毕竟git的话可以多人协力制作，而目前这样只能一个人画，so…那个人就是我。</p>
-<p>所以啊，如果自己以后还是会从事建筑行业，而且是设计师的话，一定要用版本控制，不仅省力，免得电脑某文件夹内出现“第一版.dwg” “第一版<em>修(1).dwg” “第一版</em>修(2).dwg” “第一版<em>修(1)</em>修.dwg”…… 呃，确实很乱！</p>
+<p>所以啊，如果自己以后还是会从事建筑行业，而且是设计师的话，一定要用版本控制，不仅省力，免得电脑某文件夹内出现“第一版.dwg” “第一版_修(1).dwg” “第一版_修(2).dwg” “第一版_修(1)_修.dwg”…… 呃，确实很乱！</p>
 <p>宝宝才不要辣么乱 (￣^￣) 哼！ </p>
 <p>好辣，就酱吧～课设终于结束了。。。呼～</p>
 ]]></content>
@@ -2636,7 +2664,7 @@ document.getElementById("audio").volume = 0.5;
 </li>
 <li><p>代码（HTML中所谓的Code）<br>实现方式有两种：<br>第一种：简单文字出现一个代码框。使用<code>blockquote</code>。（不是单引号而是左上角的ESC下面<code>~</code>中的）<br>第二种：大片文字需要实现代码框。使用Tab和四个空格。</p>
 </li>
-<li><p>脚注（footnote）<br>实现方式如下：<br>hello[^hello]</p>
+<li><p>脚注（footnote）<br>实现方式如下：<br>hello<sup><a href="#fn_hello" id="reffn_hello">hello</a></sup></p>
 </li>
 <li><p>下划线<br>在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的级标题）</p>
 </li>
@@ -2870,7 +2898,7 @@ document.getElementById("audio").volume = 0.5;
 <blockquote>
 <p>联合国：联大三委刚刚130票赞成、54票反对、0票弃权通过了题为“人权与文化多样性”的决议草案，重申所有人权都具普遍性，国际社会必须公正对待，虽然必须顾及不同历史、文化和宗教背景，但是各国不论政治、经济和文化制度为何，都有义务促进和保护所有人权和基本自由。美英法等54国投了反对票。</p>
 </blockquote>
-<p>传说中的人权至上，也就仅限于桃花源了吧，所谓人权这个名词，不过是一种统治者给公民的棉花糖，殊不知，糖吃多了，也会齁。当人们追着统治者要人权的时候，我不知道统治者们会怎么 \<del\>回答\</del\> 敷衍。但我知道，只要没给我我需要的自由和权利，迟早有一天我会揭竿！</p>
+<p>传说中的人权至上，也就仅限于桃花源了吧，所谓人权这个名词，不过是一种统治者给公民的棉花糖，殊不知，糖吃多了，也会齁。当人们追着统治者要人权的时候，我不知道统治者们会怎么 \<del\>回答\&lt;/del> 敷衍。但我知道，只要没给我我需要的自由和权利，迟早有一天我会揭竿！</del\></p>
 <p>他们还是孩子，他们病了，他们在医院打吊瓶。但是他们还有写不完的作业，上不完的辅导班，听不完的关于成绩的唠叨。他们不过是孩子，仅此而已。“别让孩子输在起跑线上！”是么？这样教育孩子，孩子还没上跑到，就已经输了。</p>
 <p>未完待续。</p>
 ]]></content>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-06-08T15:26:26.059Z</updated>
+  <updated>2018-06-11T14:39:59.173Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pareto distribution</title>
+    <link href="http://kleist.top/2018/06/11/Pareto-distribution.html"/>
+    <id>http://kleist.top/2018/06/11/Pareto-distribution.html</id>
+    <published>2018-06-11T13:37:14.000Z</published>
+    <updated>2018-06-11T14:39:59.173Z</updated>
+    
+    <content type="html"><![CDATA[<p>帕累托分布是以意大利经济学家维弗雷多·帕雷托命名的。 是从大量真实世界的现象中发现的幂定律分布。这个分布在经济学以外，也被称为布拉德福分布。<br>在帕累托分布中，如果$X$是一个随机变量， 则$X$的概率分布如下面的公式所示：</p>
+<script type="math/tex; mode=display">\begin{aligned} P(X>x)=(\frac{x}{x_{min}})^{-k} \end{aligned}</script><p>其中$X$是任何一个大于 $x_{min}$ 的数，$x_{min}$ 是$X$最小的可能值（正数）， $k$ 是为正的参数。帕累托分布曲线族是由两个数量参数化的： $x_{min}$ 和 $k$ 。分布密度则为:</p>
+<script type="math/tex; mode=display">p(x)=\left\{\begin{aligned} 0, && \text{if } x<x_{min}, \\ \frac{k \cdot x_{min}^k}{x^{k+1}}, && \text{if }x > x_{min}.\end{aligned} \right.</script><p>帕累托分布属于连续概率分布。 “齐夫定律”, 也称为“zeta 分布”, 也可以被认为是在离散概率分布中的帕累托分布。 一个遵守帕累托分布的随机变量的期望值为  $\frac{x_{min} \cdot k}{k-1}​$(如果$k\leqq 1​$ 期望值为无穷大)且随机变量的标准差为$\frac{x_{min}}{k-1} \sqrt{\frac{k}{k-2}}​$ （如果$k\leqq 1​$ ，标准差不存在）。</p>
+<p>被认为大致是帕累托分布的例子有：</p>
+<ul>
+<li>财富在个人之间的分布</li>
+<li>人类居住区的大小</li>
+<li>对维基百科条目的访问</li>
+<li>对微博的访问</li>
+<li>接近<a href="https://zh.wikipedia.org/wiki/%E7%BB%9D%E5%AF%B9%E9%9B%B6%E5%BA%A6" target="_blank" rel="external">绝对零度</a>时，<a href="https://zh.wikipedia.org/wiki/%E7%8E%BB%E8%89%B2%E2%80%93%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%87%9D%E8%81%9A" target="_blank" rel="external">玻色–爱因斯坦凝聚</a>的团簇</li>
+<li>在互联网流量中文件尺寸的分布</li>
+<li>油田的石油储备数量</li>
+<li>龙卷风带来的灾难的数量</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;帕累托分布是以意大利经济学家维弗雷多·帕雷托命名的。 是从大量真实世界的现象中发现的幂定律分布。这个分布在经济学以外，也被称为布拉德福分布。&lt;br&gt;在帕累托分布中，如果$X$是一个随机变量， 则$X$的概率分布如下面的公式所示：&lt;/p&gt;
+&lt;script type=&quot;math
+    
+    </summary>
+    
+    
+      <category term="冷知识" scheme="http://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>もういい</title>
@@ -532,9 +567,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
-    
       <category term="冷知识" scheme="http://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -587,13 +622,13 @@ document.getElementById("audio").volume = 0.5;
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
 
 <ol>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《哲学史讲演录》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《源氏物语》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar35"></i> 《漫画人体——一看就懂的人体结构书》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar45"></i> 《庄子》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《续子不语》</li>
-<li><i class="fa fa-check-square-o"></i> <i class="bigstar bigstar40"></i> 《道德情操论》</li>
-<li><i class="fa fa-square-o"></i> <i class="bigstar bigstar45"></i> 《百年孤独》</li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《哲学史讲演录》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《源氏物语》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar35"></i> 《漫画人体——一看就懂的人体结构书》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《庄子》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《续子不语》</i></li>
+<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《道德情操论》</i></li>
+<li><i class="fa fa-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《百年孤独》</i></li>
 </ol>
 <a id="more"></a>
 <div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [6/30] </div>
@@ -602,89 +637,89 @@ document.getElementById("audio").volume = 0.5;
 <div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div>
 
 <ol>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —- <code>剧情</code>  <code>喜剧</code></li>
-<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —- <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —- <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
-<li><p><i style="color:#EEE5ED;" class="fa fa-heart"></i>  《部分国产恐怖片》 —- <code>恐怖</code>  <code>走进科学</code></p>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《The Marvelous Mrs.Maisel》 —— <code>剧情</code>  <code>喜剧</code></li>
+<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《Rick and Morty》 —— <code>科幻</code>  <code>动画</code>  <code>冒险</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《True Detective》 —— <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《记忆大师》 —— <code>剧情</code>  <code>犯罪</code>  <code>悬疑</code></li>
+<li><p><i style="color:#EEE5ED;" class="fa fa-heart"></i>  《部分国产恐怖片》 —— <code>恐怖</code>  <code>走进科学</code></p>
 <blockquote>
 <p>欢迎收看本期走进科学，笔仙、碟仙、恐怖理发店等恐怖电影背后的秘密。<br>—— 心理变态、心理受刺激、个人利益至上<br>自从看了《中邪》，彻底改变了对国产恐怖片未来的看法</p>
 </blockquote>
 </li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i style="color:#FFCCCC;" class="fa fa-heart"></i>  《喜欢你》 —- <code>喜剧</code>  <code>爱情</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —- <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —- <code>剧情</code>  <code>爱情</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —- <code>纪录片</code> <code>猫科动物</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —- <code>纪录片</code> <code>Magic</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —- <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《逃出绝命镇》 —- <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《火海凌云》 —- <code>剧情</code> <code>动作</code> <code>灾难</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《伏地魔：传人的起源》 —- <code>剧情</code> <code>Magic</code></li>
-<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《太空救援》 —- <code>剧情</code> <code>动作</code> <code>冒险</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《罪恶之家》 —- <code>悬疑</code> <code>剧情</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —- <code>剧情</code></li>
-<li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —- <code>剧情</code></p>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《我的少女时代》 —— <code>喜剧</code>  <code>爱情</code></li>
+<li><i style="color:#FFCCCC;" class="fa fa-heart"></i>  《喜欢你》 —— <code>喜剧</code>  <code>爱情</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《S.H.I.E.L.D》 —— <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《等一个人咖啡》 —— <code>剧情</code>  <code>爱情</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《Big Cats》 —— <code>纪录片</code> <code>猫科动物</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Harry Potter A History of Magic》 —— <code>纪录片</code> <code>Magic</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Gaslight》 —— <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《逃出绝命镇》 —— <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《火海凌云》 —— <code>剧情</code> <code>动作</code> <code>灾难</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《伏地魔：传人的起源》 —— <code>剧情</code> <code>Magic</code></li>
+<li><i style="color:#FFCC66;" class="fa fa-heart"></i>  《太空救援》 —— <code>剧情</code> <code>动作</code> <code>冒险</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《罪恶之家》 —— <code>悬疑</code> <code>剧情</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《嘉年华》 —— <code>剧情</code></li>
+<li><p><i style="color:#FF0000;" class="fa fa-heart"></i>  《狩猎》 —— <code>剧情</code></p>
 <blockquote>
 <p><a href="https://kleist.top/08/0/8/天真无邪的「邪」.html">《狩猎》观感</a></p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —- <code>剧情</code> <code>历史</code> <code>战争</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —- <code>剧情</code> <code>历史</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —- <code>动作</code> <code>剧情</code> <code>历史</code></li>
-<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《Steel Rain》 —- <code>动作</code> <code>剧情</code> <code>历史</code></p>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《芳华》 —— <code>剧情</code> <code>历史</code> <code>战争</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Dunkirk》 —— <code>剧情</code> <code>历史</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《Rome》 —— <code>动作</code> <code>剧情</code> <code>历史</code></li>
+<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《Steel Rain》 —— <code>动作</code> <code>剧情</code> <code>历史</code></p>
 <blockquote>
 <p>韩国电影真的不容小觑。</p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《斯大林之死》 —- <code>喜剧</code> <code>传记</code> <code>历史</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —- <code>剧情</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —- <code>剧情</code> <code>犯罪</code> <code>悬疑</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —- <code>剧情</code> <code>历史</code></li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —- <code>剧情</code> <code>历史</code> <code>古装</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《天赋异秉》 —- <code>动作</code> <code>科幻</code> <code>奇幻</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《末代皇帝》 —- <code>剧情</code> <code>历史</code> <code>传记</code></li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —- <code>剧情</code> <code>悬疑</code> <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —- <code>剧情</code> <code>喜剧</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —- <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —- <code>动作</code> <code>奇幻</code> <code>冒险</code></li>
-<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《0 × 0》 —- <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —- <code>惊悚</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —- <code>剧情</code> <code>动作</code></li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —- <code>科幻</code> <code>动作</code> <code>冒险</code></li>
-<li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《Lady Bird》 —- <code>剧情</code> <code>家庭</code></p>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《斯大林之死》 —— <code>喜剧</code> <code>传记</code> <code>历史</code></li>
+<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《1987:When the Day Comes》 —— <code>剧情</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《看不见的客人》 —— <code>剧情</code> <code>犯罪</code> <code>悬疑</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《出租车司机》 —— <code>剧情</code> <code>历史</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《八旗子弟》 —— <code>剧情</code> <code>历史</code> <code>古装</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《天赋异秉》 —— <code>动作</code> <code>科幻</code> <code>奇幻</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《末代皇帝》 —— <code>剧情</code> <code>历史</code> <code>传记</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《黑暗乡村》 —— <code>剧情</code> <code>悬疑</code> <code>惊悚</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《成长边缘》 —— <code>剧情</code> <code>喜剧</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《地心引力》 —— <code>科幻</code> <code>惊悚</code> <code>灾难</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《勇敢者游戏：决战丛林》 —— <code>动作</code> <code>奇幻</code> <code>冒险</code></li>
+<li><i style="color:#FFcc66;" class="fa fa-heart"></i>  《0 × 0》 —— <code>惊悚</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《中邪》 —— <code>惊悚</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《博多豚骨拉面团》 —— <code>剧情</code> <code>动作</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《头号玩家》 —— <code>科幻</code> <code>动作</code> <code>冒险</code></li>
+<li><p><i style="color:#FF5500;" class="fa fa-heart"></i>  《Lady Bird》 —— <code>剧情</code> <code>家庭</code></p>
 <blockquote>
 <p>把大家真真切切的青春日记拍成电影的导演</p>
 </blockquote>
 </li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
-<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《厉害了，我的国》 —- <code>剧情</code> <code>传记</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —- <code>剧情</code> <code>传记</code> <code>历史</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —- <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
-<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —- <code>庄子</code> <code>国学</code> <code>道家</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —- <code>茶道</code>  <code>纪录片</code> </li>
-<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —- <code>剧情</code> <code>科幻</code> <blockquote>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《闪灵》 —— <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
+<li><i style="color:#FF0000;" class="fa fa-heart"></i>  《厉害了，我的国》 —— <code>剧情</code> <code>传记</code></li>
+<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —— <code>剧情</code> <code>传记</code> <code>历史</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —— <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
+<li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —— <code>庄子</code> <code>国学</code> <code>道家</code></li>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —— <code>茶道</code>  <code>纪录片</code> </li>
+<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —— <code>剧情</code> <code>科幻</code> <blockquote>
 <p>说实话， 这部电影值得思考的地方有很多，抛开每个人的共同点（自我毁灭 or 渴望重生），开放式结局之后我最想问的就是「你还是你吗？」</p>
 </blockquote>
 </li>
-<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —- <code>剧情</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《唐人街探案2》 —- <code>喜剧</code> <code>动作</code> <code>犯罪</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《无人机战场》 —-  <code>动作</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《祥云寺》 —-  <code>恐怖</code> <code>惊悚</code></li>
-<li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《烟花》 —-  <code>剧情</code> <code>动画</code></p>
+<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —— <code>剧情</code> </li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《唐人街探案2》 —— <code>喜剧</code> <code>动作</code> <code>犯罪</code> </li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《无人机战场》 ——  <code>动作</code> </li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《祥云寺》 ——  <code>恐怖</code> <code>惊悚</code></li>
+<li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《烟花》 ——  <code>剧情</code> <code>动画</code></p>
 <blockquote>
 <p>《烟花》比起《你的名字。》那轻松欢快的调性显得有些清秀平淡，对，很多人愿意把《烟花》和《君名》做比较，甚至把当初看《君名》的心情转移到《烟花》作为第二部《君名》去看，那必然会产生落差。就我而言，《烟花》更像是针对真正有过青春的人做的，如果青春时代没有经历过那么喜欢一个人，没有经历过有爱说不出口的憋屈，没有经历过一段痛苦，那可能是很难产生共鸣的，当然，我更觉得，没有在青春时代经历过这些的实在是太遗憾了。一次次的为你逆转时光，最后也只能在越来越理想的剧情里面得到一句我喜欢你，改变了什么？没有，转校的继续转校，暗恋的继续暗恋，该错过的终究会错过。</p>
 <p>再说点题外话，《烟花》的豆瓣只有5分左右，为什么呢？在下的拙见：因为《君名》太火了，导致国内院线宣传强行把《烟花》宣传成了《君名》续作，当你期待一个节奏欢快，泪点满满的剧时突然看到的是一部平平淡淡，并无泪点的作品，再就是观众的期待太高了，而且新房和新海诚本来就是不同风格的导演，如果《烟花》看不懂的人，恐怕也不容易理解新房的《魔法少女小圆》吧……</p>
 </blockquote>
 </li>
-<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《家族狩猎》 —-  <code>剧情</code> <code>悬疑</code> <code>家庭</code></p>
+<li><p><i style="color:#FF3300;" class="fa fa-heart"></i>  《家族狩猎》 ——  <code>剧情</code> <code>悬疑</code> <code>家庭</code></p>
 <blockquote>
 <p>「每个人的命运，对于这纷繁的世界来说，只是平淡无奇的清晨光景。」黑暗、悲观、负能量、<strong>真实</strong> ，或许黑暗系真的是我的菜吧。联系到Neko推荐的《好想殺死父母》，其实很多时候我们都会产生这种想法，这并不可耻，也不应当将其作为背后议论某人的谈资。生活中很多的家庭问题大家都选择逃避，不愿面对，父母犯错儿女敢怒不敢言，说了便大逆不道，不说则等待爆发。</p>
 <p>我是肤浅了，全程都在猜测凶手到底是谁，可凶手真的只是某个人么？</p>
 </blockquote>
 </li>
-<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《请回答1988》 —-  <code>剧情</code> <code>喜剧</code> <code>爱情</code> <code>家庭</code></li>
-<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《逃避可耻却有用》 —-  <code>剧情</code> <code>爱情</code> <code>家庭</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《请回答1988》 ——  <code>剧情</code> <code>喜剧</code> <code>爱情</code> <code>家庭</code></li>
+<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《逃避可耻却有用》 ——  <code>剧情</code> <code>爱情</code> <code>家庭</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
@@ -724,13 +759,13 @@ document.getElementById("audio").volume = 0.5;
       &lt;div align=&quot;center&quot; style=&quot;font-size: 25px !important; font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; Books&lt;/div&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar40&quot;&gt;&lt;/i&gt; 《哲学史讲演录》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar45&quot;&gt;&lt;/i&gt; 《源氏物语》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar35&quot;&gt;&lt;/i&gt; 《漫画人体——一看就懂的人体结构书》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar45&quot;&gt;&lt;/i&gt; 《庄子》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar40&quot;&gt;&lt;/i&gt; 《续子不语》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar40&quot;&gt;&lt;/i&gt; 《道德情操论》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-square-o&quot;&gt;&lt;/i&gt; &lt;i class=&quot;bigstar bigstar45&quot;&gt;&lt;/i&gt; 《百年孤独》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&amp;lt;/i&amp;gt; &lt;i class=&quot;bigstar bigstar40&quot;&gt;&lt;/i&gt; 《哲学史讲演录》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&amp;lt;/i&amp;gt; &lt;i class=&quot;bigstar bigstar45&quot;&gt;&lt;/i&gt; 《源氏物语》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&amp;lt;/i&amp;gt; &lt;i class=&quot;bigstar bigstar35&quot;&gt;&lt;/i&gt; 《漫画人体——一看就懂的人体结构书》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&amp;lt;/i&amp;gt; &lt;i class=&quot;bigstar bigstar45&quot;&gt;&lt;/i&gt; 《庄子》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&amp;lt;/i&amp;gt; &lt;i class=&quot;bigstar bigstar40&quot;&gt;&lt;/i&gt; 《续子不语》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&amp;lt;/i&amp;gt; &lt;i class=&quot;bigstar bigstar40&quot;&gt;&lt;/i&gt; 《道德情操论》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-square-o&quot;&gt;&amp;lt;/i&amp;gt; &lt;i class=&quot;bigstar bigstar45&quot;&gt;&lt;/i&gt; 《百年孤独》&lt;/li&gt;
 &lt;/ol&gt;
     
     </summary>
@@ -1191,43 +1226,6 @@ document.getElementById("audio").volume = 0.5;
     
     
       <category term="冷知识" scheme="http://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>近期碎碎念</title>
-    <link href="http://kleist.top/2017/12/21/%E8%BF%91%E6%9C%9F%E7%A2%8E%E7%A2%8E%E5%BF%B5.html"/>
-    <id>http://kleist.top/2017/12/21/近期碎碎念.html</id>
-    <published>2017-12-21T02:09:23.000Z</published>
-    <updated>2018-04-15T08:38:08.372Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="可怕的实用主义"><a href="#可怕的实用主义" class="headerlink" title="可怕的实用主义"></a>可怕的实用主义</h2><p>读课外书没用，看动漫电影电视剧没用，但是看到别人孩子懂得「知识」多就对自己孩子流露出不满意；</p>
-<p>信仰宗教没用，看到别人时刻遵循教义并且在信仰的力量帮助下完善自己开始吐槽孩子没有信仰；</p>
-<p>学画画没用，不能拿来当饭吃，但看到有人一幅画价值连城又会数落孩子没有特长；</p>
-<p>玩游戏没用，但看到那一个个游戏主播和游戏职业选手收入高的吓人时又在两眼放光的羡慕着…</p>
-<p>有人说生活需要一些仪式感来增加乐趣，很多人听到之后第一句就问「有啥用？」，这个问题可以先不回答，在现代这个快节奏的生活中，早起晚睡一天劳累，拿什么拯救情绪呢？刷手机？看综艺？这些事情难道不也是大家口中的「没用的事情」么？</p>
-<p>我知道收获了的不过是少数人，很多看了很多书的人也不一定能表现的多么博学，很多有宗教信仰的人可能也会触犯禁忌，很多学了画画的人也只是当作业余爱好，哪怕画的不好，很多玩游戏很厉害的人也只是当作减压工具……<br><a id="more"></a></p>
-<hr>
-<h2 id="可怕的千手像"><a href="#可怕的千手像" class="headerlink" title="可怕的千手像"></a>可怕的千手像</h2><p>在奥威尔的《984》中写到一种现象，人都必须按照相同的步伐做事，听起来就像在一个身躯上长着不同的脑袋一样，人虽然各不相同，却做着步调一致的行为。这固然是可怕的，可我也在想：</p>
-<p>当所有的人都在变成同一个脑袋，同一个思想，只剩下四肢上的不同时，</p>
-<p><strong> 是不是更可怕。</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;可怕的实用主义&quot;&gt;&lt;a href=&quot;#可怕的实用主义&quot; class=&quot;headerlink&quot; title=&quot;可怕的实用主义&quot;&gt;&lt;/a&gt;可怕的实用主义&lt;/h2&gt;&lt;p&gt;读课外书没用，看动漫电影电视剧没用，但是看到别人孩子懂得「知识」多就对自己孩子流露出不满意；&lt;/p&gt;
-&lt;p&gt;信仰宗教没用，看到别人时刻遵循教义并且在信仰的力量帮助下完善自己开始吐槽孩子没有信仰；&lt;/p&gt;
-&lt;p&gt;学画画没用，不能拿来当饭吃，但看到有人一幅画价值连城又会数落孩子没有特长；&lt;/p&gt;
-&lt;p&gt;玩游戏没用，但看到那一个个游戏主播和游戏职业选手收入高的吓人时又在两眼放光的羡慕着…&lt;/p&gt;
-&lt;p&gt;有人说生活需要一些仪式感来增加乐趣，很多人听到之后第一句就问「有啥用？」，这个问题可以先不回答，在现代这个快节奏的生活中，早起晚睡一天劳累，拿什么拯救情绪呢？刷手机？看综艺？这些事情难道不也是大家口中的「没用的事情」么？&lt;/p&gt;
-&lt;p&gt;我知道收获了的不过是少数人，很多看了很多书的人也不一定能表现的多么博学，很多有宗教信仰的人可能也会触犯禁忌，很多学了画画的人也只是当作业余爱好，哪怕画的不好，很多玩游戏很厉害的人也只是当作减压工具……&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="随想" scheme="http://kleist.top/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
