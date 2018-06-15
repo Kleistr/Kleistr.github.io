@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-06-15T06:03:35.048Z</updated>
+  <updated>2018-06-15T15:40:43.134Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>毕业了……</title>
+    <link href="http://kleist.top/2018/06/15/%E6%AF%95%E4%B8%9A%E4%BA%86%E2%80%A6%E2%80%A6.html"/>
+    <id>http://kleist.top/2018/06/15/毕业了…….html</id>
+    <published>2018-06-15T15:36:08.000Z</published>
+    <updated>2018-06-15T15:40:43.134Z</updated>
+    
+    <content type="html"><![CDATA[<p>Just test new workflow.</p>
+<p>It works.</p>
+<p>Yeah</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Just test new workflow.&lt;/p&gt;
+&lt;p&gt;It works.&lt;/p&gt;
+&lt;p&gt;Yeah&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Pareto distribution</title>
@@ -987,248 +1013,6 @@ document.getElementById("audio").volume = 0.5;
       <category term="日常" scheme="http://kleist.top/tags/%E6%97%A5%E5%B8%B8/"/>
     
       <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Typical Raindrop Sizes</title>
-    <link href="http://kleist.top/2017/12/21/%E5%86%B7%E7%9F%A5%E8%AF%86.html"/>
-    <id>http://kleist.top/2017/12/21/冷知识.html</id>
-    <published>2017-12-21T14:23:44.000Z</published>
-    <updated>2018-04-15T12:11:32.864Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Typical-Raindrop-Sizes"><a href="#Typical-Raindrop-Sizes" class="headerlink" title="Typical Raindrop Sizes"></a>Typical Raindrop Sizes</h3><table style="font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;">
-
-
-
-<tbody>
-
-<tr align="CENTER" valign="CENTER">
-<th></th>
-<th align="CENTER" colspan="2">Drop Size</th>
-<th align="CENTER" colspan="2">Terminal Velocity</th>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<th align="CENTER">Rain Type</th>
-<th>mm</th>
-<th>in</th>
-<th> m/sec</th>
-<th> miles/hr</th>
-</tr>
-
-
-<tr align="CENTER" valign="CENTER">
-<th colspan="5">Light Stratiform Rain (.04'' per hour)</th>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<td>Small Drop</td>
-<td>.5</td>
-<td>.02</td>
-<td>2.06</td>
-<td>4.6</td>
-</tr>
-
-
-<tr align="CENTER" valign="CENTER">
-<td>Large Drop</td>
-<td>2.0</td>
-<td>.08</td>
-<td>6.49</td>
-<td>14.4</td>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<th colspan="5" align="center">Moderate Stratiform Rain (.25'' per hour)</th>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<td>Small Drop</td>
-<td>1.0</td>
-<td>.04</td>
-<td>4.03</td>
-<td>8.9</td>
-</tr>
-
-
-<tr align="CENTER" valign="CENTER">
-<td>Large Drop</td>
-<td>2.6</td>
-<td>.10</td>
-<td>7.57</td>
-<td>16.1</td>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<th colspan="5">Heavy Thundershower (1.0'' per hour)</th>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<td>Small Drop</td>
-<td>1.2</td>
-<td>.05</td>
-<td>4.64</td>
-<td>10.3</td>
-</tr>
-
-
-<tr align="CENTER" valign="CENTER">
-<td>Large Drop</td>
-<td>4.0</td>
-<td>.16</td>
-<td>8.83</td>
-<td>19.6</td>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<td>Largest Possible Drop</td>
-<td>5.0</td>
-<td>.20</td>
-<td>9.09</td>
-<td>20.2</td>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<td>Hailstone</td>
-<td> 10 </td>
-<td>0.4</td>
-<td>10.0</td>
-<td>22.2</td>
-</tr>
-
-<tr align="CENTER" valign="CENTER">
-<td>Hailstone</td>
-<td> 40 </td>
-<td>1.6</td>
-<td>20.0</td>
-<td>44.4</td>
-</tr>
-
-</tbody>
-</table>
-
-<a id="more"></a>
-<h3 id="Why-5mm-is-the-Largest-possible-drop-size"><a href="#Why-5mm-is-the-Largest-possible-drop-size" class="headerlink" title="Why 5mm is the Largest possible drop size?"></a>Why 5mm is the Largest possible drop size?</h3><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/wf8yc.gif" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;Typical-Raindrop-Sizes&quot;&gt;&lt;a href=&quot;#Typical-Raindrop-Sizes&quot; class=&quot;headerlink&quot; title=&quot;Typical Raindrop Sizes&quot;&gt;&lt;/a&gt;Typical Raindrop Sizes&lt;/h3&gt;&lt;table style=&quot;font-family: &#39;InputMono-Thin&#39;,&#39;Bookerly-Regular&#39;,&#39;PingFangSC-Ultralight&#39;, &#39;Microsoft YaHei&#39; !important;&quot;&gt;
-
-
-
-&lt;tbody&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th align=&quot;CENTER&quot; colspan=&quot;2&quot;&gt;Drop Size&lt;/th&gt;
-&lt;th align=&quot;CENTER&quot; colspan=&quot;2&quot;&gt;Terminal Velocity&lt;/th&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th align=&quot;CENTER&quot;&gt;Rain Type&lt;/th&gt;
-&lt;th&gt;mm&lt;/th&gt;
-&lt;th&gt;in&lt;/th&gt;
-&lt;th&gt; m/sec&lt;/th&gt;
-&lt;th&gt; miles/hr&lt;/th&gt;
-&lt;/tr&gt;
-
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th colspan=&quot;5&quot;&gt;Light Stratiform Rain (.04&#39;&#39; per hour)&lt;/th&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Small Drop&lt;/td&gt;
-&lt;td&gt;.5&lt;/td&gt;
-&lt;td&gt;.02&lt;/td&gt;
-&lt;td&gt;2.06&lt;/td&gt;
-&lt;td&gt;4.6&lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Large Drop&lt;/td&gt;
-&lt;td&gt;2.0&lt;/td&gt;
-&lt;td&gt;.08&lt;/td&gt;
-&lt;td&gt;6.49&lt;/td&gt;
-&lt;td&gt;14.4&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th colspan=&quot;5&quot; align=&quot;center&quot;&gt;Moderate Stratiform Rain (.25&#39;&#39; per hour)&lt;/th&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Small Drop&lt;/td&gt;
-&lt;td&gt;1.0&lt;/td&gt;
-&lt;td&gt;.04&lt;/td&gt;
-&lt;td&gt;4.03&lt;/td&gt;
-&lt;td&gt;8.9&lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Large Drop&lt;/td&gt;
-&lt;td&gt;2.6&lt;/td&gt;
-&lt;td&gt;.10&lt;/td&gt;
-&lt;td&gt;7.57&lt;/td&gt;
-&lt;td&gt;16.1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;th colspan=&quot;5&quot;&gt;Heavy Thundershower (1.0&#39;&#39; per hour)&lt;/th&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Small Drop&lt;/td&gt;
-&lt;td&gt;1.2&lt;/td&gt;
-&lt;td&gt;.05&lt;/td&gt;
-&lt;td&gt;4.64&lt;/td&gt;
-&lt;td&gt;10.3&lt;/td&gt;
-&lt;/tr&gt;
-
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Large Drop&lt;/td&gt;
-&lt;td&gt;4.0&lt;/td&gt;
-&lt;td&gt;.16&lt;/td&gt;
-&lt;td&gt;8.83&lt;/td&gt;
-&lt;td&gt;19.6&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Largest Possible Drop&lt;/td&gt;
-&lt;td&gt;5.0&lt;/td&gt;
-&lt;td&gt;.20&lt;/td&gt;
-&lt;td&gt;9.09&lt;/td&gt;
-&lt;td&gt;20.2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Hailstone&lt;/td&gt;
-&lt;td&gt; 10 &lt;/td&gt;
-&lt;td&gt;0.4&lt;/td&gt;
-&lt;td&gt;10.0&lt;/td&gt;
-&lt;td&gt;22.2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr align=&quot;CENTER&quot; valign=&quot;CENTER&quot;&gt;
-&lt;td&gt;Hailstone&lt;/td&gt;
-&lt;td&gt; 40 &lt;/td&gt;
-&lt;td&gt;1.6&lt;/td&gt;
-&lt;td&gt;20.0&lt;/td&gt;
-&lt;td&gt;44.4&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/tbody&gt;
-&lt;/table&gt;
-    
-    </summary>
-    
-    
-      <category term="冷知识" scheme="http://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   
