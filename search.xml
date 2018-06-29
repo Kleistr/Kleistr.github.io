@@ -4,11 +4,17 @@
   
     
     <entry>
-      <title><![CDATA[毕业了……]]></title>
-      <url>http://kleist.top/2018/06/15/%E6%AF%95%E4%B8%9A%E4%BA%86%E2%80%A6%E2%80%A6.html</url>
-      <content type="html"><![CDATA[<p>Just test new workflow.</p>
-<p>It works.</p>
-<p>Yeah</p>
+      <title><![CDATA[再见。珍重。]]></title>
+      <url>http://kleist.top/2018/06/29/%E5%86%8D%E8%A7%81%E3%80%82.html</url>
+      <content type="html"><![CDATA[<p>没想到，明明嘴硬的说过这学校没什么好留恋的，到自己走的时候也真的柔软了……</p>
+<p>讲道理，其实舍不得的还是你们，菘，丰胸，加仑，月月鸟，肚儿，阿翔，指导「以上排名不分先后」，最感到抱歉的是我把大家带入了毒奶粉的坑，当然让我开心的也是大家一起玩儿毒奶粉、一起吐槽丰胸的母猴子、一起戳+11圣耀的痛点、一起喊狗六花、一起喊 go涛、一起喊着不锈钢盆、一起惊讶着月月鸟的伤害、一起叫着晚枫腚哥……</p>
+<p>菘，这一不小心就把你带入了知乎的坑，刷到停不下来；这读书的坑倒是让人高兴的，希望以后多多交流看过的好书「悲剧/暗黑风/人性/…」←这几个标签差不多吧。</p>
+<p>丰胸，真心希望你能够申请到一所优秀的大学，我们菘花会唯一一个有机会出国留学的母猴子！是时候成立菘花会海外部了。有缘再见。</p>
+<p>加仑，入学的时候最早见面，可惜没能在毕业的时候与你话别，好在都在山东，距离不是问题。话说，此生，一定领教一下你口中的云南。有缘再见。</p>
+<p>月月鸟，系饭的那天晚上，你喝的最多，话也最多，知道是真的不舍。有缘再见，菘花会初代会长。</p>
+<p>肚儿，感谢分享《道德经》和一些见解，在你身上，学到很多，希望每年都能花十几二十块钱的路费探讨一下人生。</p>
+<p>阿翔，大概你就是我一直想做到但没法做到的人吧，一直都羡慕有啥说啥的你，一直。有缘再见。</p>
+<p>指导，感谢几次课设的指导，感谢能让我遇到同一天生日的你「你比我小一岁，都是弟弟」，盆儿，有缘再见。</p>
 ]]></content>
       
         
@@ -524,13 +530,13 @@ document.getElementById("audio").volume = 0.5;
       <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
 
 <ol>
-<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《哲学史讲演录》</i></li>
-<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《源氏物语》</i></li>
-<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar35"></i> 《漫画人体——一看就懂的人体结构书》</i></li>
-<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《庄子》</i></li>
-<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《续子不语》</i></li>
-<li><i class="fa fa-check-square-o">&lt;/i&gt; <i class="bigstar bigstar40"></i> 《道德情操论》</i></li>
-<li><i class="fa fa-square-o">&lt;/i&gt; <i class="bigstar bigstar45"></i> 《百年孤独》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF4400;" class="fa fa-heart"></i>  《哲学史讲演录》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF2200;" class="fa fa-heart"></i> 《源氏物语》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF4400;" class="fa fa-heart"></i>《漫画人体——一看就懂的人体结构书》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF2200;" class="fa fa-heart"></i>《庄子》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF3300;" class="fa fa-heart"></i>《续子不语》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF3300;" class="fa fa-heart"></i>《道德情操论》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF2200;" class="fa fa-heart"></i>《百年孤独》</i></li>
 </ol>
 <a id="more"></a>
 <div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [6/30] </div>
@@ -599,14 +605,14 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF3300;" class="fa fa-heart"></i>  《至暗时刻》 —— <code>剧情</code> <code>传记</code> <code>历史</code></li>
 <li><i style="color:#FF6600;" class="fa fa-heart"></i>  《招魂》 —— <code>剧情</code> <code>悬疑</code> <code>恐怖</code></li>
 <li><i style="color:#FF3300;" class="fa fa-heart"></i>  《正是時候讀〈莊子〉》 —— <code>庄子</code> <code>国学</code> <code>道家</code></li>
-<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —— <code>茶道</code>  <code>纪录片</code> </li>
-<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —— <code>剧情</code> <code>科幻</code> <blockquote>
+<li><i style="color:#FF6600;" class="fa fa-heart"></i>  《茶道：最高级的款待——推进历史的一盏茶》 —— <code>茶道</code>  <code>纪录片</code></li>
+<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《湮灭》 —— <code>剧情</code> <code>科幻</code><blockquote>
 <p>说实话， 这部电影值得思考的地方有很多，抛开每个人的共同点（自我毁灭 or 渴望重生），开放式结局之后我最想问的就是「你还是你吗？」</p>
 </blockquote>
 </li>
-<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —— <code>剧情</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《唐人街探案2》 —— <code>喜剧</code> <code>动作</code> <code>犯罪</code> </li>
-<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《无人机战场》 ——  <code>动作</code> </li>
+<li><i style="color:#FF4400;" class="fa fa-heart"></i>  《幻世浮生》 —— <code>剧情</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《唐人街探案2》 —— <code>喜剧</code> <code>动作</code> <code>犯罪</code></li>
+<li><i style="color:#FF9900;" class="fa fa-heart"></i>  《无人机战场》 ——  <code>动作</code></li>
 <li><i style="color:#FF9900;" class="fa fa-heart"></i>  《祥云寺》 ——  <code>恐怖</code> <code>惊悚</code></li>
 <li><p><i style="color:#FF4400;" class="fa fa-heart"></i>  《烟花》 ——  <code>剧情</code> <code>动画</code></p>
 <blockquote>
@@ -622,6 +628,7 @@ document.getElementById("audio").volume = 0.5;
 </li>
 <li><i style="color:#FF5500;" class="fa fa-heart"></i>  《请回答1988》 ——  <code>剧情</code> <code>喜剧</code> <code>爱情</code> <code>家庭</code></li>
 <li><i style="color:#FF7700;" class="fa fa-heart"></i>  《逃避可耻却有用》 ——  <code>剧情</code> <code>爱情</code> <code>家庭</code></li>
+<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《金蝉脱壳Ⅱ》 ——  <code>动作</code> <code>惊悚</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
