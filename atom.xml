@@ -650,7 +650,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
     <published>2017-12-31T22:34:00.000Z</published>
-    <updated>2018-06-17T13:57:57.804Z</updated>
+    <updated>2018-07-04T00:37:11.144Z</updated>
     
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
 
@@ -662,9 +662,11 @@ document.getElementById("audio").volume = 0.5;
 <li><i class="fa fa-check-square-o">  <i style="color:#FF3300;" class="fa fa-heart"></i>《续子不语》</i></li>
 <li><i class="fa fa-check-square-o">  <i style="color:#FF3300;" class="fa fa-heart"></i>《道德情操论》</i></li>
 <li><i class="fa fa-check-square-o">  <i style="color:#FF2200;" class="fa fa-heart"></i>《百年孤独》</i></li>
+<li><i class="fa fa-check-square-o">  <i style="color:#FF4400;" class="fa fa-heart"></i>《看见》</i></li>
+<li><i class="fa fa-square-o">  <i style="color:#FF4400;" class="fa fa-heart"></i>《我们台湾这些年》</i></li>
 </ol>
 <a id="more"></a>
-<div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [6/30] </div>
+<div align="center"><i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [9/30] </div>
 
 <hr>
 <div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div>
@@ -800,6 +802,8 @@ document.getElementById("audio").volume = 0.5;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;  &lt;i style=&quot;color:#FF3300;&quot; class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;《续子不语》&lt;/li&gt;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;  &lt;i style=&quot;color:#FF3300;&quot;  class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;《道德情操论》&lt;/li&gt;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;  &lt;i style=&quot;color:#FF2200;&quot;  class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;《百年孤独》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;  &lt;i style=&quot;color:#FF4400;&quot;  class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;《看见》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-square-o&quot;&gt;  &lt;i style=&quot;color:#FF4400;&quot;  class=&quot;fa fa-heart&quot;&gt;&lt;/i&gt;《我们台湾这些年》&lt;/li&gt;
 &lt;/ol&gt;
     
     </summary>
