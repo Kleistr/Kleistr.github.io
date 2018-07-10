@@ -650,7 +650,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
     <published>2017-12-31T22:34:00.000Z</published>
-    <updated>2018-07-04T00:37:11.144Z</updated>
+    <updated>2018-07-10T07:43:12.967Z</updated>
     
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-book"></i> Books</div>
 
@@ -756,6 +756,9 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF5500;" class="fa fa-heart"></i>  《请回答1988》 ——  <code>剧情</code> <code>喜剧</code> <code>爱情</code> <code>家庭</code></li>
 <li><i style="color:#FF7700;" class="fa fa-heart"></i>  《逃避可耻却有用》 ——  <code>剧情</code> <code>爱情</code> <code>家庭</code></li>
 <li><i style="color:#FF7700;" class="fa fa-heart"></i>  《金蝉脱壳Ⅱ》 ——  <code>动作</code> <code>惊悚</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《飞越疯人院》 ——  <code>剧情</code></li>
+<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《毒战》 ——  <code>动作</code> <code>犯罪</code></li>
+<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《狂暴巨兽》 ——  <code>动作</code> <code>科幻</code> <code>冒险</code></li>
 </ol>
 <hr>
 <div id="audioplayer">

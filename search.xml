@@ -631,6 +631,9 @@ document.getElementById("audio").volume = 0.5;
 <li><i style="color:#FF5500;" class="fa fa-heart"></i>  《请回答1988》 ——  <code>剧情</code> <code>喜剧</code> <code>爱情</code> <code>家庭</code></li>
 <li><i style="color:#FF7700;" class="fa fa-heart"></i>  《逃避可耻却有用》 ——  <code>剧情</code> <code>爱情</code> <code>家庭</code></li>
 <li><i style="color:#FF7700;" class="fa fa-heart"></i>  《金蝉脱壳Ⅱ》 ——  <code>动作</code> <code>惊悚</code></li>
+<li><i style="color:#FF5500;" class="fa fa-heart"></i>  《飞越疯人院》 ——  <code>剧情</code></li>
+<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《毒战》 ——  <code>动作</code> <code>犯罪</code></li>
+<li><i style="color:#FF7700;" class="fa fa-heart"></i>  《狂暴巨兽》 ——  <code>动作</code> <code>科幻</code> <code>冒险</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
