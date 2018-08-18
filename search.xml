@@ -35,6 +35,7 @@
 </ul>
 </li>
 <li>移动节点到直线或曲线上，利用此命令可以构件弧形等非直线桁架结构</li>
+<li></li>
 </ol>
 ]]></content>
       
@@ -529,9 +530,9 @@ document.getElementById("audio").volume = 0.5;
         
         <tags>
             
-            <tag> 冷知识 </tag>
-            
             <tag> 技术 </tag>
+            
+            <tag> 冷知识 </tag>
             
         </tags>
         
@@ -1721,6 +1722,8 @@ document.getElementById("audio").volume = 0.5;
 <p>  Strange new light can be just as frightening as the dark. —— 《西部世界II》</p>
 </li>
 <li><p>清晨，黄昏，天空和飞鸟；代码，诗歌，活着和爱你。</p>
+</li>
+<li><p>对于当下，文盲的定义似乎可以换一种说法了 ——「不会读写」，是啊，文盲真的只是不识字这么简单么？就算识字了，没有输入输出，不照样还是等于零？</p>
 </li>
 </ul>
 <h4 id="「房思琪的初恋乐园」"><a href="#「房思琪的初恋乐园」" class="headerlink" title="「房思琪的初恋乐园」"></a>「房思琪的初恋乐园」</h4><ul>
