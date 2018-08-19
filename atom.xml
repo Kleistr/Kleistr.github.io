@@ -712,7 +712,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
     <published>2017-12-31T22:34:00.000Z</published>
-    <updated>2018-08-19T03:59:34.000Z</updated>
+    <updated>2018-08-19T04:08:13.617Z</updated>
     
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;">
     <i class="fa fa-book"></i> Books
@@ -729,13 +729,12 @@ document.getElementById("audio").volume = 0.5;
 <li><i class="fa fa-check-square-o"></i> 《看见》</li>
 <li><i class="fa fa-check-square-o"></i> 《我们台湾这些年》</li>
 <li><i class="fa fa-check-square-o"></i> 《大英博物馆》</li>
-<li><i class="fa fa-check-square-o"></i> 《大英博物馆》</li>
+<li><i class="fa fa-check-square-o"></i> 《邻人之妻》</li>
 </ol>
 <div align="center"> <i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [11/30] </div>
+
 <a id="more"></a>
-
-* * *
-
+<hr>
 <div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;"><i class="fa fa-video-camera"></i> Movies</div>
 
 <ol>
@@ -751,9 +750,26 @@ document.getElementById("audio").volume = 0.5;
 <li>《我的少女时代》 —— <code>喜剧</code>  <code>爱情</code></li>
 <li>《喜欢你》 —— <code>喜剧</code>  <code>爱情</code></li>
 <li>《S.H.I.E.L.D》 —— <code>剧情</code>  <code>动作</code>  <code>科幻</code></li>
-<li><p>《等一个人咖啡》 —— <code>剧情</code>  <code>爱情</code><br>10.《Big Cats》 —— <code>纪录片</code> <code>猫科动物</code><br>11.《Harry Potter A History of Magic》 —— <code>纪录片</code> <code>Magic</code><br>12.《Gaslight》 —— <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code><br>13.《逃出绝命镇》 —— <code>悬疑</code> <code>惊悚</code> <code>恐怖</code><br>14.《火海凌云》 —— <code>剧情</code> <code>动作</code> <code>灾难</code><br>15.《伏地魔：传人的起源》 —— <code>剧情</code> <code>Magic</code><br>16.《太空救援》 —— <code>剧情</code> <code>动作</code> <code>冒险</code><br>17.《罪恶之家》 —— <code>悬疑</code> <code>剧情</code><br>18.《嘉年华》 —— <code>剧情</code><br>19.《狩猎》 —— <code>剧情</code></p>
+<li>《等一个人咖啡》 —— <code>剧情</code>  <code>爱情</code></li>
+<li>《Big Cats》 —— <code>纪录片</code> <code>猫科动物</code></li>
+<li>《Harry Potter A History of Magic》 —— <code>纪录片</code> <code>Magic</code></li>
+<li>《Gaslight》 —— <code>黑色电影</code> <code>犯罪</code> <code>剧情</code> <code>经典</code> <code>煤气灯效应</code></li>
+<li>《逃出绝命镇》 —— <code>悬疑</code> <code>惊悚</code> <code>恐怖</code></li>
+<li>《火海凌云》 —— <code>剧情</code> <code>动作</code> <code>灾难</code></li>
+<li>《伏地魔：传人的起源》 —— <code>剧情</code> <code>Magic</code></li>
+<li>《太空救援》 —— <code>剧情</code> <code>动作</code> <code>冒险</code></li>
+<li>《罪恶之家》 —— <code>悬疑</code> <code>剧情</code></li>
+<li>《嘉年华》 —— <code>剧情</code></li>
+<li><p>《狩猎》 —— <code>剧情</code></p>
 <blockquote>
-<p><a href="https://kleist.top/08/0/8/天真无邪的「邪」.html">《狩猎》观感</a><br>20.《芳华》 —— <code>剧情</code> <code>历史</code> <code>战争</code><br>21.《Dunkirk》 —— <code>剧情</code> <code>历史</code><br>22.《Rome》 —— <code>动作</code> <code>剧情</code> <code>历史</code><br>23.《Steel Rain》 —— <code>动作</code> <code>剧情</code> <code>历史</code></p>
+<p><a href="/2018/02/18/天真无邪的「邪」.html">《狩猎》观感</a></p>
+</blockquote>
+</li>
+<li>《芳华》 —— <code>剧情</code> <code>历史</code> <code>战争</code></li>
+<li>《Dunkirk》 —— <code>剧情</code> <code>历史</code></li>
+<li>《Rome》 —— <code>动作</code> <code>剧情</code> <code>历史</code></li>
+<li><p>《Steel Rain》 —— <code>动作</code> <code>剧情</code> <code>历史</code></p>
+<blockquote>
 <p>韩国电影真的不容小觑。</p>
 </blockquote>
 </li>
@@ -864,7 +880,7 @@ document.getElementById("audio").volume = 0.5;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《看见》&lt;/li&gt;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《我们台湾这些年》&lt;/li&gt;
 &lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《大英博物馆》&lt;/li&gt;
-&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《大英博物馆》&lt;/li&gt;
+&lt;li&gt;&lt;i class=&quot;fa fa-check-square-o&quot;&gt;&lt;/i&gt; 《邻人之妻》&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div align=&quot;center&quot; &gt; &lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt; 目标 2018 读至少 30 本书，目标进度 [11/30] &lt;/div&gt;
     
