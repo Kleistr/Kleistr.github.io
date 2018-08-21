@@ -130,7 +130,10 @@
 
 其实看第一集的时候，觉得看不下去了，以为这只是一群无耻无下限的毫无节操的无聊人士。可就在坚持看到第二集的时候，看法突然转变。这，才是生活。生活大多时候就是这样！
 
-People fuck up that’s life.">
+People fuck up that’s life.
+
+
+    Your">
 <meta property="og:type" content="article">
 <meta property="og:title" content="无耻之徒-Fsociety">
 <meta property="og:url" content="http://kleist.top/2016/09/20/无耻之徒-Fsociety.html">
@@ -142,8 +145,11 @@ People fuck up that’s life.">
 
 其实看第一集的时候，觉得看不下去了，以为这只是一群无耻无下限的毫无节操的无聊人士。可就在坚持看到第二集的时候，看法突然转变。这，才是生活。生活大多时候就是这样！
 
-People fuck up that’s life.">
-<meta property="og:updated_time" content="2018-04-15T09:11:13.789Z">
+People fuck up that’s life.
+
+
+    Your">
+<meta property="og:updated_time" content="2018-08-21T15:04:26.689Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="无耻之徒-Fsociety">
 <meta name="twitter:description" content="如果说《黑吃黑》是黑暗的社会题材，那么《无耻之徒》更贴近生活一些。
@@ -153,7 +159,10 @@ People fuck up that’s life.">
 
 其实看第一集的时候，觉得看不下去了，以为这只是一群无耻无下限的毫无节操的无聊人士。可就在坚持看到第二集的时候，看法突然转变。这，才是生活。生活大多时候就是这样！
 
-People fuck up that’s life.">
+People fuck up that’s life.
+
+
+    Your">
 
 
 
@@ -421,6 +430,37 @@ People fuck up that’s life.">
 <blockquote>
 <p>People fuck up that’s life.</p>
 </blockquote>
+<div id="videoplayer">
+    <video id="video" src="http://7xw7ho.com1.z0.glb.clouddn.com/Gallagher.mp4" controls="controls" preload="preload" style="width:100%; border-radius: 5px; ">Your browser does not support the video element.
+    </video>
+</div>
+
+<hr>
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    document.getElementById("video").volume = 0.5;
+
+    $("#PlayPause").click(function() {
+        var video = $("#video")[0];
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            video.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            video.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
+
+</script>
+
 
       
     </div>
