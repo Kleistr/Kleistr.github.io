@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4bfaff;
+  background: #ffffba;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3236,6 +3236,9 @@ table > tbody > tr:hover {
   color: #fdfdfd !important;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+.post-copyright {
+  background-color: rgba(167,167,167,0.17) !important;
 }
 .bigstar50 {
   background-position: 0 0px !important;

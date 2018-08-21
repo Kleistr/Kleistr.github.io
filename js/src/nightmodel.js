@@ -48,6 +48,7 @@ function switchmode_sun() {
   $(".links-of-author-item a").removeClass("night_small_author_item");
   $(".site-author-AppleTeacher").css("-webkit-filter","drop-shadow(rgb(255, 255, 255) 0px 0px)");
   $(".site-author-AppleTeacher").css("filter","drop-shadow(rgb(255, 255, 255) 0px 0px)");
+  $(".post-copyright a").css("color","#555");
 
 }
 
@@ -73,4 +74,6 @@ function switchmode_moon() {
   $(".site-author-name").addClass("night_small_authorname");
   $(".site-author-AppleTeacher").css("-webkit-filter","drop-shadow(#bcbcbc 0 0 0) invert(60%)");
   $(".site-author-AppleTeacher").css("filter","drop-shadow(#bcbcbc 0 0 0) invert(60%)");
+  $(".post-copyright a").css("color","rgba(255, 255, 255, 1)");
+
 }
