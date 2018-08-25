@@ -50,7 +50,7 @@
     <link href="http://kleist.top/2018/08/11/3D3S-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/08/11/3D3S-学习笔记.html</id>
     <published>2018-08-11T02:04:46.000Z</published>
-    <updated>2018-08-21T15:07:56.731Z</updated>
+    <updated>2018-08-23T15:13:31.127Z</updated>
     
     <content type="html"><![CDATA[<h3 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h3><ol>
 <li>在使用杆件延长命令时需要辨别<code>i</code>，<code>j</code>节点，3D3S 默认小节点号为<code>i</code>节点<ul>
@@ -64,8 +64,14 @@
 <a id="more"></a>
 <hr>
 <h3 id="Steel-Structure"><a href="#Steel-Structure" class="headerlink" title="Steel Structure"></a>Steel Structure</h3><ol>
-<li>柱下独立基础计算<br> 1.1 确定基础埋深<br> 1.2 根据3D3S支座反力的数据，确定「弯矩，剪力，轴力标准值」等基础荷载<br> 1.3 基底面积估算 $ A_0 \geqslant \frac{F_k}{f_a - \gamma _{G} \cdot d} $<br> 1.4 验算持力层地基承载力<br> 1.5 $ G_k = \gamma_G \cdot d \cdot l \cdot b $<br> 1.6 $ p_k = \frac{(F_k + G_k)}{A} $<br> 1.7 if $ p_k \geqslant f_a $ then repeat </li>
-<li>电梯井设计<br> 2.1 根据图纸使用3D3S绘制梁柱模型<br> 2.2 调整杆件截面方向<br> 2.3 合理设置支座<br> 2.4 添加活荷载，风荷载，地震荷载 &amp;「电梯起吊梁」<br> 2.5 根据装饰材料和工法添加恒载<br> 2.6 模型检查 → 内力计算 → 选择规范 → 设计验算</li>
+<li><p>柱下独立基础计算<br> 1.1 确定基础埋深<br> 1.2 根据3D3S支座反力的数据，确定「弯矩，剪力，轴力标准值」等基础荷载<br> 1.3 基底面积估算 $ A_0 \geqslant \frac{F_k}{f_a - \gamma _{G} \cdot d} $<br> 1.4 验算持力层地基承载力<br> 1.5 $ G_k = \gamma_G \cdot d \cdot l \cdot b $<br> 1.6 $ p_k = \frac{(F_k + G_k)}{A} $<br> 1.7 if $ p_k \geqslant f_a $ then repeat </p>
+</li>
+<li><p>电梯井设计<br> 2.1 根据图纸使用3D3S绘制梁柱模型<br> 2.2 调整杆件截面方向「强弱轴」<br> 2.3 合理设置支座「铰接&amp;刚接」<br> 2.4 添加活荷载，风荷载，地震荷载 &amp;「电梯起吊梁」</p>
+<blockquote>
+<p>风荷载可以使用<code>3D3S</code>自带的导荷载功能进行布置</p>
+</blockquote>
+<p> 2.5 根据装饰材料和工法添加恒载<br> 2.6 模型检查 → 内力计算 → 选择规范 → 设计验算<br> 2.7 绘制施工图</p>
+</li>
 </ol>
 ]]></content>
     
@@ -723,7 +729,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
     <published>2017-12-31T22:34:00.000Z</published>
-    <updated>2018-08-19T04:08:13.617Z</updated>
+    <updated>2018-08-25T08:55:29.682Z</updated>
     
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;">
     <i class="fa fa-book"></i> Books
@@ -840,6 +846,7 @@ document.getElementById("audio").volume = 0.5;
 <li>《恋爱回旋》 ——  <code>喜剧</code> <code>运动</code> </li>
 <li>《爱在三部曲》 ——  <code>剧情</code> <code>爱情</code></li>
 <li>《楚门的世界》 ——  <code>剧情</code> <code>科幻</code></li>
+<li>《绝命毒师》 ——  <code>犯罪</code> <code>剧情</code></li>
 </ol>
 <hr>
 <div id="audioplayer">
