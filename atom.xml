@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-08-12T14:40:33.988Z</updated>
+  <updated>2018-08-27T14:27:11.189Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ON CHILDREN</title>
+    <link href="http://kleist.top/2018/08/26/ON-CHILDREN.html"/>
+    <id>http://kleist.top/2018/08/26/ON-CHILDREN.html</id>
+    <published>2018-08-26T07:11:52.000Z</published>
+    <updated>2018-08-27T14:27:11.189Z</updated>
+    
+    <content type="html"><![CDATA[<p>在气温高达32℃的今天，看完前几集《ON CHILDREN》的我竟然一身冷汗。</p>
+<a id="more"></a>
+<p>当初听说这部剧名字的时候突然联想起前些日子看过的《<a href="/2018/05/13/家族狩猎——你真的爱家人么？.html">家族狩猎</a>》，可能是我个人偏好吧，越是喜欢暗黑系，暗黑系就越会出现在我的视线当中。</p>
+<h3 id="《妈妈的遥控器》"><a href="#《妈妈的遥控器》" class="headerlink" title="《妈妈的遥控器》"></a>《妈妈的遥控器》</h3><p>一次偶遇，使得妈妈获得了一个可以遥控儿子人生的遥控器，可以让时光倒流，如果愿意，可以让儿子一直过着同一天，直到儿子有所进步，乍一看好象是一件很酷很让人羡慕的能力，看起来那么的像《火影忍者》的「伊邪那美」，不断不断的重复，直到变成妈妈所期望的样子……</p>
+<p>后来的儿子算是很成功，但像小时候一样，害怕妈妈，女朋友在自己身边也不敢让妈妈知道。小时候喜欢的女生，也因为妈妈的「伊邪那美」变成了不认识自己的陌生人，小时候喜欢的绘画，也被扼杀，一生只此一次的毕业旅行，也为辅导课让了路……</p>
+<p>「你会感谢妈妈的！」哦，是吗？有可能吧，是感谢妈妈让自己知道原来一个人可以被安排的彻彻底底？是感谢妈妈让自己明白原来孩子不过是父母的附属品？还是感谢什么？</p>
+<p>从最开始就可以预见到结局，孩子肯定还是那个孩子，不会因为一次次的被重置就「真的」改变什么，改变的不过是表现出来的，可惜妈妈最后还不知道自己究竟对自己的孩子做了什么……</p>
+<h3 id="《猫的孩子》"><a href="#《猫的孩子》" class="headerlink" title="《猫的孩子》"></a>《猫的孩子》</h3><p>NULL</p>
+<h3 id="《茉莉的最后一天》"><a href="#《茉莉的最后一天》" class="headerlink" title="《茉莉的最后一天》"></a>《茉莉的最后一天》</h3><p>可怕的母爱，不得不引用同名小说中的一个名词——「怪獸家長」，当然是贬义，我确实想不到哪些更为合适的词语来形容这几个家长</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在气温高达32℃的今天，看完前几集《ON CHILDREN》的我竟然一身冷汗。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>新起点</title>
@@ -1005,35 +1032,6 @@ document.getElementById("audio").volume = 0.5;
     
     
       <category term="总结" scheme="http://kleist.top/tags/%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Monero Coin Test</title>
-    <link href="http://kleist.top/2017/12/27/monero-coin-test.html"/>
-    <id>http://kleist.top/2017/12/27/monero-coin-test.html</id>
-    <published>2017-12-27T00:57:47.000Z</published>
-    <updated>2018-04-15T08:30:24.806Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="这只是一个-monero-coin-矿工的测试页面"><a href="#这只是一个-monero-coin-矿工的测试页面" class="headerlink" title="这只是一个 monero coin 矿工的测试页面"></a>这只是一个 monero coin 矿工的测试页面</h3><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png" alt=""></p>
-<iframe id="widget-ticker-preview" src="//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny" style="border:none; height:5px; width: 75px;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
-
-<a id="more"></a>
-<p><script src="https://authedmine.com/lib/simple-ui.min.js" async></script></p>
-<div class="coinhive-miner" style="width: 56px; height: 30px" data-key="1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k">
-    <em>Loading...</em>
-</div>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;这只是一个-monero-coin-矿工的测试页面&quot;&gt;&lt;a href=&quot;#这只是一个-monero-coin-矿工的测试页面&quot; class=&quot;headerlink&quot; title=&quot;这只是一个 monero coin 矿工的测试页面&quot;&gt;&lt;/a&gt;这只是一个 monero coin 矿工的测试页面&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;iframe id=&quot;widget-ticker-preview&quot; src=&quot;//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny&quot; style=&quot;border:none; height:5px; width: 75px;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="http://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
