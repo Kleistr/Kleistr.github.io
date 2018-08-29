@@ -130,7 +130,7 @@
 <meta property="og:site_name" content="Kleist'Blog">
 <meta property="og:description" content="在气温高达32℃的今天，看完前几集《ON CHILDREN》的我竟然一身冷汗。">
 <meta property="og:image" content="http://7xw7ho.com1.z0.glb.clouddn.com/4cizn.png">
-<meta property="og:updated_time" content="2018-08-28T14:37:10.713Z">
+<meta property="og:updated_time" content="2018-08-29T11:19:16.440Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ON CHILDREN">
 <meta name="twitter:description" content="在气温高达32℃的今天，看完前几集《ON CHILDREN》的我竟然一身冷汗。">
@@ -396,7 +396,7 @@
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="http://7xw7ho.com1.z0.glb.clouddn.com/4cizn.png" rel="gallery_cjldtktm0000pu83bhdhpulcg"
+                 href="http://7xw7ho.com1.z0.glb.clouddn.com/4cizn.png" rel="gallery_cjlf3t7jk000s603br8z2curl"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="http://7xw7ho.com1.z0.glb.clouddn.com/4cizn.png" itemprop="contentUrl"/>
               </a>
@@ -418,7 +418,37 @@
 <p>从最开始就可以预见到结局，孩子肯定还是那个孩子，不会因为一次次的被重置就「真的」改变什么，改变的不过是表现出来的，可惜妈妈最后还不知道自己究竟对自己的孩子做了什么……</p>
 <h3 id="《猫的孩子》"><a href="#《猫的孩子》" class="headerlink" title="《猫的孩子》"></a>《猫的孩子》</h3><p>NULL</p>
 <h3 id="《茉莉的最后一天》"><a href="#《茉莉的最后一天》" class="headerlink" title="《茉莉的最后一天》"></a>《茉莉的最后一天》</h3><p>可怕的母爱，不得不引用同名小说中的一个名词——「怪獸家長」，当然是贬义，我确实想不到哪些更为合适的词语来形容这几个家长</p>
+<hr>
+<div id="audioplayer">
+    <audio id="audio" src="http://fs.open.kugou.com/2e3e53de96e3d7e3bd155e10f7c004b3/5b865648/G124/M04/19/07/HIcBAFqwwtCAZx--AEo9p60-0rE714.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    </audio>
+</div>
 
+<hr>
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    document.getElementById("audio").volume = 0.5;
+
+    $("#PlayPause").click(function() {
+        var audio = $("#audio")[0];
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            audio.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            audio.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
+
+</script>
       
     </div>
 
@@ -647,7 +677,7 @@
             <ul class="links-of-blogroll-list">
               
                 <li class="links-of-blogroll-item">
-                  <a href="https://itibbers.com" title="难难" target="_blank">难难</a>
+                  <a href="https://itibbers.com" title="蘑菇🍄" target="_blank">蘑菇🍄</a>
                 </li>
               
             </ul>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-08-28T14:37:10.713Z</updated>
+  <updated>2018-08-29T11:19:16.440Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kleist.top/2018/08/26/ON-CHILDREN.html"/>
     <id>http://kleist.top/2018/08/26/ON-CHILDREN.html</id>
     <published>2018-08-26T07:11:52.000Z</published>
-    <updated>2018-08-28T14:37:10.713Z</updated>
+    <updated>2018-08-29T11:19:16.440Z</updated>
     
     <content type="html"><![CDATA[<p>在气温高达32℃的今天，看完前几集《ON CHILDREN》的我竟然一身冷汗。</p>
 <a id="more"></a>
@@ -31,7 +31,37 @@
 <p>从最开始就可以预见到结局，孩子肯定还是那个孩子，不会因为一次次的被重置就「真的」改变什么，改变的不过是表现出来的，可惜妈妈最后还不知道自己究竟对自己的孩子做了什么……</p>
 <h3 id="《猫的孩子》"><a href="#《猫的孩子》" class="headerlink" title="《猫的孩子》"></a>《猫的孩子》</h3><p>NULL</p>
 <h3 id="《茉莉的最后一天》"><a href="#《茉莉的最后一天》" class="headerlink" title="《茉莉的最后一天》"></a>《茉莉的最后一天》</h3><p>可怕的母爱，不得不引用同名小说中的一个名词——「怪獸家長」，当然是贬义，我确实想不到哪些更为合适的词语来形容这几个家长</p>
-]]></content>
+<hr>
+<div id="audioplayer">
+    <audio id="audio" src="http://fs.open.kugou.com/2e3e53de96e3d7e3bd155e10f7c004b3/5b865648/G124/M04/19/07/HIcBAFqwwtCAZx--AEo9p60-0rE714.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    </audio>
+</div>
+
+<hr>
+<div id="PlayPause" class="pause" title="本页面包含媒体文件，点我播放">
+    <i class="fa fa-play fa-fw"></i>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    document.getElementById("audio").volume = 0.5;
+
+    $("#PlayPause").click(function() {
+        var audio = $("#audio")[0];
+        if (document.getElementById('PlayPause').classList.contains("pause")) {
+            audio.play();
+            $("#PlayPause").removeClass("pause");
+            $("#PlayPause").addClass("play");            
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-pause fa-fw"></i>'
+        } else {
+            audio.pause();
+            $("#PlayPause").removeClass("play");
+            $("#PlayPause").addClass("pause");
+            document.getElementById('PlayPause').innerHTML = '<i class="fa fa-play fa-fw"></i>'
+        }
+    });
+
+</script>]]></content>
     
     <summary type="html">
     
@@ -77,9 +107,9 @@
     <link href="http://kleist.top/2018/08/11/3D3S-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/08/11/3D3S-学习笔记.html</id>
     <published>2018-08-11T02:04:46.000Z</published>
-    <updated>2018-08-28T14:37:55.949Z</updated>
+    <updated>2018-08-29T12:15:22.760Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h3><ol>
+    <content type="html"><![CDATA[<h1 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h1><ol>
 <li>在使用杆件延长命令时需要辨别<code>i</code>，<code>j</code>节点，3D3S 默认小节点号为<code>i</code>节点<ul>
 <li>单击“☑︎”按钮 → 勾选节点号 → 确定</li>
 <li>延长值可以为 <strong> 负数 </strong> eg. 由<code>i</code>向<code>j</code>延长杆件，延长值设置为<code>-2000</code>，则实际效果为由<code>j</code>向<code>i</code>缩短<code>2000</code></li>
@@ -90,7 +120,7 @@
 </ol>
 <a id="more"></a>
 <hr>
-<h3 id="Steel-Structure"><a href="#Steel-Structure" class="headerlink" title="Steel Structure"></a>Steel Structure</h3><h4 id="柱下独立基础计算"><a href="#柱下独立基础计算" class="headerlink" title="柱下独立基础计算"></a>柱下独立基础计算</h4><ol>
+<h1 id="Steel-Structure"><a href="#Steel-Structure" class="headerlink" title="Steel Structure"></a>Steel Structure</h1><h2 id="柱下独立基础计算"><a href="#柱下独立基础计算" class="headerlink" title="柱下独立基础计算"></a>柱下独立基础计算</h2><ol>
 <li>确定基础埋深</li>
 <li>根据3D3S支座反力的数据，确定「弯矩，剪力，轴力标准值」等基础荷载</li>
 <li>基底面积估算 $ A_0 \geqslant \frac{F_k}{f_a - \gamma _{G} \cdot d} $</li>
@@ -99,7 +129,7 @@
 <li>$ p_k = \frac{(F_k + G_k)}{A} $</li>
 <li>if $ p_k \geqslant f_a $ then repeat </li>
 </ol>
-<h4 id="电梯井设计"><a href="#电梯井设计" class="headerlink" title="电梯井设计"></a>电梯井设计</h4><ol>
+<h2 id="电梯井设计"><a href="#电梯井设计" class="headerlink" title="电梯井设计"></a>电梯井设计</h2><ol>
 <li>根据图纸使用3D3S绘制梁柱模型</li>
 <li>调整杆件截面方向「强弱轴」</li>
 <li>合理设置支座「铰接&amp;刚接」</li>
@@ -108,35 +138,55 @@
 <li>模型检查 → 内力计算 → 选择规范 → 设计验算</li>
 <li>绘制施工图</li>
 </ol>
-<h4 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h4><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/u4py5.png" alt="预埋件示意图"></p>
-<h5 id="受拉预埋件"><a href="#受拉预埋件" class="headerlink" title="受拉预埋件"></a>受拉预埋件</h5><script type="math/tex; mode=display">\begin{aligned} N \leqslant 0.8 \alpha_a \alpha_b f_y A_s \end {aligned}</script><ul>
+<h2 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/u4py5.png" alt="预埋件示意图"></p>
+<h3 id="受拉预埋件"><a href="#受拉预埋件" class="headerlink" title="受拉预埋件"></a>受拉预埋件</h3><script type="math/tex; mode=display">\begin{aligned} N \leqslant 0.8 \alpha_a \alpha_b f_y A_s \end {aligned}</script><ul>
 <li>$ N $ —— 法向拉力 <strong> 设计值 </strong></li>
 <li>$ f_y $ —— 锚筋的抗拉强度设计值</li>
 <li>$ \alpha_a $ —— 钢筋强度折减系数， $ \alpha_a = \frac{L_s}{l_a}$ 即：实际锚固长度\最小锚固长度</li>
 <li>$ \alpha_b $ —— 锚板弯曲变形折减系数， $ \alpha_b = 0.6 + 0.25 \frac{t}{d} $</li>
 <li>若 $ b/t &gt; 8, \alpha_b = \frac{0.6+0.25 \frac{t}{b}}{1+0.55(\frac{b}{t}-8)} $ </li>
 </ul>
-<h5 id="受剪预埋件"><a href="#受剪预埋件" class="headerlink" title="受剪预埋件"></a>受剪预埋件</h5><script type="math/tex; mode=display">\begin{aligned} V \leqslant \alpha_r \alpha_v f_y A_s \end{aligned}</script><ul>
+<h3 id="受剪预埋件"><a href="#受剪预埋件" class="headerlink" title="受剪预埋件"></a>受剪预埋件</h3><script type="math/tex; mode=display">\begin{aligned} V \leqslant \alpha_r \alpha_v f_y A_s \end{aligned}</script><ul>
 <li>$ \alpha_v $ —— 锚筋的受剪承载力系数</li>
 <li>$ \alpha_v = (4-0.08d) \sqrt{\frac{f_c}{f_y}} ,当 \alpha_v &gt; 0.7 ,取 \alpha_v = 0.7$ </li>
 <li>受剪和受压预埋件锚固长度都不应小于$ 15d $</li>
 </ul>
-<h5 id="拉弯预埋件"><a href="#拉弯预埋件" class="headerlink" title="拉弯预埋件"></a>拉弯预埋件</h5><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{N}{0.8 \alpha_b f_y} + \frac{M}{0.4 \alpha_r \alpha_b f_y z} \end{aligned}</script><ul>
+<h3 id="拉弯预埋件"><a href="#拉弯预埋件" class="headerlink" title="拉弯预埋件"></a>拉弯预埋件</h3><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{N}{0.8 \alpha_b f_y} + \frac{M}{0.4 \alpha_r \alpha_b f_y z} \end{aligned}</script><ul>
 <li><script type="math/tex">N</script> —— 拉力设计值，取正值</li>
 <li><script type="math/tex">\alpha_r</script> —— 锚筋层数影响系数，等距离配置时，二层取 1.0 三层取 0.9 四层取 0.85</li>
 <li><script type="math/tex">z</script> —— 外层钢筋中心线之间的距离</li>
 </ul>
-<h5 id="弯剪预埋件"><a href="#弯剪预埋件" class="headerlink" title="弯剪预埋件"></a>弯剪预埋件</h5><script type="math/tex; mode=display">max \left\{\begin{aligned}  A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{M}{1.3 \alpha_r \alpha_b f_y z}, \\ A_s \geqslant \frac{M}{0.4 \alpha_r \alpha_b f_y z}.\end{aligned} \right.</script><h5 id="拉剪预埋件"><a href="#拉剪预埋件" class="headerlink" title="拉剪预埋件"></a>拉剪预埋件</h5><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{N}{0.8 \alpha_b f_y} \end{aligned}</script><h5 id="压剪预埋件"><a href="#压剪预埋件" class="headerlink" title="压剪预埋件"></a>压剪预埋件</h5><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V-0.3N}{\alpha_r \alpha_b f_y} ,
+<h3 id="弯剪预埋件"><a href="#弯剪预埋件" class="headerlink" title="弯剪预埋件"></a>弯剪预埋件</h3><script type="math/tex; mode=display">max \left\{\begin{aligned}  A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{M}{1.3 \alpha_r \alpha_b f_y z}, \\ A_s \geqslant \frac{M}{0.4 \alpha_r \alpha_b f_y z}.\end{aligned} \right.</script><h3 id="拉剪预埋件"><a href="#拉剪预埋件" class="headerlink" title="拉剪预埋件"></a>拉剪预埋件</h3><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{N}{0.8 \alpha_b f_y} \end{aligned}</script><h3 id="压剪预埋件"><a href="#压剪预埋件" class="headerlink" title="压剪预埋件"></a>压剪预埋件</h3><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V-0.3N}{\alpha_r \alpha_b f_y} ,
 N \leqslant 0.5f_c A \end{aligned}</script><hr>
 <ul>
 <li><strong>对于受拉预埋件，其锚筋间距和锚筋至构件边缘的距离不应小于 $ 3d 及 45mm $ 预埋件厚度一般都是 $ &gt; 0.6d 且 \geqslant 6mm $同时在一般情况下 $ t \geqslant b/16 $，对于受拉和受弯预埋件，板厚宜满足 $t \geqslant b/8$ </strong></li>
 <li><strong>对于受剪预埋件， 其锚筋间距不应大于$300mm$，且$b_1 \geqslant 6d 和 70mm$,锚筋至构件边缘的距离$c_1$不应小于$6d和70mm$ ，$b、c不应小于3d和45mm$ </strong></li>
 </ul>
-]]></content>
+<h2 id="螺栓计算"><a href="#螺栓计算" class="headerlink" title="螺栓计算"></a>螺栓计算</h2><h3 id="例题-1"><a href="#例题-1" class="headerlink" title="例题 1"></a>例题 1</h3><p>两块钢板用普通螺栓连接的盖板连接，构件受轴拉力设计值为 $ N = 325 kN , Q235A $，粗制螺栓直径 $d=20mm$ ,板厚$360mm$,盖板厚$6mm$,杆件板厚$8mm$</p>
+<p>已知：<script type="math/tex">N=325kN, {f_v}^b =140N/mm^2, \\ {f_c}^b = 305N/mm^2,d=20mm,\\t_1=8mm,t_2=6mm</script></p>
+<p>抗剪：<script type="math/tex">N_v^b = n_v \cdot \frac{\pi d^2}{4} \cdot f_v^b = 87964.6N{}</script></p>
+<p>抗压：<script type="math/tex">N_c^b =d \sum{}t \cdot f_c^b =20 \times 8 \times 305 = 48800N</script> </p>
+<p>$ N_{min}^b = min \{N_v^b,N_c^b \}=48.8kN $</p>
+<p>螺栓数量：</p>
+<p>$ n=\frac{N}{N_min^b}=\frac{325}{48.8}=6.66,取n=7个 $</p>
+<p>普通螺栓群时，如下图，$ l_1 \leqslant 15d_0 $,内力重新分布，各个螺栓内力趋于相等，故假定各个螺栓均摊内力。<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lcdll.png" alt=""><br>若$ 15d_0 \leqslant l_1 \leqslant 60d_0,\eta = 1.1 - \frac{l_1}{150 d_0}$<br>若$ l_1 \geqslant 60 d_0 ,\eta = 0.7$<br>此时有，$ n = \frac{N}{\eta \cdot N_{min}^b}$</p>
+<h3 id="净截面验算"><a href="#净截面验算" class="headerlink" title="净截面验算"></a>净截面验算</h3><h4 id="并列排列"><a href="#并列排列" class="headerlink" title="并列排列"></a>并列排列</h4><p>如图：</p>
+<ol>
+<li><p>主板的危险截面为1-1:</p>
+<script type="math/tex; mode=display">\sigma = \frac{N}{A_{n,1}} \leqslant f,A_{n,1} = (b-m \cdot d_0) \cdot t</script><p>$ f:钢材强度设计值，m:危险截面上的螺栓数$<br>$ b:主板宽度，t:主板厚度 $</p>
+</li>
+<li><p>主板的危险截面为2-2:</p>
+<script type="math/tex; mode=display">\sigma = \frac{0.5N}{A_{n,2}} \leqslant f,A_{n,2} = (b-m \cdot d_0) \cdot t</script></li>
+</ol>
+<h4 id="错列排列"><a href="#错列排列" class="headerlink" title="错列排列"></a>错列排列</h4><ol>
+<li>主板的危险截面为$ 1-1 和 1’ - 1’$<script type="math/tex; mode=display">\sigma = \frac{N}{A_n} \leqslant f</script>对于$1-1$截面：$A_n = (b-m \cdot d_0) \cdot t$<br>对于$1’ -1’$截面：$A_n = [2 \times c_4 + (m -1) \sqrt{c_1^2 + c_2^2} -m \cdot d_0] \cdot t$</li>
+</ol>
+<p>普通螺栓的抗拉连接，单个普通螺栓的抗拉承载力设计值:</p>
+<script type="math/tex; mode=display">N_t^b = A_e f_t^b = \frac{\pi d_e}{4} f_t^b</script>]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;3D3S&quot;&gt;&lt;a href=&quot;#3D3S&quot; class=&quot;headerlink&quot; title=&quot;3D3S&quot;&gt;&lt;/a&gt;3D3S&lt;/h3&gt;&lt;ol&gt;
+      &lt;h1 id=&quot;3D3S&quot;&gt;&lt;a href=&quot;#3D3S&quot; class=&quot;headerlink&quot; title=&quot;3D3S&quot;&gt;&lt;/a&gt;3D3S&lt;/h1&gt;&lt;ol&gt;
 &lt;li&gt;在使用杆件延长命令时需要辨别&lt;code&gt;i&lt;/code&gt;，&lt;code&gt;j&lt;/code&gt;节点，3D3S 默认小节点号为&lt;code&gt;i&lt;/code&gt;节点&lt;ul&gt;
 &lt;li&gt;单击“☑︎”按钮 → 勾选节点号 → 确定&lt;/li&gt;
 &lt;li&gt;延长值可以为 &lt;strong&gt; 负数 &lt;/strong&gt; eg. 由&lt;code&gt;i&lt;/code&gt;向&lt;code&gt;j&lt;/code&gt;延长杆件，延长值设置为&lt;code&gt;-2000&lt;/code&gt;，则实际效果为由&lt;code&gt;j&lt;/code&gt;向&lt;code&gt;i&lt;/code&gt;缩短&lt;code&gt;2000&lt;/code&gt;&lt;/li&gt;

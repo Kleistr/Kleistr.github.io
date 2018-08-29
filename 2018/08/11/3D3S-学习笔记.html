@@ -144,7 +144,7 @@
 移动节点到直线或曲线上，利用此命令可以构件弧形等非直线桁架结构
 通过「定义方向」按钮修改型钢方向，eg. 槽钢一般是开口朝外，便于焊接，如下图为3D3S中3个轴的">
 <meta property="og:image" content="http://7xw7ho.com1.z0.glb.clouddn.com/1m5dq.png">
-<meta property="og:updated_time" content="2018-08-28T14:37:55.949Z">
+<meta property="og:updated_time" content="2018-08-29T12:15:22.760Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="学习笔记">
 <meta name="twitter:description" content="3D3S
@@ -417,7 +417,7 @@
           
             <div class="post-gallery-row">
               <a class="post-gallery-img fancybox"
-                 href="http://7xw7ho.com1.z0.glb.clouddn.com/1m5dq.png" rel="gallery_cjldtktln000iu83b9o11xg5o"
+                 href="http://7xw7ho.com1.z0.glb.clouddn.com/1m5dq.png" rel="gallery_cjlf3t7iw000d603bahkrweyp"
                  itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="http://7xw7ho.com1.z0.glb.clouddn.com/1m5dq.png" itemprop="contentUrl"/>
               </a>
@@ -430,7 +430,7 @@
       
 
       
-        <h3 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h3><ol>
+        <h1 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h1><ol>
 <li>在使用杆件延长命令时需要辨别<code>i</code>，<code>j</code>节点，3D3S 默认小节点号为<code>i</code>节点<ul>
 <li>单击“☑︎”按钮 → 勾选节点号 → 确定</li>
 <li>延长值可以为 <strong> 负数 </strong> eg. 由<code>i</code>向<code>j</code>延长杆件，延长值设置为<code>-2000</code>，则实际效果为由<code>j</code>向<code>i</code>缩短<code>2000</code></li>
@@ -441,7 +441,7 @@
 </ol>
 <a id="more"></a>
 <hr>
-<h3 id="Steel-Structure"><a href="#Steel-Structure" class="headerlink" title="Steel Structure"></a>Steel Structure</h3><h4 id="柱下独立基础计算"><a href="#柱下独立基础计算" class="headerlink" title="柱下独立基础计算"></a>柱下独立基础计算</h4><ol>
+<h1 id="Steel-Structure"><a href="#Steel-Structure" class="headerlink" title="Steel Structure"></a>Steel Structure</h1><h2 id="柱下独立基础计算"><a href="#柱下独立基础计算" class="headerlink" title="柱下独立基础计算"></a>柱下独立基础计算</h2><ol>
 <li>确定基础埋深</li>
 <li>根据3D3S支座反力的数据，确定「弯矩，剪力，轴力标准值」等基础荷载</li>
 <li>基底面积估算 $ A_0 \geqslant \frac{F_k}{f_a - \gamma _{G} \cdot d} $</li>
@@ -450,7 +450,7 @@
 <li>$ p_k = \frac{(F_k + G_k)}{A} $</li>
 <li>if $ p_k \geqslant f_a $ then repeat </li>
 </ol>
-<h4 id="电梯井设计"><a href="#电梯井设计" class="headerlink" title="电梯井设计"></a>电梯井设计</h4><ol>
+<h2 id="电梯井设计"><a href="#电梯井设计" class="headerlink" title="电梯井设计"></a>电梯井设计</h2><ol>
 <li>根据图纸使用3D3S绘制梁柱模型</li>
 <li>调整杆件截面方向「强弱轴」</li>
 <li>合理设置支座「铰接&amp;刚接」</li>
@@ -459,31 +459,51 @@
 <li>模型检查 → 内力计算 → 选择规范 → 设计验算</li>
 <li>绘制施工图</li>
 </ol>
-<h4 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h4><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/u4py5.png" alt="预埋件示意图"></p>
-<h5 id="受拉预埋件"><a href="#受拉预埋件" class="headerlink" title="受拉预埋件"></a>受拉预埋件</h5><script type="math/tex; mode=display">\begin{aligned} N \leqslant 0.8 \alpha_a \alpha_b f_y A_s \end {aligned}</script><ul>
+<h2 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/u4py5.png" alt="预埋件示意图"></p>
+<h3 id="受拉预埋件"><a href="#受拉预埋件" class="headerlink" title="受拉预埋件"></a>受拉预埋件</h3><script type="math/tex; mode=display">\begin{aligned} N \leqslant 0.8 \alpha_a \alpha_b f_y A_s \end {aligned}</script><ul>
 <li>$ N $ —— 法向拉力 <strong> 设计值 </strong></li>
 <li>$ f_y $ —— 锚筋的抗拉强度设计值</li>
 <li>$ \alpha_a $ —— 钢筋强度折减系数， $ \alpha_a = \frac{L_s}{l_a}$ 即：实际锚固长度\最小锚固长度</li>
 <li>$ \alpha_b $ —— 锚板弯曲变形折减系数， $ \alpha_b = 0.6 + 0.25 \frac{t}{d} $</li>
 <li>若 $ b/t &gt; 8, \alpha_b = \frac{0.6+0.25 \frac{t}{b}}{1+0.55(\frac{b}{t}-8)} $ </li>
 </ul>
-<h5 id="受剪预埋件"><a href="#受剪预埋件" class="headerlink" title="受剪预埋件"></a>受剪预埋件</h5><script type="math/tex; mode=display">\begin{aligned} V \leqslant \alpha_r \alpha_v f_y A_s \end{aligned}</script><ul>
+<h3 id="受剪预埋件"><a href="#受剪预埋件" class="headerlink" title="受剪预埋件"></a>受剪预埋件</h3><script type="math/tex; mode=display">\begin{aligned} V \leqslant \alpha_r \alpha_v f_y A_s \end{aligned}</script><ul>
 <li>$ \alpha_v $ —— 锚筋的受剪承载力系数</li>
 <li>$ \alpha_v = (4-0.08d) \sqrt{\frac{f_c}{f_y}} ,当 \alpha_v &gt; 0.7 ,取 \alpha_v = 0.7$ </li>
 <li>受剪和受压预埋件锚固长度都不应小于$ 15d $</li>
 </ul>
-<h5 id="拉弯预埋件"><a href="#拉弯预埋件" class="headerlink" title="拉弯预埋件"></a>拉弯预埋件</h5><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{N}{0.8 \alpha_b f_y} + \frac{M}{0.4 \alpha_r \alpha_b f_y z} \end{aligned}</script><ul>
+<h3 id="拉弯预埋件"><a href="#拉弯预埋件" class="headerlink" title="拉弯预埋件"></a>拉弯预埋件</h3><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{N}{0.8 \alpha_b f_y} + \frac{M}{0.4 \alpha_r \alpha_b f_y z} \end{aligned}</script><ul>
 <li><script type="math/tex">N</script> —— 拉力设计值，取正值</li>
 <li><script type="math/tex">\alpha_r</script> —— 锚筋层数影响系数，等距离配置时，二层取 1.0 三层取 0.9 四层取 0.85</li>
 <li><script type="math/tex">z</script> —— 外层钢筋中心线之间的距离</li>
 </ul>
-<h5 id="弯剪预埋件"><a href="#弯剪预埋件" class="headerlink" title="弯剪预埋件"></a>弯剪预埋件</h5><script type="math/tex; mode=display">max \left\{\begin{aligned}  A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{M}{1.3 \alpha_r \alpha_b f_y z}, \\ A_s \geqslant \frac{M}{0.4 \alpha_r \alpha_b f_y z}.\end{aligned} \right.</script><h5 id="拉剪预埋件"><a href="#拉剪预埋件" class="headerlink" title="拉剪预埋件"></a>拉剪预埋件</h5><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{N}{0.8 \alpha_b f_y} \end{aligned}</script><h5 id="压剪预埋件"><a href="#压剪预埋件" class="headerlink" title="压剪预埋件"></a>压剪预埋件</h5><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V-0.3N}{\alpha_r \alpha_b f_y} ,
+<h3 id="弯剪预埋件"><a href="#弯剪预埋件" class="headerlink" title="弯剪预埋件"></a>弯剪预埋件</h3><script type="math/tex; mode=display">max \left\{\begin{aligned}  A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{M}{1.3 \alpha_r \alpha_b f_y z}, \\ A_s \geqslant \frac{M}{0.4 \alpha_r \alpha_b f_y z}.\end{aligned} \right.</script><h3 id="拉剪预埋件"><a href="#拉剪预埋件" class="headerlink" title="拉剪预埋件"></a>拉剪预埋件</h3><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V}{\alpha_r \alpha_b f_y} + \frac{N}{0.8 \alpha_b f_y} \end{aligned}</script><h3 id="压剪预埋件"><a href="#压剪预埋件" class="headerlink" title="压剪预埋件"></a>压剪预埋件</h3><script type="math/tex; mode=display">\begin{aligned} A_s \geqslant \frac{V-0.3N}{\alpha_r \alpha_b f_y} ,
 N \leqslant 0.5f_c A \end{aligned}</script><hr>
 <ul>
 <li><strong>对于受拉预埋件，其锚筋间距和锚筋至构件边缘的距离不应小于 $ 3d 及 45mm $ 预埋件厚度一般都是 $ &gt; 0.6d 且 \geqslant 6mm $同时在一般情况下 $ t \geqslant b/16 $，对于受拉和受弯预埋件，板厚宜满足 $t \geqslant b/8$ </strong></li>
 <li><strong>对于受剪预埋件， 其锚筋间距不应大于$300mm$，且$b_1 \geqslant 6d 和 70mm$,锚筋至构件边缘的距离$c_1$不应小于$6d和70mm$ ，$b、c不应小于3d和45mm$ </strong></li>
 </ul>
-
+<h2 id="螺栓计算"><a href="#螺栓计算" class="headerlink" title="螺栓计算"></a>螺栓计算</h2><h3 id="例题-1"><a href="#例题-1" class="headerlink" title="例题 1"></a>例题 1</h3><p>两块钢板用普通螺栓连接的盖板连接，构件受轴拉力设计值为 $ N = 325 kN , Q235A $，粗制螺栓直径 $d=20mm$ ,板厚$360mm$,盖板厚$6mm$,杆件板厚$8mm$</p>
+<p>已知：<script type="math/tex">N=325kN, {f_v}^b =140N/mm^2, \\ {f_c}^b = 305N/mm^2,d=20mm,\\t_1=8mm,t_2=6mm</script></p>
+<p>抗剪：<script type="math/tex">N_v^b = n_v \cdot \frac{\pi d^2}{4} \cdot f_v^b = 87964.6N{}</script></p>
+<p>抗压：<script type="math/tex">N_c^b =d \sum{}t \cdot f_c^b =20 \times 8 \times 305 = 48800N</script> </p>
+<p>$ N_{min}^b = min \{N_v^b,N_c^b \}=48.8kN $</p>
+<p>螺栓数量：</p>
+<p>$ n=\frac{N}{N_min^b}=\frac{325}{48.8}=6.66,取n=7个 $</p>
+<p>普通螺栓群时，如下图，$ l_1 \leqslant 15d_0 $,内力重新分布，各个螺栓内力趋于相等，故假定各个螺栓均摊内力。<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lcdll.png" alt=""><br>若$ 15d_0 \leqslant l_1 \leqslant 60d_0,\eta = 1.1 - \frac{l_1}{150 d_0}$<br>若$ l_1 \geqslant 60 d_0 ,\eta = 0.7$<br>此时有，$ n = \frac{N}{\eta \cdot N_{min}^b}$</p>
+<h3 id="净截面验算"><a href="#净截面验算" class="headerlink" title="净截面验算"></a>净截面验算</h3><h4 id="并列排列"><a href="#并列排列" class="headerlink" title="并列排列"></a>并列排列</h4><p>如图：</p>
+<ol>
+<li><p>主板的危险截面为1-1:</p>
+<script type="math/tex; mode=display">\sigma = \frac{N}{A_{n,1}} \leqslant f,A_{n,1} = (b-m \cdot d_0) \cdot t</script><p>$ f:钢材强度设计值，m:危险截面上的螺栓数$<br>$ b:主板宽度，t:主板厚度 $</p>
+</li>
+<li><p>主板的危险截面为2-2:</p>
+<script type="math/tex; mode=display">\sigma = \frac{0.5N}{A_{n,2}} \leqslant f,A_{n,2} = (b-m \cdot d_0) \cdot t</script></li>
+</ol>
+<h4 id="错列排列"><a href="#错列排列" class="headerlink" title="错列排列"></a>错列排列</h4><ol>
+<li>主板的危险截面为$ 1-1 和 1’ - 1’$<script type="math/tex; mode=display">\sigma = \frac{N}{A_n} \leqslant f</script>对于$1-1$截面：$A_n = (b-m \cdot d_0) \cdot t$<br>对于$1’ -1’$截面：$A_n = [2 \times c_4 + (m -1) \sqrt{c_1^2 + c_2^2} -m \cdot d_0] \cdot t$</li>
+</ol>
+<p>普通螺栓的抗拉连接，单个普通螺栓的抗拉承载力设计值:</p>
+<script type="math/tex; mode=display">N_t^b = A_e f_t^b = \frac{\pi d_e}{4} f_t^b</script>
       
     </div>
 
@@ -722,7 +742,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
             <ul class="links-of-blogroll-list">
               
                 <li class="links-of-blogroll-item">
-                  <a href="https://itibbers.com" title="难难" target="_blank">难难</a>
+                  <a href="https://itibbers.com" title="蘑菇🍄" target="_blank">蘑菇🍄</a>
                 </li>
               
             </ul>
@@ -744,7 +764,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#3D3S"><span class="nav-number">1.</span> <span class="nav-text">3D3S</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Steel-Structure"><span class="nav-number">2.</span> <span class="nav-text">Steel Structure</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#柱下独立基础计算"><span class="nav-number">2.1.</span> <span class="nav-text">柱下独立基础计算</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#电梯井设计"><span class="nav-number">2.2.</span> <span class="nav-text">电梯井设计</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#预埋件计算"><span class="nav-number">2.3.</span> <span class="nav-text">预埋件计算</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#受拉预埋件"><span class="nav-number">2.3.1.</span> <span class="nav-text">受拉预埋件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#受剪预埋件"><span class="nav-number">2.3.2.</span> <span class="nav-text">受剪预埋件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#拉弯预埋件"><span class="nav-number">2.3.3.</span> <span class="nav-text">拉弯预埋件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#弯剪预埋件"><span class="nav-number">2.3.4.</span> <span class="nav-text">弯剪预埋件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#拉剪预埋件"><span class="nav-number">2.3.5.</span> <span class="nav-text">拉剪预埋件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#压剪预埋件"><span class="nav-number">2.3.6.</span> <span class="nav-text">压剪预埋件</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#3D3S"><span class="nav-number">1.</span> <span class="nav-text">3D3S</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Steel-Structure"><span class="nav-number">2.</span> <span class="nav-text">Steel Structure</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#柱下独立基础计算"><span class="nav-number">2.1.</span> <span class="nav-text">柱下独立基础计算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#电梯井设计"><span class="nav-number">2.2.</span> <span class="nav-text">电梯井设计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#预埋件计算"><span class="nav-number">2.3.</span> <span class="nav-text">预埋件计算</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#受拉预埋件"><span class="nav-number">2.3.1.</span> <span class="nav-text">受拉预埋件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#受剪预埋件"><span class="nav-number">2.3.2.</span> <span class="nav-text">受剪预埋件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#拉弯预埋件"><span class="nav-number">2.3.3.</span> <span class="nav-text">拉弯预埋件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#弯剪预埋件"><span class="nav-number">2.3.4.</span> <span class="nav-text">弯剪预埋件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#拉剪预埋件"><span class="nav-number">2.3.5.</span> <span class="nav-text">拉剪预埋件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#压剪预埋件"><span class="nav-number">2.3.6.</span> <span class="nav-text">压剪预埋件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#螺栓计算"><span class="nav-number">2.4.</span> <span class="nav-text">螺栓计算</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#例题-1"><span class="nav-number">2.4.1.</span> <span class="nav-text">例题 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#净截面验算"><span class="nav-number">2.4.2.</span> <span class="nav-text">净截面验算</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#并列排列"><span class="nav-number">2.4.2.1.</span> <span class="nav-text">并列排列</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#错列排列"><span class="nav-number">2.4.2.2.</span> <span class="nav-text">错列排列</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
