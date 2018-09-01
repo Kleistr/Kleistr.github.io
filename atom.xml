@@ -107,7 +107,7 @@
     <link href="http://kleist.top/2018/08/11/3D3S-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/08/11/3D3S-学习笔记.html</id>
     <published>2018-08-11T02:04:46.000Z</published>
-    <updated>2018-08-29T12:15:22.760Z</updated>
+    <updated>2018-09-01T13:30:34.850Z</updated>
     
     <content type="html"><![CDATA[<h1 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h1><ol>
 <li>在使用杆件延长命令时需要辨别<code>i</code>，<code>j</code>节点，3D3S 默认小节点号为<code>i</code>节点<ul>
@@ -182,7 +182,18 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
 <li>主板的危险截面为$ 1-1 和 1’ - 1’$<script type="math/tex; mode=display">\sigma = \frac{N}{A_n} \leqslant f</script>对于$1-1$截面：$A_n = (b-m \cdot d_0) \cdot t$<br>对于$1’ -1’$截面：$A_n = [2 \times c_4 + (m -1) \sqrt{c_1^2 + c_2^2} -m \cdot d_0] \cdot t$</li>
 </ol>
 <p>普通螺栓的抗拉连接，单个普通螺栓的抗拉承载力设计值:</p>
-<script type="math/tex; mode=display">N_t^b = A_e f_t^b = \frac{\pi d_e}{4} f_t^b</script>]]></content>
+<script type="math/tex; mode=display">N_t^b = A_e f_t^b = \frac{\pi d_e}{4} f_t^b</script><h1 id="注册结构工程师"><a href="#注册结构工程师" class="headerlink" title="注册结构工程师"></a>注册结构工程师</h1><h2 id="0-钢结构绪论"><a href="#0-钢结构绪论" class="headerlink" title="# 0 钢结构绪论"></a># 0 钢结构绪论</h2><ul>
+<li>排架：上端铰接，下端刚接 ；刚架：上端刚接，下端铰接</li>
+<li>抗风柱： 1. 上端铰接，下端刚接 2. 上下都是铰接「摇摆柱」（无抗侧刚度，但是可承受轴力）</li>
+<li>檩条一般间距1500</li>
+<li>格构柱上面一般设置肩梁</li>
+<li>双片柱间支撑（03年真题）指成之间是否有连系</li>
+<li>屋架端部上下弦水平通长系杆</li>
+<li>吊车梁辅助桁架</li>
+<li>H型钢作腹杆，两块节点板</li>
+<li>隅撑——防止刚接梁下翼缘(受压)失稳</li>
+</ul>
+]]></content>
     
     <summary type="html">
     
