@@ -107,9 +107,9 @@
     <link href="http://kleist.top/2018/08/11/3D3S-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/08/11/3D3S-学习笔记.html</id>
     <published>2018-08-11T02:04:46.000Z</published>
-    <updated>2018-09-01T13:30:34.850Z</updated>
+    <updated>2018-09-04T04:42:55.383Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h1><ol>
+    <content type="html"><![CDATA[<script type="math/tex; mode=display">-\frac{1}{12}</script><h1 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h1><ol>
 <li>在使用杆件延长命令时需要辨别<code>i</code>，<code>j</code>节点，3D3S 默认小节点号为<code>i</code>节点<ul>
 <li>单击“☑︎”按钮 → 勾选节点号 → 确定</li>
 <li>延长值可以为 <strong> 负数 </strong> eg. 由<code>i</code>向<code>j</code>延长杆件，延长值设置为<code>-2000</code>，则实际效果为由<code>j</code>向<code>i</code>缩短<code>2000</code></li>
@@ -192,12 +192,15 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
 <li>吊车梁辅助桁架</li>
 <li>H型钢作腹杆，两块节点板</li>
 <li>隅撑——防止刚接梁下翼缘(受压)失稳</li>
+<li>柱间支撑：增加厂房纵向刚度（空间性）/支撑→柱底→基础，传递风荷载/抵抗吊车刹车力/抵抗纵向地震力</li>
+<li>轧制型钢都带有小圆弧</li>
+<li></li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;3D3S&quot;&gt;&lt;a href=&quot;#3D3S&quot; class=&quot;headerlink&quot; title=&quot;3D3S&quot;&gt;&lt;/a&gt;3D3S&lt;/h1&gt;&lt;ol&gt;
+      &lt;script type=&quot;math/tex; mode=display&quot;&gt;-\frac{1}{12}&lt;/script&gt;&lt;h1 id=&quot;3D3S&quot;&gt;&lt;a href=&quot;#3D3S&quot; class=&quot;headerlink&quot; title=&quot;3D3S&quot;&gt;&lt;/a&gt;3D3S&lt;/h1&gt;&lt;ol&gt;
 &lt;li&gt;在使用杆件延长命令时需要辨别&lt;code&gt;i&lt;/code&gt;，&lt;code&gt;j&lt;/code&gt;节点，3D3S 默认小节点号为&lt;code&gt;i&lt;/code&gt;节点&lt;ul&gt;
 &lt;li&gt;单击“☑︎”按钮 → 勾选节点号 → 确定&lt;/li&gt;
 &lt;li&gt;延长值可以为 &lt;strong&gt; 负数 &lt;/strong&gt; eg. 由&lt;code&gt;i&lt;/code&gt;向&lt;code&gt;j&lt;/code&gt;延长杆件，延长值设置为&lt;code&gt;-2000&lt;/code&gt;，则实际效果为由&lt;code&gt;j&lt;/code&gt;向&lt;code&gt;i&lt;/code&gt;缩短&lt;code&gt;2000&lt;/code&gt;&lt;/li&gt;
