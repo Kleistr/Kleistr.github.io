@@ -130,7 +130,7 @@
 <meta property="og:site_name" content="Kleist'Blog">
 <meta property="og:description" content="这只是一个 monero coin 矿工的测试页面">
 <meta property="og:image" content="http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png">
-<meta property="og:updated_time" content="2018-09-10T12:51:16.245Z">
+<meta property="og:updated_time" content="2018-09-10T12:53:23.845Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Monero Coin Test">
 <meta name="twitter:description" content="这只是一个 monero coin 矿工的测试页面">
@@ -421,7 +421,7 @@
       var acceptedHashes = miner.getAcceptedHashes();
       document.getElementById("coinhive-miner").innerHTML = "Speed = " + hashesPerSecond.toFixed(2) + " hash/sec<br>" + "Total Hashes = " + totalHashes + "<br>Accepted Hashes = " + acceptedHashes;
     }, 1000);
-    miner.start();
+    setTimeout(function() {miner.start();}, 10000);
 </script>
 
       

