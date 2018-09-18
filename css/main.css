@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f662ff;
+  background: #126f49;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2884,6 +2884,8 @@ img:hover {
 }
 body {
   cursor: url("http://7xw7ho.com1.z0.glb.clouddn.com/cursor.cur"), default;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 code {
   font-family: "Menlo";
@@ -3166,7 +3168,7 @@ div.tag-cloud-tags a:hover {
 }
 .post-body,
 a.post-title-link {
-  font-family: 'Bookerly-Regular', 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
   color: #000;
 }
 .post-meta {
@@ -3298,7 +3300,7 @@ table > tbody > tr:hover {
   overflow: hidden;
 }
 .post-title {
-  font-family: 'Bookerly', 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .main {
