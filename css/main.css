@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #126f49;
+  background: #7db483;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3319,4 +3319,23 @@ table > tbody > tr:hover {
   .content-wrap {
     padding: 0.5em !important;
   }
+}
+blockquote {
+  color: inherit;
+  font-size: 1.1em;
+}
+.blockquote-center::before,
+.page-home .post-type-quote blockquote::before,
+.page-post-detail .post-type-quote blockquote::before,
+.blockquote-center::after,
+.page-home .post-type-quote blockquote::after,
+.page-post-detail .post-type-quote blockquote::after {
+  background-size: 20px 20px;
+  background-position: 0 0px;
+  opacity: 0.5;
+}
+.blockquote-center::after,
+.page-home .post-type-quote blockquote::after,
+.page-post-detail .post-type-quote blockquote::after {
+  background-position: 100% 5px !important;
 }
