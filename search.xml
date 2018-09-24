@@ -17,7 +17,7 @@
 <h3 id="《茉莉的最后一天》"><a href="#《茉莉的最后一天》" class="headerlink" title="《茉莉的最后一天》"></a>《茉莉的最后一天》</h3><p>可怕的母爱，不得不引用同名小说中的一个名词——「怪獸家長」，当然是贬义，我确实想不到哪些更为合适的词语来形容这几个家长</p>
 <hr>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/Don%27t%20cry%20Don%27t%20cry.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FDon't%20cry%20Don't%20cry.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -82,7 +82,7 @@
 </ul>
 </li>
 <li>移动节点到直线或曲线上，利用此命令可以构件弧形等非直线桁架结构</li>
-<li>通过「定义方向」按钮修改型钢方向，eg. 槽钢一般是开口朝外，便于焊接，如下图为3D3S中3个轴的示意图：<br> <img src="http://7xw7ho.com1.z0.glb.clouddn.com/pnsbw.png" alt="槽钢3轴示意图"></li>
+<li>通过「定义方向」按钮修改型钢方向，eg. 槽钢一般是开口朝外，便于焊接，如下图为3D3S中3个轴的示意图：<br> <img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-3d3s_3zhou.png" alt="槽钢3轴示意图"></li>
 </ol>
 <a id="more"></a>
 <hr>
@@ -104,7 +104,7 @@
 <li>模型检查 → 内力计算 → 选择规范 → 设计验算</li>
 <li>绘制施工图</li>
 </ol>
-<h2 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/u4py5.png" alt="预埋件示意图"></p>
+<h2 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h2><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-YMJ.png" alt="预埋件示意图"></p>
 <h3 id="受拉预埋件"><a href="#受拉预埋件" class="headerlink" title="受拉预埋件"></a>受拉预埋件</h3><script type="math/tex; mode=display">\begin{aligned} N \leqslant 0.8 \alpha_a \alpha_b f_y A_s \end {aligned}</script><ul>
 <li>$ N $ —— 法向拉力 <strong> 设计值 </strong></li>
 <li>$ f_y $ —— 锚筋的抗拉强度设计值</li>
@@ -135,7 +135,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
 <p>$ N_{min}^b = min \{N_v^b,N_c^b \}=48.8kN $</p>
 <p>螺栓数量：</p>
 <p>$ n=\frac{N}{N_min^b}=\frac{325}{48.8}=6.66,取n=7个 $</p>
-<p>普通螺栓群时，如下图，$ l_1 \leqslant 15d_0 $,内力重新分布，各个螺栓内力趋于相等，故假定各个螺栓均摊内力。<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lcdll.png" alt=""><br>若$ 15d_0 \leqslant l_1 \leqslant 60d_0,\eta = 1.1 - \frac{l_1}{150 d_0}$<br>若$ l_1 \geqslant 60 d_0 ,\eta = 0.7$<br>此时有，$ n = \frac{N}{\eta \cdot N_{min}^b}$</p>
+<p>普通螺栓群时，如下图，$ l_1 \leqslant 15d_0 $,内力重新分布，各个螺栓内力趋于相等，故假定各个螺栓均摊内力。<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-luoshuan.png" alt=""><br>若$ 15d_0 \leqslant l_1 \leqslant 60d_0,\eta = 1.1 - \frac{l_1}{150 d_0}$<br>若$ l_1 \geqslant 60 d_0 ,\eta = 0.7$<br>此时有，$ n = \frac{N}{\eta \cdot N_{min}^b}$</p>
 <h3 id="净截面验算"><a href="#净截面验算" class="headerlink" title="净截面验算"></a>净截面验算</h3><h4 id="并列排列"><a href="#并列排列" class="headerlink" title="并列排列"></a>并列排列</h4><p>如图：</p>
 <ol>
 <li><p>主板的危险截面为1-1:</p>
@@ -200,7 +200,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
       <title><![CDATA[Pareto distribution]]></title>
       <url>http://kleist.top/2018/06/11/Pareto-distribution.html</url>
       <content type="html"><![CDATA[<p>最初认识帕累托分布是因为「二八法则」，最常见的意思是约20%的人占有80%的财富或资源，图像大致是下面这样子：</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/qmt0a.png" alt="经济学二八定律" style="width:60%;"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-28%E5%AE%9A%E5%BE%8B.png" alt="经济学二八定律" style="width:60%;"></p>
 <a id="more"></a>
 <p>帕累托分布是以意大利经济学家维弗雷多·帕雷托命名的。 是从大量真实世界的现象中发现的幂定律分布。这个分布在经济学以外，也被称为布拉德福分布。<br>在帕累托分布中，如果$X$是一个随机变量， 则$X$的概率分布如下面的公式所示：</p>
 <script type="math/tex; mode=display">\begin{aligned} P(X>x)=(\frac{x}{x_{min}})^{-k} \end{aligned}</script><p>其中$X$是任何一个大于 $x_{min}$ 的数，$x_{min}$ 是$X$最小的可能值（正数）， $k$ 是为正的参数。帕累托分布曲线族是由两个数量参数化的： $x_{min}$ 和 $k$ 。分布密度则为:</p>
@@ -233,7 +233,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
       <content type="html"><![CDATA[<p>もういい。</p>
 <a id="more"></a>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/%E6%88%91%E6%9B%BE%E7%BB%8F%E4%B9%9F%E6%83%B3%E8%BF%87%E4%B8%80%E4%BA%86%E7%99%BE%E4%BA%86%281%29.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/我曾经也想过一了百了_live.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -297,10 +297,10 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
       <title><![CDATA[福兮，禍之所伏]]></title>
       <url>http://kleist.top/2018/04/16/%E7%A6%8F%E5%85%AE%EF%BC%8C%E7%A6%8D%E4%B9%8B%E6%89%80%E4%BC%8F.html</url>
       <content type="html"><![CDATA[<p>昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， <code>data</code>  一栏的时间会完全乱掉，就像当年<a href="https://zh.wikipedia.org/zh-hans/2000年问题" target="_blank" rel="external">「千年虫危机」</a>一样博客时间轴完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 <strong> 七牛 </strong> 的链接同样包含数字：<code>https://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊</code>  </p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/uj9vb.png" alt="lwqqo"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125407.png" alt="lwqqo"></p>
 <a id="more"></a>
 <p>当然是很「脑阔痛」，但又何尝不是一件好事呢？三年来的博文从头整理一遍，也算是个回顾，总归还是能学到些什么的。不敢说现在的我有多好，但比起去年前年的我，我有所成长，这就够了，还要期待些什么呢？期待自己做到儒家的「齐家、治国、平天下」和「生，亦我所欲也；义，亦我所欲也。二者不可得兼，舍生而取义者也」？还是要让自己做到儒家「不信春風喚不回」的勉力不懈呢？</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/c8y8l.png" alt="image-20180416141434131"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125408.png" alt="image-20180416141434131"></p>
 ]]></content>
       
         
@@ -340,16 +340,16 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
       <url>http://kleist.top/2018/04/05/%E6%B3%A1%E9%A5%AD%E4%B8%8E%E6%96%87%E5%8C%96%E2%80%94%E2%80%94%E4%BB%8E%E3%80%8A%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AF%AD%E3%80%8B%E5%AD%A6%E7%9F%A5%E8%AF%86.html</url>
       <content type="html"><![CDATA[<p>起初看《源氏物语》中源氏拿「开水泡饭」招待客人，觉得似乎可能是年代关系（穷 qióng），后来细想觉得不对劲，毕竟平安时代的日本也算得上是昌盛时期，怎么也不可能出现用「开水泡饭」招待客人的骚操作啊。</p>
 <a id="more"></a>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/tryjn.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125238.png" alt=""></p>
 <p>所以只能是我浅薄了，没错，我所理解的「开水泡饭」还停留在某新闻中山区孩子们没钱吃饭，只能吃到「冷水泡饭」，现在经过 Google 才了解到原来「开水泡饭」一直都存在在部份人的日常生活中，也不像某新闻报道的那样「凄惨！！！」，不过是一种方便吃法而已，虽然可能会导致消化系统的不适，却也不至于看成《武林外传》吕秀才准备周济穷人的「福寿宴」吧。我国南方很多城市都有「开水泡饭」、「茶泡饭」之类的吧，其中上海泡饭尤为出名。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/umxhj.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125239.jpg" alt=""></p>
 <blockquote>
 <p>《红楼梦》中第四十九回琉璃世界白雪紅梅脂粉香娃割腥啖羶：「寶玉卻等不得，只拿茶泡了一碗飯，就著野雞瓜齏忙忙的咽完了。」</p>
 <p>《中国烹饪大全·古食珍选录》：「冒妾董小宛精於烹飪，性淡泊，對於甘肥之物質無一所好，每次吃飯，均以一小壺茶，溫淘飯，此為古南京人之食俗，六朝時已有。」</p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s6p5n.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125241.png" alt=""></p>
 <p>当时对应中国唐朝时期的日本平安时代 （平安京时代）中日交流频繁，泡饭成为一种文化。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/cbufs.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125242.png" alt=""></p>
 <p>所以如梁公所想，我还是低估了「泡饭」的「价值」，此价值当然是广义上的价值，《源氏物语》详细记录了所属年代（平安时代）的大小巨细，再加上其中「和歌」与「唐诗」的文化底蕴自然成为了日本古典文学的巅峰之作。</p>
 ]]></content>
       
@@ -369,17 +369,17 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
       <url>http://kleist.top/2018/04/01/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%92%8C%E5%84%92%E7%95%A5%E5%8E%86.html</url>
       <content type="html"><![CDATA[<p>今天是四月一日「愚人节」，还好没被整蛊（emmmm……边缘人怎么会被整呢）</p>
 <p>从昨天开始发觉自己感冒，无精打采也无心毕设，听着几首轻音乐了解了一下「愚人节」，原来被大多数认可的来源是历法导致的。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png-75percent" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125341.png" alt=""></p>
 <p>当A使用一个历法在过新年庆祝的时候，使用另一种历法的B就嘲笑A safufu(傻乎乎)的……这一天恰巧是B所用历法的四月一日。</p>
 <a id="more"></a>
-<p>以下转载自<a href="http://7xw7ho.com1.z0.glb.clouddn.com/cqctc.jpg" target="_blank" rel="external">Sam Tsai</a><br>頒行格里曆的1582 年十月：消失的十天<br><img src="" alt=""></p>
-<p>日不落國的 1752 年九月：消失的十一天<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nangu.jpg" alt=""></p>
+<p>以下转载自<a href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-rulueli.jpg" target="_blank" rel="external">Sam Tsai</a><br>頒行格里曆的1582 年十月：消失的十天<br><img src="" alt=""></p>
+<p>日不落國的 1752 年九月：消失的十一天<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125342.jpg" alt=""></p>
 <p>有趣的翻译：<a href="https://zh.wikipedia.org/wiki/儒略曆" target="_blank" rel="external">「Julian calendar」</a>被译作「儒略曆」！</p>
 <p>好奇之餘，上網搜尋了一下，意外地收货了新知识： </p>
 <blockquote>
 <p>由於「0.002%」的誤差：<br>儒略曆每年 365.25日 與 格里曆每年 365.2425 日。<br>在曆法的改革上，<br>每個國家、地區，因採行新曆的時間不同，<br>各自在月曆上「抹去」的日子，也從 10 到 13 天不等。</p>
 </blockquote>
-<p>這樣「憑空消失」的日子，什麼時候會再來呢？<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/bfneg.png" alt=""></p>
+<p>這樣「憑空消失」的日子，什麼時候會再來呢？<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125344.png" alt=""></p>
 <p>《科學發展，2015年4月，508期》</p>
 <hr>
 <p>底下文字，節錄轉貼（並稍稍改寫）自維基百科：</p>
@@ -430,21 +430,21 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
       <title><![CDATA[1987:When the Day Comes]]></title>
       <url>http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html</url>
       <content type="html"><![CDATA[<p style="
-cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">There’s nothing. </p>
+cursor: url('https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-huaji.png'),default;">There’s nothing. </p>
 
 <a id="more"></a>
 <p>看完后再加上前段时间看的《铁雨》(《Steel Rain》) 真的为自己能够生活在和平年代感到庆幸。</p>
 <p style="
-cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">和平来之不易 </p>
+cursor: url('https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-huaji.png'),default;">和平来之不易 </p>
 
 <p style="
-cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">愿君倍加珍惜 </p>
+cursor: url('https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-huaji.png'),default;">愿君倍加珍惜 </p>
 
 <blockquote>
 <p>注释：<a href="https://zh.wikipedia.org/wiki/光州民主化運動" target="_blank" rel="external">光州民主化运动</a></p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nl9am.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/j19jh.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125347.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125349.png" alt=""></p>
 <p>关于《Steel Rain》这部电影还是少说为妙，话题有点敏感。</p>
 ]]></content>
       
@@ -460,7 +460,7 @@ cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">愿君�
     <entry>
       <title><![CDATA[《易经》笔记]]></title>
       <url>http://kleist.top/2018/03/13/%E3%80%8A%E6%98%93%E7%BB%8F%E3%80%8B%E7%AC%94%E8%AE%B0.html</url>
-      <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/b01nw.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125400.png" alt=""></p>
 <p>仅仅了解了一点点《易经》的知识就已经感受到其智慧的无穷。</p>
 <p>术数和易理一直以来都被当作是分开的，而西方世界注重的是「分」，中国传统注重的是「合」，到底还是将「术数」当作了迷信行为，可以想象被拘狱中而演《周易》的文王有多心酸。再者，正是因为这些玄而又玄的卦辞才得以幸免于始皇帝的「焚书坑儒」吧。在下不才，初探《易经》便迫不及待的给自己卜了一卦 —— </p>
 <blockquote>
@@ -506,17 +506,17 @@ cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">愿君�
     <entry>
       <title><![CDATA[kleist 的由来]]></title>
       <url>http://kleist.top/2018/01/19/kleist-%E7%9A%84%E7%94%B1%E6%9D%A5.html</url>
-      <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/7vrm5.jpeg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125259.jpg" alt=""></p>
 <p>说来也巧，kleist 是来自于我较为喜欢的一部动漫中的人物，「Angel Beats!」中的小黑客 kleist。</p>
 <a id="more"></a>
 <p>出现在第3话4 min 04 s.果然是黑客可能会出现的时间，404……</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/ae6oh.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125300.jpg" alt=""></p>
 <p>要说为什么会选择这个角色，很大程度上因为高中时期第一次看第一次听到这个名字就很喜欢，其次是这个人物在对天使的战争中起到了很重要的作用，要不是那天黑进天使的电脑，也不会发现天使的瞬移也好，手刀也好的技能都是设定好的，关于「敌人」知己知彼嘛。</p>
 <p>最后还是对于 CS 的念想，大学没能选择喜欢的专业，这次考研又 90% 失败告终，与 CS 注定无缘吗难道？不会的，总有一天我会在 CS 上取得学位的。</p>
 <hr>
 <p>之前好多好朋友问我名字的由来，我解释是出自「Angel Beats!」的，然而并不是所有人都喜欢动漫，并不是所有人都看过，就连大「月月鸟」都不记得「AB」里面有这么一个角色……</p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/My%0Soul,Your%0Beats%%0-%0Lia.mp3" autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FMySoulYourBeats.mp3" autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -559,34 +559,34 @@ cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">愿君�
     <entry>
       <title><![CDATA[Rick and Morty]]></title>
       <url>http://kleist.top/2018/01/10/Rick-and-Morty.html</url>
-      <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/f110h.jpeg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125304.jpg" alt=""></p>
 <p>此前一直有想看的想法，也知道这是个第一季9.6分，二三季9.8分的神剧，但诟病于社交媒体中见到的血腥重口画风。好在在这个坐没地方坐，放电脑的桌子都没有的冬季，躺在床上看着黑格尔的「哲学史讲演录」，看着「了不起的麦瑟尔夫人」，才想起还有这么一部神剧没看。</p>
 <a id="more"></a>
 <h3 id="脑洞"><a href="#脑洞" class="headerlink" title="脑洞"></a>脑洞</h3><p>小时候的很多构想本身很难实现，结果在这部动漫里实现了，Rick 这个疯狂的科学家，比起小叮当更招我喜欢，小叮当不过是有未来科技产品，Rick 则用自己超常智慧去实现这些构想。就像 Portal （前段时间和月月鸟一起通关了 Portal，简直神作），可以自由穿梭任意世界线；制造一个 miniword 来给飞船供电；停止时间打扫房子，不小心造成时间紊乱，来到一个到处漂浮着 <a href="https://zh.wikipedia.org/wiki/薛定谔猫" target="_blank" rel="external">薛定谔的猫</a> 的虚空；在闪电芯玩一个叫「Roy」的虚拟现实游戏（确定这不是 S.H.I.E.L.D 里的 Framework？）；发现了全都同化同步的叫「Unity」的 Rick 的 Ex……</p>
 <h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>单单只是这么多奇葩的脑洞还不足以吸引我，留意一下就会发现他们简单的对话中实际上蕴含很多思考的，稍微举几个例子：</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/kxkld.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125310.png" alt=""></p>
 <p>当然，对于这个话题不能发表过多言论，能说的是最后这句话给了我一定的思考，Morty 说的没错，这是奴隶制，因为对于 slavery 的定义百科上是与之相似的，但 Rick 说的也没错，这就叫 society，对于一个观点要选「对、错」很容易，但要从两个对的中作出选择就很难了。「Ooh-LA-LA,someone’s gonna get laid in college.」就是我认为的点睛之笔了，这句话是 Rick 对 Morty 说的，也说明了他认为 Morty 说的是学校教的，是大众认可的，是受青睐的观点，但这句话的语气又表明 Rick 对这种观点是略带嘲讽的，是不屑的，他是看得更透彻的。Rick 看到了现在社会某些不可言说的实质，而且每个时代都会出现这样一个「神」…… 当然这些人都给当时的百姓带来了或多或少的精神财富或物质财富，显然希特勒在注入民族主义的精神「财富」的同时，也对战时第三帝国的青年劳力进行了一定的「剥削」，或许这个例子不是那么恰当，因为我认为较为合适的例子是《984》中的 BIG BROTHER。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/n6lk7.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/0yeh2.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125313.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125315.png" alt=""></p>
 <p>这段话在爱情观方面倒不太容易获得赞同，但是整部漫看下来也能够理解「升华自我，专注科学」的重要性，生活中也理当如此不是么，在生活中遇到挫折后，哭哭啼啼？牢骚满腹？怨天尤人？看看书，升华一下自己不好么？这几年心情不好我就会看书，小说啊，科普啊，社科啊……都可以，心情都会变好。身边的故事一点点在变，看的书和影视作品虽然有时候不记得了，但它们其实已经内化为自己的思想，在生活中潜移默化影响自己。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/18mnv.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125317.png" alt=""></p>
 <p>这个就不多说了，很浅显。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/e1k13.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125318.png" alt=""></p>
 <p>剧中有一种 Mr.Meeseeks「使命必达先生？」简单看 Mee 和 seek ，可以理解为我寻找，结合他会在满足召唤他的人的愿望时就会消失，可以解释为找到了自己的价值。这样不难理解为什么在最后他们会疯狂的想要杀死他的召唤者以达成目标而好完成使命并消失。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/m7973.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125323.png" alt=""></p>
 <p>就像 Rick 做的「黄油机器人」一样，存在的意义就是递黄油。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/52ubm.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125324.png" alt=""></p>
 <p>我注意到它询问「自己存在的意义是什么」问了两遍，加上 Mr.Meeseeks 的故事粗略猜测可能跟人们去追寻自己价值一样， 必将是失败的。Rick 也说「宇宙本身就是疯狂且混乱的」，可能都没有所谓的价值，去追寻一个不存在的价值又有什么意义呢？当发现自己所追求的不过是「无」的时候，才是真正达到了更高的境界。不然是否就像西方神话中的西西弗斯一样了呢？</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/028lp.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125326.png" alt=""></p>
 <p>Morty 不满于每次出去都是 Rick 指定目标，他也想找自己想要的温和一点的冒险，争论不过的 Rick 只好用传送枪去了一个类似于杰克和豌豆的童话世界。在童话中，杰克爬上了巨大的豌豆，偷了巨人的财宝，还将其杀害，并且拿着这份财富过上了无忧无虑的日子。在 Rick and Morty 的冒险中，前面几乎相同的剧情，不过结果却是两人被抓，有意思的是，最后是一名巨人律师为 Rick 两人辩护并赢得了官司，这高高的法院台阶，似乎还有点别的意思。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/rsx6s.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125329.png" alt=""></p>
 <p>当然，第三季集集都是高能，第七集尤甚。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s80mq.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/al59k.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125337.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125339.png" alt=""></p>
 <hr>
 <p>我想我可能会把这部动漫看好多遍，就像我会去看很多遍《道德经》一样，目前我感觉连它内涵的三分之一都没看到，不得不说这跟《无耻之徒》都是我看的较为经典和能给生活以指导并且非常值得推荐给别人的好作品。庆幸 08 年初就有这些收获，希望这一年能遇到更多更好的作品。</p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/1-11%20For%20the%20Damaged%20Coda.mp3" controls="controls" autoplay="autoplay" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FFor%20the%20Damaged%20Coda.mp3" controls="controls" autoplay="autoplay" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -631,16 +631,16 @@ document.getElementById("audio").volume = 0.5;
       <title><![CDATA[Google scholar 的访问问题 & 猫对于地上圆圈的情有独钟到底是为什么]]></title>
       <url>http://kleist.top/2018/01/05/Google-scholar-%E7%9A%84%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98.html</url>
       <content type="html"><![CDATA[<h4 id="Google-scholar-的访问问题"><a href="#Google-scholar-的访问问题" class="headerlink" title="Google scholar 的访问问题"></a>Google scholar 的访问问题</h4><p>今天本打算对于前几天看到的一个有趣现象（cat &amp; square）进行深入了解，结果对于某度能找到的信息无非就是哪里的网友听说了这个现象，然后对自己家的猫进行了实验，发现确实如此 blah,blah,blah……</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/11iss.jpg" alt=""><br><a id="more"></a><br>然而囿于现在环境，<s> 垃圾 </s>学校并没有知网合作，索性直接奔古哥,结果也是一堆各地网友做实验，YouTube实验视频……去古哥学术，这才发现原来采取了措施古哥可以，但学术进不去……</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125402.jpg" alt=""><br><a id="more"></a><br>然而囿于现在环境，<s> 垃圾 </s>学校并没有知网合作，索性直接奔古哥,结果也是一堆各地网友做实验，YouTube实验视频……去古哥学术，这才发现原来采取了措施古哥可以，但学术进不去……</p>
 <p>emmmm……</p>
 <p>We’re sorry…</p>
 <p>… but your computer or network may be sending automated queries. To protect our users, we can’t process your request right now.</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2j4u0.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125406.png" alt=""></p>
 <p>既然问题来自于代理，换代理又不现实，只能去 <a href="https://g.zmirrordemo.com/" target="_blank" rel="external">学术镜像</a> 了，提交验证的时候，我写的是 <code>github</code> 这年头……<br>维罗妮卡在精神病院的对话可真是经典</p>
 <blockquote>
 <p>你没法通过循规蹈矩学到你需要学会的东西。</p>
 </blockquote>
-<h4 id="猫对于地上圆圈的情有独钟到底是为什么"><a href="#猫对于地上圆圈的情有独钟到底是为什么" class="headerlink" title="猫对于地上圆圈的情有独钟到底是为什么"></a>猫对于地上圆圈的情有独钟到底是为什么</h4><p><strong>「以下翻译均来自 <a href="http:kleist.top" target="_blank" rel="external">kleist</a> 」</strong></p>
+<h4 id="猫对于地上圆圈的情有独钟到底是为什么"><a href="#猫对于地上圆圈的情有独钟到底是为什么" class="headerlink" title="猫对于地上圆圈的情有独钟到底是为什么"></a>猫对于地上圆圈的情有独钟到底是为什么</h4><p><strong>「以下翻译均来自 <a href="https://kleist.top">kleist</a> 」</strong></p>
 <p>Reasons:</p>
 <blockquote>
 <p>Cats do like boundaries compared to dogs and psychologically feel comfortable when they can see their “place”. —— Vet. Brian Faulkner</p>
@@ -667,21 +667,21 @@ document.getElementById("audio").volume = 0.5;
       <title><![CDATA[Minecraft 打造 S.H.I.E.L.D 空天母舰]]></title>
       <url>http://kleist.top/2018/01/04/Minecraft-%E6%89%93%E9%80%A0-S-H-I-E-L-D-%E7%A9%BA%E5%A4%A9%E6%AF%8D%E8%88%B0.html</url>
       <content type="html"><![CDATA[<p>先来一张初步完成图</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/4fn5y.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125219.png" alt=""></p>
 <p>制作耗时： 3 小时</p>
 <a id="more"></a>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/of2vm.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/clief.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/f6nsx.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/blrzk.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/wf5ze.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125223.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125224.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125226.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125227.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125229.jpg" alt=""></p>
 <p>现在还只是建成了外壳，内部还很简陋</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/usd0w.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125231.jpg" alt=""></p>
 <p>很可惜没有复联中空天母舰的详图，甚至高清图都没有，只好自己猜想了……，其实就外形来讲，跟复联中的空天母舰已经有很大差异了。</p>
 <p>来一张对比图：</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/o54uc.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125233.png" alt=""></p>
 <p>只能说乍一看还可以，经不住细细端详。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/eotbo.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125235.png" alt=""></p>
 <p>我竟然在 MC 里练字……</p>
 ]]></content>
       
@@ -820,7 +820,7 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FThe%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -865,7 +865,7 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[2017 年终总结]]></title>
       <url>http://kleist.top/2017/12/29/2017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93.html</url>
-      <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125353.png" alt=""></p>
 <hr>
 <h2 id="这一年"><a href="#这一年" class="headerlink" title="这一年"></a>这一年</h2><p>这一年，</p>
 <p>是充实单调的一年，是蓬头垢面的一年，是曲折前进的一年；</p>
@@ -900,9 +900,9 @@ document.getElementById("audio").volume = 0.5;
 <li>好好完成毕设</li>
 <li>找份离家近的工作</li>
 </ul>
-<h2 id="书类消费"><a href="#书类消费" class="headerlink" title="书类消费"></a>书类消费</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/np9lj.png" alt=""></p>
+<h2 id="书类消费"><a href="#书类消费" class="headerlink" title="书类消费"></a>书类消费</h2><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125354.png" alt=""></p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FThe%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -945,7 +945,7 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[Monero Coin Test]]></title>
       <url>http://kleist.top/2017/12/27/monero-coin-test.html</url>
-      <content type="html"><![CDATA[<h3 id="这只是一个-monero-coin-矿工的测试页面"><a href="#这只是一个-monero-coin-矿工的测试页面" class="headerlink" title="这只是一个 monero coin 矿工的测试页面"></a>这只是一个 monero coin 矿工的测试页面</h3><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/tldjk.png" alt=""></p>
+      <content type="html"><![CDATA[<h3 id="这只是一个-monero-coin-矿工的测试页面"><a href="#这只是一个-monero-coin-矿工的测试页面" class="headerlink" title="这只是一个 monero coin 矿工的测试页面"></a>这只是一个 monero coin 矿工的测试页面</h3><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125359.png" alt=""></p>
 <!-- <iframe id="widget-ticker-preview" src="//www.coingecko.com/zh/%E5%B7%A5%E5%85%B7%E7%BB%84%E4%BB%B6/%E6%94%B6%E6%8A%A5%E6%9C%BA/门罗币/cny" style="border:none; height:95px; width: 180px;" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
 <a id="more"></a>
 <p><script src="https://authedmine.com/lib/simple-ui.min.js" async></script></p>
@@ -987,13 +987,13 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[考研]]></title>
       <url>http://kleist.top/2017/12/25/%E8%80%83%E7%A0%94.html</url>
-      <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/bq3hq.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125251.png" alt=""></p>
 <p>昨天下午结束了2018考研，结果就不多说了，图片已经说明了一切。</p>
 <p>一年多的考研战线，说实话，有点长。就我观察而言，前期和后期大家的复习效率和激情，比起中期那段时间有点低。我算是在后期开始就没投入多少精力，在石家庄的求职经历让我对于那份得来不易的offer有点在意，这可能也是我后期对于考研一事最终结果的伏笔，我很幼稚，真的很幼稚的像孩子一样去治气，明知道是不应该的，可从那开始也确实没能说服我自己继续将考研走下去。</p>
 <p>我是个 8 考研的失败者，本不应该对于「泄题」一事发表看法，因为不会做是我的问题，并不是某个老师「泄题」导致我不会做，但此人「泄题」一事确实也会影响到将来的国家线，不晓得「某人」看到考场外或骂骂咧咧或哭哭啼啼的考生时，可曾想过 <code>A +</code> 和 <code>B -</code> 的差距并不是<strong>  </strong> 。关于「泄题」一事的真假性，新闻都说了是假的，<s> 我相信新闻不会骗人 </s> ,明白人自然会明白，当然有人说“巧合”、“老师厉害，摸透了出题规律”……你要说政治押题我信，数学题型我也会信，但作为一个经历了本次考研的我来讲「数据都一样」是什么概念自然不需要没有参加考研就来发表观点的人教。</p>
 <p>恩，关于教育部大大给的回应，表示强烈支持，毕竟标点都不一样，哪来的泄题。</p>
 <a id="more"></a>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nvepp.JPG" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125253.jpg" alt=""></p>
 <hr>
 <p>以下纯属个人脑补，没有真实凭证。</p>
 <blockquote>
@@ -1033,12 +1033,12 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[某快捷酒店路由管理系统]]></title>
       <url>http://kleist.top/2017/12/23/%E6%9F%90%E5%BF%AB%E6%8D%B7%E9%85%92%E5%BA%97%E8%B7%AF%E7%94%B1%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.html</url>
-      <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lc32t.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125411.png" alt=""></p>
 <a id="more"></a>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/ulpf0.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/vamwo.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/9t26i.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/u25gb.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125413.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125415.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125417.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125418.png" alt=""></p>
 ]]></content>
       
         
@@ -1167,7 +1167,7 @@ document.getElementById("audio").volume = 0.5;
 </table>
 
 <a id="more"></a>
-<h3 id="Why-5mm-is-the-Largest-possible-drop-size"><a href="#Why-5mm-is-the-Largest-possible-drop-size" class="headerlink" title="Why 5mm is the Largest possible drop size?"></a>Why 5mm is the Largest possible drop size?</h3><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/wf8yc.gif" alt=""></p>
+<h3 id="Why-5mm-is-the-Largest-possible-drop-size"><a href="#Why-5mm-is-the-Largest-possible-drop-size" class="headerlink" title="Why 5mm is the Largest possible drop size?"></a>Why 5mm is the Largest possible drop size?</h3><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125256.gif" alt=""></p>
 ]]></content>
       
         
@@ -1277,10 +1277,10 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[「水知道一切」的言论]]></title>
       <url>http://kleist.top/2017/10/27/%E3%80%8C%E6%B0%B4%E7%9F%A5%E9%81%93%E4%B8%80%E5%88%87%E3%80%8D%E7%9A%84%E8%A8%80%E8%AE%BA.html</url>
-      <content type="html"><![CDATA[<p>首先看一下 <a href="https://zh.wikipedia.org/wiki/江本勝" target="_blank" rel="external">江本胜</a>，下面是维基百科的截图 <img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-27-江本胜_简介-1.png" alt="江本胜简介"></p>
+      <content type="html"><![CDATA[<p>首先看一下 <a href="https://zh.wikipedia.org/wiki/江本勝" target="_blank" rel="external">江本胜</a>，下面是维基百科的截图 <img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-2017-10-27-%E6%B1%9F%E6%9C%AC%E8%83%9C_%E7%AE%80%E4%BB%8B-1.png" alt="江本胜简介"></p>
 <p>其关于「水能根据外界信息辨别美丑善恶，从而影响水分子结晶」的说法着实让小学时期的我产生了一种「造物之伟大」的神圣感，听几次也罢，但是某小学老师在班会说过几次之后随之而来的是各科老师在闲谈课后都喜欢拿来说事。被举此例教育做人要心存善念，与人为善，由于那时消息闭塞再到高中时期学业繁重，直到大学四年级常常看到家人在朋友圈微信群转发的各种伪科学才想去扼制所谓的「科学」证实……的言论，也是这时候关于「水知道一切」的详细信息我才认真看过。<br><a id="more"></a><br>在「古哥哥」和「维基娘」的引导下我觉得事件影响实在太大，虽然我所了解的示例局限在我生活的小镇。那么多的中小学教育工作者对于这一言论的真实性大概是深信不疑的，不然也不会在小学五年级老师带领下去做这个最终结果并不乐观的实验，现在想来多半也是带着玩心去组织的吧。</p>
 <p>可是事情就这样结束了么？一个后来证实自己说的并不是科学的。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-27-江本胜_批判-2.png" alt="批判与反对意见"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-2017-10-27-%E6%B1%9F%E6%9C%AC%E8%83%9C_%E6%89%B9%E5%88%A4-2.png" alt="批判与反对意见"></p>
 <p>可为什么一个日本的作家、学者说的话这么的让我周围从事教育行业的知识份子深信不疑？</p>
 <ul>
 <li>是因为人家出书了？在那个年代？</li>
@@ -1290,7 +1290,7 @@ document.getElementById("audio").volume = 0.5;
 </ul>
 <p>不管原因是什么，我都感到一丝恐惧，就像看到 BBC 某一期关于非洲某部落评选部落勇士的手段是去野外狮子嘴里抢食物的记录一样，都知道狮子的战斗实力很强，却不知道它看到几个人过来会逃走。这是先入为主的结果，看到学者作家的言论同样会在心中先产生一定的信任，再去接受那个言论，当然如今「水知道一切」的说法并没有通过<a href="https://zh.wikipedia.org/wiki/可证伪性" target="_blank" rel="external">「Popper的否证论」</a>，但谁能说以后不会有科学去证实此事呢？这是后话了，现在重点回到「在不了解事实的情况下拿来用或者表示信任」会产生什么后果。</p>
 <p>我想到的唯一重要的就是当我老师拿这个例子教育我们的时候，还顺便告诉我们这是国外某科学家实验证明了的，我会选择相信老师，因为我就是这样被教育的，就连「阿基米德排水法测皇冠体积」的事我直到大学接触更多书籍前都深信不疑。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-27-阿基米德_测皇冠真假-2.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-2017-10-27-%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7_%E6%B5%8B%E7%9A%87%E5%86%A0%E7%9C%9F%E5%81%87-2.png" alt=""></p>
 <p>可现实是那一点点的体积排除了水表面张力带来的误差之后，实际根本测不出来。</p>
 <p>我还是多看点书吧，不知道现在还在对什么事实不正确却依然认为正确的事情深信不疑着。</p>
 <p>可怕。可怕。</p>
@@ -1504,7 +1504,7 @@ document.getElementById("audio").volume = 0.5;
       <title><![CDATA[应聘小记]]></title>
       <url>http://kleist.top/2017/10/11/%E5%BA%94%E8%81%98%E5%B0%8F%E8%AE%B0.html</url>
       <content type="html"><![CDATA[<p>在去石家庄参加招聘会之前大家就已经吐槽了这个学校三年多，当然有些槽点确实让人心中不爽，有些不过是调侃罢了，然而此次石家庄之行却给了我不同的看法。</p>
-<p>去之前听闻几个去别处参加招聘会的同学被看中了，然而一看学校名字带着 <strong>「荣成学院」</strong> 四个字瞬间拉下脸来以一种‘你欺骗了我们’的态度表示公司不要。以为吐槽几句之后便也到此为止了，谁知可笑之事随时都可能出现在荣成学院，我们去参加招聘会需要自行打印一份名曰 <strong>「二本证明」</strong> 的文件，自己去办公楼盖章认证，说明我学了三年多的学校是个二批本科……<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-11-huaji.png" width="00" height="400"></p>
+<p>去之前听闻几个去别处参加招聘会的同学被看中了，然而一看学校名字带着 <strong>「荣成学院」</strong> 四个字瞬间拉下脸来以一种‘你欺骗了我们’的态度表示公司不要。以为吐槽几句之后便也到此为止了，谁知可笑之事随时都可能出现在荣成学院，我们去参加招聘会需要自行打印一份名曰 <strong>「二本证明」</strong> 的文件，自己去办公楼盖章认证，说明我学了三年多的学校是个二批本科……<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-2017-10-11-huaji.png" width="00" height="400"></p>
 <p>二本证明告一段落，接下来就是远赴石家庄参加招聘会（因为学校招聘会太少，而且来的企业大多比较差）。</p>
 <p>到了石家庄去过石铁大才知道什么是大学，不过这不是重点，重点是接连四天从早到晚满满的招聘会，我们投出去的简历全都得到同一个答复「我们不要你们学校的，你们是二本么？」连拿出二本证明的机会都没有……</p>
 <p>以为就这样了？才四天的不间断碰壁就崩溃了？不，在第四天有幸得到了中铁十四局的面试机会，我们欢呼啊，仿佛奔走在沙漠中即将脱水死亡之时看到了一片绿洲啊，对的，我们有希望了，谁说我们学校不好来着，人家央企都给我们面试机会了。终于进入面试了，先让我们五个人挨个自我介绍一下，到我的时候校名说的是哈理工荣成校区，结果本来有说有笑的面试官一下子懵了……不管我怎么解释说当年一批分数线多少，我高考多少分，我们就是校区，是二批本科，我还有二本证明啊喂……都是徒劳，是啊，这几天所见所闻不也都证明了这些企业都不了解甚至没听过这个学校么？哪怕中铁十四过几天会去哈尔滨总校开招聘会……</p>
@@ -1553,7 +1553,7 @@ document.getElementById("audio").volume = 0.5;
 </ul>
 </blockquote>
 <p>那这样的生活真的是值得穷其一生去追求的么？在当下世界观里答案倾向于肯定。社会的物质条件还没有达到共产主义的高度，就连基础的全面小康社会也要在三年之后才能达到，所以去极力的追求事业或学业也是当下较为主流的观念吧。可有些人就觉得<strong>「父母在，不远游」</strong>是万年不变的定律，是圣人言，没错，是圣人言，可圣人还有下一句<strong>「游必有方」</strong>啊，这断章取义的本领，怕是跟「天才是 99% 的汗水加 % 的灵感」异曲同工啊 (个人认为励志没错，可在曲解甚至强加解释的去拿圣人名人的话去给别人励志便是不道德了，首先爱因斯坦的话重点是在 % 的灵感上，而不是所谓励志的 99% 的汗水，致使很多人付出了常人难以想象的努力后没有得到应有的收获，此人便去责怪爱因斯坦了，<strong>可这还是爱因斯坦那句话么</strong>，这是 <strong>误导</strong> 啊) ，家人所谓的「担心」确实是最能触及软肋的字眼了，可 <code>大学四年每年回家两次</code> 、 <code>研究生三年，每年一次</code> 与 <code>工作三年，每年回家几次</code> 相比，区别呢？难道真的在济南甚至明水更甚刁镇某工地待一辈子？不现实啊，赚钱不多，买不起房买不起车，为何呢？</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-10-02-Screenshot_2017-10-02%2018.52.10_y8hqMH.png" alt="mother_wechat"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125255.png" alt="mother_wechat"></p>
 <p>现在想来，高中三年，大学前三年听到了不少从父母嘴里说出来的关于邻居某在外工作（路桥），常年不回家的哥哥评头论足，“赚再多钱有啥用啊，还不是没地方花！” “天天在工地，在家也有这种工作啊，回来还能陪陪爹妈多好啊，孩子不懂事啊” “这么大了还没找个媳妇，天天在外地，还在工地上，上哪去找媳妇啊，到最后不还得让爹妈操心么，这么大了，也不小了，还不让家里省省心” …… 这话啊，不在多少，可这理啊……</p>
 <p>考虑一下我到底要的是什么，这是目前最重要的事项。到处都是选择，可我不比《人生复本》的主人公，也不比《命运石之门》的凤凰院⋅凶真……我没有回头路，也没有充足的时间去做好选择的准备，</p>
 <div style="font-size:20px;">Please deliver my emotion.</div>
@@ -1573,7 +1573,7 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[「房思琪的初恋乐园」]]></title>
       <url>http://kleist.top/2017/09/07/%E3%80%8C%E6%88%BF%E6%80%9D%E7%90%AA%E7%9A%84%E5%88%9D%E6%81%8B%E4%B9%90%E5%9B%AD%E3%80%8D.html</url>
-      <content type="html"><![CDATA[<p>借忙里偷闲的空档，读完了《房思琪的初恋乐园》，心里略感沉重，这份沉重不只源于那个被补习老师性侵的事件，也不只源于思琪疯掉之后邻里还在鸡零狗碎，天南地北，高谈阔论。正如林奕含在访谈中所说，一个相信中文的人，怎么可以背叛这浩浩汤汤已经超过五千年的语境？怎么可以背叛这浩浩汤汤已经超过五千年的传统？我沉重的是林奕含「信仰的崩塌」。<br><a id="more"></a><br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-09-07-v2-1f9b08206a3c787a64c4802eccec7c59_r.jpg" alt="访谈截图"></p>
+      <content type="html"><![CDATA[<p>借忙里偷闲的空档，读完了《房思琪的初恋乐园》，心里略感沉重，这份沉重不只源于那个被补习老师性侵的事件，也不只源于思琪疯掉之后邻里还在鸡零狗碎，天南地北，高谈阔论。正如林奕含在访谈中所说，一个相信中文的人，怎么可以背叛这浩浩汤汤已经超过五千年的语境？怎么可以背叛这浩浩汤汤已经超过五千年的传统？我沉重的是林奕含「信仰的崩塌」。<br><a id="more"></a><br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125302.jpg" alt="访谈截图"></p>
 <p>关于房思琪的经历，林奕含说是一个女孩爱上强奸犯的故事。我从书中看出这个强奸犯(诱奸犯)是思琪和怡婷这对思想上的双胞胎共同喜欢上的非常有才华的国文老师。<strong>他们拥有着狼狈不堪的内容，却用修辞和言语为自己构建了精美的形式；他们做的是天下间最龌龊的事情，却可以用最浪漫多情的语言为自己辩解。</strong></p>
 <p>关于胡兰成我是不太了解的，也不好说什么，但是作者林奕含表示男主的原型可以说是胡兰成的缩小再缩小的版本，但是李国华和胡兰成的行为不足以让一个公认的才女抛开人世，当林奕含读了更多的书，看了更多的世故之后，发觉所谓艺术，所谓文学不过巧言令色？在某些方面面目可憎的人却可以创造美妙的艺术作品，那么是否文学和艺术本身，完全是巧言令色的虚伪？因为这个「文学和艺术全都是虚伪」的问题而自杀，让很多人难以理解，甚至，因为这个问题而产生困扰，都会让很多人难以理解。透过文末「<strong>她恍然觉得不是学文学的人，而是文学辜负了她们。</strong>」这句话，我仿佛理解了一个终生信仰倾刻崩塌而后戛然的生命。</p>
 <p>而让我觉得可悲的是媒体报道却总喜欢加上佐料，比如,女大学生xxx\ 公务员xxx 仿佛这群人与这件事联系起来会发生剧烈的化学反应一般，关于《房思琪》一书作者自杀事件的报道，更是觉得自己抓住了卖点——诱奸，不否认诱奸对于女生甚至男生的心理伤害是巨大的，但是可以从《房思琪》这本书中看出，作者的重点不是去描绘一幅黑暗场景下老师诱奸少女的禽兽行为，不是去刻画李国华的丑陋，而是在这种行为的背后，关于艺术，关于文学的深刻思考，这也才有了刚刚提到的那句话： <strong><em>她恍然觉得不是学文学的人，而是文学辜负了她们。</em></strong></p>
@@ -1614,8 +1614,8 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[考研英语阅读笔记]]></title>
       <url>http://kleist.top/2017/08/05/%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.html</url>
-      <content type="html"><![CDATA[<p>预览图：<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-08-05-屏幕快照%202017-08-05%2014.28.59.jpg" alt="Preview"></p>
-<p><a href="http://7xw7ho.com1.z0.glb.clouddn.com/英语阅读理解笔记.pdf" target="_blank" rel="external">英语阅读理解笔记整理</a></p>
+      <content type="html"><![CDATA[<p>预览图：<br><img src="" alt="Preview"></p>
+<p><a href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/英语阅读理解笔记.pdf" target="_blank" rel="external">英语阅读理解笔记整理</a></p>
 ]]></content>
       
         
@@ -2125,7 +2125,7 @@ document.getElementById("audio").volume = 0.5;
 <blockquote>
 <p>三杯酒下肚就能够唤你朋友<br>  半醉不醉后他说出一个请求<br>  想让我喝酒要问真心够不够<br>  令母毕生遗憾想必是儿子丑<br>  看你不顺眼自然有我的理由<br>  请你当面抽 别在背后</p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-01-16-95859697.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125236.jpg" alt=""></p>
 <p>炎凉世态，人际难处。当自己与社会的功利性格格不入的时候，自得其乐便是。确实，酒桌自有酒桌的规矩，我也自有我的原则。</p>
 <p>从昨天的酒桌上听到的来分析，半醉不醉的他说自己直性子，有啥说啥。随后他讲了个故事：</p>
 <blockquote>
@@ -2133,7 +2133,7 @@ document.getElementById("audio").volume = 0.5;
 </blockquote>
 <p>故事很简单，孩子生病没现金找朋友借钱。生活中很常见的小事，我先不表对错，只是不赞同。  所谓「朋」，古有五贝一串，两串为朋。何解呢？朋是古时计量单位，可能这就是现在「朋」与「利」相关的缘由吧。倒是听得出他口中所言的「直」，人言口快心直男子心，却不觉此人如何如何。</p>
 <p>端酒必喝，长幼尊卑。同古时一样，如今的劝酒、敬酒也是某种意义上的强制性。官场、商场就不说了，真的研究透彻官商酒桌都够在大学开课的了，就算普通人际关系也被搞的极为复杂，处处险象环生。要说每天新闻所见的阴险狡诈之徒，多吧？其实为了混迹酒场，大家早就练就了虚伪、阴险、狡诈的应对手段，学到了各种庸俗的行为。「为了博得别人认可，白酒一杯一杯灌。」本身政治性的敬酒罚酒，内化成了价值观、习惯、甚至习俗。敬酒便是尊重，不接受就瞧不起人，不回敬就是没有教养。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-01-16-屏幕快照%202017-01-16%2013.09.04.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-%E9%85%92%E5%B1%80.jpg" alt=""></p>
 <p><strong>什么时候人际关系变得这么乌烟瘴气了</strong></p>
 ]]></content>
       
@@ -2152,7 +2152,7 @@ document.getElementById("audio").volume = 0.5;
       <content type="html"><![CDATA[<p>大概又该有人发”新的一年，新的自己”这种自欺欺人的话了吧。</p>
 <p>至少我是不会发的了，当自己看着博客里的书单影单的时候，我就知道我跟别人的差距了。</p>
 <p>扎克伯格每年的目标都能达成，而我的目标仅仅是0本非技术书而已，却没能完成。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2017-01-02-IMG_1554.PNG" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125356.png" alt=""></p>
 <p>到目前为止的完成情况是 <code>[16/20]</code></p>
 <p>在我看来，这并不是当初定下目标时的盲目，而是自己一年的不作为。</p>
 <p>下面这段话是昨晚在自习室写下的。</p>
@@ -2230,7 +2230,7 @@ document.getElementById("audio").volume = 0.5;
       <content type="html"><![CDATA[<p>上午课设结束回寝，<br>六楼窗外的阳光有些刺眼，<br>舍友回头告诉我<br>“本兮死了！”<br>“呵呵，你从哪儿看的？假的吧，真的话早就上热搜了。”<br>于是我继续逛B站，<br>想想，<br>前些天我俩还在讨论《未成年》的歌词，<br>怎么突然去世了呢？<br>虽然现在不常听兮爷的歌，<br>但嵩哥和兮爷也算是中学时代深夜的陪伴者。<br>手贱打开微博，<br>看了下热搜，<br>热搜，<br>搜。</p>
 <p>本兮逝世!<code>[爆]</code></p>
 <p>虽然知道几个室友准备睡觉，<br>我还是叫出了声。<br>不相信，<br>一定是嵩哥前几年那样被去世！<br>一定是的！<br>看到工作室的讣告，<br>我……<br>我……<br>哈，肯定是工作室的号被盗了！<br>肯定是！<br>没理由的嘛，<br>想想都不可能去世的嘛，<br>才岁，<br>对嘛！<br>然后默默掏出手机，<br>看着兮爷“最后的歌”<br>——《别闹》<br>评论区比以往悲情小说都有催泪效果。<br>“本兮，别闹，回来吧”<br>真有这么脆弱吗？<br>生命？<br>脑海还停留在高中某个夜晚听着《你在看孤独的风景》<br>停留在某个情人节前夕的午后听着《情花》<br>停留在那个情人节深夜的《情人节的夜晚》<br>停留在某个假期兮爷和嵩哥共同代言的“反恐行动”<br>停留……<br>其实，<br>看到大家都深情地表示悼念，<br>我也就信了，<br>兮爷走好，<br>你的朋友们都在想你。<br>你也还在的吧，<br>他们都在假装相信只是本兮去世了而已，<br>马晓晨还在。<br>就让他们活在念想中吧。<br>他们都在猜，<br>抑郁，跳楼。<br>录音，触电。<br>不管怎样，<br>你去看你孤独的风景了，<br>希望你不再孤独，<br>因为，<br>怎么办，我爱你。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-12-27-屏幕快照%202016-12-27%2019.52.23.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-%E6%9C%AC%E5%85%AE.jpg" alt=""></p>
 <blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
 ]]></content>
       
@@ -2437,7 +2437,7 @@ document.getElementById("audio").volume = 0.5;
 <p>长诗</p>
 <p>时日晃晃</p>
 <p>心事还长</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-24-IMG_0638.jpg-q" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125216.jpg" alt=""></p>
 <blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
 ]]></content>
       
@@ -2463,7 +2463,7 @@ document.getElementById("audio").volume = 0.5;
 <p>People fuck up that’s life.</p>
 </blockquote>
 <div id="videoplayer">
-    <video id="video" src="http://7xw7ho.com1.z0.glb.clouddn.com/Gallagher.mp4" controls="controls" preload="preload" style="width:100%; border-radius: 5px; ">Your browser does not support the video element.
+    <video id="video" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FGallagher.mp4" controls="controls" preload="preload" style="width:100%; border-radius: 5px; ">Your browser does not support the video element.
     </video>
 </div>
 
@@ -2622,11 +2622,11 @@ document.getElementById("audio").volume = 0.5;
 <blockquote>
 <p>第一次转身。</p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-19-屏幕快照%202016-09-19%2012.28.46.jpg" alt="第一次转身"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-first.jpg" alt="第一次转身"></p>
 <blockquote>
 <p>第二次转身。</p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-18-屏幕快照%202016-09-18%2022.34.54.jpg" alt="第二次转身"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-second.jpg" alt="第二次转身"></p>
 <p>两次相似的情景，两次不同的结果。</p>
 <blockquote>
 <p>这样不是很好吗？像今天这样偶然中在街头相遇。</p>
@@ -2680,8 +2680,8 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[移动二三事]]></title>
       <url>http://kleist.top/2016/09/14/%E7%A7%BB%E5%8A%A8%E4%BA%8C%E4%B8%89%E4%BA%8B.html</url>
-      <content type="html"><![CDATA[<h4 id="最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。糟糕，可能被劫持了。"><a href="#最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。糟糕，可能被劫持了。" class="headerlink" title="最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。糟糕，可能被劫持了。"></a>最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。糟糕，可能被劫持了。</h4><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-14-屏幕快照%202016-09-12%2023.26.06.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-14-屏幕快照%202016-09-12%2023.25.46.jpg" alt=""></p>
+      <content type="html"><![CDATA[<h4 id="最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。根据经验，糟糕，可能被劫持了。"><a href="#最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。根据经验，糟糕，可能被劫持了。" class="headerlink" title="最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。根据经验，糟糕，可能被劫持了。"></a>最近做博客公益404页面的时候发现个问题，下面出现了移动的广告。根据经验，糟糕，可能被劫持了。</h4><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-DNS%E5%8A%AB%E6%8C%811.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-DNS%E5%8A%AB%E6%8C%812.jpg" alt=""></p>
 <p>然后出于对自己的保护心理，我选择给10086人工客服打电话询问情况，如果是移动做的DNS劫持，倒也没什么关系，我相信移动这个大公司不会置大家于危险的境地，让我害怕的是如果有人利用了这个DNS，那后果真是不可估量。</p>
 <h4 id="从我关注的一些论坛来看，白帽黑帽们起手的招数就是内网和DNS，只要获取了DNS的控制权，那整个网络就如同裸奔。支付宝密码？笑话呢，再复杂都能看到；隐私？更是笑话啊。"><a href="#从我关注的一些论坛来看，白帽黑帽们起手的招数就是内网和DNS，只要获取了DNS的控制权，那整个网络就如同裸奔。支付宝密码？笑话呢，再复杂都能看到；隐私？更是笑话啊。" class="headerlink" title="从我关注的一些论坛来看，白帽黑帽们起手的招数就是内网和DNS，只要获取了DNS的控制权，那整个网络就如同裸奔。支付宝密码？笑话呢，再复杂都能看到；隐私？更是笑话啊。"></a>从我关注的一些论坛来看，白帽黑帽们起手的招数就是内网和DNS，只要获取了DNS的控制权，那整个网络就如同裸奔。支付宝密码？笑话呢，再复杂都能看到；隐私？更是笑话啊。</h4><p>给客服打电话得到的结果让我开始担忧了，因为她告诉我她们并没有这么做，也从未遇到过这种情况。</p>
 <p>于是，</p>
@@ -2697,8 +2697,8 @@ document.getElementById("audio").volume = 0.5;
 <blockquote>
 <p>于2016-09-14 12:20 此事已经解决，在下妥协了。</p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-14-屏幕快照%202016-09-14%2012.45.04副本副本.jpg" alt=""></p>
-<p>以上是移动人员跟我沟通的截图，保留。</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-%E7%A7%BB%E5%8A%A8%E5%BE%AE%E4%BF%A1.jpg" alt=""></p>
+<p>以上是移动人员跟我沟通的截图，保留备份。</p>
 ]]></content>
       
         
@@ -2718,13 +2718,13 @@ document.getElementById("audio").volume = 0.5;
 </blockquote>
 <p>“丸子!” “永尾完治!” 这段20多年的故事就这么开始了。</p>
 <p>“小小的亲切，大大的阴谋”</p>
-<p><img src="http://ww4.sinaimg.cn/large/72f96cbajw1f7s63ga6qxj21680us788.jpg" alt="完治接机牌"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125243.jpg" alt="完治接机牌"></p>
 <p>我想，我是喜欢上莉香了。毕竟那个无法抵抗的笑容，毕竟那个随性的人生。是莉香让我知道了还有人可以笑的像花儿一样。（憋笑，这是当时的我的想法，但是一直没变，就是像花儿一样。）我想，有那么一刻我是恨完治的，对，就在那个转身。</p>
 <p>可是现在想想，如果我是完治，或许也会做出同样的选择呢，谁又知道呢。在那个时代，应该是说得过去的选择吧。那个雪天，完治又在想些什么呢？那个生生被大海感动的小孩。</p>
 <p>莉香第一次闯入完治的生活，在我印象中的话，同学聚会算是吧。</p>
 <p>那个爱笑的女孩。</p>
 <p>说实话，早就爱上这个笑容了。爱笑的女孩，运气为什么不好呢？莉香。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-13-image.jpeg" alt="笑容"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125245.jpg" alt="笑容"></p>
 <hr>
 <blockquote>
 <p>“我的名字也能在上面保存二三十年咯。”<br>“这里马上要拆了，建新校舍。”完治说。<br>“那样啊。”莉香微微叹了一口气说：“没事的，我记着了，只要和丸子的名字挨在一起，一秒钟也行。”</p>
@@ -2732,8 +2732,8 @@ document.getElementById("audio").volume = 0.5;
 <p>这段对话，莫名的打动了我，让我第一次有想去日本爱媛看看的冲动。</p>
 <p>至今这都是我的一个梦想。</p>
 <p>莉香离开完治的生活，印象最深的是。爱媛站台的栏杆上，随风飘动的白色手绢，曾经有一个叫赤名莉香的女子来过这里，她在手绢上用口红写下“再见丸子”。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-13-theend.jpg" alt="爱媛站"></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2016-09-13-maxresdefault.jpg" alt="木刻"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125247.jpg" alt="爱媛站"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125248.jpg" alt="木刻"></p>
 <p>这是第二个让我想去爱媛的理由。如果能有机会去一次，我想，满足感会前所未有。</p>
 <p>有人写过一篇文章叫<a href="http://wechatinchina.com/thread-11173-1-1.html" target="_blank" rel="external">《不爱比相爱遥远》</a>，远是远了，可他们是真的不爱了吗？</p>
 <p>5年之后，当完治听到女儿说出那个男孩的名字时，完治的表情说明不管是闲时静坐，还是午夜梦回，完治都没想过莉香，更不用说会再次产生交集，还是自己女儿和莉香儿子的婚事。</p>
@@ -3079,7 +3079,7 @@ document.getElementById("audio").volume = 0.5;
     <entry>
       <title><![CDATA[涼宮ハルヒの消失]]></title>
       <url>http://kleist.top/2015/12/26/%E6%B6%BC%E5%AE%AE%E3%83%8F%E3%83%AB%E3%83%92%E3%81%AE%E6%B6%88%E5%A4%B1.html</url>
-      <content type="html"><![CDATA[<h2 id="涼宮ハルヒの消失"><a href="#涼宮ハルヒの消失" class="headerlink" title="涼宮ハルヒの消失"></a>涼宮ハルヒの消失</h2><p><img src="http://7xo7ck.com1.z0.glb.clouddn.com/blog-artical-大萌神.jpg" alt=""></p>
+      <content type="html"><![CDATA[<h2 id="涼宮ハルヒの消失"><a href="#涼宮ハルヒの消失" class="headerlink" title="涼宮ハルヒの消失"></a>涼宮ハルヒの消失</h2><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-%E5%A4%A7%E8%90%8C%E7%A5%9E.jpg" alt=""></p>
 <p>最近抽时间看了凉宫春日，总觉得<code>校园喜剧</code>这个分类并不适合它，说真的，凉宫春日系列蛮让我震惊的，想不到有些荒诞的故事也可以做到这样。</p>
 <p>涼宮ハルヒの消失，除去耳畔的虚的吐槽，感觉现在Yuki就在静静的下落着的雪中间,清唱着優しい忘却.</p>
 <p>依旧那样被萌萌的妹妹叫醒，</p>
@@ -3127,10 +3127,10 @@ document.getElementById("audio").volume = 0.5;
 <p>从早上八点醒来，窗外小雨一直淅淅沥沥下到傍晚，我想，我是喜欢小雨的，确切来说，我是喜欢淋雨的。不知为何，当一个人走在雨中，沐浴着小雨的时候，一瞬间最近的烦恼都被冲刷殆尽，一切都是空白的，没有学业，没有压力，没有病痛……</p>
 <p>今天的我倒是懒了，一天只有去食堂吃饭才出去了两次，其余时间都是在寝室呆着，看看文档，写写代码，刷刷知乎，看看室友玩游戏，果然，我懒了。</p>
 <p>今天的小雨，让我联想到了好多，触碰心灵的，是西弗勒斯的 Always，我不知道为什么会想到这个场景，可能是小雨带来的氛围比较类似吧。</p>
-<p><img src="http://7xo7ck.com1.z0.glb.clouddn.com/Bloge3cf18b144f3814e08230268.jpg" alt=""><br>西弗勒斯是一直爱着莉莉的，毫无疑问，他也是疼爱着哈利的，更是毋庸置疑。不过，这种爱，被他有意隐藏了，直到最后。从 Everything 到 Always，从被叫鼻涕虫到被伏地魔杀死，一直都在。昨天看到HP7后面追忆西弗勒斯，真是莫名泪已拆两行。这是怎样一种情感的存在？我不解。从两个人在灌木丛边相识，到没能被分院帽分到一个学院，再到西弗勒斯成为食死徒，再到最后西弗勒斯冒着危险去求邓布利多保护好莉莉和哈利，都似乎那么地……不公平，可以这么说吧，毕竟一直都是西弗勒斯自愿的默默付出着。</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-%E6%96%AF%E6%AE%BF.jpg" alt=""><br>西弗勒斯是一直爱着莉莉的，毫无疑问，他也是疼爱着哈利的，更是毋庸置疑。不过，这种爱，被他有意隐藏了，直到最后。从 Everything 到 Always，从被叫鼻涕虫到被伏地魔杀死，一直都在。昨天看到HP7后面追忆西弗勒斯，真是莫名泪已拆两行。这是怎样一种情感的存在？我不解。从两个人在灌木丛边相识，到没能被分院帽分到一个学院，再到西弗勒斯成为食死徒，再到最后西弗勒斯冒着危险去求邓布利多保护好莉莉和哈利，都似乎那么地……不公平，可以这么说吧，毕竟一直都是西弗勒斯自愿的默默付出着。</p>
 <p>我很好奇，西弗勒斯站在厄里斯魔镜前会看到什么？他跟莉莉结婚？他当上了黑魔法防御术老师？他默默地站在波特和莉莉的身后？厄里斯魔镜能够使人看到自己内心深处最迫切，最强烈的渴望。等等，我想我有了答案，西弗勒斯内心深处最最渴望的不一定就是他跟莉莉的爱情圆满，他真正渴求的是莉莉的安好吧，你说呢?正因为他爱莉莉，才没去打扰波特和莉莉的婚姻，才一直默默站在身后，才把自己伪装成恨着哈利的波特的情敌。</p>
 <p>当斯内普在猪头酒吧听到特里劳妮的预言——拥有征服黑魔头能量的人是一个在这年生于七月底的男孩。他欣喜的把这个消息告诉了伏地魔，却不知道这个孩子的母亲正是莉莉。当斯内普知道后，他乞求伏地魔不要伤害莉莉，请求邓布利多保护莉莉。从此他忠于邓布利多，冒着生命危险，用谎言周旋在食死徒和伏地魔之间，就为了一个理由———莉莉。</p>
-<p>伏地魔失势后，邓布利多保释了斯内普，并让其在霍格沃茨任教。所有人都知道邓布利多信任斯内普，但并不了解内情。斯内普从不在凤凰社成员面前施展守护神咒，因为他的守护神是一头鹿，和莉莉的一样。斯内普守护着他的信仰，像这头鹿守护着他，一个没有朋友，没有爱人，只能孤独而阴险的活着的西弗勒斯•斯内普。<br><img src="http://7xo7ck.com1.z0.glb.clouddn.com/Blog3c8478f9ff56c31922a44fcb53379d15.jpg" alt=""></p>
+<p>伏地魔失势后，邓布利多保释了斯内普，并让其在霍格沃茨任教。所有人都知道邓布利多信任斯内普，但并不了解内情。斯内普从不在凤凰社成员面前施展守护神咒，因为他的守护神是一头鹿，和莉莉的一样。斯内普守护着他的信仰，像这头鹿守护着他，一个没有朋友，没有爱人，只能孤独而阴险的活着的西弗勒斯•斯内普。<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-%E5%AE%88%E6%8A%A4%E7%A5%9E.jpg" alt=""></p>
 <blockquote>
 <p>哈利波特与混血王子中，大批食死徒闯入霍格沃茨，斯内普杀死邓布利多后。当食死徒试图伤害哈利时，斯内普只能说：“波特属于黑魔王——我们别碰他！”当哈利说道：“像杀他一样杀了我吧，懦夫！”，斯内普愤怒了，他明明知道自己顶着怎样的冤屈，他却不能说出他与校长之间的秘密，只能任自己疯狂的吼道：“不许——叫我懦夫！”</p>
 </blockquote>
@@ -3142,41 +3142,6 @@ document.getElementById("audio").volume = 0.5;
         <tags>
             
             <tag> 随想 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[何尝不是一种讽刺]]></title>
-      <url>http://kleist.top/2015/10/29/%E4%BD%95%E5%B0%9D%E4%B8%8D%E6%98%AF%E4%B8%80%E7%A7%8D%E8%AE%BD%E5%88%BA.html</url>
-      <content type="html"><![CDATA[<p><strong>偶尔看到一篇小文，写的蛮精彩的</strong></p>
-<blockquote>
-<p>柳宗元狱中遇李白，问为何进来，李说：“造谣罪，飞流直下三千尺，人家量了，没那么长”。 柳说：“彼此彼此，我说了句千山鸟飞绝，有人举报树上还有一只”。 正感叹时，杜牧进来了，大家忙问，你是怎么进来的？杜牧说：“唉，涉嫌嫖娼。”大伙异口同声的说：”是不是停车坐爱枫林晚”！</p>
-</blockquote>
-<hr>
-<p>可见当今社会各项制度的不完善，和某些人的滥用职权。就拿身边的事来说，身处大学，最怕的不过也就挂科，而当某些老师脾气突然不好，或者一直就不好，而恰恰自己又跟它对上了，那恭喜啦。</p>
-<p>上一节谢弗特的课让我着实吓了一跳。第一件事。两个人课间去上厕所，课间是应该有0分钟的，结果老师早上课了，两个人回来的时候已经“晚了”，结果谢弗特“你们俩！！干什么去了！！”“上厕所了啊”“滚回去！！” 一瞬间震惊了，当时我还没弄清出状况，不过我想，不管他们对错，这句话不应当从一个大学老师嘴里说出来，何况还是女老师！  第二件事。一同学肚子痛，看表情都看得出来，已经到了受不了的地步了，何况不到自己受不了一般是不会举手报告上厕所的。然而又一次震惊到了我们，不让，就是不让去。我想弱弱的问一句“这要肚子疼是急性阑尾炎，出了事，你会担着么？！！！”到时候还不是落荒。</p>
-<p><strong>然而她的职位是老师</strong></p>
-<hr>
-<p><strong>打吊瓶写作业的孩子们</strong></p>
-<blockquote>
-<p>月8日，湖北武汉某医院儿科输液室为方便小学生，专门设置了座位，供他们打吊瓶时学习。学生静静告诉记者，每天语文、数学和英语三科都有家庭作业，如果不完成就赶不上学习进度，只好在医院里边打针边做作业。该院儿科主任边俊梅说，他们这么做还是响应了家长的需求。“不管怎么样，他们还是必须要做作业的，我们也只能尽量把条件搞好点”。</p>
-</blockquote>
-<p><img src="http://7xo7ck.com1.z0.glb.clouddn.com/Blog2000.jpeg" alt=""></p>
-<p><strong>所谓人权呢？</strong></p>
-<blockquote>
-<p>联合国：联大三委刚刚130票赞成、54票反对、0票弃权通过了题为“人权与文化多样性”的决议草案，重申所有人权都具普遍性，国际社会必须公正对待，虽然必须顾及不同历史、文化和宗教背景，但是各国不论政治、经济和文化制度为何，都有义务促进和保护所有人权和基本自由。美英法等54国投了反对票。</p>
-</blockquote>
-<p>传说中的人权至上，也就仅限于桃花源了吧，所谓人权这个名词，不过是一种统治者给公民的棉花糖，殊不知，糖吃多了，也会齁。当人们追着统治者要人权的时候，我不知道统治者们会怎么 \<del\>回答\&lt;/del> 敷衍。但我知道，只要没给我我需要的自由和权利，迟早有一天我会揭竿！</del\></p>
-<p>他们还是孩子，他们病了，他们在医院打吊瓶。但是他们还有写不完的作业，上不完的辅导班，听不完的关于成绩的唠叨。他们不过是孩子，仅此而已。“别让孩子输在起跑线上！”是么？这样教育孩子，孩子还没上跑到，就已经输了。</p>
-<p>未完待续。</p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> 文 </tag>
             
         </tags>
         
@@ -3216,6 +3181,41 @@ document.getElementById("audio").volume = 0.5;
 <p>That’s what someone without experience misses when they try to estimate complexity. They don’t realize that what works in almost any other situation, doesn’t work at all when it comes to software. And so next time you hear “I’m sure this will only take you a few days to code” try not to be annoyed with whoever said it. Just take a deep breath, link them to this post and go on with your day.</p>
 <p>If you liked this post you should probably follow me on Twitter. Or check out my startup Airtime for Email. We help you market your products with your email signature.</p>
 <p><a href="http://danshipper.com/non-technical-people-cant-estimate-developmen" target="_blank" rel="external">原文链接</a></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 文 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[何尝不是一种讽刺]]></title>
+      <url>http://kleist.top/2015/10/29/%E4%BD%95%E5%B0%9D%E4%B8%8D%E6%98%AF%E4%B8%80%E7%A7%8D%E8%AE%BD%E5%88%BA.html</url>
+      <content type="html"><![CDATA[<p><strong>偶尔看到一篇小文，写的蛮精彩的</strong></p>
+<blockquote>
+<p>柳宗元狱中遇李白，问为何进来，李说：“造谣罪，飞流直下三千尺，人家量了，没那么长”。 柳说：“彼此彼此，我说了句千山鸟飞绝，有人举报树上还有一只”。 正感叹时，杜牧进来了，大家忙问，你是怎么进来的？杜牧说：“唉，涉嫌嫖娼。”大伙异口同声的说：”是不是停车坐爱枫林晚”！</p>
+</blockquote>
+<hr>
+<p>可见当今社会各项制度的不完善，和某些人的滥用职权。就拿身边的事来说，身处大学，最怕的不过也就挂科，而当某些老师脾气突然不好，或者一直就不好，而恰恰自己又跟它对上了，那恭喜啦。</p>
+<p>上一节谢弗特的课让我着实吓了一跳。第一件事。两个人课间去上厕所，课间是应该有0分钟的，结果老师早上课了，两个人回来的时候已经“晚了”，结果谢弗特“你们俩！！干什么去了！！”“上厕所了啊”“滚回去！！” 一瞬间震惊了，当时我还没弄清出状况，不过我想，不管他们对错，这句话不应当从一个大学老师嘴里说出来，何况还是女老师！  第二件事。一同学肚子痛，看表情都看得出来，已经到了受不了的地步了，何况不到自己受不了一般是不会举手报告上厕所的。然而又一次震惊到了我们，不让，就是不让去。我想弱弱的问一句“这要肚子疼是急性阑尾炎，出了事，你会担着么？！！！”到时候还不是落荒。</p>
+<p><strong>然而她的职位是老师</strong></p>
+<hr>
+<p><strong>打吊瓶写作业的孩子们</strong></p>
+<blockquote>
+<p>月8日，湖北武汉某医院儿科输液室为方便小学生，专门设置了座位，供他们打吊瓶时学习。学生静静告诉记者，每天语文、数学和英语三科都有家庭作业，如果不完成就赶不上学习进度，只好在医院里边打针边做作业。该院儿科主任边俊梅说，他们这么做还是响应了家长的需求。“不管怎么样，他们还是必须要做作业的，我们也只能尽量把条件搞好点”。</p>
+</blockquote>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-Blog2000.jpg" alt=""></p>
+<p><strong>所谓人权呢？</strong></p>
+<blockquote>
+<p>联合国：联大三委刚刚130票赞成、54票反对、0票弃权通过了题为“人权与文化多样性”的决议草案，重申所有人权都具普遍性，国际社会必须公正对待，虽然必须顾及不同历史、文化和宗教背景，但是各国不论政治、经济和文化制度为何，都有义务促进和保护所有人权和基本自由。美英法等54国投了反对票。</p>
+</blockquote>
+<p>传说中的人权至上，也就仅限于桃花源了吧，所谓人权这个名词，不过是一种统治者给公民的棉花糖，殊不知，糖吃多了，也会齁。当人们追着统治者要人权的时候，我不知道统治者们会怎么 \<del\>回答\&lt;/del> 敷衍。但我知道，只要没给我我需要的自由和权利，迟早有一天我会揭竿！</del\></p>
+<p>他们还是孩子，他们病了，他们在医院打吊瓶。但是他们还有写不完的作业，上不完的辅导班，听不完的关于成绩的唠叨。他们不过是孩子，仅此而已。“别让孩子输在起跑线上！”是么？这样教育孩子，孩子还没上跑到，就已经输了。</p>
+<p>未完待续。</p>
 ]]></content>
       
         

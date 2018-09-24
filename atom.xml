@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kleist.top/"/>
-  <updated>2018-09-18T14:45:27.852Z</updated>
+  <updated>2018-09-23T13:01:12.758Z</updated>
   <id>http://kleist.top/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kleist.top/2018/08/26/ON-CHILDREN.html"/>
     <id>http://kleist.top/2018/08/26/ON-CHILDREN.html</id>
     <published>2018-08-26T07:11:52.000Z</published>
-    <updated>2018-09-18T14:45:27.852Z</updated>
+    <updated>2018-09-23T13:01:12.758Z</updated>
     
     <content type="html"><![CDATA[<p>在气温高达32℃的今天，看完前几集《ON CHILDREN》的我竟然一身冷汗。</p>
 <a id="more"></a>
@@ -33,7 +33,7 @@
 <h3 id="《茉莉的最后一天》"><a href="#《茉莉的最后一天》" class="headerlink" title="《茉莉的最后一天》"></a>《茉莉的最后一天》</h3><p>可怕的母爱，不得不引用同名小说中的一个名词——「怪獸家長」，当然是贬义，我确实想不到哪些更为合适的词语来形容这几个家长</p>
 <hr>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/Don%27t%20cry%20Don%27t%20cry.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FDon't%20cry%20Don't%20cry.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -77,7 +77,7 @@
     <link href="http://kleist.top/2018/08/12/%E6%96%B0%E8%B5%B7%E7%82%B9.html"/>
     <id>http://kleist.top/2018/08/12/新起点.html</id>
     <published>2018-08-12T08:52:12.000Z</published>
-    <updated>2018-08-12T14:40:33.988Z</updated>
+    <updated>2018-09-23T13:17:42.134Z</updated>
     
     <content type="html"><![CDATA[<p>从<code>6.29</code>坐上回家的高铁开始，生活大概算是换了副样子吧，从为学业焦虑变成为生计奔忙。</p>
 <p>不知何时听说学土木的毕业也就能去施工单位，或者去做预算，一个工资多，一个难以维持生计，一个在工地累得要死要活，一个埋头在钢筋混凝土的算量中……难道出路真的只有这两个吗？梦寐的设计院呢？当初学<code>CAD</code> <code>PKPM</code> <code>纬地</code> <code>天正建筑</code> <code>3Dmax</code> <code>ProE</code> <code>Revit</code> ……到工地能用上的不过平法吧。</p>
@@ -107,7 +107,7 @@
     <link href="http://kleist.top/2018/08/11/3D3S-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/08/11/3D3S-学习笔记.html</id>
     <published>2018-08-11T02:04:46.000Z</published>
-    <updated>2018-09-04T04:42:55.383Z</updated>
+    <updated>2018-09-23T13:07:51.162Z</updated>
     
     <content type="html"><![CDATA[<script type="math/tex; mode=display">-\frac{1}{12}</script><h1 id="3D3S"><a href="#3D3S" class="headerlink" title="3D3S"></a>3D3S</h1><ol>
 <li>在使用杆件延长命令时需要辨别<code>i</code>，<code>j</code>节点，3D3S 默认小节点号为<code>i</code>节点<ul>
@@ -116,7 +116,7 @@
 </ul>
 </li>
 <li>移动节点到直线或曲线上，利用此命令可以构件弧形等非直线桁架结构</li>
-<li>通过「定义方向」按钮修改型钢方向，eg. 槽钢一般是开口朝外，便于焊接，如下图为3D3S中3个轴的示意图：<br> <img src="http://7xw7ho.com1.z0.glb.clouddn.com/pnsbw.png" alt="槽钢3轴示意图"></li>
+<li>通过「定义方向」按钮修改型钢方向，eg. 槽钢一般是开口朝外，便于焊接，如下图为3D3S中3个轴的示意图：<br> <img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-3d3s_3zhou.png" alt="槽钢3轴示意图"></li>
 </ol>
 <a id="more"></a>
 <hr>
@@ -138,7 +138,7 @@
 <li>模型检查 → 内力计算 → 选择规范 → 设计验算</li>
 <li>绘制施工图</li>
 </ol>
-<h2 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/u4py5.png" alt="预埋件示意图"></p>
+<h2 id="预埋件计算"><a href="#预埋件计算" class="headerlink" title="预埋件计算"></a>预埋件计算</h2><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-YMJ.png" alt="预埋件示意图"></p>
 <h3 id="受拉预埋件"><a href="#受拉预埋件" class="headerlink" title="受拉预埋件"></a>受拉预埋件</h3><script type="math/tex; mode=display">\begin{aligned} N \leqslant 0.8 \alpha_a \alpha_b f_y A_s \end {aligned}</script><ul>
 <li>$ N $ —— 法向拉力 <strong> 设计值 </strong></li>
 <li>$ f_y $ —— 锚筋的抗拉强度设计值</li>
@@ -169,7 +169,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
 <p>$ N_{min}^b = min \{N_v^b,N_c^b \}=48.8kN $</p>
 <p>螺栓数量：</p>
 <p>$ n=\frac{N}{N_min^b}=\frac{325}{48.8}=6.66,取n=7个 $</p>
-<p>普通螺栓群时，如下图，$ l_1 \leqslant 15d_0 $,内力重新分布，各个螺栓内力趋于相等，故假定各个螺栓均摊内力。<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/lcdll.png" alt=""><br>若$ 15d_0 \leqslant l_1 \leqslant 60d_0,\eta = 1.1 - \frac{l_1}{150 d_0}$<br>若$ l_1 \geqslant 60 d_0 ,\eta = 0.7$<br>此时有，$ n = \frac{N}{\eta \cdot N_{min}^b}$</p>
+<p>普通螺栓群时，如下图，$ l_1 \leqslant 15d_0 $,内力重新分布，各个螺栓内力趋于相等，故假定各个螺栓均摊内力。<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-luoshuan.png" alt=""><br>若$ 15d_0 \leqslant l_1 \leqslant 60d_0,\eta = 1.1 - \frac{l_1}{150 d_0}$<br>若$ l_1 \geqslant 60 d_0 ,\eta = 0.7$<br>此时有，$ n = \frac{N}{\eta \cdot N_{min}^b}$</p>
 <h3 id="净截面验算"><a href="#净截面验算" class="headerlink" title="净截面验算"></a>净截面验算</h3><h4 id="并列排列"><a href="#并列排列" class="headerlink" title="并列排列"></a>并列排列</h4><p>如图：</p>
 <ol>
 <li><p>主板的危险截面为1-1:</p>
@@ -207,7 +207,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;移动节点到直线或曲线上，利用此命令可以构件弧形等非直线桁架结构&lt;/li&gt;
-&lt;li&gt;通过「定义方向」按钮修改型钢方向，eg. 槽钢一般是开口朝外，便于焊接，如下图为3D3S中3个轴的示意图：&lt;br&gt; &lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/pnsbw.png&quot; alt=&quot;槽钢3轴示意图&quot;&gt;&lt;/li&gt;
+&lt;li&gt;通过「定义方向」按钮修改型钢方向，eg. 槽钢一般是开口朝外，便于焊接，如下图为3D3S中3个轴的示意图：&lt;br&gt; &lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-3d3s_3zhou.png&quot; alt=&quot;槽钢3轴示意图&quot;&gt;&lt;/li&gt;
 &lt;/ol&gt;
     
     </summary>
@@ -222,7 +222,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/06/29/%E5%86%8D%E8%A7%81%E3%80%82.html"/>
     <id>http://kleist.top/2018/06/29/再见。.html</id>
     <published>2018-06-29T03:40:16.000Z</published>
-    <updated>2018-06-29T04:09:02.523Z</updated>
+    <updated>2018-09-23T13:21:40.393Z</updated>
     
     <content type="html"><![CDATA[<p>没想到，明明嘴硬的说过这学校没什么好留恋的，到自己走的时候也真的柔软了……</p>
 <p>讲道理，其实舍不得的还是你们，菘，丰胸，加仑，月月鸟，肚儿，阿翔，指导「以上排名不分先后」，最感到抱歉的是我把大家带入了毒奶粉的坑，当然让我开心的也是大家一起玩儿毒奶粉、一起吐槽丰胸的母猴子、一起戳+11圣耀的痛点、一起喊狗六花、一起喊 go涛、一起喊着不锈钢盆、一起惊讶着月月鸟的伤害、一起叫着晚枫腚哥……</p>
@@ -252,10 +252,10 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/06/11/Pareto-distribution.html"/>
     <id>http://kleist.top/2018/06/11/Pareto-distribution.html</id>
     <published>2018-06-11T13:37:14.000Z</published>
-    <updated>2018-06-15T06:03:35.048Z</updated>
+    <updated>2018-09-23T13:55:14.982Z</updated>
     
     <content type="html"><![CDATA[<p>最初认识帕累托分布是因为「二八法则」，最常见的意思是约20%的人占有80%的财富或资源，图像大致是下面这样子：</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/qmt0a.png" alt="经济学二八定律" style="width:60%;"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-28%E5%AE%9A%E5%BE%8B.png" alt="经济学二八定律" style="width:60%;"></p>
 <a id="more"></a>
 <p>帕累托分布是以意大利经济学家维弗雷多·帕雷托命名的。 是从大量真实世界的现象中发现的幂定律分布。这个分布在经济学以外，也被称为布拉德福分布。<br>在帕累托分布中，如果$X$是一个随机变量， 则$X$的概率分布如下面的公式所示：</p>
 <script type="math/tex; mode=display">\begin{aligned} P(X>x)=(\frac{x}{x_{min}})^{-k} \end{aligned}</script><p>其中$X$是任何一个大于 $x_{min}$ 的数，$x_{min}$ 是$X$最小的可能值（正数）， $k$ 是为正的参数。帕累托分布曲线族是由两个数量参数化的： $x_{min}$ 和 $k$ 。分布密度则为:</p>
@@ -276,7 +276,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <summary type="html">
     
       &lt;p&gt;最初认识帕累托分布是因为「二八法则」，最常见的意思是约20%的人占有80%的财富或资源，图像大致是下面这样子：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/qmt0a.png&quot; alt=&quot;经济学二八定律&quot; style=&quot;width:60%;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-28%E5%AE%9A%E5%BE%8B.png&quot; alt=&quot;经济学二八定律&quot; style=&quot;width:60%;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -290,12 +290,12 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/06/03/%E3%82%82%E3%81%86%E3%81%84%E3%81%84.html"/>
     <id>http://kleist.top/2018/06/03/もういい.html</id>
     <published>2018-06-03T02:30:07.000Z</published>
-    <updated>2018-06-08T15:26:26.059Z</updated>
+    <updated>2018-09-23T13:58:11.118Z</updated>
     
     <content type="html"><![CDATA[<p>もういい。</p>
 <a id="more"></a>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/%E6%88%91%E6%9B%BE%E7%BB%8F%E4%B9%9F%E6%83%B3%E8%BF%87%E4%B8%80%E4%BA%86%E7%99%BE%E4%BA%86%281%29.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/我曾经也想过一了百了_live.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -343,7 +343,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/05/13/%E5%AE%B6%E6%97%8F%E7%8B%A9%E7%8C%8E%E2%80%94%E2%80%94%E4%BD%A0%E7%9C%9F%E7%9A%84%E7%88%B1%E5%AE%B6%E4%BA%BA%E4%B9%88%EF%BC%9F.html"/>
     <id>http://kleist.top/2018/05/13/家族狩猎——你真的爱家人么？.html</id>
     <published>2018-05-13T07:51:32.000Z</published>
-    <updated>2018-05-14T04:23:10.207Z</updated>
+    <updated>2018-09-23T13:54:40.579Z</updated>
     
     <content type="html"><![CDATA[<p>◎译　　名　家族狩猎 / 爱的病理<br>◎片　　名　家族狩り<br>◎年　　代　2014<br>◎产　　地　日本<br>◎类　　别　剧情 / 悬疑 / 家庭<br>◎语　　言　日语<br>◎上映日期　2014-07-04(日本)<br>◎IMDb评分　7.5/10 from 21人评价<br>◎IMDb链接　<a href="http://www.imdb.com/title/tt3715874" target="_blank" rel="external">http://www.imdb.com/title/tt3715874</a><br>◎豆瓣评分　7.7/10 from 3,149人评价<br>◎片　　长　46min × 10<br>◎导　　演　坪井敏雄 / 山本剛義 / 伊藤雄介<br>◎主　　演　松雪泰子 / 伊藤淳史 / 北山宏光 / 水野美纪 / 篠田麻里子 / 平冈佑太 / 山口纱弥加 / 井上真树夫 / 秋山菜津子 / 浅田美代子 / 财前直见 / 远藤宪一<a id="more"></a><br>◎简　　介<br>　　供职于儿童关怀中心的冰崎游子（松雪泰子 饰）整日为了未成年儿童的安全和成长奔忙，她目睹着一个个破败家庭的产生却无能为力，甚至自己的家也趋于坏灭。游子的父亲曾为社区做出贡献，如今却被阿尔茨海默病所折磨，母亲民子（浅田美代子 饰）则干脆不管不顾。在工作中，游子偶然结识了平凡教师巢藤浚介（伊藤淳史 饰）。巢藤在一所高中教美术，怀有身孕的女同事清冈美步（山口纱弥加 饰）步步逼婚，让不愿组建家庭的他烦恼不已。某天，巢藤家的邻居发生一起灭门惨案，看似是不善沟通的少年残忍杀害了父母后自杀，但是接连数起类似案件的现场所残留下的香气却引起刑警马见原光毅（远藤宪一 饰）的怀疑，他将嫌疑目标锁定在了游子的身上……<br>　　本片根据天童荒太的原作改编。</p>
 <p>◎获奖情况<br>　　第82届日剧学院赏 最佳女主角(提名) 松雪泰子 </p>
@@ -368,19 +368,19 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/04/16/%E7%A6%8F%E5%85%AE%EF%BC%8C%E7%A6%8D%E4%B9%8B%E6%89%80%E4%BC%8F.html"/>
     <id>http://kleist.top/2018/04/16/福兮，禍之所伏.html</id>
     <published>2018-04-16T06:03:34.000Z</published>
-    <updated>2018-04-18T02:19:10.464Z</updated>
+    <updated>2018-09-23T12:54:19.233Z</updated>
     
     <content type="html"><![CDATA[<p>昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， <code>data</code>  一栏的时间会完全乱掉，就像当年<a href="https://zh.wikipedia.org/zh-hans/2000年问题" target="_blank" rel="external">「千年虫危机」</a>一样博客时间轴完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 <strong> 七牛 </strong> 的链接同样包含数字：<code>https://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊</code>  </p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/uj9vb.png" alt="lwqqo"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125407.png" alt="lwqqo"></p>
 <a id="more"></a>
 <p>当然是很「脑阔痛」，但又何尝不是一件好事呢？三年来的博文从头整理一遍，也算是个回顾，总归还是能学到些什么的。不敢说现在的我有多好，但比起去年前年的我，我有所成长，这就够了，还要期待些什么呢？期待自己做到儒家的「齐家、治国、平天下」和「生，亦我所欲也；义，亦我所欲也。二者不可得兼，舍生而取义者也」？还是要让自己做到儒家「不信春風喚不回」的勉力不懈呢？</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/c8y8l.png" alt="image-20180416141434131"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125408.png" alt="image-20180416141434131"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;昨天发生了一件非常令人头痛的事情：该博客文章的所有源文件（Markdown 文件）的「1」和「2」都被替换成「空」了，想来不算什么大事，可如本篇一样， &lt;code&gt;data&lt;/code&gt;  一栏的时间会完全乱掉，就像当年&lt;a href=&quot;https://zh.wikipedia.org/zh-hans/2000年问题&quot;&gt;「千年虫危机」&lt;/a&gt;一样博客时间轴完全乱掉，要知道「时」的刻度最多到2而已……而图床所用的 &lt;strong&gt; 七牛 &lt;/strong&gt; 的链接同样包含数字：&lt;code&gt;https://7xw7ho.com1.z0.glb.clouddn.com/＊＊＊＊&lt;/code&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/uj9vb.png&quot; alt=&quot;lwqqo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125407.png&quot; alt=&quot;lwqqo&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -396,7 +396,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/04/15/%E4%B9%A6%E6%91%98-%E3%80%8A%E9%80%8D%E9%81%99%E9%81%8A%E3%80%8B%E8%8E%8A%E5%AD%90.html"/>
     <id>http://kleist.top/2018/04/15/书摘-《逍遙遊》莊子.html</id>
     <published>2018-04-15T07:11:17.000Z</published>
-    <updated>2018-04-15T12:45:08.132Z</updated>
+    <updated>2018-09-23T12:54:19.220Z</updated>
     
     <content type="html"><![CDATA[<h3 id="《逍遥游》庄子"><a href="#《逍遥游》庄子" class="headerlink" title="《逍遥游》庄子"></a><a href="https://zh.wikisource.org/zh-hans/莊子/逍遙遊" target="_blank" rel="external">《逍遥游》庄子</a></h3><p>　　北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也；怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。</p>
 <p>　　《齐谐》者，志怪者也。《谐》之言曰：“鹏之徙于南冥也，水击三千里，抟(搏)扶摇而上者九万里，去以六月息者也。”野马也，尘埃也，生物之以息相吹也。天之苍苍，其正色邪？其远而无所至极邪？其视下也，亦若是则已矣。</p>
@@ -425,20 +425,20 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/04/05/%E6%B3%A1%E9%A5%AD%E4%B8%8E%E6%96%87%E5%8C%96%E2%80%94%E2%80%94%E4%BB%8E%E3%80%8A%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AF%AD%E3%80%8B%E5%AD%A6%E7%9F%A5%E8%AF%86.html"/>
     <id>http://kleist.top/2018/04/05/泡饭与文化——从《源氏物语》学知识.html</id>
     <published>2018-04-05T14:23:00.000Z</published>
-    <updated>2018-04-15T07:29:35.182Z</updated>
+    <updated>2018-09-23T13:03:07.452Z</updated>
     
     <content type="html"><![CDATA[<p>起初看《源氏物语》中源氏拿「开水泡饭」招待客人，觉得似乎可能是年代关系（穷 qióng），后来细想觉得不对劲，毕竟平安时代的日本也算得上是昌盛时期，怎么也不可能出现用「开水泡饭」招待客人的骚操作啊。</p>
 <a id="more"></a>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/tryjn.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125238.png" alt=""></p>
 <p>所以只能是我浅薄了，没错，我所理解的「开水泡饭」还停留在某新闻中山区孩子们没钱吃饭，只能吃到「冷水泡饭」，现在经过 Google 才了解到原来「开水泡饭」一直都存在在部份人的日常生活中，也不像某新闻报道的那样「凄惨！！！」，不过是一种方便吃法而已，虽然可能会导致消化系统的不适，却也不至于看成《武林外传》吕秀才准备周济穷人的「福寿宴」吧。我国南方很多城市都有「开水泡饭」、「茶泡饭」之类的吧，其中上海泡饭尤为出名。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/umxhj.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125239.jpg" alt=""></p>
 <blockquote>
 <p>《红楼梦》中第四十九回琉璃世界白雪紅梅脂粉香娃割腥啖羶：「寶玉卻等不得，只拿茶泡了一碗飯，就著野雞瓜齏忙忙的咽完了。」</p>
 <p>《中国烹饪大全·古食珍选录》：「冒妾董小宛精於烹飪，性淡泊，對於甘肥之物質無一所好，每次吃飯，均以一小壺茶，溫淘飯，此為古南京人之食俗，六朝時已有。」</p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s6p5n.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125241.png" alt=""></p>
 <p>当时对应中国唐朝时期的日本平安时代 （平安京时代）中日交流频繁，泡饭成为一种文化。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/cbufs.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125242.png" alt=""></p>
 <p>所以如梁公所想，我还是低估了「泡饭」的「价值」，此价值当然是广义上的价值，《源氏物语》详细记录了所属年代（平安时代）的大小巨细，再加上其中「和歌」与「唐诗」的文化底蕴自然成为了日本古典文学的巅峰之作。</p>
 ]]></content>
     
@@ -460,21 +460,21 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/04/01/%E6%84%9A%E4%BA%BA%E8%8A%82%E5%92%8C%E5%84%92%E7%95%A5%E5%8E%86.html"/>
     <id>http://kleist.top/2018/04/01/愚人节和儒略历.html</id>
     <published>2018-04-01T13:02:00.000Z</published>
-    <updated>2018-04-15T07:34:56.750Z</updated>
+    <updated>2018-09-23T13:04:30.546Z</updated>
     
     <content type="html"><![CDATA[<p>今天是四月一日「愚人节」，还好没被整蛊（emmmm……边缘人怎么会被整呢）</p>
 <p>从昨天开始发觉自己感冒，无精打采也无心毕设，听着几首轻音乐了解了一下「愚人节」，原来被大多数认可的来源是历法导致的。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png-75percent" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125341.png" alt=""></p>
 <p>当A使用一个历法在过新年庆祝的时候，使用另一种历法的B就嘲笑A safufu(傻乎乎)的……这一天恰巧是B所用历法的四月一日。</p>
 <a id="more"></a>
-<p>以下转载自<a href="http://7xw7ho.com1.z0.glb.clouddn.com/cqctc.jpg" target="_blank" rel="external">Sam Tsai</a><br>頒行格里曆的1582 年十月：消失的十天<br><img src="" alt=""></p>
-<p>日不落國的 1752 年九月：消失的十一天<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nangu.jpg" alt=""></p>
+<p>以下转载自<a href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-rulueli.jpg" target="_blank" rel="external">Sam Tsai</a><br>頒行格里曆的1582 年十月：消失的十天<br><img src="" alt=""></p>
+<p>日不落國的 1752 年九月：消失的十一天<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125342.jpg" alt=""></p>
 <p>有趣的翻译：<a href="https://zh.wikipedia.org/wiki/儒略曆" target="_blank" rel="external">「Julian calendar」</a>被译作「儒略曆」！</p>
 <p>好奇之餘，上網搜尋了一下，意外地收货了新知识： </p>
 <blockquote>
 <p>由於「0.002%」的誤差：<br>儒略曆每年 365.25日 與 格里曆每年 365.2425 日。<br>在曆法的改革上，<br>每個國家、地區，因採行新曆的時間不同，<br>各自在月曆上「抹去」的日子，也從 10 到 13 天不等。</p>
 </blockquote>
-<p>這樣「憑空消失」的日子，什麼時候會再來呢？<br><img src="http://7xw7ho.com1.z0.glb.clouddn.com/bfneg.png" alt=""></p>
+<p>這樣「憑空消失」的日子，什麼時候會再來呢？<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125344.png" alt=""></p>
 <p>《科學發展，2015年4月，508期》</p>
 <hr>
 <p>底下文字，節錄轉貼（並稍稍改寫）自維基百科：</p>
@@ -516,7 +516,7 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     
       &lt;p&gt;今天是四月一日「愚人节」，还好没被整蛊（emmmm……边缘人怎么会被整呢）&lt;/p&gt;
 &lt;p&gt;从昨天开始发觉自己感冒，无精打采也无心毕设，听着几首轻音乐了解了一下「愚人节」，原来被大多数认可的来源是历法导致的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/s8iiu.png-75percent&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125341.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;当A使用一个历法在过新年庆祝的时候，使用另一种历法的B就嘲笑A safufu(傻乎乎)的……这一天恰巧是B所用历法的四月一日。&lt;/p&gt;
     
     </summary>
@@ -531,31 +531,31 @@ N \leqslant 0.5f_c A \end{aligned}</script><hr>
     <link href="http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html"/>
     <id>http://kleist.top/2018/03/16/1987-When-the-Day-Comes.html</id>
     <published>2018-03-16T09:42:44.000Z</published>
-    <updated>2018-04-15T07:40:00.559Z</updated>
+    <updated>2018-09-23T13:05:44.206Z</updated>
     
     <content type="html"><![CDATA[<p style="
-cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">There’s nothing. </p>
+cursor: url('https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-huaji.png'),default;">There’s nothing. </p>
 
 <a id="more"></a>
 <p>看完后再加上前段时间看的《铁雨》(《Steel Rain》) 真的为自己能够生活在和平年代感到庆幸。</p>
 <p style="
-cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">和平来之不易 </p>
+cursor: url('https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-huaji.png'),default;">和平来之不易 </p>
 
 <p style="
-cursor: url('http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png'),default;">愿君倍加珍惜 </p>
+cursor: url('https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-huaji.png'),default;">愿君倍加珍惜 </p>
 
 <blockquote>
 <p>注释：<a href="https://zh.wikipedia.org/wiki/光州民主化運動" target="_blank" rel="external">光州民主化运动</a></p>
 </blockquote>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/nl9am.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/j19jh.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125347.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125349.png" alt=""></p>
 <p>关于《Steel Rain》这部电影还是少说为妙，话题有点敏感。</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p style=&quot;
-cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&quot;&gt;There’s nothing. &lt;/p&gt;
+cursor: url(&#39;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-huaji.png&#39;),default;&quot;&gt;There’s nothing. &lt;/p&gt;
     
     </summary>
     
@@ -569,9 +569,9 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <link href="http://kleist.top/2018/03/13/%E3%80%8A%E6%98%93%E7%BB%8F%E3%80%8B%E7%AC%94%E8%AE%B0.html"/>
     <id>http://kleist.top/2018/03/13/《易经》笔记.html</id>
     <published>2018-03-13T04:17:29.817Z</published>
-    <updated>2018-04-15T07:42:02.523Z</updated>
+    <updated>2018-09-23T13:06:11.097Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/b01nw.png" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125400.png" alt=""></p>
 <p>仅仅了解了一点点《易经》的知识就已经感受到其智慧的无穷。</p>
 <p>术数和易理一直以来都被当作是分开的，而西方世界注重的是「分」，中国传统注重的是「合」，到底还是将「术数」当作了迷信行为，可以想象被拘狱中而演《周易》的文王有多心酸。再者，正是因为这些玄而又玄的卦辞才得以幸免于始皇帝的「焚书坑儒」吧。在下不才，初探《易经》便迫不及待的给自己卜了一卦 —— </p>
 <blockquote>
@@ -582,9 +582,9 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/b01nw.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125400.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;仅仅了解了一点点《易经》的知识就已经感受到其智慧的无穷。&lt;/p&gt;
-&lt;p&gt;术数和易理一直以来都被当作是分开的，而西方世界注重的是
+
     
     </summary>
     
@@ -598,7 +598,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <link href="http://kleist.top/2018/02/18/%E5%A4%A9%E7%9C%9F%E6%97%A0%E9%82%AA%E7%9A%84%E3%80%8C%E9%82%AA%E3%80%8D.html"/>
     <id>http://kleist.top/2018/02/18/天真无邪的「邪」.html</id>
     <published>2018-02-18T11:04:00.000Z</published>
-    <updated>2018-04-15T07:43:32.877Z</updated>
+    <updated>2018-09-23T13:08:25.615Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>天下皆知美之为美，斯恶矣。皆知善之为善，斯不善矣。</p>
@@ -632,19 +632,19 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <link href="http://kleist.top/2018/01/19/kleist-%E7%9A%84%E7%94%B1%E6%9D%A5.html"/>
     <id>http://kleist.top/2018/01/19/kleist-的由来.html</id>
     <published>2018-01-19T03:27:00.000Z</published>
-    <updated>2018-04-15T07:45:29.465Z</updated>
+    <updated>2018-09-23T13:14:21.631Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/7vrm5.jpeg" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125259.jpg" alt=""></p>
 <p>说来也巧，kleist 是来自于我较为喜欢的一部动漫中的人物，「Angel Beats!」中的小黑客 kleist。</p>
 <a id="more"></a>
 <p>出现在第3话4 min 04 s.果然是黑客可能会出现的时间，404……</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/ae6oh.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125300.jpg" alt=""></p>
 <p>要说为什么会选择这个角色，很大程度上因为高中时期第一次看第一次听到这个名字就很喜欢，其次是这个人物在对天使的战争中起到了很重要的作用，要不是那天黑进天使的电脑，也不会发现天使的瞬移也好，手刀也好的技能都是设定好的，关于「敌人」知己知彼嘛。</p>
 <p>最后还是对于 CS 的念想，大学没能选择喜欢的专业，这次考研又 90% 失败告终，与 CS 注定无缘吗难道？不会的，总有一天我会在 CS 上取得学位的。</p>
 <hr>
 <p>之前好多好朋友问我名字的由来，我解释是出自「Angel Beats!」的，然而并不是所有人都喜欢动漫，并不是所有人都看过，就连大「月月鸟」都不记得「AB」里面有这么一个角色……</p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/My%0Soul,Your%0Beats%%0-%0Lia.mp3" autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FMySoulYourBeats.mp3" autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -677,7 +677,7 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/7vrm5.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125259.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;说来也巧，kleist 是来自于我较为喜欢的一部动漫中的人物，「Angel Beats!」中的小黑客 kleist。&lt;/p&gt;
     
     </summary>
@@ -692,36 +692,36 @@ cursor: url(&#39;http://7xw7ho.com1.z0.glb.clouddn.com/8mmqj.png&#39;),default;&
     <link href="http://kleist.top/2018/01/10/Rick-and-Morty.html"/>
     <id>http://kleist.top/2018/01/10/Rick-and-Morty.html</id>
     <published>2018-01-10T07:27:35.000Z</published>
-    <updated>2018-04-15T12:09:51.599Z</updated>
+    <updated>2018-09-23T13:14:45.764Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/f110h.jpeg" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125304.jpg" alt=""></p>
 <p>此前一直有想看的想法，也知道这是个第一季9.6分，二三季9.8分的神剧，但诟病于社交媒体中见到的血腥重口画风。好在在这个坐没地方坐，放电脑的桌子都没有的冬季，躺在床上看着黑格尔的「哲学史讲演录」，看着「了不起的麦瑟尔夫人」，才想起还有这么一部神剧没看。</p>
 <a id="more"></a>
 <h3 id="脑洞"><a href="#脑洞" class="headerlink" title="脑洞"></a>脑洞</h3><p>小时候的很多构想本身很难实现，结果在这部动漫里实现了，Rick 这个疯狂的科学家，比起小叮当更招我喜欢，小叮当不过是有未来科技产品，Rick 则用自己超常智慧去实现这些构想。就像 Portal （前段时间和月月鸟一起通关了 Portal，简直神作），可以自由穿梭任意世界线；制造一个 miniword 来给飞船供电；停止时间打扫房子，不小心造成时间紊乱，来到一个到处漂浮着 <a href="https://zh.wikipedia.org/wiki/薛定谔猫" target="_blank" rel="external">薛定谔的猫</a> 的虚空；在闪电芯玩一个叫「Roy」的虚拟现实游戏（确定这不是 S.H.I.E.L.D 里的 Framework？）；发现了全都同化同步的叫「Unity」的 Rick 的 Ex……</p>
 <h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>单单只是这么多奇葩的脑洞还不足以吸引我，留意一下就会发现他们简单的对话中实际上蕴含很多思考的，稍微举几个例子：</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/kxkld.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125310.png" alt=""></p>
 <p>当然，对于这个话题不能发表过多言论，能说的是最后这句话给了我一定的思考，Morty 说的没错，这是奴隶制，因为对于 slavery 的定义百科上是与之相似的，但 Rick 说的也没错，这就叫 society，对于一个观点要选「对、错」很容易，但要从两个对的中作出选择就很难了。「Ooh-LA-LA,someone’s gonna get laid in college.」就是我认为的点睛之笔了，这句话是 Rick 对 Morty 说的，也说明了他认为 Morty 说的是学校教的，是大众认可的，是受青睐的观点，但这句话的语气又表明 Rick 对这种观点是略带嘲讽的，是不屑的，他是看得更透彻的。Rick 看到了现在社会某些不可言说的实质，而且每个时代都会出现这样一个「神」…… 当然这些人都给当时的百姓带来了或多或少的精神财富或物质财富，显然希特勒在注入民族主义的精神「财富」的同时，也对战时第三帝国的青年劳力进行了一定的「剥削」，或许这个例子不是那么恰当，因为我认为较为合适的例子是《984》中的 BIG BROTHER。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/n6lk7.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/0yeh2.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125313.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125315.png" alt=""></p>
 <p>这段话在爱情观方面倒不太容易获得赞同，但是整部漫看下来也能够理解「升华自我，专注科学」的重要性，生活中也理当如此不是么，在生活中遇到挫折后，哭哭啼啼？牢骚满腹？怨天尤人？看看书，升华一下自己不好么？这几年心情不好我就会看书，小说啊，科普啊，社科啊……都可以，心情都会变好。身边的故事一点点在变，看的书和影视作品虽然有时候不记得了，但它们其实已经内化为自己的思想，在生活中潜移默化影响自己。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/18mnv.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125317.png" alt=""></p>
 <p>这个就不多说了，很浅显。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/e1k13.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125318.png" alt=""></p>
 <p>剧中有一种 Mr.Meeseeks「使命必达先生？」简单看 Mee 和 seek ，可以理解为我寻找，结合他会在满足召唤他的人的愿望时就会消失，可以解释为找到了自己的价值。这样不难理解为什么在最后他们会疯狂的想要杀死他的召唤者以达成目标而好完成使命并消失。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/m7973.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125323.png" alt=""></p>
 <p>就像 Rick 做的「黄油机器人」一样，存在的意义就是递黄油。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/52ubm.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125324.png" alt=""></p>
 <p>我注意到它询问「自己存在的意义是什么」问了两遍，加上 Mr.Meeseeks 的故事粗略猜测可能跟人们去追寻自己价值一样， 必将是失败的。Rick 也说「宇宙本身就是疯狂且混乱的」，可能都没有所谓的价值，去追寻一个不存在的价值又有什么意义呢？当发现自己所追求的不过是「无」的时候，才是真正达到了更高的境界。不然是否就像西方神话中的西西弗斯一样了呢？</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/028lp.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125326.png" alt=""></p>
 <p>Morty 不满于每次出去都是 Rick 指定目标，他也想找自己想要的温和一点的冒险，争论不过的 Rick 只好用传送枪去了一个类似于杰克和豌豆的童话世界。在童话中，杰克爬上了巨大的豌豆，偷了巨人的财宝，还将其杀害，并且拿着这份财富过上了无忧无虑的日子。在 Rick and Morty 的冒险中，前面几乎相同的剧情，不过结果却是两人被抓，有意思的是，最后是一名巨人律师为 Rick 两人辩护并赢得了官司，这高高的法院台阶，似乎还有点别的意思。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/rsx6s.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125329.png" alt=""></p>
 <p>当然，第三季集集都是高能，第七集尤甚。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/s80mq.png" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/al59k.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125337.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125339.png" alt=""></p>
 <hr>
 <p>我想我可能会把这部动漫看好多遍，就像我会去看很多遍《道德经》一样，目前我感觉连它内涵的三分之一都没看到，不得不说这跟《无耻之徒》都是我看的较为经典和能给生活以指导并且非常值得推荐给别人的好作品。庆幸 08 年初就有这些收获，希望这一年能遇到更多更好的作品。</p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/1-11%20For%20the%20Damaged%20Coda.mp3" controls="controls" autoplay="autoplay" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FFor%20the%20Damaged%20Coda.mp3" controls="controls" autoplay="autoplay" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -755,7 +755,7 @@ document.getElementById("audio").volume = 0.5;
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/f110h.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125304.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;此前一直有想看的想法，也知道这是个第一季9.6分，二三季9.8分的神剧，但诟病于社交媒体中见到的血腥重口画风。好在在这个坐没地方坐，放电脑的桌子都没有的冬季，躺在床上看着黑格尔的「哲学史讲演录」，看着「了不起的麦瑟尔夫人」，才想起还有这么一部神剧没看。&lt;/p&gt;
     
     </summary>
@@ -770,19 +770,19 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/05/Google-scholar-%E7%9A%84%E8%AE%BF%E9%97%AE%E9%97%AE%E9%A2%98.html"/>
     <id>http://kleist.top/2018/01/05/Google-scholar-的访问问题.html</id>
     <published>2018-01-05T07:15:26.000Z</published>
-    <updated>2018-04-15T08:23:32.353Z</updated>
+    <updated>2018-09-23T13:15:17.469Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Google-scholar-的访问问题"><a href="#Google-scholar-的访问问题" class="headerlink" title="Google scholar 的访问问题"></a>Google scholar 的访问问题</h4><p>今天本打算对于前几天看到的一个有趣现象（cat &amp; square）进行深入了解，结果对于某度能找到的信息无非就是哪里的网友听说了这个现象，然后对自己家的猫进行了实验，发现确实如此 blah,blah,blah……</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/11iss.jpg" alt=""><br><a id="more"></a><br>然而囿于现在环境，<s> 垃圾 </s>学校并没有知网合作，索性直接奔古哥,结果也是一堆各地网友做实验，YouTube实验视频……去古哥学术，这才发现原来采取了措施古哥可以，但学术进不去……</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125402.jpg" alt=""><br><a id="more"></a><br>然而囿于现在环境，<s> 垃圾 </s>学校并没有知网合作，索性直接奔古哥,结果也是一堆各地网友做实验，YouTube实验视频……去古哥学术，这才发现原来采取了措施古哥可以，但学术进不去……</p>
 <p>emmmm……</p>
 <p>We’re sorry…</p>
 <p>… but your computer or network may be sending automated queries. To protect our users, we can’t process your request right now.</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/2j4u0.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125406.png" alt=""></p>
 <p>既然问题来自于代理，换代理又不现实，只能去 <a href="https://g.zmirrordemo.com/" target="_blank" rel="external">学术镜像</a> 了，提交验证的时候，我写的是 <code>github</code> 这年头……<br>维罗妮卡在精神病院的对话可真是经典</p>
 <blockquote>
 <p>你没法通过循规蹈矩学到你需要学会的东西。</p>
 </blockquote>
-<h4 id="猫对于地上圆圈的情有独钟到底是为什么"><a href="#猫对于地上圆圈的情有独钟到底是为什么" class="headerlink" title="猫对于地上圆圈的情有独钟到底是为什么"></a>猫对于地上圆圈的情有独钟到底是为什么</h4><p><strong>「以下翻译均来自 <a href="http:kleist.top" target="_blank" rel="external">kleist</a> 」</strong></p>
+<h4 id="猫对于地上圆圈的情有独钟到底是为什么"><a href="#猫对于地上圆圈的情有独钟到底是为什么" class="headerlink" title="猫对于地上圆圈的情有独钟到底是为什么"></a>猫对于地上圆圈的情有独钟到底是为什么</h4><p><strong>「以下翻译均来自 <a href="https://kleist.top">kleist</a> 」</strong></p>
 <p>Reasons:</p>
 <blockquote>
 <p>Cats do like boundaries compared to dogs and psychologically feel comfortable when they can see their “place”. —— Vet. Brian Faulkner</p>
@@ -797,7 +797,7 @@ document.getElementById("audio").volume = 0.5;
     <summary type="html">
     
       &lt;h4 id=&quot;Google-scholar-的访问问题&quot;&gt;&lt;a href=&quot;#Google-scholar-的访问问题&quot; class=&quot;headerlink&quot; title=&quot;Google scholar 的访问问题&quot;&gt;&lt;/a&gt;Google scholar 的访问问题&lt;/h4&gt;&lt;p&gt;今天本打算对于前几天看到的一个有趣现象（cat &amp;amp; square）进行深入了解，结果对于某度能找到的信息无非就是哪里的网友听说了这个现象，然后对自己家的猫进行了实验，发现确实如此 blah,blah,blah……&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/11iss.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125402.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
     
     </summary>
     
@@ -813,31 +813,31 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/04/Minecraft-%E6%89%93%E9%80%A0-S-H-I-E-L-D-%E7%A9%BA%E5%A4%A9%E6%AF%8D%E8%88%B0.html"/>
     <id>http://kleist.top/2018/01/04/Minecraft-打造-S-H-I-E-L-D-空天母舰.html</id>
     <published>2018-01-04T07:06:05.000Z</published>
-    <updated>2018-04-15T08:24:53.084Z</updated>
+    <updated>2018-09-23T12:54:19.172Z</updated>
     
     <content type="html"><![CDATA[<p>先来一张初步完成图</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/4fn5y.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125219.png" alt=""></p>
 <p>制作耗时： 3 小时</p>
 <a id="more"></a>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/of2vm.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/clief.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/f6nsx.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/blrzk.jpg" alt=""></p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/wf5ze.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125223.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125224.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125226.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125227.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125229.jpg" alt=""></p>
 <p>现在还只是建成了外壳，内部还很简陋</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/usd0w.jpg" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125231.jpg" alt=""></p>
 <p>很可惜没有复联中空天母舰的详图，甚至高清图都没有，只好自己猜想了……，其实就外形来讲，跟复联中的空天母舰已经有很大差异了。</p>
 <p>来一张对比图：</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/o54uc.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125233.png" alt=""></p>
 <p>只能说乍一看还可以，经不住细细端详。</p>
-<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/eotbo.png" alt=""></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125235.png" alt=""></p>
 <p>我竟然在 MC 里练字……</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;先来一张初步完成图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/4fn5y.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125219.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;制作耗时： 3 小时&lt;/p&gt;
     
     </summary>
@@ -852,7 +852,7 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html"/>
     <id>http://kleist.top/2018/01/01/2018-的粮食.html</id>
     <published>2017-12-31T22:34:00.000Z</published>
-    <updated>2018-09-16T10:51:57.263Z</updated>
+    <updated>2018-09-23T13:17:05.560Z</updated>
     
     <content type="html"><![CDATA[<div align="center" style="font-size: 25px !important; font-family: 'InputMono-Thin','Bookerly-Regular','PingFangSC-Ultralight', 'Microsoft YaHei' !important;">
     <i class="fa fa-book"></i> Books
@@ -977,7 +977,7 @@ document.getElementById("audio").volume = 0.5;
 </ol>
 <hr>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FThe%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -1045,9 +1045,9 @@ document.getElementById("audio").volume = 0.5;
     <link href="http://kleist.top/2017/12/29/2017-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93.html"/>
     <id>http://kleist.top/2017/12/29/2017-年终总结.html</id>
     <published>2017-12-28T16:00:00.000Z</published>
-    <updated>2018-06-08T15:27:26.215Z</updated>
+    <updated>2018-09-23T13:18:11.207Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125353.png" alt=""></p>
 <hr>
 <h2 id="这一年"><a href="#这一年" class="headerlink" title="这一年"></a>这一年</h2><p>这一年，</p>
 <p>是充实单调的一年，是蓬头垢面的一年，是曲折前进的一年；</p>
@@ -1082,9 +1082,9 @@ document.getElementById("audio").volume = 0.5;
 <li>好好完成毕设</li>
 <li>找份离家近的工作</li>
 </ul>
-<h2 id="书类消费"><a href="#书类消费" class="headerlink" title="书类消费"></a>书类消费</h2><p><img src="http://7xw7ho.com1.z0.glb.clouddn.com/np9lj.png" alt=""></p>
+<h2 id="书类消费"><a href="#书类消费" class="headerlink" title="书类消费"></a>书类消费</h2><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125354.png" alt=""></p>
 <div id="audioplayer">
-    <audio id="audio" src="http://7xw7ho.com1.z0.glb.clouddn.com/The%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FThe%20Ocean.mp3" controls="controls" preload="preload" style="width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -1117,7 +1117,7 @@ document.getElementById("audio").volume = 0.5;
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://7xw7ho.com1.z0.glb.clouddn.com/w4jsn.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125353.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&quot;这一年&quot;&gt;&lt;a href=&quot;#这一年&quot; class=&quot;headerlink&quot; title=&quot;这一年&quot;&gt;&lt;/a&gt;这一年&lt;/h2&gt;&lt;p&gt;这一年，&lt;/p&gt;
 &lt;p&gt;是充实单调的一年，是蓬头垢面的一年，是曲折前进的一年；&lt;/p&gt;
