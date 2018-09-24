@@ -715,8 +715,10 @@ document.getElementById("audio").volume = 0.5;
 <li><i class="fa fa-check-square-o"></i> 《邻人之妻》</li>
 <li><i class="fa fa-check-square-o"></i> 《你的财富会升级吗？》</li>
 <li><i class="fa fa-square-o"></i> 《如何阅读一本书》</li>
+<li><i class="fa fa-square-o"></i> 《认识与谬误》</li>
+<li><i class="fa fa-square-o"></i> 《一本最危险的书：塔西佗〈日耳曼尼亚志〉》</li>
 </ol>
-<div align="center"> <i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [13/30] </div>
+<div align="center"> <i class="fa fa-book"></i> 目标 2018 读至少 30 本书，目标进度 [16/30] </div>
 
 <a id="more"></a>
 <hr>
