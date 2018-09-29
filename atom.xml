@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Kleist&#39;Blog</title>
   <subtitle>道可道，非常道。</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/kleist/atom.xml" rel="self"/>
   
   <link href="https://kleist.top/"/>
   <updated>2018-09-23T13:01:12.758Z</updated>
@@ -802,9 +802,9 @@ document.getElementById("audio").volume = 0.5;
     </summary>
     
     
-      <category term="冷知识" scheme="https://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
-    
       <category term="技术" scheme="https://kleist.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="冷知识" scheme="https://kleist.top/tags/%E5%86%B7%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   
