@@ -1767,7 +1767,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #460444;
+  background: #396079;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2884,16 +2884,18 @@ img:hover {
 }
 body {
   cursor: url("https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2Fcursor.cur"), default;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 code {
-  font-family: "Menlo";
+  font-family: "Courier", "Courier New", "Menlo";
   margin: 0 2px 0 2px;
   padding: 2px 5px;
   word-break: break-all;
+  -webkit-font-smoothing: auto;
   color: #000;
   background: #c6c6c6;
+  font-weight: normal !important;
   border-radius: 2px;
   font-size: 13px;
 }
@@ -2930,7 +2932,7 @@ span.site-pv {
 }
 .site-author-name {
   font-weight: 200;
-  font-family: "PingFangSC-Ultralight" !important;
+  font-family: "PingFangSC-light" !important;
   font-size: 20px;
 }
 p.site-description.motion-element {
@@ -3089,8 +3091,7 @@ div.links-of-author.motion-element,
 nav.site-state.motion-element,
 span.post-time,
 span.site-state-item-count {
-  font-family: "InputMono-ExtraLight", 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
-  font-weight: 200 !important;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
 }
 div.sidebar-inner {
 /*box-shadow: 0 3px 10px rgba(0, 0, 0, .156863), 0 3px 10px rgba(0, 0, 0, .227451) !important;*/
@@ -3152,7 +3153,7 @@ div.header-inner {
   opacity: 0.8;
 }
 div.tag-cloud-tags a {
-  font-family: "InputMono-ExtraLight", 'Bookerly-Regular', 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
+  font-family: 'Bookerly-Regular', 'Helvetica', "PingFang SC", "Microsoft YaHei" !important;
   font-size: 16px !important;
   padding: 2px 20px 2px 20px !important;
 /* background: rgba(215, 215, 215, 0.32) !important; */
@@ -3300,7 +3301,7 @@ table > tbody > tr:hover {
   overflow: hidden;
 }
 .post-title {
-  font-family: 'Helvetica', 'Helvetica', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Helvetica', "PingFang SC", "Microsoft YaHei", "Courier New", sans-serif;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .main {
