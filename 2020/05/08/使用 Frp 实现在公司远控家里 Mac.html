@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    
+    <title>使用 Frp 实现随时随地远控家里 Mac - 春水碧于天</title>
+    <meta charset="utf-8">
+    
+    <meta name="title" content="使用 Frp 实现随时随地远控家里 Mac - 春水碧于天">
+    <meta name="description" content="">
+    <meta property="og:image" content="//imgs/favicon.png">
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+     
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;900&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: var(--serif-font-family);
+            }
+        </style>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="/imgs/favicon.png">
+    
+    <link rel="stylesheet"
+        href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/atom-one-light.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/custom.js"></script>
+
+    
+<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+<body>
+    <header class="header">
+    <a href="/">
+        <img class="avatar" src="/imgs/avatar.png" alt="">
+      </a>
+    <div class="blog-title">
+        <a href="/" class="logo">春水碧于天</a>
+    </div>
+    <p class="description">
+        生与死的价值是同等，只有自己选择的死亡才是真正的自由。
+    </p>
+    
+        <div id="jumao">
+            <!-- <img src="" alt=""> -->
+        </div>
+        <div id="cyfwlp-logo">
+            <img src="/imgs/logo.png" alt="" style="max-height: 2.5em;background: #ddd;">
+        </div>
+    
+    <nav class="navbar">
+        <ul class="menu">
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/" class="menu-item-link">主页</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/archives" class="menu-item-link">归档</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/Excerpt" class="menu-item-link">书摘</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/About" class="menu-item-link">关于</a>
+                
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+    <hr>
+    <main class="main">
+        <article class="post">
+    <div class="post-title">
+        <h1 class="title">使用 Frp 实现随时随地远控家里 Mac</h2>
+    </div>
+    
+    <div class="post-meta">
+        <span class="post-time">2020-05-08</span>
+        
+        <span class="post-author">kleist</span>
+        
+    </div>
+    
+    
+    <div class="post-content">
+        <!-- addTocToArticle -->
+        
+        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>最近刚好薅羊毛搞了一台菊花家的服务器，也没想到用来干点什么，前几天在公司用 Teamviewer 远控家里的 Mac 觉得不好用，网速限制太过明显，不如 ssh 用着爽，于是打算试一下 Frp。</p>
+<a id="more"></a>
+<p>准备工作：</p>
+<ol>
+<li>一台固定 IP 的公网服务器</li>
+<li>一台需要做内网穿透的机器</li>
+<li>有一个域名最好</li>
+</ol>
+<h2 id="0x01"><a href="#0x01" class="headerlink" title="0x01"></a>0x01</h2><p>第一步就是先 ssh 到服务器端下载安装 Frp，下载前先用<code>arch</code>查看一下架构，一般都是<code>x86_64</code>，然后去 GitHub 找对应的打包好的软件。可是在安装过程中遇到了点问题「菊花家服务器下载 GitHub 的东西网速和拨号上网有的一比」，总共 8M 的服务端下了五分钟还没下完，最后还断开了……直接在本地两秒钟下好 scp 上去，早知道这么慢能省不少功夫。</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2020-05-08-085952.png" alt="scp 只需 1 秒"><br>然后就是解压，这里为了方便把原先带有版本号的名字改了一下<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2020-05-08-090117.png"></p>
+<p>先进 Frp 目录赋予一下权限：<code>chmod +x frps</code>「这里是服务器的操作，用到的是 frps 即 frp server」，然后配置一下 frps</p>
+<p><code>vim frps.ini</code></p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-section">[common]</span><br><span class="hljs-attr">bind_port</span> = <span class="hljs-number">7000</span><br><span class="hljs-attr">auto_token</span>=<span class="hljs-number">12345678</span><br><br><span class="hljs-attr">dashboard_port</span> = <span class="hljs-number">7500</span><br><span class="hljs-attr">dashboard_user</span> = kleist<br><span class="hljs-attr">dashboard_pwd</span> = *******<br></code></pre></td></tr></table></figure>
+<p>最后在服务器端运行 Frp，<code>sudo ./frps -c frps.ini</code><br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2020-05-08-090752.png"></p>
+<p>这样就可以去打开服务器 IP:7500 查看管理面板了。<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2020-05-08-091131.png" alt="dashboard"></p>
+<h2 id="0x02"><a href="#0x02" class="headerlink" title="0x02"></a>0x02</h2><p>服务端这就算已经 OK 了，当然还可以配置一下开机启动之类的，我也没打算重启服务器就没设置。<br>接下来是配置客户端：<br>同上，下载对应版本的 Frp，我这里是 MacBook 所以下载的是 <code>frp_0.33.0_darwin_amd64.tar.gz</code>，解压之后修改<code>frpc.ini</code></p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs ini"><span class="hljs-section">[common]</span><br><span class="hljs-attr">server_addr</span> = 这里填上服务器的 IP<br><span class="hljs-attr">server_port</span> = <span class="hljs-number">7000</span><br><br><span class="hljs-section">[ssh]</span><br><span class="hljs-attr">type</span> = tcp<br><span class="hljs-attr">local_ip</span> = <span class="hljs-number">127.0</span>.<span class="hljs-number">0.1</span><br><span class="hljs-attr">local_port</span> = <span class="hljs-number">22</span><br><span class="hljs-attr">remote_port</span> = <span class="hljs-number">6000</span><br></code></pre></td></tr></table></figure>
+<p>这样在本地运行<code>./frpc -c frpc.ini</code>就搞定了。<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2020-05-08-092159.png"></p>
+<p>图中黄色部分是因为我忘记菊花服务器需要配置一下出入规则，把用到的端口打开即可。</p>
+<h2 id="0x03"><a href="#0x03" class="headerlink" title="0x03"></a>0x03</h2><p>这就算结束了，随时随地「iOS 的捷径很方便」可以 ssh 到家里的 Mac 上，也可以用这个搭建 Minecraft 服务器「可惜老 Mac 的性能不咋滴」，如果有域名的话还可以解析到服务器的 IP，访问更方便，但是绑定域名需要备案，不值当了。</p>
+
+    </div>
+
+</article>
+<div class="prev_next">
+    <nav id="prev_next">
+
+<div class="prev">
+    
+    <p>上一篇</p>
+    <a href="/2020/05/16/业余无线电学习资料.html"><div class="article-nav-title">业余无线电学习资料</div></a>
+    
+</div>
+<div class="next">
+    
+    <p>下一篇</p>
+    <a href="/2020/01/15/Blame-自媒体的泛滥.html"><div class="article-nav-title">Blame 自媒体的泛滥</div></a>
+    
+</div>
+
+</nav>
+</div>
+
+<div class="post-comment">
+    
+
+
+
+</div>
+<div id="top">
+    <a href="javascript:backToTop();">▲</a>
+    <a href="javascript:downToBottom();">▼</a>
+</div>
+<!-- addTocToggle-->
+<script>
+    $(".js-toggle-toc").text(" ▽");
+    $(".js-toggle-toc").click(function(){
+        var toc = $(".toc-content");
+        toc.toggle();
+        if (toc.is(":hidden")) {
+            $(this).text(" ▶");
+        } else {
+            $(this).text(" ▽");
+        }
+        return false;
+    });
+    function  backToTop() {
+        $('html, body').animate({ scrollTop: 0 });
+    }
+    function downToBottom(){
+        var docHeight = $('body').height();
+        $('html, body').animate({ scrollTop: docHeight });
+    }
+</script>
+    </main>
+</body>
+
+</html>

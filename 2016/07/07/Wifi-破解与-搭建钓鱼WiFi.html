@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    
+    <title>WiFi 破解与搭建钓鱼WiFi - 春水碧于天</title>
+    <meta charset="utf-8">
+    
+    <meta name="title" content="WiFi 破解与搭建钓鱼WiFi - 春水碧于天">
+    <meta name="description" content="">
+    <meta property="og:image" content="//imgs/favicon.png">
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+     
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;900&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: var(--serif-font-family);
+            }
+        </style>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="/imgs/favicon.png">
+    
+    <link rel="stylesheet"
+        href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/atom-one-light.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/custom.js"></script>
+
+    
+<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+<body>
+    <header class="header">
+    <a href="/">
+        <img class="avatar" src="/imgs/avatar.png" alt="">
+      </a>
+    <div class="blog-title">
+        <a href="/" class="logo">春水碧于天</a>
+    </div>
+    <p class="description">
+        生与死的价值是同等，只有自己选择的死亡才是真正的自由。
+    </p>
+    
+        <div id="jumao">
+            <!-- <img src="" alt=""> -->
+        </div>
+        <div id="cyfwlp-logo">
+            <img src="/imgs/logo.png" alt="" style="max-height: 2.5em;background: #ddd;">
+        </div>
+    
+    <nav class="navbar">
+        <ul class="menu">
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/" class="menu-item-link">主页</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/archives" class="menu-item-link">归档</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/Excerpt" class="menu-item-link">书摘</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/About" class="menu-item-link">关于</a>
+                
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+    <hr>
+    <main class="main">
+        <article class="post">
+    <div class="post-title">
+        <h1 class="title">WiFi 破解与搭建钓鱼WiFi</h2>
+    </div>
+    
+    <div class="post-meta">
+        <span class="post-time">2016-07-07</span>
+        
+        <span class="post-author">kleist</span>
+        
+    </div>
+    
+    
+    <div class="post-content">
+        <!-- addTocToArticle -->
+        
+        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><h1 id="Wi-Fi-破解"><a href="#Wi-Fi-破解" class="headerlink" title="Wi-Fi 破解"></a>Wi-Fi 破解</h1><ol>
+<li><code>airport -s</code> 扫描附近Wi-Fi并打印 </li>
+<li><code>sudo airport en0 sniff [channel]</code> 开启嗅探模式 <code>en0</code> 是网卡 每台电脑可能不一样，一般都是<code>en0</code>、<code>en</code></li>
+<li><code>aircrack-ng -w xx.txt xx.cap</code> 分析搜集到的握手包，尝试破解。</li>
+<li>如果你的 <code>xx.txt</code> 即 字典包 足够强大的话，你的 GPU 足够强大，那么任何密码都是无法挡住你的。</li>
+<li>如此简单就搞定，敬请食用。（盗用别人家的WiFi可不好，这只是用来审计自己家WiFi是否安全的方法。）</li>
+</ol>
+<hr>
+<h1 id="WPA-wifi-cracking-on-a-MacBook-Pro-with-deauth"><a href="#WPA-wifi-cracking-on-a-MacBook-Pro-with-deauth" class="headerlink" title="WPA wifi cracking on a MacBook Pro with deauth"></a>WPA wifi cracking on a MacBook Pro with deauth</h1><p>Yesterday, my friend Victor wanted to crack a wifi network (his, of course) using his MacBook Pro.</p>
+<p>I told him to use the excellent VirtualBox images of Kali Linux from <a target="_blank" rel="noopener" href="https://www.offensive-security.com/kali-linux-vmware-virtualbox-image-download/">Offensive Security</a> and <a target="_blank" rel="noopener" href="https://www.aircrack-ng.org/">aircrack-ng</a>.</p>
+<p>I had just forgotten that:</p>
+<ul>
+<li>Using advanced wireless features is impossible from a virtual machine</li>
+<li>Even if he used Kali Linux with a dual boot, installing the wireless drivers to make it work with the airport card is tiresome.</li>
+<li>Most (not <code>airmon-ng</code>) aircrack-ng tools can be installed on macOS with <a target="_blank" rel="noopener" href="https://www.macports.org/">MacPorts</a>, but <code>airodump-ng</code> and <code>aireplay-ng</code> crash.</li>
+</ul>
+<p>So <strong>PLEASE</strong>, if you want to do other advanced networking things than network sniffing or what is described in this article, do yourself a favour and buy an USB adapter to use with the virtual machine.</p>
+<p>There is a list on the website of <code>aircrack-ng</code>, and I think the Alfa AWUS051NH v2 is great.<br>Some people say it is expensive, but last time I checked on <a target="_blank" rel="noopener" href="https://www.google.com/search?q=Alfa+AWUS051NH+v2&tbm=shop">Google Shopping</a>, it cost less than half an Apple mouse.</p>
+<h2 id="What-is-a-WPA-attack"><a href="#What-is-a-WPA-attack" class="headerlink" title="What is a WPA attack?"></a>What is a WPA attack?</h2><p>There are 3 steps:</p>
+<ul>
+<li><strong>Identify</strong> the target acces point: name (= BSSID), MAC address (= SSID) and channel (~ radio frequency)</li>
+<li><strong>Sniff</strong> the channel in monitor mode to retrieve:<ul>
+<li>a beacon (easy)</li>
+<li>a handshake (= four-way handshake), or some frames of it (hard)</li>
+</ul>
+</li>
+<li><strong>Crack</strong> the password using the dump</li>
+</ul>
+<p>What makes the retrieval of the handshake hard is that it appears only when somebody connects to the access point.</p>
+<p>The good news is that you can deauthentificate people from the wifi network - it’s called wifi jamming and it’s useful to impress a girl and piss off people at Starbucks.<br>When they reconnect, they re-send the handshake.  That adds a <strong>Deauth</strong> step.</p>
+<h2 id="Identify-the-target-with-airport"><a href="#Identify-the-target-with-airport" class="headerlink" title="Identify the target - with airport"></a><strong>Identify</strong> the target - with <code>airport</code></h2><h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><pre><code>sudo ln-s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/sbin/airport</code></pre>
+<h3 id="Scan"><a href="#Scan" class="headerlink" title="Scan"></a>Scan</h3><pre><code>sudo airport -s</code></pre>
+<h2 id="Sniff-The-easy-way-with-airport"><a href="#Sniff-The-easy-way-with-airport" class="headerlink" title="Sniff - The easy way with airport"></a><strong>Sniff</strong> - The easy way with <code>airport</code></h2><pre><code>// Ctrl-C to stop capturing
+
+sudo airport en0 sniff $CHANNEL</code></pre>
+<p>It saves the <code>.cap</code> capture file and displays the path.</p>
+<h2 id="Crack-The-easy-way-with-aircrack-ng"><a href="#Crack-The-easy-way-with-aircrack-ng" class="headerlink" title="Crack - The easy way with aircrack-ng"></a><strong>Crack</strong> - The easy way with <code>aircrack-ng</code></h2><pre><code>aircrack-ng -w wordlist.txt -b $TARGET_MAC_ADDRESS airportSniff.cap</code></pre>
+<p>If you don&#39;t have the beacon or the handshake, it will fail accordingly.</p>
+<p>For wordlists, see below.</p>
+<h2 id="Deauth"><a href="#Deauth" class="headerlink" title="Deauth"></a><strong>Deauth</strong></h2><p>As I said, <code>aireplay-ng</code> doesn’t work on a MacBook Pro.<br>The catch is that <code>aireplay-ng</code> can do a lot of other things besides deauth attacks.</p>
+<p>You might read that airport cards do not support packet injection, but packet injections are for WEP attacks and nobody uses WEP anymore. We only want to send some deauthentification frames.</p>
+<p>Use <a target="_blank" rel="noopener" href="https://github.com/unixpickle/JamWiFi">JamWiFi</a>. A ready-to-use application is provided <a target="_blank" rel="noopener" href="http://macheads101.com/pages/downloads/mac.php">there</a>.</p>
+<p>In fact, you can indentify the target with it too, and it has a really nice GUI.</p>
+<p>Once you have selected the access point, you can deauth one or multiple users. Stop after about 50 “Deauths”, or else the persons might have trouble to reconnect during several minutes.</p>
+<p>It might not work it you are too far from the target as your airport card is far less powerful than the router.</p>
+<h2 id="Sniff-The-good-way-with-tcpdump"><a href="#Sniff-The-good-way-with-tcpdump" class="headerlink" title="Sniff - The good way with tcpdump"></a><strong>Sniff</strong> - The good way with <code>tcpdump</code></h2><p>Using <code>airport</code> presents some issues. You cannot know if you got the beacon and the handshake until you stop the capture and try with <code>aircrack-ng</code>.</p>
+<p>You capture a lot of unuseful packets too.</p>
+<p>Using <code>tcpdump</code> is more efficient.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">export</span> BSSID=<span class="hljs-variable">$TARGET_MAC_ADDRESS</span><br><span class="hljs-comment"># disassociate</span><br>sudo airport -z<br><span class="hljs-comment"># set the channel</span><br><span class="hljs-comment"># DO NOT PUT SPACE BETWEEN -c and the channel</span><br><span class="hljs-comment"># for example sudo airport -c6</span><br>sudo airport -c<span class="hljs-variable">$CHANNEL</span><br><span class="hljs-comment"># capture a beacon frame from the AP</span><br>sudo tcpdump <span class="hljs-string">&quot;type mgt subtype beacon and ether src <span class="hljs-variable">$BSSID</span>&quot;</span> -I -c 1 -i en1 -w beacon.cap<br><span class="hljs-comment"># wait for the WPA handshake</span><br>sudo tcpdump <span class="hljs-string">&quot;ether proto 0x888e and ether host <span class="hljs-variable">$BSSID</span>&quot;</span> -I -U -vvv -i en1 -w handshake.cap<br><span class="hljs-comment"># merge the two files</span><br>mergecap -a -F pcap -w capture.cap beacon.cap handshake.cap<br></code></pre></td></tr></table></figure>
+
+<p>When you launch those lines, the first <code>tcpdump</code> easily captures a beacon and the second waits for the handshake.</p>
+<p>Use JamWiFi to deauth some users, and when <code>tcpdump</code> shows you it got 4 frames or more, Ctrl-C. It appears you can use less that 4 frames, but it depends on the frames you got (for instance 1,2 or 2,3 are sufficient). Anyway you should normally get at least 4. If nothing shows, try to deauth another user.</p>
+<p>Now you have everything in <code>capture.cap</code>. You can also run <code>aircrack-ng</code> on it.</p>
+<h2 id="Crack-The-good-way-with-hashcat"><a href="#Crack-The-good-way-with-hashcat" class="headerlink" title="Crack - The good way with hashcat"></a><strong>Crack</strong> - The good way with <code>hashcat</code></h2><p>Like <code>aireplay-ng</code>, <code>aircrack-ng</code> offers so many features that it cannot be the best in everything.</p>
+<p>We can really speed up the process by using <a target="_blank" rel="noopener" href="https://hashcat.net/hashcat/">hashcat</a>.</p>
+<h3 id="Install-with-brew"><a href="#Install-with-brew" class="headerlink" title="Install with brew"></a>Install with <a target="_blank" rel="noopener" href="https://brew.sh/">brew</a></h3><pre><code>brew install hashcat</code></pre>
+<h3 id="Convert-with-cap2hccapx"><a href="#Convert-with-cap2hccapx" class="headerlink" title="Convert with cap2hccapx"></a>Convert with cap2hccapx</h3><p><code>hashcat</code> doesn’t take cap files, only hccapx files.</p>
+<p>Just install <a target="_blank" rel="noopener" href="https://github.com/hashcat/hashcat-utils">hashcat-utils</a> and use <a target="_blank" rel="noopener" href="https://github.com/hashcat/hashcat-utils/blob/master/src/cap2hccapx.c">cap2hccapx</a></p>
+<pre><code>cap2hccapx capture.cap capture.hccapx</code></pre>
+<p>Alternatively, use <a target="_blank" rel="noopener" href="https://hashcat.net/cap2hccapx/">this online tool</a>.</p>
+<h3 id="Crack"><a href="#Crack" class="headerlink" title="Crack"></a>Crack</h3><p><a target="_blank" rel="noopener" href="https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2">This page</a> provides some examples.</p>
+<p>To use with a dictionnary:</p>
+<pre><code>hashcat-m 2500 capture.hccapx wordlist.txt</code></pre>
+<p>You have a lot of other options, like brute force:</p>
+<pre><code>hashcat-m 2500-a3 capture.hccapx ?d?d?d?d?d?d?d?d</code></pre>
+<p>Refer to the <a target="_blank" rel="noopener" href="https://hashcat.net/wiki/doku.php?id=mask_attack">documentation</a> fot more patterns.</p>
+<h3 id="Speed"><a href="#Speed" class="headerlink" title="Speed"></a>Speed</h3><p><code>hashcat</code> works on the GPU.</p>
+<p>On my MacBook Pro, it yields a performance of 5kH/s: it tests 5000 passwords in a second.</p>
+<p>On a Tesla K20m, the speed is 75kH/s. I managed to crack the 5 last lowercase letters of a wifi password in about 1 minute (26**5 // 75000 = 158 seconds to test them all).</p>
+<p>We can see <a target="_blank" rel="noopener" href="https://gist.github.com/epixoip/a83d38f412b4737e99bbef804a270c40">here</a> that a GTX 1080 breaks 400kH/s.</p>
+<h2 id="Wordlists"><a href="#Wordlists" class="headerlink" title="Wordlists"></a>Wordlists</h2><p>I recommend:</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/berzerk0/Probable-Wordlists/tree/master/Real-Passwords/WPA-Length">https://github.com/berzerk0/Probable-Wordlists/tree/master/Real-Passwords/WPA-Length</a></li>
+<li><a target="_blank" rel="noopener" href="https://xa.to/10m">https://xa.to/10m</a></li>
+</ul>
+<p>For more efficiency, target the networks with silly names (good examples are “mozart”, “I love cats”, “Harry and Sally”), and avoid the ones called “National Security Agency”, “sysadmin” and “sup3r h4x0r”.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>To find a password, you have to be lucky and have a good idea of its shape.</p>
+<p>A lot of default wifi passwords are composed of 8 or 10 hexadecimal digits.</p>
+<p>In average (worst case divided by 2) and according to the above benchmark, with a GTX 1080:</p>
+<ul>
+<li>8 hexadecimal characters take 90 minutes.</li>
+<li>10 hexadecimal characters take 16 days.</li>
+<li>12 hexadecimal characters take 11 years.</li>
+</ul>
+<p>If you only want free wifi, just do MAC spoofing on a hotspot that uses web login.</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p><a target="_blank" rel="noopener" href="http://www.saltwaterc.eu/capturing-wpa-handshakes-with-os-x.html">http://www.saltwaterc.eu/capturing-wpa-handshakes-with-os-x.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://gist.github.com/victorreyesh/6532800">https://gist.github.com/victorreyesh/6532800</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/brannondorsey/wifi-cracking">https://github.com/brannondorsey/wifi-cracking</a></p>
+<p><a target="_blank" rel="noopener" href="https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2">https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2</a></p>
+
+    </div>
+
+</article>
+<div class="prev_next">
+    <nav id="prev_next">
+
+<div class="prev">
+    
+    <p>上一篇</p>
+    <a href="/2016/07/23/书摘-洛神赋.html"><div class="article-nav-title">书摘-洛神赋</div></a>
+    
+</div>
+<div class="next">
+    
+    <p>下一篇</p>
+    <a href="/2016/06/30/读《生于末世运偏消－幺叔的故事》.html"><div class="article-nav-title">读《乡关何处》</div></a>
+    
+</div>
+
+</nav>
+</div>
+
+<div class="post-comment">
+    
+
+
+
+</div>
+<div id="top">
+    <a href="javascript:backToTop();">▲</a>
+    <a href="javascript:downToBottom();">▼</a>
+</div>
+<!-- addTocToggle-->
+<script>
+    $(".js-toggle-toc").text(" ▽");
+    $(".js-toggle-toc").click(function(){
+        var toc = $(".toc-content");
+        toc.toggle();
+        if (toc.is(":hidden")) {
+            $(this).text(" ▶");
+        } else {
+            $(this).text(" ▽");
+        }
+        return false;
+    });
+    function  backToTop() {
+        $('html, body').animate({ scrollTop: 0 });
+    }
+    function downToBottom(){
+        var docHeight = $('body').height();
+        $('html, body').animate({ scrollTop: docHeight });
+    }
+</script>
+    </main>
+</body>
+
+</html>

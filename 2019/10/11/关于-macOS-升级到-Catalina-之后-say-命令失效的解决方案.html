@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    
+    <title>关于 macOS 升级到 Catalina 之后 say 命令失效的解决方案 - 春水碧于天</title>
+    <meta charset="utf-8">
+    
+    <meta name="title" content="关于 macOS 升级到 Catalina 之后 say 命令失效的解决方案 - 春水碧于天">
+    <meta name="description" content="">
+    <meta property="og:image" content="//imgs/favicon.png">
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+     
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;900&display=swap" rel="stylesheet">
+        <style>
+            body {
+                font-family: var(--serif-font-family);
+            }
+        </style>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="/imgs/favicon.png">
+    
+    <link rel="stylesheet"
+        href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/atom-one-light.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<script src="/js/jquery.min.js"></script>
+
+    
+<script src="/js/custom.js"></script>
+
+    
+<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+<body>
+    <header class="header">
+    <a href="/">
+        <img class="avatar" src="/imgs/avatar.png" alt="">
+      </a>
+    <div class="blog-title">
+        <a href="/" class="logo">春水碧于天</a>
+    </div>
+    <p class="description">
+        生与死的价值是同等，只有自己选择的死亡才是真正的自由。
+    </p>
+    
+        <div id="jumao">
+            <!-- <img src="" alt=""> -->
+        </div>
+        <div id="cyfwlp-logo">
+            <img src="/imgs/logo.png" alt="" style="max-height: 2.5em;background: #ddd;">
+        </div>
+    
+    <nav class="navbar">
+        <ul class="menu">
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/" class="menu-item-link">主页</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/archives" class="menu-item-link">归档</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/Excerpt" class="menu-item-link">书摘</a>
+                
+            </li>
+            
+            
+            
+            <li class="menu-item">
+                
+                <a href="/About" class="menu-item-link">关于</a>
+                
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+    <hr>
+    <main class="main">
+        <article class="post">
+    <div class="post-title">
+        <h1 class="title">关于 macOS 升级到 Catalina 之后 say 命令失效的解决方案</h2>
+    </div>
+    
+    <div class="post-meta">
+        <span class="post-time">2019-10-11</span>
+        
+        <span class="post-author">kleist</span>
+        
+    </div>
+    
+    
+    <div class="post-content">
+        <!-- addTocToArticle -->
+        
+        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><h1 id="say-命令失效"><a href="#say-命令失效" class="headerlink" title="say 命令失效"></a>say 命令失效</h1><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2019-10-11-command_say.png" alt="问题截图"></p>
+<p>这是我的 mac 升级到 Catalina 正式版之后突然出现的问题，<code>say</code> 命令反馈错误信息</p>
+<pre><code>Open speech channel failed: -76</code></pre>
+<a id="more"></a>
+<p>google 得知，这个错误出现率不高，也或许是使用<code>say</code>命令的人比较少，大致了解到该问题可能来自于系统更新，并不仅仅是 Catalina (10.15) 中的问题。</p>
+<p>通过使用 <code>say &#39;string you want output&#39; -v Alex</code> 暂时解决问题，但并没有从根本上解决。</p>
+<p>然后没招了，多方查看 <code>say</code> 相关进程信息，<code>ps ax |grep speechsynthesisd</code>，意外发现重置相关进程可以解决。</p>
+<pre><code>2589   ??  Ss     0:01.87 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+7235   ??  S      0:02.06 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd</code></pre>
+<p>重置命令</p>
+<pre><code>sudo pkill speechsynthesisd say</code></pre>
+<p>然后大功告成，完美解决。</p>
+<h1 id="Alfred-部分权限失效"><a href="#Alfred-部分权限失效" class="headerlink" title="Alfred 部分权限失效"></a>Alfred 部分权限失效</h1><p>一直都很喜欢 Alfred 提供的 <code>selection in macOS</code> 只需要简单设置就能双击 <kbd>shift</kbd> ，就能把目前选中的文字输入到 Alfred 的搜索框中，默认 google 搜索，可以说非常方便了。</p>
+<p>但是在升级 Calalina 之后由于系统隔离并且加强了权限管理，导致这一功能需要重置 Alfred 的权限，原本上版本系统中获取的权限已经失效了。</p>
+<p>在终端中输入以下命令，并且重新打开</p>
+<pre><code>tccutil reset All com.runningwithcrayons.Alfred</code></pre>
+<p>然后重新打开 Alfred ，会提示获取权限，或者从 Alfred 的 General 中点击 Request Permissions.</p>
+<p>Enjoy it.</p>
+
+    </div>
+
+</article>
+<div class="prev_next">
+    <nav id="prev_next">
+
+<div class="prev">
+    
+    <p>上一篇</p>
+    <a href="/2019/10/18/〔转载〕一群正被毁掉的乡村孩子.html"><div class="article-nav-title">〔转载〕一群正被毁掉的乡村孩子</div></a>
+    
+</div>
+<div class="next">
+    
+    <p>下一篇</p>
+    <a href="/2019/09/26/K-近邻-k-NN-算法.html"><div class="article-nav-title">K-近邻(k-NN)算法学习</div></a>
+    
+</div>
+
+</nav>
+</div>
+
+<div class="post-comment">
+    
+
+
+
+</div>
+<div id="top">
+    <a href="javascript:backToTop();">▲</a>
+    <a href="javascript:downToBottom();">▼</a>
+</div>
+<!-- addTocToggle-->
+<script>
+    $(".js-toggle-toc").text(" ▽");
+    $(".js-toggle-toc").click(function(){
+        var toc = $(".toc-content");
+        toc.toggle();
+        if (toc.is(":hidden")) {
+            $(this).text(" ▶");
+        } else {
+            $(this).text(" ▽");
+        }
+        return false;
+    });
+    function  backToTop() {
+        $('html, body').animate({ scrollTop: 0 });
+    }
+    function downToBottom(){
+        var docHeight = $('body').height();
+        $('html, body').animate({ scrollTop: docHeight });
+    }
+</script>
+    </main>
+</body>
+
+</html>
