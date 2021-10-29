@@ -118,7 +118,7 @@ body {
   margin: 0 4px;
 }
 :root {
-  --serif-font-family: 'Noto Serif SC', "Apple Color Emoji", "Segoe UI Emoji", serif;
+  --serif-font-family: 'Noto Serif SC', "Segoe UI Emoji", serif;
   --main-color: rgba(0,0,0,0.86);
   --theme-color: #3c8cf9;
   --theme-opacity-color: rgba(0,108,255,0.149);
