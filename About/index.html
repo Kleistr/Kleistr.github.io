@@ -25,6 +25,7 @@
     
     <link rel="stylesheet"
         href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/atom-one-light.min.css">
+        <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
 
     <script>hljs.initHighlightingOnLoad();</script>
@@ -242,7 +243,8 @@ mjx-container[display="true"] + br {
         /* color: transparent!important; */
     }
     del {
-        transition: cubic-bezier(.25,.46,.45,.94) filter,.2s cubic-bezier(.25,.46,.45,.94) filter;
+        cursor: pointer;
+        transition: cubic-bezier(.25,.46,.45,.94) filter,.5s cubic-bezier(.25,.46,.45,.94) filter;
     }
 </style>
 <div align="center" style="margin:1em 0;">「Cool but difficult」 VS 「Ordinary but simple」</div>
@@ -250,7 +252,28 @@ mjx-container[display="true"] + br {
 
 <h2 id="NAME"><a href="#NAME" class="headerlink" title="NAME"></a>NAME</h2><p>EN: Kleist</p>
 <h2 id="I-Believe"><a href="#I-Believe" class="headerlink" title="I Believe"></a>I Believe</h2><p><strong>没有什么是不可以失去的</strong></p>
-<h2 id="I-Am"><a href="#I-Am" class="headerlink" title="I Am"></a>I Am</h2><p>一只<del> 爱代码的 </del>建筑狗<br>爱代码 , 爱 Python,  爱折腾<br>《道德经》 ing<br>自救 ing<br>阅读 ing</p>
+<h2 id="I-Am"><a href="#I-Am" class="headerlink" title="I Am"></a>I Am</h2><style>
+    .discover {
+        cursor: pointer;
+    }
+    .discover:before {
+        position: absolute;
+        content: attr(data-real);
+        opacity: 0;
+        color: #fff;
+        background: #333;
+        padding: 0 .2em;
+        margin: 0 -.2em;
+        transition: opacity .3s ease;
+    }
+    .discover:hover{
+        color: rgba(0,0,0,.1);
+    }
+    .discover:active:before, .discover:hover:before {
+        opacity: 1;
+    }
+</style>
+<p>一只<del> 爱代码的 </del>建筑狗<br><span class = "discover" data-real="现在的自己什么都不再爱了">爱代码 , 爱 Python,  爱折腾</span><br>《道德经》 ing<br>自救 ing<br>阅读 ing</p>
 <h2 id="I-Like"><a href="#I-Like" class="headerlink" title="I  Like"></a>I  Like</h2><ul>
 <li>书:《道德经》、《哈利波特系列》、《反乌托邦三部曲》、《世纪三部曲》、《原生家庭》……</li>
 <li>剧:《东京爱情故事》、《Rick and Morty》、《Shameless》、《你的孩子不是你的孩子》……</li>
@@ -258,7 +281,7 @@ mjx-container[display="true"] + br {
 <li>番:《EVA》、《凉宫春日系列》、《四谎》、《秒五》、《Charlotte》、《地狱少女》、《夏目友人帐》、《魔法少女小圆》……</li>
 <li>人: 赤名莉香、朽木露琪亚</li>
 </ul>
-<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p>Gmail: lingyu2586#gmail.com<br><del>Facebook: 凌宇</del></p>
+<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p>Gmail: lingyu2586#gmail.com</p>
 <p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2019-08-18-%E6%94%BF%E6%B2%BB.jpg" alt="政治座标"></p>
 <script type="text/javascript">
     var gpgkey = '\

@@ -120,7 +120,8 @@ body {
 :root {
   --serif-font-family: 'Noto Serif SC', "Apple Color Emoji", "Segoe UI Emoji", serif;
   --main-color: rgba(0,0,0,0.86);
-  --theme-color: #006cff;
+  --theme-color: #3c8cf9;
+  --theme-opacity-color: rgba(0,108,255,0.149);
   --dark-background-color: #2f2f2f;
   --dark-front-color: #e5e5e5;
 }
@@ -151,6 +152,18 @@ body {
 }
 .post .post-image {
   margin: 1em 0;
+}
+.post .post-image img {
+  margin: 1em 0;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  max-height: -webkit-fill-available;
+  box-sizing: content-box;
+  width: auto;
+  border-radius: 6px;
 }
 .post .post-content table {
   border-collapse: collapse;
@@ -250,8 +263,9 @@ body {
   color: #000;
 }
 .post blockquote {
-  border-left: 3px solid #616161;
-  padding-left: 20px;
+  border-left: 3px solid var(--theme-color);
+  background: var(--theme-opacity-color);
+  padding: 1px 1em;
   margin: 1rem 0 1rem 0.6rem;
 }
 .post blockquote p,
@@ -261,17 +275,6 @@ body {
 }
 .post blockquote p {
   margin-top: 0.5em;
-}
-.post blockquote:before {
-  content: "";
-  width: 11.2px;
-  height: 7.4px;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAARCAMAAADwppwCAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACuUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF7IU6UAAAA6dFJOU540l5WcKpIAlBFkcAyKBI1pnTVcSEA9IlKRKyYUfpg+gW0GiJmPZRdWXyEvmi5RgHRxYAN9UBI2KZaE9seNAAAApUlEQVQY062Q1w7CMAxF3QGmdFP2Knvvzf//GLGdSBUSb/glx/cosRXAHwVybObxbK2jvR26By2iKQDYAfNyp/ioha8YcrkwIt6KaBOPJa8Sr2RGl3jocd4gDics+jY1Tc5bhNCTrQbEGedBh7gu6/Kj4CeXK+KJeXG+k3BAl4VeavilRNk0NfRcw6WisP4nvme8TfPER1oUGTgVVRCrP0k03yL8AAp6C3N7Y7HDAAAAAElFTkSuQmCC") no-repeat;
-  display: block;
-  background-size: contain;
-  line-height: 1.6em;
-  margin-left: 0.5em;
-  margin-bottom: 0;
 }
 .post ruby {
   margin: 4px;
@@ -289,6 +292,7 @@ body {
   margin: 1em auto !important;
   text-align: center;
   font-size: 1.5em;
+  background: none;
   color: #9a9a9a;
   text-shadow: 1px 1px 2px #ddd;
   border: 0 !important;
@@ -304,6 +308,8 @@ body {
 }
 .post code,
 .post pre {
+  background-color: #eee;
+  border-radius: 5px;
   line-height: 1.2em;
   font-size: 16px;
   padding: 0px 3px;
@@ -387,9 +393,11 @@ body {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  max-height: -webkit-fill-available;
+  max-height: calc(80vh);
   box-sizing: content-box;
   width: auto;
+  border-radius: 6px;
+  box-shadow: rgba(76,76,76,0.25) 1px 1px 12px;
 }
 .post .shk {
   margin: 1em 0;
@@ -556,10 +564,11 @@ body {
 #top {
   width: 30px;
   height: 50px;
-  background: rgba(85,85,85,0.3) none repeat scroll 0% 0%;
+  background: rgba(255,255,255,0.24) none repeat scroll 0% 0%;
   position: fixed;
   bottom: 1%;
-  right: 3%;
+  right: 2%;
+  border-radius: 5px;
   text-align: center;
   cursor: pointer;
 }
@@ -568,7 +577,7 @@ body {
   font-size: 18px;
   line-height: 25px;
   color: #fff;
-  background-color: inherit;
+  border-radius: 5px;
   text-decoration: none;
   transition: 0.3s background-color;
 }
@@ -853,7 +862,7 @@ template {
     color: var(--dark-front-color);
   }
   .post .toc-article {
-    background: #151515;
+    background: #272727;
   }
   #prev_next a {
     color: var(--dark-front-color);
@@ -869,7 +878,7 @@ template {
   }
   code,
   pre {
-    background-color: #000;
+    background-color: #151515 !important;
     color: var(--dark-front-color);
   }
   blockquote:before {
@@ -877,6 +886,10 @@ template {
   }
   .license {
     color: #868e96;
+  }
+  #jumao {
+    background: #404040 !important;
+    color: var(--dark-front-color) !important;
   }
 }
 @media screen and (min-width: 320px) {
@@ -900,7 +913,7 @@ template {
   font-size: calc(12px + 2 * ((100vw - 320px) / 960));
   float: right;
   max-width: 32%;
-  min-width: 200px;
+  min-width: 240px;
   white-space: nowrap;
   overflow: hidden;
   z-index: 99999;
