@@ -57,7 +57,7 @@ body {
 .header .description {
   color: #495057;
   font-size: 0.9em;
-  font-weight: 400;
+  font-weight: 600;
 }
 .header #jumao {
   padding: 0.5em;
@@ -150,6 +150,24 @@ body {
   color: rgba(0,0,0,0.1);
   margin: 0 4px;
 }
+.post .article-tag-list {
+  float: right;
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+}
+.post .article-tag-list-item {
+  display: inline;
+}
+.post .article-tag-list-item:not(:first-child):before {
+  content: "/ ";
+  font-size: 13px;
+  color: rgba(0,0,0,0.2);
+  margin: 0 4px;
+}
+.post .article-tag-list-count {
+  padding-left: 0.2em;
+}
 .post .post-image {
   margin: 1em 0;
 }
@@ -197,7 +215,7 @@ body {
   font-size: 1.7em;
 }
 .post h1:hover {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.03em;
   transition: 0.3s ease-in-out letter-spacing;
 }
 .post h2,
@@ -207,28 +225,28 @@ body {
 .post h6 {
   font-family: var(--serif-font-family);
   font-weight: bold;
-  line-height: 1.2em;
+  line-height: 1.4em;
 }
 .post h2:hover,
 .post h3:hover,
 .post h4:hover,
 .post h5:hover,
 .post h6:hover {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   transition: 0.3s ease-in-out letter-spacing;
 }
 .post h2 {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 .post h3 {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 .post h4 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 .post h5,
 .post h6 {
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 .post .post-content a {
   color: var(--main-color);
@@ -271,7 +289,7 @@ body {
 .post blockquote p,
 .post blockquote a,
 .post blockquote li {
-  color: #9a9a9a;
+  color: #525252;
 }
 .post blockquote p {
   margin-top: 0.5em;
@@ -522,13 +540,6 @@ body {
   text-align: center;
   margin-bottom: 1em;
 }
-.posts .post-content p {
-  color: #222;
-}
-.posts .post-content a {
-  color: #222;
-  text-decoration: none;
-}
 .posts .post-content .More {
   border-bottom: none;
   font-weight: bold;
@@ -545,7 +556,8 @@ body {
   font-size: 13px;
 }
 .post-time,
-.post-author {
+.post-author,
+.article-tag-list {
   color: #808080 !important;
   font-size: 13px !important;
 }
@@ -564,7 +576,7 @@ body {
 #top {
   width: 30px;
   height: 50px;
-  background: rgba(255,255,255,0.24) none repeat scroll 0% 0%;
+  background: rgba(0,0,0,0.3) none repeat scroll 0% 0%;
   position: fixed;
   bottom: 1%;
   right: 2%;
@@ -587,6 +599,7 @@ body {
 }
 .apple {
   font-family: 'ST Song', 'songti SC', 'SimSun', serif !important;
+  font-weight: 600;
 }
 .archive {
   padding: 0 5%;
@@ -899,7 +912,7 @@ template {
 }
 @media screen and (min-width: 768px) {
   body {
-    font-size: calc(15px + 2 * ((100vw - 320px) / 960));
+    font-size: calc(16px + 2 * ((100vw - 320px) / 960));
   }
 }
 .toc-article {
