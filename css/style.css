@@ -137,6 +137,8 @@ body {
   justify-content: center;
   line-height: 1.2em;
   text-align: center;
+  animation: fade-in 0.5s ease-out 0s 1;
+  animation-fill-mode: forwards;
 }
 .post h1.title:hover {
   letter-spacing: normal;
@@ -215,7 +217,7 @@ body {
   font-size: 1.7em;
 }
 .post h1:hover {
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   transition: 0.3s ease-in-out letter-spacing;
 }
 .post h2,
@@ -232,7 +234,7 @@ body {
 .post h4:hover,
 .post h5:hover,
 .post h6:hover {
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   transition: 0.3s ease-in-out letter-spacing;
 }
 .post h2 {
@@ -601,6 +603,41 @@ body {
   font-family: 'ST Song', 'songti SC', 'SimSun', serif !important;
   font-weight: 600;
 }
+#disqus_recommendations {
+  display: none;
+}
+@-moz-keyframes fade-in {
+  0% {
+    font-size: 1.5em;
+  }
+  100% {
+    font-size: 1.7em;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    font-size: 1.5em;
+  }
+  100% {
+    font-size: 1.7em;
+  }
+}
+@-o-keyframes fade-in {
+  0% {
+    font-size: 1.5em;
+  }
+  100% {
+    font-size: 1.7em;
+  }
+}
+@keyframes fade-in {
+  0% {
+    font-size: 1.5em;
+  }
+  100% {
+    font-size: 1.7em;
+  }
+}
 .archive {
   padding: 0 5%;
   border: 0px #ddd;
@@ -617,6 +654,8 @@ body {
 }
 .archive .post-archive .years .year {
   font-weight: bold;
+  font-size: 1.35em;
+  margin: 0.5em 0 0.2em 0;
 }
 .archive .post-archive .post-item .post-date {
   display: inline-block;
@@ -814,7 +853,7 @@ template {
     color: var(--dark-front-color);
   }
   .header .description {
-    color: #818181;
+    color: #e5e5e5;
   }
   .header .menu .current-menu-item-link {
     color: var(--dark-front-color);
@@ -857,6 +896,11 @@ template {
   }
   .post ruby rt {
     color: #818181;
+  }
+  .post blockquote a,
+  .post blockquote p,
+  .post blockquote li {
+    color: var(--dark-front-color);
   }
   .post p code,
   .post li code {
@@ -952,5 +996,5 @@ template {
   display: none;
 }
 .toc-article .toc-child {
-  margin-left: 0.8em;
+  margin-left: 0.2em;
 }
