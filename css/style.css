@@ -1,5 +1,4 @@
 body {
-  background-color: #fff;
   font-size: 16px;
   line-height: 1.6em;
   padding: 0 1.2em;
@@ -30,12 +29,6 @@ body {
 @media screen and (min-width: 750px) and (max-width: 1000px) {
   body {
     max-width: 750px;
-    margin-left: calc((100vw - 3em - 750px) / 2);
-  }
-}
-@media screen and (min-width: 1000px) {
-  body {
-    margin-left: calc((100vw - 3em - 1000px) / 2);
   }
 }
 .header {
@@ -55,6 +48,7 @@ body {
   transition: 1s ease transform;
 }
 .header .description {
+  width: 80%;
   color: #495057;
   font-size: 0.9em;
   font-weight: 600;
@@ -63,8 +57,8 @@ body {
   padding: 0.5em;
   box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.2);
   border-radius: 8px;
+  pointer-events: none;
   position: fixed;
-  background: #fff;
   top: 100%;
   left: 0%;
   -webkit-font-smoothing: antialiased;
@@ -83,7 +77,7 @@ body {
   transition: 0.3s color;
 }
 .header .blog-title {
-  min-height: 2em !important;
+  min-width: 10em;
 }
 .header .menu {
   margin: 0 auto;
@@ -91,7 +85,7 @@ body {
   padding-left: 0;
 }
 .header .menu .menu-item {
-  display: inline-block;
+  display: inline;
   padding: 0.25em;
 }
 .header .menu .menu-item-link {
@@ -121,7 +115,7 @@ body {
   --serif-font-family: 'Noto Serif SC', "Segoe UI Emoji", serif;
   --main-color: rgba(0,0,0,0.86);
   --theme-color: #3c8cf9;
-  --theme-opacity-color: rgba(0,108,255,0.149);
+  --theme-blockquote-color: rgba(0,108,255,0.149);
   --dark-background-color: #2f2f2f;
   --dark-front-color: #e5e5e5;
 }
@@ -149,7 +143,7 @@ body {
 .post .post-meta > span:not(:first-child):before {
   content: "/ ";
   font-size: 12px;
-  color: rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.2);
   margin: 0 4px;
 }
 .post .article-tag-list {
@@ -167,8 +161,15 @@ body {
   color: rgba(0,0,0,0.2);
   margin: 0 4px;
 }
+.post .article-tag-list-item a {
+  font-weight: 700;
+}
+.post .article-tag-list-item a:hover {
+  font-size: 15px;
+  transition: all ease-in-out 0.3s;
+}
 .post .article-tag-list-count {
-  padding-left: 0.2em;
+  display: none;
 }
 .post .post-image {
   margin: 1em 0;
@@ -279,14 +280,26 @@ body {
   list-style-type: decimal-leading-zero;
 }
 .post mark {
-  background-color: rgba(255,255,0,0.5);
+  padding: 0 0.3em;
+  border-radius: 3px;
+  background-color: rgba(255,244,177,0.6);
   color: #000;
+}
+.post note {
+  padding: 0 0.3em;
+  border-radius: 3px;
+  background-color: rgba(57,134,172,0.471);
+  color: #000;
+}
+.post note:before {
+  content: ' »» ';
+  vertical-align: text-bottom;
 }
 .post blockquote {
   border-left: 3px solid var(--theme-color);
-  background: var(--theme-opacity-color);
+  background: var(--theme-blockquote-color);
   padding: 1px 1em;
-  margin: 1rem 0 1rem 0.6rem;
+  margin: 1rem 0 1rem 0;
 }
 .post blockquote p,
 .post blockquote a,
@@ -295,6 +308,7 @@ body {
 }
 .post blockquote p {
   margin-top: 0.5em;
+  text-align: justify;
 }
 .post ruby {
   margin: 4px;
@@ -323,12 +337,16 @@ body {
 }
 .post p code,
 .post li code {
+  color: #111;
+  margin: 0 0.2em;
   padding: 0.2em !important;
-  background: #eee;
+  background-color: rgba(47,47,47,0.3);
 }
 .post code,
 .post pre {
-  background-color: #eee;
+  color: #aaa;
+  overflow-x: scroll;
+  background-color: #2f2f2f;
   border-radius: 5px;
   line-height: 1.2em;
   font-size: 16px;
@@ -404,8 +422,10 @@ body {
   background: inherit;
 }
 .post pre {
-  padding: 0.3em;
-  color: #525252;
+  padding: 1.1em;
+}
+.post pre code {
+  color: #aaa;
 }
 .post img {
   height: auto;
@@ -417,7 +437,6 @@ body {
   box-sizing: content-box;
   width: auto;
   border-radius: 6px;
-  box-shadow: rgba(76,76,76,0.25) 1px 1px 12px;
 }
 .post .shk {
   margin: 1em 0;
@@ -560,7 +579,6 @@ body {
 .post-time,
 .post-author,
 .article-tag-list {
-  color: #808080 !important;
   font-size: 13px !important;
 }
 .post-content hr {
@@ -599,12 +617,17 @@ body {
   background-color: var(--theme-color);
   transition: 0.3s background-color;
 }
-.apple {
-  font-family: 'ST Song', 'songti SC', 'SimSun', serif !important;
-  font-weight: 600;
+.anchor {
+  border: none !important;
+  cursor: pointer;
 }
 #disqus_recommendations {
   display: none;
+}
+em {
+  font-size: calc(18px + 2 * ((100vw - 320px) / 960));
+  font-family: kaiti;
+  font-style: normal;
 }
 @-moz-keyframes fade-in {
   0% {
@@ -647,29 +670,43 @@ body {
   list-style: none;
   padding: 0;
 }
-.archive .post-archive .years {
-  border: 1px #ddd;
-  border-style: none none solid none;
-  padding-bottom: 0.5em;
+.archive .post-archive .years:not(:first-child) {
+  margin: 2em 0 0em 0;
 }
 .archive .post-archive .years .year {
   font-weight: bold;
-  font-size: 1.35em;
-  margin: 0.5em 0 0.2em 0;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+.archive .post-archive .post-item {
+  padding: 0.2em 0.5em;
+  font-weight: 500;
+  display: flex;
 }
 .archive .post-archive .post-item .post-date {
   display: inline-block;
   margin-right: 10px;
 }
+.archive .post-archive .post-item:hover {
+  cursor: pointer;
+  color: var(--theme-color);
+  transition: 0.3s ease-in-out color;
+}
 .archive .post-archive .post-item .post-title {
-  color: #000;
+  display: block;
+  flex: 1;
   text-decoration: none;
   font-family: var(--font-family);
-  font-weight: bold;
 }
 .archive .post-archive .post-item .post-title:hover {
   color: var(--theme-color);
-  transition: 0.3s color;
+  transition: 0.3s ease-in-out color;
+}
+.archive .post-archive .post-item a:-webkit-any-link {
+  color: inherit;
+}
+.archive .post-archive .post-item {
+  border-bottom: dashed 1px;
 }
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -845,6 +882,10 @@ template {
   display: none;
 }
 @media (prefers-color-scheme: dark) {
+  :root {
+    --theme-blockquote-color: rgba(74,80,88,0.15);
+    --theme-color: #1e88a8;
+  }
   body {
     background-color: var(--dark-background-color);
     color: var(--dark-front-color);
@@ -859,7 +900,7 @@ template {
     color: var(--dark-front-color);
   }
   .header .menu .menu-item-link:hover {
-    color: var(--dark-front-color);
+    color: var(--theme-color);
   }
   .posts .post-title .post-title-link {
     color: var(--dark-front-color);
@@ -891,11 +932,16 @@ template {
   .post .post-title {
     color: var(--dark-front-color);
   }
-  .post .post-meta > span:not(:first-child):before {
+  .post .post-meta > span:not(:first-child):before,
+  .post .article-tag-list-item:not(:first-child):before {
     color: rgba(255,255,255,0.2);
   }
   .post ruby rt {
     color: #818181;
+  }
+  .post blockquote {
+    background: var(--theme-blockquote-color);
+    border-left: 3px solid var(--theme-color);
   }
   .post blockquote a,
   .post blockquote p,
@@ -945,7 +991,7 @@ template {
     color: #868e96;
   }
   #jumao {
-    background: #404040 !important;
+    background: rgba(64,64,64,0.3) !important;
     color: var(--dark-front-color) !important;
   }
 }

