@@ -4,10 +4,10 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     
-    <title>夜间模式折腾小记 - 春水碧于天</title>
+    <title>Install New Windows Media Player - 春水碧于天</title>
     <meta charset="utf-8">
     
-    <meta name="title" content="夜间模式折腾小记 - 春水碧于天">
+    <meta name="title" content="Install New Windows Media Player - 春水碧于天">
     <meta name="description" content="">
     <meta property="og:image" content="//imgs/favicon.png">
     <meta property="og:image:width" content="200" />
@@ -178,7 +178,7 @@ mjx-container[display="true"] + br {
     </p>
     
         <div id="jumao">
-            <!-- <img src="" alt=""> -->
+            <!-- <img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_00-2021-12-05.png" alt=""> -->
         </div>
         <div id="cyfwlp-logo">
             <img src="/imgs/logo_red.png" alt="" style="max-height: 2.5em;">
@@ -227,13 +227,13 @@ mjx-container[display="true"] + br {
     <main class="main">
         <article class="post">
     <div class="post-title">
-        <h1 class="title">夜间模式折腾小记</h2>
+        <h1 class="title">Install New Windows Media Player</h2>
     </div>
     
     <div class="post-meta">
-        <span class="post-time">2017-03-31</span>
+        <span class="post-time">2021-11-25</span>
         
-            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1537707259000"></time>前</span>
+            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1638708202749"></time>前</span>
             
 <script src="/js/updateTimeAlert.js"></script>
 
@@ -247,55 +247,61 @@ mjx-container[display="true"] + br {
     </div>
     
     
+    <div class="post-image">
+        <img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_00-2021-12-05.png" alt="">
+    </div>
+    
     <div class="post-content">
         <!-- addTocToArticle -->
         
-        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><p>刚刚折腾了一下博客的样式，就想能不能做一个夜间模式，然后晚上也能看，虽然根本没人关注这个，就连我自己也只是偶尔看一下。</p>
-<p>没想从网上找现成的，寻思造个轮子，于是就开始了折腾。</p>
-<hr>
-<ol>
-<li><p>首先想到的是 js 修改样式，可惜太过繁琐，放弃。</p>
+        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><h2 id="下载安装包"><a href="#下载安装包" class="headerlink" title="下载安装包"></a>下载安装包</h2><ol>
+<li><p>打开 <a target="_blank" rel="noopener" href="https://store.rg-adguard.net/">store.rg-adguard.net</a>，界面如下：</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_01-2021-12-05.png"></p>
+<p>左侧下拉菜单选择 <code>PackageFamilyName</code>，右侧选择 <code>Fast</code>，中间文本框中填写 <code>Microsoft.ZuneMusic_8wekyb3d8bbwe</code>，按下右侧的 ✓</p>
 </li>
-<li><p>其次想到的是 js 修改 classname ，可行，两小时不到撸完代码。测试，完美。不过，第二天发现有部分构件的样式在夜间模式显得有些突兀，改。测试，上线，完美。然后 <em> ？？？</em> 一个不好的预感就这样出现。握草，点击接不就重新加载了么！然后，没有然后了……</p>
-</li>
-<li><p>最后直接替换样式文件不就得了？或者加个顶层遮罩？然而一切都没想想得简单，替换样式文件？刷新还是会重新加载，加遮罩？也太简陋了吧，而且页还是会重新加载啊。</p>
-</li>
-<li><p>想了一下可以选择使用 <code>localstorage</code>  记录模式状态，然后在页面 load 完成之前进行模式的切换不就好了。代码如下:</p>
+<li><p>在搜索结果页面找到下图这个大约 34M 大小的一项，可以直接单击下载，也可以右键另存为，或者其他下载方式</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_02-2021-12-05.png"></p>
 </li>
 </ol>
-<pre><code class="javascript">
-;
-$(&quot;#nightmodel&quot;).click(function()&amp;#123;
-    document.getElementById(&#39;switch_mode&#39;).classList.toggle(&quot;nightmodel&quot;);
-    if(document.getElementById(&#39;switch_mode&#39;).classList.contains(&quot;nightmodel&quot;)) &amp;#123;
-        localStorage.setItem(&quot;night&quot;,true);
-    &amp;#125;
-    else &amp;#123;
-        localStorage.setItem(&quot;night&quot;,false);
-    &amp;#125;
-    dayModeState();
-&amp;#125;);
-
-
-function dayModeState() &amp;#123;
-    var night=localStorage.getItem(&#39;night&#39;);
-    console.log(&quot;night_mode:&quot; + night);
-    if(night===&quot;true&quot;) &amp;#123;
-        switchmode_moon ();
-        document.getElementById(&#39;nightmodel&#39;).innerHTML=&#39;&lt;i id = &quot;moon&quot; class=&quot;fa fa-lightbulb-o fa-fw&quot;&gt;&lt;/i&gt;&#39;
-    &amp;#125;
-
-   else &amp;#123;
-        switchmode_sun ();
-        document.getElementById(&#39;nightmodel&#39;).innerHTML=&#39;&lt;i id = &quot;moon&quot; class=&quot;fa fa-moon-o fa-fw&quot;&gt;&lt;/i&gt;&#39;
-    &amp;#125;
-&amp;#125;
-
-window.onload = dayModeState();
-</code></pre>
-<hr>
-<p>夜间模式的折腾也就到此为止了，效果还算可以，就是有一部分的样式并没有完成适配，不过要准备考研的考研狗也没什么时间折腾了。</p>
-<blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
+<h2 id="修改安装包"><a href="#修改安装包" class="headerlink" title="修改安装包"></a>修改安装包</h2><blockquote>
+<p>下载完之后是一个可用的安装包，但如果直接安装会提示不兼容，所以需要进行一些修改</p>
+</blockquote>
+<ol>
+<li><p>刚刚下载的文件其实是个压缩包，这个需要用解压软件进行解压，<strong>尽量用</strong> 7z 或 PeaZip，其他软件（360、好压之类的）我没试过<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_03-2021-12-05.png" alt="windows_media_player"></p>
+<p>解压之后是这样：</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_04-2021-12-05.png"></p>
+</li>
+<li><p>打开解压之后的文件夹，找到 <code>App_11.2110.34.0_x64.msix</code>，对这个文件进行解压，在当前目录解压解压即可，这样得到名为 <code>App_11.2110.34.0_x64</code> 的文件夹</p>
+</li>
+<li><p>进入刚刚解压的 <code>App_11.2110.34.0_x64</code> 的文件夹，右键选择编辑，也可以用记事本或其他编辑器打开 <code>AppxManifest.xml</code>，把方框里面改成下图这样：</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_05-2021-12-05.png"></p>
+<p>同时把这个文件夹（<code>App_11.2110.34.0_x64</code>）下的这四个文件删除，<strong>先不要关掉文件夹，一会还要用</strong></p>
+<ul>
+<li>AppxBlockMap.xml</li>
+<li>AppxSignature.p7x</li>
+<li>[Content_Types].xml</li>
+<li>AppxMetadata folder</li>
+</ul>
+</li>
+</ol>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ol>
+<li><p>打开开发者设置</p>
+<p>在开始菜单搜索 <code>develop</code> 或 <code>开发者设置</code>，亦或在系统设置里面搜索框搜索，打开设置界面后把 <code>从任意源安装</code> 打开</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_06-2021-12-05.png"></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_07-2021-12-05.png"></p>
+</li>
+<li><p>在开始菜单搜索 <code>powershell</code>（我电脑上用 Windows Terminal 是没用的），选择管理员模式打开，输入 <code>Get-AppxPackage *zune* | Remove-AppxPackage -AllUsers</code> 并 Enter。（这一步是先移除原有的，不然装不上），<strong>同样先不要关掉</strong></p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_08-2021-12-05.png"></p>
+</li>
+<li><p>去到刚刚的文件夹（App_11.2110.34.0_x64），找到改好的<code>AppxManifest.xml</code>，右键复制路径，或者右键属性中也有，但要自己加上文件名</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_09-2021-12-05.png"></p>
+</li>
+<li><p>在 PowerShell 中输入 <code>Add-AppxPackage -Register &quot;文件路径&quot;</code>，文件路径就是刚刚复制的，引号尽量加上，打完 Enter 即可。</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/Install_windows_media_player_10-2021-12-05.png"></p>
+</li>
+<li><p>Enjoy it!</p>
+</li>
+</ol>
 
     </div>
 
@@ -305,14 +311,11 @@ window.onload = dayModeState();
 
 <div class="prev">
     
-    <p>上一篇</p>
-    <a href="/2017/06/19/问题之书.html"><div class="article-nav-title">问题之书</div></a>
-    
 </div>
 <div class="next">
     
     <p>下一篇</p>
-    <a href="/2017/03/26/读「世界的凛冬」—— 破碎的圆满.html"><div class="article-nav-title">读「世界的凛冬」—— 破碎的圆满</div></a>
+    <a href="/2021/11/25/桜の森の満開の下.html"><div class="article-nav-title">桜の森の満開の下</div></a>
     
 </div>
 
