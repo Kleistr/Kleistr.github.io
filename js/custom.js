@@ -77,7 +77,7 @@ $(document).ready(function ShowTimeFamamaGone() {
 //     }
 // });
 
-// SmoothScroll
+// smoothScroll
 !function() {
     var s, i, c, a, o = {
         frameRate: 150,
@@ -457,6 +457,7 @@ $(document).ready(function ShowTimeFamamaGone() {
     }) : "object" == typeof exports ? module.exports = ne : window.SmoothScroll = ne
 }();
 
+// colorTags
 $(document).ready(function colorTags(){ 
     const tags = $(".article-tag-list-item");
     tags.each(function (i, o) {
