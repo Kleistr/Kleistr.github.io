@@ -116,8 +116,6 @@ body {
   --main-color: rgba(0,0,0,0.86);
   --theme-color: #3c8cf9;
   --theme-blockquote-color: rgba(0,108,255,0.149);
-  --dark-background-color: #2f2f2f;
-  --dark-front-color: #e5e5e5;
 }
 .post {
   padding: 1.3em 2em;
@@ -901,6 +899,8 @@ template {
   :root {
     --theme-blockquote-color: rgba(74,80,88,0.15);
     --theme-color: #1e88a8;
+    --dark-background-color: #2f2f2f;
+    --dark-front-color: #cdcdcd;
   }
   body {
     background-color: var(--dark-background-color);
@@ -910,7 +910,7 @@ template {
     color: var(--dark-front-color);
   }
   .header .description {
-    color: #e5e5e5;
+    color: var(--dark-front-color);
   }
   .header .menu .current-menu-item-link {
     color: var(--dark-front-color);
@@ -982,6 +982,9 @@ template {
   }
   .post .toc-article {
     background: #272727;
+  }
+  .post p img {
+    filter: brightness(0.8);
   }
   #prev_next a {
     color: var(--dark-front-color);

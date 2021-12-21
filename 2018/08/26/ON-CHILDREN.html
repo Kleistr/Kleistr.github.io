@@ -233,7 +233,7 @@ mjx-container[display="true"] + br {
     <div class="post-meta">
         <span class="post-time">2018-08-26</span>
         
-            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1598439224000"></time>前</span>
+            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1535267512000"></time>前</span>
             
 <script src="/js/updateTimeAlert.js"></script>
 
@@ -264,7 +264,7 @@ mjx-container[display="true"] + br {
 <h1 id="《茉莉的最后一天》"><a href="#《茉莉的最后一天》" class="headerlink" title="《茉莉的最后一天》"></a>《茉莉的最后一天》</h1><p>可怕的母爱，不得不引用同名小说中的一个名词——「怪獸家長」，当然是贬义，我确实想不到哪些更为合适的词语来形容这几个家长</p>
 <hr>
 <div id="audioplayer">
-    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FDon't%20cry%20Don't%20cry.mp3" controls="controls"  preload="preload" style="width:15em;">Your browser does not support the audio element.
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FDon't%20cry%20Don't%20cry.mp3" controls="controls"  preload="preload" style="position: relative;left: 50%;transform: translateX(-50%);width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -293,7 +293,31 @@ mjx-container[display="true"] + br {
     });
 
 </script>
+<style>
+#PlayPause {
+  background: rgba(255,255,255,0.24);
+  border-radius: 6px;
+  color: #aaa;
+  line-height: 2.5;
+  cursor: pointer;
+  box-shadow: 0 3px 2px rgba(0,0,0,0.157), 0 3px 5px rgba(0,0,0,0.227) !important;
+  padding: 0 0.45em;
+  position: fixed;
+  right: 2em;
+  top: 2em;
+  z-index: 999;
+}
+#PlayPause:hover {
+  background: #222 !important;
+  color: #fdfdfd !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.float_right {
+    float:right;
+}
 
+</style>
     </div>
 
 </article>
@@ -349,5 +373,10 @@ mjx-container[display="true"] + br {
 </script>
     </main>
 </body>
+
+    <div class="footer">
+    <a class="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> · <span id='runtime'></span> · Kleist
+</div>
+
 
 </html>

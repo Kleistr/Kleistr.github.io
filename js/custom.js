@@ -467,3 +467,14 @@ $(document).ready(function colorTags(){
         $this.children(".article-tag-list-count").remove();
     });
 }) 
+
+$(document).ready(function() {
+    let dateBegin = new Date("2015/10/29 00:15:15");
+    let dateEnd = new Date();
+    let dateDiff = dateEnd.getTime() - dateBegin.getTime();
+    let dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
+    let timeLeft = dateDiff % (24 * 3600 * 1000);
+    let hours = Math.floor(timeLeft / (3600 * 1000));
+    let time = dayDiff + " d " + hours + " h";
+    $("#runtime").html(time);
+  });

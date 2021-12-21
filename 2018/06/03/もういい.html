@@ -233,7 +233,7 @@ mjx-container[display="true"] + br {
     <div class="post-meta">
         <span class="post-time">2018-06-03</span>
         
-            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1537711091000"></time>前</span>
+            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1527993007000"></time>前</span>
             
 <script src="/js/updateTimeAlert.js"></script>
 
@@ -250,14 +250,13 @@ mjx-container[display="true"] + br {
     <div class="post-content">
         <!-- addTocToArticle -->
         
-        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><p>もういい。</p>
+        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><div align='center'>もういい。</div>
+
 <a id="more"></a>
 
 
-
-
-<div id="audioplayer">
-    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/我曾经也想过一了百了_live.mp3" controls="controls"  preload="preload" style="width:15em;">Your browser does not support the audio element.
+<div id="audioplayer" style="align-items: center;">
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/我曾经也想过一了百了_live.mp3" controls="controls"  preload="preload" style="margin-top:2em;position: relative;left: 50%;transform: translateX(-50%);width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
@@ -285,6 +284,31 @@ mjx-container[display="true"] + br {
     });
 
 </script>
+<style>
+#PlayPause {
+  background: rgba(255,255,255,0.24);
+  border-radius: 6px;
+  color: #aaa;
+  line-height: 2.5;
+  cursor: pointer;
+  box-shadow: 0 3px 2px rgba(0,0,0,0.157), 0 3px 5px rgba(0,0,0,0.227) !important;
+  padding: 0 0.45em;
+  position: fixed;
+  right: 2em;
+  top: 2em;
+  z-index: 999;
+}
+#PlayPause:hover {
+  background: #222 !important;
+  color: #fdfdfd !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.float_right {
+    float:right;
+}
+
+</style>
 
 <blockquote class="blockquote-center">松花酿酒，春水煎茶</blockquote>
 
@@ -343,5 +367,10 @@ mjx-container[display="true"] + br {
 </script>
     </main>
 </body>
+
+    <div class="footer">
+    <a class="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> · <span id='runtime'></span> · Kleist
+</div>
+
 
 </html>
