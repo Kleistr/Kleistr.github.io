@@ -1018,6 +1018,127 @@ template {
     border-color: var(--dark-front-color);
   }
 }
+:root {
+  --theme-blockquote-color: rgba(74,80,88,0.15);
+  --theme-color: #1e88a8;
+  --dark-background-color: #2f2f2f;
+  --dark-front-color: #cdcdcd;
+}
+body {
+  background-color: var(--dark-background-color);
+  color: var(--dark-front-color);
+}
+.header .blog-title .logo {
+  color: var(--dark-front-color);
+}
+.header .description {
+  color: var(--dark-front-color);
+}
+.header .menu .current-menu-item-link {
+  color: var(--dark-front-color);
+}
+.header .menu .menu-item-link:hover {
+  color: var(--theme-color);
+}
+.posts .post-title .post-title-link {
+  color: var(--dark-front-color);
+}
+.posts .post-meta {
+  color: var(--dark-front-color);
+}
+.posts .post-content a,
+.posts .post-content p {
+  color: var(--dark-front-color);
+}
+.post .post-content p {
+  color: var(--dark-front-color);
+}
+.post .post-content a {
+  color: var(--dark-front-color);
+  border-bottom: 1px solid rgba(255,255,255,0.26);
+}
+.post .post-content hr::before {
+  color: #818181;
+  font-size: 1.1em;
+  display: block;
+  content: "* * *";
+  text-align: center;
+}
+.post .post-content table tbody tr:nth-child(odd) {
+  background: #1b1b1b;
+}
+.post .post-title {
+  color: var(--dark-front-color);
+}
+.post .post-meta > span:not(:first-child):before,
+.post .article-tag-list-item:not(:first-child):before {
+  color: rgba(255,255,255,0.2);
+}
+.post ruby rt {
+  color: #818181;
+}
+.post blockquote {
+  background: var(--theme-blockquote-color);
+  border-left: 3px solid var(--theme-color);
+}
+.post blockquote a,
+.post blockquote p,
+.post blockquote li {
+  color: var(--dark-front-color);
+}
+.post p code,
+.post li code {
+  background: #171717;
+  color: var(--dark-front-color);
+}
+.post .highlight {
+  background-color: #171717;
+}
+.post .highlight table,
+.post .highlight tr,
+.post .highlight td {
+  background-color: #171717;
+}
+.post a {
+  color: var(--dark-front-color);
+}
+.post .toc-article {
+  background: #272727;
+}
+.post p img {
+  filter: brightness(0.8);
+}
+#prev_next a {
+  color: var(--dark-front-color);
+}
+#prev_next .article-nav-title {
+  color: var(--dark-front-color);
+}
+.page-nav .more {
+  color: var(--dark-front-color);
+}
+.archive .post-archive .post-item .post-title {
+  color: var(--dark-front-color);
+}
+code,
+pre {
+  background-color: #151515 !important;
+  color: var(--dark-front-color);
+}
+blockquote:before {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAMAAADpsEdvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAB7UExURQAAAOfn5+bm5ufn5+np6e/v7+fn5+Xl5ezs7O3t7ejo6O7u7uvr6+bm5uvr6+Xl5eTk5OTk5Ofn5+rq6uvr6/Hx8e/v7+Xl5fLy8urq6ufn5/T09OTk5Ofn5+np6ebm5uPj4+Pj4+np6eXl5eTk5ODg4OPj4+Hh4ebm5iwut+4AAAAjdFJOUwCs4aanDNHyGmnPTZHWZ/b+8tKEhggO/BCk0APty1zpko9qxIVM0AAAAEtJREFUCNcVyEUWgDAMBcCPFi/unrRw/xMSdvMGAOahw7gmImRmWrCZWJg+OdAa/29t3aJnDndx+VonIuJTzMSemC5xraomOJS68QHBOAT6MGROmQAAAABJRU5ErkJggg==") !important;
+}
+.license {
+  color: #868e96;
+}
+#jumao {
+  background: rgba(64,64,64,0.3) !important;
+  color: var(--dark-front-color) !important;
+}
+#hr_0,
+#hr_1 {
+  border-color: var(--dark-front-color);
+}
 @media screen and (min-width: 320px) {
   body {
     font-size: calc(16px + 2 * ((100vw - 320px) / 960));
