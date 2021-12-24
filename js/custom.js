@@ -18,18 +18,18 @@ $(document).ready(function addPhotoFigcaption(){
  * addCopyrightWhenCopy
  */
 
-$(document).on('copy', function addCopyright(e) {
-    var selected = window.getSelection();
-    var selectedText = selected.toString().replace(/\n/g, '<br>');  // Solve the line breaks conversion issue
-    var copyFooter = '<br><br>' + '商业转载请联系作者获得授权，非商业转载请注明出处。<br>'
-                    + 'Author：kleist<br> Link：' + document.location.href;
-    var copyHolder = $('<div>', {id: 'temp', html: selectedText + copyFooter, style: {position: 'absolute', left: '-99999px'}});
-    $('body').append(copyHolder);
-    selected.selectAllChildren( copyHolder[0] );
-    window.setTimeout(function() {
-        copyHolder.remove();
-    },0);
-});
+// $(document).on('copy', function addCopyright(e) {
+//     var selected = window.getSelection();
+//     var selectedText = selected.toString().replace(/\n/g, '<br>');  // Solve the line breaks conversion issue
+//     var copyFooter = '<br><br>' + '商业转载请联系作者获得授权，非商业转载请注明出处。<br>'
+//                     + 'Author：kleist<br> Link：' + document.location.href;
+//     var copyHolder = $('<div>', {id: 'temp', html: selectedText + copyFooter, style: {position: 'absolute', left: '-99999px'}});
+//     $('body').append(copyHolder);
+//     selected.selectAllChildren( copyHolder[0] );
+//     window.setTimeout(function() {
+//         copyHolder.remove();
+//     },0);
+// });
 
 /*
  * showHowManyDaysFaFaGone
@@ -477,4 +477,13 @@ $(document).ready(function() {
     let hours = Math.floor(timeLeft / (3600 * 1000));
     let time = dayDiff + " d " + hours + " h";
     $("#runtime").html(time);
-  });
+});
+
+
+// 曜日
+$(document).ready(function() {
+    var dayOfWeekStrJP = {"日":"日曜日","一": "月曜日","二": "火曜日","三": "水曜日","四": "木曜日","五": "金曜日","六": "土曜日"}; 
+    var weekday = $("#weekday").text();
+    weekday = dayOfWeekStrJP[weekday.replace('星期','')];
+    $("#weekday").text(weekday)
+});
