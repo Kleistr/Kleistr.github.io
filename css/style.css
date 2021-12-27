@@ -118,6 +118,9 @@ body {
   --theme-light_bkg-color: #fff;
   --theme-blockquote-color: rgba(0,108,255,0.149);
 }
+body {
+  font-family: var(--serif-font-family);
+}
 .post {
   padding: 1.3em 2em;
   padding-bottom: 0;
@@ -138,6 +141,9 @@ body {
 }
 .post .post-title {
   color: var(--main-color);
+}
+.post .post-meta {
+  margin-top: 1em;
 }
 .post .post-meta > span:not(:first-child):before {
   content: "/ ";
