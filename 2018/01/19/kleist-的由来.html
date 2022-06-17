@@ -231,7 +231,7 @@ mjx-container[display="true"] + br {
     <div class="post-meta">
         <span class="post-time">2018-01-19　<span id = 'weekday'>星期五</span></span>
         
-            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1537708461000"></time>前</span>
+            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1516355438000"></time>前</span>
             
 <script src="/js/updateTimeAlert.js"></script>
 
@@ -252,25 +252,25 @@ mjx-container[display="true"] + br {
 <p>说来也巧，kleist 是来自于我较为喜欢的一部动漫中的人物，「Angel Beats!」中的小黑客 kleist。</p>
 <a id="more"></a>
 
-<p>出现在第3话4 min 04 s.果然是黑客可能会出现的时间，404……</p>
+<p>出现在第 3 话 4 min 04 s.果然是黑客可能会出现的时间，404……</p>
 <p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-09-23-125300.jpg"></p>
 <p>要说为什么会选择这个角色，很大程度上因为高中时期第一次看第一次听到这个名字就很喜欢，其次是这个人物在对天使的战争中起到了很重要的作用，要不是那天黑进天使的电脑，也不会发现天使的瞬移也好，手刀也好的技能都是设定好的，关于「敌人」知己知彼嘛。</p>
 <p>最后还是对于 CS 的念想，大学没能选择喜欢的专业，这次考研又 90% 失败告终，与 CS 注定无缘吗难道？不会的，总有一天我会在 CS 上取得学位的。</p>
 <hr>
 <p>之前好多好朋友问我名字的由来，我解释是出自「Angel Beats!」的，然而并不是所有人都喜欢动漫，并不是所有人都看过，就连大「月月鸟」都不记得「AB」里面有这么一个角色……</p>
-<div id="audioplayer">
-    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FMySoulYourBeats.mp3"  autoplay="autoplay" controls="controls" preload="preload" style="width:480px;">Your browser does not support the audio element.
+<div id="audioplayer" style="align-items: center;">
+    <audio id="audio" src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource%2FMySoulYourBeats.mp3" controls="controls"  preload="preload" style="position: relative;left: 50%;transform: translateX(-50%);width:15em;">Your browser does not support the audio element.
     </audio>
 </div>
 
 <hr>
-<div id = "PlayPause" class="play" title="本页面包含媒体文件，点我播放" >
-    <i class="fa fa-pause fa-fw"></i>
+<div id = "PlayPause" class="pause" title="本页面包含媒体文件，点我播放" >
+    <i class="fa fa-play fa-fw"></i>
 </div>
 
-<script src="https://cdn.bootcss.com/jquery/3../jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script>
-    document.getElementById("audio").volume = 0.5;
+    document.getElementById("audio").volume = 0.7;
 
     $("#PlayPause").click(function() {
         var audio = $("#audio")[0];
@@ -288,7 +288,30 @@ mjx-container[display="true"] + br {
     });
 
 </script>
-
+<style>
+#PlayPause {
+  background: rgba(255,255,255,0.24);
+  border-radius: 6px;
+  color: #aaa;
+  line-height: 2.5;
+  cursor: pointer;
+  box-shadow: 0 3px 2px rgba(0,0,0,0.157), 0 3px 5px rgba(0,0,0,0.227) !important;
+  padding: 0 0.45em;
+  position: fixed;
+  right: 2em;
+  top: 2em;
+  z-index: 999;
+}
+#PlayPause:hover {
+  background: #222 !important;
+  color: #fdfdfd !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.float_right {
+    float:right;
+}
+</style>
     </div>
 
 </article>
