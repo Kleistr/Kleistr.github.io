@@ -4,10 +4,10 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     
-    <title>当遇到Coding发呆 - 春水碧于天</title>
+    <title>好耶，是软路由 - 春水碧于天</title>
     <meta charset="utf-8">
     
-    <meta name="title" content="当遇到Coding发呆 - 春水碧于天">
+    <meta name="title" content="好耶，是软路由 - 春水碧于天">
     <meta name="description" content="">
     <meta property="og:image" content="//imgs/favicon.png">
     <meta property="og:image:width" content="200" />
@@ -173,7 +173,7 @@ mjx-container[display="true"] + br {
     </p>
     
         <div id="jumao">
-            <!-- <img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-10-02-github.png?x-oss-process=style/mark" alt=""> -->
+            <!-- <img src="" alt=""> -->
         </div>
         <div id="cyfwlp-logo">
             <picture>
@@ -225,13 +225,13 @@ mjx-container[display="true"] + br {
     <main class="main">
         <article class="post">
     <div class="post-title">
-        <h1 class="title">当遇到Coding发呆</h2>
+        <h1 class="title">好耶，是软路由</h2>
     </div>
     
     <div class="post-meta">
-        <span class="post-time">2018-09-30　<span id = 'weekday'>星期日</span></span>
+        <span class="post-time">2022-06-28　<span id = 'weekday'>星期二</span></span>
         
-            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1598439224000"></time>前</span>
+            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1656488402615"></time>前</span>
             
 <script src="/js/updateTimeAlert.js"></script>
 
@@ -245,26 +245,15 @@ mjx-container[display="true"] + br {
     </div>
     
     
-    <div class="post-image">
-        <img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2018-10-02-github.png?x-oss-process=style/mark" alt="">
-    </div>
-    
     <div class="post-content">
         <!-- addTocToArticle -->
         
-        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><p>之前无数次想过转移到G<s>ay</s>ithub上，但搬迁几天就想搬回国内了……原因都了解，但这次确实让我下定决心转移了。</p>
-<a id="more"></a>
-
-<p>最近项目不是很多，故有些时间拿来看书了（PS：终于有时间看书了…），于是更新了N久没有更新过的<a href="/2018/01/01/2018-%E7%9A%84%E7%B2%AE%E9%A3%9F.html">「2018的粮食」</a>，麻烦随之而来……</p>
-<p>先是由于换过代理，导致<code>git</code>的认证出现了问题，拿<code>ssh-keygen -l -f ~/.ssh/known_hosts</code>瞬间解决问题；然后提交还是失败…难不成网络出现了问题？换手机热点还是不行，最后发现原来 <a target="_blank" rel="noopener" href="//www.coding.net">coding</a> 网页修改也提交不上，才想起貌似一年前出现过这种情况，很明显是 <a target="_blank" rel="noopener" href="//www.coding.net">coding</a> 的问题了……然后此前一直都有注意但是一直没在乎的<code>icon</code>也经常变成  <a target="_blank" rel="noopener" href="//www.coding.net">coding</a> 家的图标。</p>
-<p>反正种种吧，让我开始搞<code>Github Pages</code>，倒也简单：</p>
-<ol>
-<li>由于之前有作为<code>Pages</code>的“仓库”，省了一步</li>
-<li>在<code>config</code>文件中修改<code>deploy</code>的值</li>
-<li>在域名解析中添加CNAME解析 <code>CNAME blog *.github.io</code></li>
-<li>在GitHub setting中修改自定义域名</li>
-<li>在<code>source</code>文件夹中新建<code>CNAME</code>文件，内容为自定义的域名地址</li>
-</ol>
+        <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><p>连日的不开心让我难以动弹，手腕上的痕迹快要多到不能被表带遮盖了，下次要留意些才是。</p>
+<p>这已经是不知道第多少次想入手树莓派了，可疫情导致树莓派价格猛增到翻倍，实在狠不下心，正好最近需要给 switch 科学上网，而且不能走普通代理，索性搞一个软路由。R2S 的价格也并不美丽，淘了一个金属壳〔这玩意儿发热相当严重〕的本体和官方烧录的 SD 卡〔其实懒得去选高温下稳定运行的卡〕，即插即用，甚至出门都能带着随时随地科学上网。</p>
+<p>稍微配置一下 FusionWrt 之后 <code>ssh</code> 进去看看，大概是这样：</p>
+<p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/FusionWrt_terminal-2022-06-28.png" alt="FusionWrt_terminal"></p>
+<p>上面的截图是已经稳定运行 15h 之后的，软路由嘛，也不期待能干什么大事，能够稳定提供良好的网络环境足矣。</p>
+<p>除了在 Docker 里配置了 Jellyfin 用外接硬盘当媒体中心，挂载了阿里云盘到 WebDAV 扩容，还开启了重要的 ADGuard Home 拦截广告、过滤恶意网站，本来还想在 Docker 里面把 hexo 博客也搞定，想了想有点难为这个 5.5cm × 5.2cm 的小东西了，就先这样吧。</p>
 
     </div>
 
@@ -274,14 +263,11 @@ mjx-container[display="true"] + br {
 
 <div class="prev">
     
-    <p>上一篇</p>
-    <a href="/2018/10/02/书摘-《孔雀东南飞》.html"><div class="article-nav-title">书摘-《孔雀东南飞》</div></a>
-    
 </div>
 <div class="next">
     
     <p>下一篇</p>
-    <a href="/2018/08/26/ON-CHILDREN.html"><div class="article-nav-title">ON CHILDREN</div></a>
+    <a href="/2022/01/13/2022-記錄.html"><div class="article-nav-title">2022 記錄</div></a>
     
 </div>
 
