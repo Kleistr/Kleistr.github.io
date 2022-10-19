@@ -41,7 +41,7 @@
   gtag('config', 'UA-150511033-1');
 </script>
 
-<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -253,7 +253,7 @@ mjx-container[display="true"] + br {
         <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><h1 id="k-近邻算法的基本概念，原理"><a href="#k-近邻算法的基本概念，原理" class="headerlink" title="k 近邻算法的基本概念，原理"></a>k 近邻算法的基本概念，原理</h1><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>k 近邻算法是一种<strong>基本分类和回归方法</strong>。本篇文章只讨论分类问题的 k 近邻法。</p>
 <h2 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h2><p>K 近邻算法，即是给定一个训练数据集，对新的输入实例，在训练数据集中找到与该实例<strong>最邻近</strong>的 K 个实例，这 K 个实例的<strong>多数</strong>属于某个类，就把该输入实例分类到这个类中。（这就类似于现实生活中<strong>少数服从多数</strong>的思想）根据这个说法，咱们来看下引自维基百科上的一幅图：</p>
 <p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2019-09-26-KnnClassification.svg" alt="k-NN 的维基百科示意图"></p>
-<a id="more"></a>
+<span id="more"></span>
 <p>如上图所示，有<strong>两类</strong>不同的样本数据，分别用蓝色的小正方形和红色的小三角形表示，而图正中间的那个绿色的圆所标示的数据则是<strong>待分类</strong>的数据。这也就是我们的目的，来了一个新的数据点，我要得到它的类别是什么？好的，下面我们根据 k 近邻的思想来给绿色圆点进行分类。</p>
 <ul>
 <li>如果 K=3，绿色圆点的最邻近的 3 个点是 2 个红色小三角形和 1 个蓝色小正方形，<strong>少数从属于多数</strong>，基于统计的方法，判定绿色的这个待分类点属于红色的三角形一类。</li>
@@ -285,7 +285,8 @@ mjx-container[display="true"] + br {
 <h2 id="特征归一化"><a href="#特征归一化" class="headerlink" title="特征归一化"></a>特征归一化</h2><p>首先举例如下，我用一个人身高(cm)与脚码（尺码）大小来作为特征值，类别为男性或者女性。我们现在如果有5个训练样本，分布如下：</p>
 <pre><code>A [(179,42),男]     B [(178,43),男]
 C [(165,36)女]      D [(177,42),男] 
-E [(160,35),女]</code></pre>
+E [(160,35),女]
+</code></pre>
 <p>通过上述训练样本，我们看出问题了吗？</p>
 <p>很容易看到第一维身高特征是第二维脚码特征的4倍左右，那么在进行距离度量的时候，我们就会偏向于第一维特征。这样造成俩个特征并不是等价重要的，最终可能会导致距离计算错误，从而导致预测错误。口说无凭，举例如下：</p>
 <p>现在我来了一个测试样本 F(167,43)，让我们来预测他是男性还是女性，我们采取 k=3 来预测。</p>

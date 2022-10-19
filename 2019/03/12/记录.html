@@ -41,7 +41,7 @@
   gtag('config', 'UA-150511033-1');
 </script>
 
-<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -233,7 +233,7 @@ mjx-container[display="true"] + br {
     <div class="post-meta">
         <span class="post-time">2019-03-12　<span id = 'weekday'>星期二</span></span>
         
-            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1609498140000"></time>前</span>
+            <span class="post-time hidden" id = 'expire-alert'>最后编辑于 <time datetime="1665882392337"></time>前</span>
             
 <script src="/js/updateTimeAlert.js"></script>
 
@@ -254,14 +254,14 @@ mjx-container[display="true"] + br {
 .arrow {
     color:var(--theme-color);font-size:1.2em;
 }
-time {
+.post-content time {
     background: rgba(255,255,255,0.15);
     padding: 1px 6px;
     margin-right: 0.5em;
     border-radius: 6px;
     box-shadow: rgba(76,76,76,0.25) 1px 1px 4px;
 }
-time::before {
+.post-content time::before {
     content: '🗓 ';
     vertical-align: text-bottom;
 }
@@ -274,7 +274,7 @@ time::before {
 <p>还有<code>1080</code>，太难熬了。</p>
 <p>老妈呀，你都不如一个外人，我认识了六七年的巧都比你强，你从来都不知道关心一下我的心理状态，一直都在吐槽说咱家经济状况不好，被人瞧不起，没错，是这样不假，但是瞧得起和瞧不起都是自己说了算的啊，庄子说「厉风济则众窍为虚」，何必在乎别人的看法呢？活给别人看的还是活给自己的啊，这一点都不清楚么？</p>
 <p>真的想喝醉的时候，两杯就醉了，真好，虽然胃里翻江倒海，吐得一塌糊涂，但还是稍稍平静了下来，真好。</p>
-<a id="more"></a>
+<span id="more"></span>
 
 <hr>
 <p><time>2019-03-13 11:20:13</time><span class="arrow">» </span>糟糕的开始。</p>
@@ -388,31 +388,34 @@ word-spacing: 1.5em;
 <p><time>2019-07-22 15:19:22</time><span class="arrow">» </span>终于在三个月之后我选择了回家一次，至少为了老妈生日也要回去。在昨天下午经过两个多小时公交到了车站，结果刚好错过最后一班去镇上的车，此时我几乎是崩溃的，微信问老妈是否愿意我回家一趟，被告知没时间 -&gt; 我真的到了临界点，我无法想象如果我在车站崩溃会引起多大轰动，于是浑身发抖的状态下给老妈发微信表示如果没时间，我就不回家了，想见面就再说吧。终于是答应回老家，我找了个黑出租就回家了。</p>
 <p>回家之后其实老妈还没到，一直等到晚上八点多才回家，我几乎一句话都没说，也不知道从何说起。不是很愉快地吃完饭，玩手机，接下来到吃药时间我才把药拿出来喝，老妈问我喝的什么药，借着这个问题我把六七年前到现在能想到的和抑郁或者双相有关的事件一一列举，并且把因为不想违背爸妈意愿不得已报的高考志愿和工作等等都说了，叙述过程中老妈其实是想说些什么的，我也知道肯定是要解释一些东西，只是我终于鼓起勇气说出来怎么可能允许被打断，然后我就很强硬的表示「不要打断我！」，随着事件一件一件的说出来，老妈不想解释了，等我说完之后也没解释什么，只是告诉我事情已经结束了，现在好好治病吧，按时吃药。我想这几乎是顺利的，至少比我预想的「又一次被骗去住院」要好很多，我接受不了家人骗我。</p>
 <hr>
-<p><time>2019-07-26 17:11:22</time><span class="arrow">» </span>这几天天气酷热，整个人更没有精神。听说高铁禁泡面了，好在并不常坐，** 「今日割五城，明日割十城，然后得一夕安寝」 **</p>
+<p><time>2019-07-26 17:11:22</time><span class="arrow">» </span>这几天天气酷热，整个人更没有精神。听说高铁禁泡面了，好在并不常坐，<strong>「今日割五城，明日割十城，然后得一夕安寝」</strong></p>
 <hr>
 <p><time>2019-07-26 23:32:10</time><span class="arrow">» </span>折腾夜间模式</p>
 <pre><code class="html">&lt;div id=&quot;toggleMode&quot; style=&quot;width: 30px;height: 30px;position: fixed;top: 200px;left: 10px;background: #000;border-radius: 5px;&quot;&gt;
     &lt;i class=&quot;fa fa-sun-o&quot;&gt;&lt;/i&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+</code></pre>
 <pre><code class="javascript">var mode = &#39;light&#39;; 
-function darkmode() &amp;#123;
+function darkmode() &#123;
     localStorage.setItem(&quot;mode&quot;, mode);
-    if (window.matchMedia(&#39;(prefers-color-scheme:dark)&#39;).matches)&amp;#123;
+    if (window.matchMedia(&#39;(prefers-color-scheme:dark)&#39;).matches)&#123;
        mode = &#39;dark&#39;;
        localStorage.setItem(&quot;mode&quot;, mode);
-    &amp;#125;
-&amp;#125;
+    &#125;
+&#125;
 darkmode();
-document.getElementById(&#39;toggleMode&#39;).onclick = function()&amp;#123;
+document.getElementById(&#39;toggleMode&#39;).onclick = function()&#123;
    mode = (mode === &#39;dark&#39;) ? &#39;light&#39; : &#39;dark&#39;;
    localStorage.setItem(&quot;mode&quot;, mode);
-&amp;#125;</code></pre>
-<pre><code class="css">@media (prefers-color-scheme: dark) &amp;#123;
+&#125;
+</code></pre>
+<pre><code class="css">@media (prefers-color-scheme: dark) &#123;
     /* 降低除SVG外图片亮度 */
-    img:not([src*=&quot;.svg&quot;]) &amp;#123;
+    img:not([src*=&quot;.svg&quot;]) &#123;
         filter: brightness(70%);
-    &amp;#125;
-&amp;#125;</code></pre>
+    &#125;
+&#125;
+</code></pre>
 <hr>
 <p><time>2019-07-28 13:22:10</time><span class="arrow">» </span>这两天状态还不错，晚上也有出门散步，但还是不喜欢白天出门，一方面是天气太热，另一方面是害怕见人。</p>
 <hr>
@@ -432,7 +435,7 @@ document.getElementById(&#39;toggleMode&#39;).onclick = function()&amp;#123;
 <hr>
 <p><time>2019-08-08 16:21:41</time><span class="arrow">» </span><code>#碎碎念</code>刚刚在读一本比较「<ruby>不受欢迎<rp>(</rp><rt>bìng bú chàng xiāo</rt><rp>)</rp></ruby>」的书，想了一下不受欢迎可能是有阅读门槛或者就是不好，但百页读下来我了解到不是很受欢迎的原因或许是不太容易接受这种意识流的作品，毕竟现在普遍能接受的是有跌宕起伏剧情的小说、言简意赅介绍成功学的工具书、文字优美如同品茶的散文……这种读起来略显枯燥的书自然是「不受欢迎」的，当然，就像有些歌手有很多只给自己的歌一样，或许当时这本书并不是为了取悦读者，以他的能力想要取悦读者并不难，他只是有了写的欲望，就这么洋洋洒洒写了下来，仅此而已。</p>
 <hr>
-<p><time>2019-08-08 17:24:33</time><span class="arrow">» </span>偶然看到一句话「**<em>课堂与公交车似乎是思想游离的最好场所**</em>」觉得说的很贴合我，但是还要加几个场景，就是雨中散步、浴室淋浴的时候</p>
+<p><time>2019-08-08 17:24:33</time><span class="arrow">» </span>偶然看到一句话「<strong><em>课堂与公交车似乎是思想游离的最好场所</em></strong>」觉得说的很贴合我，但是还要加几个场景，就是雨中散步、浴室淋浴的时候</p>
 <hr>
 <p><time>2019-08-09 12:12:01</time><span class="arrow">» </span><br>隔壁的電鑽好像磨咖啡的聲音<br>巷子的天空，端正像十字架<br>巷口紅綠燈壞了幾天，紅綠一同亮着，行人東張西望<br>我騎着車去星巴克，一路瘋狂<br>沒有車子會撞死掛著一個欲被撞死的表情的人。<br>　　<br>我恨極聽人教我「好好生活」<br>我常想到張愛玲寫銀娣──<br>「也許十六年前她吊死了自己不知道」<br>妳說「一切都是選擇」<br>快樂是選擇 上學是選擇 生命是選擇<br>我總是想：<br>妳真幸運，妳從未這樣生病<br>柒年來我什麼都沒做 每天殺時間<br>「殺」這個想法對我說明了生命的充沛與豪奢<br>我光是活著就是好好生活了。<br>當我像長出犀角一樣生出困惑或痛苦<br>從沒有人可以告訴，總是積攢著，等著門診<br>在這個意義上，沒有人是我朋友<br>你看，<br>我不能跟書一起午茶，看劇，旅行<br>──在這個意義上 我一個朋友也沒有<br>我好像安妮法蘭克一家，躲在書架後面<br>而且我深刻明白我更多的是物理地躲在書架後面<br>我非常孤獨<br>而且這孤獨絲毫不風雅<br>不是林間小徑的孤獨 而是洶湧十字路口的孤獨。</p>
 <hr>
@@ -513,7 +516,7 @@ document.getElementById(&#39;toggleMode&#39;).onclick = function()&amp;#123;
 <p>他错了吗？「错了」，他错在我们举国哀悼这场国难，感动于无数感人事迹时作出了一个「不那么英雄」的行为，于是必然被舆论推到风口浪尖，难道牺牲才是所谓的「好」么？这个观念本身就有些扭曲吧，高中被老师要求看《感动中国》，大伙看的是热泪盈眶啊，的确，那些事迹很感人，但那些事迹我却并不想效仿，我思想觉悟并没有那么高。我只知道大伙感动于「平沙莽莽黄入天」的戈壁滩有一位核试验老人几十年没回过家，一心为国的时候，可曾有人想过孩子生活在一个没有父亲的家庭，妻子生活在一个没有丈夫的家庭，老人生活在一个没有儿子的家庭，这样的牺牲小我固然是可贵的，但是不是应该把小我也看的重要些呢？我是「我为人人」的主语，能够决定是否「为人人」，但「人人为我」却是我决定不了的事情。</p>
 <p>回到这个事件上来，范当时只是第一时间逃出了教室，他并不是恶意地困住学生，何况学校都有在教安全课，地震发生时没有了老师的引导就不知所措了？就像大家都知道〔乐不思蜀〕一词，刘禅的「此间乐」被批判了多少年，至今都在被喷，可是你有你的气节让你自尽，我有我的价值观让我保全生命，这本是无可厚非的事情，非要白莲花那就是抬杠了。说到底也不过是「错」在了「教师」这个标签上，不过是一份工作而已，拿得钱也并不一定比那些屏幕后面的人高多少。大伙都说清洁工是「城市美容师」，都说医生护士是「白衣天使」，都说老师是「园丁」，没错，他们工作内容是这样的，可这些工作和包子铺老板，码农，建筑工人，设计师……没什么区别，没有谁比谁伟大，都只是养家糊口的职业而已。</p>
 <hr>
-<p><time>2019-08-30 23:39:13</time><span class="arrow">» </span>在一番努力下把前几天被可乐搞得崩坏的键盘清理了一下，好在是剪刀型键盘，如果是新款蝶式键盘就没这么好拆卸了。即使是简单，也并没有万无一失，<kbd>⌥</kbd> 键<kbd>option</kbd> 键左下角的卡扣坏掉了，不过可以用，只是稍微影响一下手感而已，并无大碍。好在最难搞的 <kbd>space</kbd> 键没有出现问题。终于摆脱了黏黏的手感了，不然码字都难受，差点让我回家拿机械键盘来「是不是应该回一趟家了呢？」现在情况还是是不是反复，并没有达到比较正常的水准，就像上周大约持续一周的郁期……算了，顺其自然吧。<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2019-08-30-clean_keyboard.jpg?x-oss-process=style/short" alt="clean_the_keyboard"></p>
+<p><time>2019-08-30 23:39:13</time><span class="arrow">» </span>在一番努力下把前几天被可乐搞得崩坏的键盘清理了一下，好在是剪刀型键盘，如果是新款蝶式键盘就没这么好拆卸了。即使是简单，也并没有万无一失，<kbd>⌥</kbd> 键<kbd>option</kbd> 键左下角的卡扣坏掉了，不过可以用，只是稍微影响一下手感而已，并无大碍。好在最难搞的 <kbd>space</kbd> 键没有出现问题。终于摆脱了黏黏的手感了，不然码字都难受，差点让我回家拿机械键盘来「是不是应该回一趟家了呢？」现在情况还是是不是反复，并没有达到比较正常的水准，就像上周大约持续一周的郁期……算了，顺其自然吧。<br><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2019-08-30-clean_keyboard.jpg?x-oss-process=style/short" alt="clean_the_keyboard"></p>
 <hr>
 <p><time>2019-08-31 14:03:06</time><span class="arrow">» </span><strong>德云社演出涉嫌低俗被叫停</strong>，老郭不止一次的说大俗大雅之事，不说相声是所谓的传统文化，单纯在那个年代相声就是「低俗」的谋生手段，现在那些<del>███</del>人员说现场有未成年观众观看，保护未成年观众，当然我并不能否认这些「低俗」内容会影响他们身心「健康」，可看的人几乎都知道里面有「低俗」段子。如果你因为需要保护未成年观众而一刀切的让成年人也享受不到相声带来的快乐，我认为是不合理的。当然，持我这种观点的必然会被吐槽，<em>「去听的不是你的孩子，你当然不在乎」「你这种人就是低级趣味，难道只有低俗内容能让你快乐么」「艺术应该是高雅的，拿这些无底线的段子是在毁掉这门艺术」……</em>之类的吧，我都可以想像屏幕背后的嘴脸。当孩子们都坚信着人类血液是绿色或者蓝色，当孩子们都坚信着怎么打都不能杀人，当孩子们都坚信着……</p>
 <p>我并不确定<del>███</del>判断是否属于「低俗」的标准是什么，如果是单纯让某些人感到不爽，或者所谓 18+ 的事情，我认为欠妥，就算在相声中看不到，也在新闻中看到了 XX 出轨，在电视剧看到了 n 角恋，在狗血剧看到了<del>乱伦</del>，在各种媒体看到了隔壁老王……你能说这些东西是你所谓「健康」的么？在《我们与恶的距离》中，电视台因为播报新闻内容血腥也好，低俗也好，还是什么乱七八糟的理由就被 ban 掉了？我们在害怕什么？以至于现在写文章发微博都需要时刻注意不被<del>搞</del>，在文章前面放上大段的免责声明，但老郭的相声不一样，有了免责声明会被骂的更惨吧，诸如<em>「除了低俗段子没东西了么？」「这么大团体这点东西都做不好」「这不是剥夺低龄群众接触传统文化的权力么」「不会给演出分级么，什么都给观众承受」…</em></p>
@@ -560,23 +563,28 @@ document.getElementById(&#39;toggleMode&#39;).onclick = function()&amp;#123;
 <p>repeatSetAll:</p>
 <pre><code class="applescript">tell application &quot;System Events&quot; to tell process &quot;iTunes&quot;&#39;s menu bar 1&#39;s menu bar item &quot;控制&quot;&#39;s menu 1&#39;s menu item &quot;重复&quot;&#39;s menu 1
     perform action &quot;AXPress&quot; of menu item &quot;全部&quot;
-end tell</code></pre>
+end tell
+</code></pre>
 <p>repeatSetOff:</p>
 <pre><code class="applescript">tell application &quot;System Events&quot; to tell process &quot;iTunes&quot;&#39;s menu bar 1&#39;s menu bar item &quot;控制&quot;&#39;s menu 1&#39;s menu item &quot;重复&quot;&#39;s menu 1
     perform action &quot;AXPress&quot; of menu item &quot;关&quot;
-end tell</code></pre>
+end tell
+</code></pre>
 <p>repeatSetOne:</p>
 <pre><code class="applescript">tell application &quot;System Events&quot; to tell process &quot;iTunes&quot;&#39;s menu bar 1&#39;s menu bar item &quot;控制&quot;&#39;s menu 1&#39;s menu item &quot;重复&quot;&#39;s menu 1
     perform action &quot;AXPress&quot; of menu item &quot;单曲&quot;
-end tell</code></pre>
+end tell
+</code></pre>
 <p>shuffleOff:</p>
 <pre><code class="applescript">tell application &quot;System Events&quot; to tell process &quot;iTunes&quot;&#39;s menu bar 1&#39;s menu bar item &quot;控制&quot;&#39;s menu 1&#39;s menu item &quot;随机播放&quot;&#39;s menu 1
     perform action &quot;AXPress&quot; of menu item &quot;关闭&quot;
-end tell</code></pre>
+end tell
+</code></pre>
 <p>shuffleOn:</p>
 <pre><code class="applescript">tell application &quot;System Events&quot; to tell process &quot;iTunes&quot;&#39;s menu bar 1&#39;s menu bar item &quot;控制&quot;&#39;s menu 1&#39;s menu item &quot;随机播放&quot;&#39;s menu 1
     perform action &quot;AXPress&quot; of menu item &quot;开&quot;
-end tell</code></pre>
+end tell
+</code></pre>
 <hr>
 <p><time>2019-09-08 13:49:40</time><span class="arrow">» </span><strong>「道不同，不相为谋。」</strong>多说无益。</p>
 <hr>

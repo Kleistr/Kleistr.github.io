@@ -41,7 +41,7 @@
   gtag('config', 'UA-150511033-1');
 </script>
 
-<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -251,7 +251,7 @@ mjx-container[display="true"] + br {
         <!-- addTocToArticle -->
         
         <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>最近刚好薅羊毛搞了一台菊花家的服务器，也没想到用来干点什么，前几天在公司用 Teamviewer 远控家里的 Mac 觉得不好用，网速限制太过明显，不如 ssh 用着爽，于是打算试一下 Frp。</p>
-<a id="more"></a>
+<span id="more"></span>
 <p>准备工作：</p>
 <ol>
 <li>一台固定 IP 的公网服务器</li>
@@ -270,7 +270,8 @@ auto_token=12345678
 
 dashboard_port = 7500
 dashboard_user = kleist
-dashboard_pwd = *******</code></pre>
+dashboard_pwd = *******
+</code></pre>
 <p>最后在服务器端运行 Frp，<code>sudo ./frps -c frps.ini</code></p>
 <p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2020-05-08-090752.png"></p>
 <p>这样就可以去打开服务器 IP:7500 查看管理面板了。</p>
@@ -284,7 +285,8 @@ server_port = 7000
 type = tcp
 local_ip = 127.0.0.1
 local_port = 22
-remote_port = 6000</code></pre>
+remote_port = 6000
+</code></pre>
 <p>这样在本地运行<code>./frpc -c frpc.ini</code>就搞定了。</p>
 <p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2020-05-08-092159.png"></p>
 <p>图中黄色部分是因为我忘记菊花服务器需要配置一下出入规则，把用到的端口打开即可。</p>

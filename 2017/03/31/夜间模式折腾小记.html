@@ -41,7 +41,7 @@
   gtag('config', 'UA-150511033-1');
 </script>
 
-<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -265,31 +265,31 @@ mjx-container[display="true"] + br {
 </ol>
 <pre><code class="javascript">
 ;
-$(&quot;#nightmodel&quot;).click(function()&amp;#123;
+$(&quot;#nightmodel&quot;).click(function()&#123;
     document.getElementById(&#39;switch_mode&#39;).classList.toggle(&quot;nightmodel&quot;);
-    if(document.getElementById(&#39;switch_mode&#39;).classList.contains(&quot;nightmodel&quot;)) &amp;#123;
+    if(document.getElementById(&#39;switch_mode&#39;).classList.contains(&quot;nightmodel&quot;)) &#123;
         localStorage.setItem(&quot;night&quot;,true);
-    &amp;#125;
-    else &amp;#123;
+    &#125;
+    else &#123;
         localStorage.setItem(&quot;night&quot;,false);
-    &amp;#125;
+    &#125;
     dayModeState();
-&amp;#125;);
+&#125;);
 
 
-function dayModeState() &amp;#123;
+function dayModeState() &#123;
     var night=localStorage.getItem(&#39;night&#39;);
     console.log(&quot;night_mode:&quot; + night);
-    if(night===&quot;true&quot;) &amp;#123;
+    if(night===&quot;true&quot;) &#123;
         switchmode_moon ();
         document.getElementById(&#39;nightmodel&#39;).innerHTML=&#39;&lt;i id = &quot;moon&quot; class=&quot;fa fa-lightbulb-o fa-fw&quot;&gt;&lt;/i&gt;&#39;
-    &amp;#125;
+    &#125;
 
-   else &amp;#123;
+   else &#123;
         switchmode_sun ();
         document.getElementById(&#39;nightmodel&#39;).innerHTML=&#39;&lt;i id = &quot;moon&quot; class=&quot;fa fa-moon-o fa-fw&quot;&gt;&lt;/i&gt;&#39;
-    &amp;#125;
-&amp;#125;
+    &#125;
+&#125;
 
 window.onload = dayModeState();
 </code></pre>

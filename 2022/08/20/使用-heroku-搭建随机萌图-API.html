@@ -41,7 +41,7 @@
   gtag('config', 'UA-150511033-1');
 </script>
 
-<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -297,14 +297,17 @@ if __name__ == '__main__':
 |-- wsgi.py
 |-- Procfile
 |
-└-- requirements.txt</code></pre>
+└-- requirements.txt
+</code></pre>
 <p>wsgi.py</p>
 <pre><code>from app import app
 
 if __name__ == &quot;__main__&quot;:
-    app.run()</code></pre>
+    app.run()
+</code></pre>
 <p>Procfile</p>
-<pre><code>web: gunicorn wsgi:app</code></pre>
+<pre><code>web: gunicorn wsgi:app
+</code></pre>
 <p>部署期间遇到的问题：</p>
 <ul>
 <li><p>部署失败</p>

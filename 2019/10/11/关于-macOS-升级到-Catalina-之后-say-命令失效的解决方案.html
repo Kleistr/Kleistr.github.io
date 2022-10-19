@@ -41,7 +41,7 @@
   gtag('config', 'UA-150511033-1');
 </script>
 
-<meta name="generator" content="Hexo 5.0.0"><style>mjx-container[jax="SVG"] {
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
 
@@ -252,20 +252,24 @@ mjx-container[display="true"] + br {
         
         <link rel="stylesheet" type="text/css" href="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogResource/hint.min.css"><h1 id="say-命令失效"><a href="#say-命令失效" class="headerlink" title="say 命令失效"></a>say 命令失效</h1><p><img src="https://kleist-blog.oss-cn-beijing.aliyuncs.com/BlogPic/2019-10-11-command_say.png" alt="问题截图"></p>
 <p>这是我的 mac 升级到 Catalina 正式版之后突然出现的问题，<code>say</code> 命令反馈错误信息</p>
-<pre><code>Open speech channel failed: -76</code></pre>
-<a id="more"></a>
+<pre><code>Open speech channel failed: -76
+</code></pre>
+<span id="more"></span>
 <p>google 得知，这个错误出现率不高，也或许是使用<code>say</code>命令的人比较少，大致了解到该问题可能来自于系统更新，并不仅仅是 Catalina (10.15) 中的问题。</p>
 <p>通过使用 <code>say &#39;string you want output&#39; -v Alex</code> 暂时解决问题，但并没有从根本上解决。</p>
 <p>然后没招了，多方查看 <code>say</code> 相关进程信息，<code>ps ax |grep speechsynthesisd</code>，意外发现重置相关进程可以解决。</p>
 <pre><code>2589   ??  Ss     0:01.87 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
-7235   ??  S      0:02.06 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd</code></pre>
+7235   ??  S      0:02.06 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd
+</code></pre>
 <p>重置命令</p>
-<pre><code>sudo pkill speechsynthesisd say</code></pre>
+<pre><code>sudo pkill speechsynthesisd say
+</code></pre>
 <p>然后大功告成，完美解决。</p>
 <h1 id="Alfred-部分权限失效"><a href="#Alfred-部分权限失效" class="headerlink" title="Alfred 部分权限失效"></a>Alfred 部分权限失效</h1><p>一直都很喜欢 Alfred 提供的 <code>selection in macOS</code> 只需要简单设置就能双击 <kbd>shift</kbd> ，就能把目前选中的文字输入到 Alfred 的搜索框中，默认 google 搜索，可以说非常方便了。</p>
 <p>但是在升级 Calalina 之后由于系统隔离并且加强了权限管理，导致这一功能需要重置 Alfred 的权限，原本上版本系统中获取的权限已经失效了。</p>
 <p>在终端中输入以下命令，并且重新打开</p>
-<pre><code>tccutil reset All com.runningwithcrayons.Alfred</code></pre>
+<pre><code>tccutil reset All com.runningwithcrayons.Alfred
+</code></pre>
 <p>然后重新打开 Alfred ，会提示获取权限，或者从 Alfred 的 General 中点击 Request Permissions.</p>
 <p>Enjoy it.</p>
 
