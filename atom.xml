@@ -254,5 +254,8 @@
     <category term="日本" scheme="https://blog.kleist.top/tags/%E6%97%A5%E6%9C%AC/"/>
     
   </entry>
-  
+  <follow_challenge>
+    <feedId>83140134510988288</feedId>
+    <userId>82298942158895104</userId>
+</follow_challenge>
 </feed>
